@@ -71,6 +71,7 @@ def crawl(fname, db_session):
       chrom = _get_chrom(fields[11])
       pos = _get_int(fields[12])
       rs_id = fields[21]
+      ref = 'GRCh38'
 
       snp = db_session.query(SNP).filter(SNP.rs_id==rs_id).first()
       if not snp:

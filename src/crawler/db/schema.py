@@ -13,7 +13,7 @@ class SNP(Base):
   id = Column( Integer, primary_key=True, nullable=False, autoincrement=True)
   rs_id           = Column( Integer, nullable=False, unique=True )
   interest        = Column( Integer )
-  ref             = Column( Integer )
+  ref             = Column( String(50) )
   chrom           = Column( Integer )
   position        = Column( Integer )
   gene            = Column( String(50) )
@@ -78,6 +78,8 @@ class SnpediaEvidence(Base):
   paper_id        = Column( Integer, ForeignKey('papers.id') )
   snp             = relationship('SNP')
   paper           = relationship('Paper')
+  snpedia_open    = Column( Boolean )
+  automatic       = Column( Boolean )
 
 # ----------------------------------------------------------------------------
 

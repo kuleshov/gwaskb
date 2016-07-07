@@ -34,9 +34,14 @@ class Association(Base):
   __tablename__ = 'associations'
   id = Column( Integer, primary_key=True, nullable=False, autoincrement=True)
   allele          = Column( String(10) )
+  genotype        = Column( String(10) )
+  repute          = Column( String(10) )
+  description     = Column( String(100) )
+  magnitude       = Column( Float )
   pvalue          = Column( Float )
   oddsratio       = Column( Float )
   beta            = Column( Float )
+  beta_params     = Column( String(100) )
   freq            = Column( Float )
   population      = Column( String(100) )
   source          = Column( String(1000) ) # snpedia, gwas_catalog, extracted

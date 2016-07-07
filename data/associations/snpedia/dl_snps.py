@@ -1,4 +1,5 @@
 import argparse
+import time
 from wikitools import wiki, category, page
 
 # ----------------------------------------------------------------------------
@@ -12,8 +13,8 @@ def main():
 def crawl(folder):
   site = wiki.Wiki("http://bots.snpedia.com/api.php")
   snps = category.Category(site, "Is_a_snp")
-  n = 0     
-  
+  n = 0
+
   for article in snps.getAllMembersGen(namespaces=[0]):
     snp = article.title.lower()
     pagehandle = page.Page(site,snp)
@@ -22,7 +23,9 @@ def crawl(folder):
       f.write(snp_page)
 
     print n, snp
+    time.sleep(0.5)
     n += 1
+    # if n>3:exit()
 
 if __name__ == '__main__':
   main()

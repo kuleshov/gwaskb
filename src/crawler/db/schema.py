@@ -68,11 +68,13 @@ class Paper(Base):
   pdf_id          = Column( Integer, ForeignKey('files.id') )
   pdf             = relationship('File', primaryjoin='Paper.pdf_id==File.id', post_update=True)
   files           = relationship('File', primaryjoin='Paper.id==File.paper_id')
+  associations    = relationship(Association, backref='papers')
 
 class File(Base):
   __tablename__ = 'files'
   id = Column( Integer, primary_key=True, nullable=False, autoincrement=True)
   paper_id        = Column(Integer, ForeignKey('papers.id'))
+  paper           = relationship('Paper', primaryjoin='Paper.id==File.paper_id')
   filename        = Column( String(1000) ) # relative to db_dir
   format          = Column( String(5) ) # pdf, excel, tgz
 

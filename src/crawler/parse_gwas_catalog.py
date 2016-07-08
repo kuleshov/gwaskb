@@ -96,6 +96,7 @@ def crawl(fname, db_session):
       pop = fields[8] + ' ' + fields[9]
       freq = _get_float(fields[26])
       pvalue = _get_float(fields[28])
+      beta_params = _normalize_str(fields[31])
       oddsratio, beta = _get_or(fields[30], fields[31])
       allele = _get_allele(fields[18])
 
@@ -108,7 +109,8 @@ def crawl(fname, db_session):
         oddsratio=oddsratio,
         beta=beta,
         allele=allele,
-        source='gwas_central'
+        beta_params=beta_params,
+        source='gwas_catalog'
       ))
 
       db_session.commit()

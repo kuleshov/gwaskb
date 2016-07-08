@@ -3,3 +3,6 @@
 *.tsv
 *.owl
 *.txt
+*.pdf
+*.tgz
+*.xml

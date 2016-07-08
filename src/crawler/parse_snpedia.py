@@ -31,7 +31,7 @@ def crawl(folder, db_session):
   n = 0
   for file in os.listdir(folder):
     if not file.endswith('.txt'): continue
-    with open(fodler + '/' + file) as f:
+    with open(folder + '/' + file) as f:
       snp_name = file[:-4]
       wikicode = mwparserfromhell.parse(f.read())
       templates = wikicode.filter_templates(recursive=False)
@@ -48,6 +48,7 @@ def crawl(folder, db_session):
       snp = db_session.query(SNP).filter(SNP.rs_id==snp_name).first()
       if not snp:
         snp = SNP(rs_id=snp_name)
+        db_session.commit()
 
       for t in templates:
         tname = t.name.strip()
@@ -88,6 +89,7 @@ def crawl(folder, db_session):
           if not paper:
             paper = Paper(pubmed_id=pmid, title=title, snpedia_open=openaccess)
             db_session.add(paper)
+            db_session.commit()
 
           # create/lookup phenotype
           phenotype = db_session.query(Phenotype).filter(and_(
@@ -97,6 +99,7 @@ def crawl(folder, db_session):
           if not phenotype:
             phenotype = Phenotype(name=trait, source='snpedia')
             db_session.add(phenotype)
+            db_session.commit()
 
           # create association
           db_session.add(Association(
@@ -109,10 +112,11 @@ def crawl(folder, db_session):
             allele=allele,
             source='snpedia'
           ))
+          db_session.commit()
 
         elif tname in ('PMID Auto', 'PMID'):
           # save mentions in papers
-          pmid = _parse_entry(t, 'PMID')
+          pmid = _parse_entry(t, 'PMID', out_type=int)
           title = _parse_entry(t, 'Title')
           openaccess = _parse_entry(t, 'OA', out_type=bool)
 
@@ -126,6 +130,7 @@ def crawl(folder, db_session):
           if not paper:
             paper = Paper(pubmed_id=pmid, title=title, snpedia_open=openaccess)
             db_session.add(paper)
+            db_session.commit()
 
           db_session.add(SnpediaEvidence(snp=snp, paper=paper, 
                                          snpedia_open=openaccess, 
@@ -142,7 +147,11 @@ def _parse_entry(t, name, out_type=None):
     return None
 
   if s:
-    if out_type: s = out_type(s)
+    if out_type: 
+      try:
+        s = out_type(s)
+      except ValueError:
+        return None
     return s
   else:
     return None

@@ -199,3 +199,15 @@ if __name__ == '__main__':
 # open associaitons: 9792
 # all papers: 2088
 # all associaitons: 25226
+
+# snpedia (80%?)
+# open access papers: 4297
+# open associaitons: 6355
+# all papers: 25393
+# all associaitons: 14476
+
+# joint (loose)
+# open access papers: 4345
+# open associaitons: 16166
+# all papers: 25750
+# all associaitons: 39757

@@ -211,3 +211,15 @@ if __name__ == '__main__':
 # open associaitons: 16166
 # all papers: 25750
 # all associaitons: 39757
+
+# merged when name is the same:
+# open access papers: 4358
+# open associaitons: 15131
+# all papers: 25750
+# all associaitons: 39757
+
+# merge all associations with same snp and paper
+# open access papers: 4358
+# open associaitons: 14774
+# all papers: 25750
+# all associaitons: 39757

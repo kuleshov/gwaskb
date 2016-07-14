@@ -73,19 +73,20 @@ def download_oa(folder):
       paper.abstract = _get_abstract(paper.pubmed_id)
     if not paper.files:
       # download xml body
-      if _get_oa_body(paper.pubmed_id, paper.pmc_id, folder):
-        filename = str(paper.pubmed_id) + '.xml'
-        file = File(paper=paper, format='xml', filename=filename)
-        db_session.add(file)
+      filename = str(paper.pubmed_id) + '.xml'
+      if not os.path.isfile(filename):
+        if _get_oa_body(paper.pubmed_id, paper.pmc_id, folder):
+          file = File(paper=paper, format='xml', filename=filename)
+          db_session.add(file)
 
-      # download pdf and supplementary
-      files = _get_oa_pdf(paper.pubmed_id, paper.pmc_id, folder)
-      for filename in files:
-        if filename.endswith('.pdf'): format = 'pdf'
-        elif filename.endswith('.tgz'): format = 'tgz'
-        else: continue
-        file = File(paper=paper, format='html', filename=filename)
-        db_session.add(file)
+        # download pdf and supplementary
+        files = _get_oa_pdf(paper.pubmed_id, paper.pmc_id, folder)
+        for filename in files:
+          if filename.endswith('.pdf'): format = 'pdf'
+          elif filename.endswith('.tgz'): format = 'tgz'
+          else: continue
+          file = File(paper=paper, format='html', filename=filename)
+          db_session.add(file)
 
     db_session.commit()
 

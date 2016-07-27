@@ -48,6 +48,7 @@ def crawl(folder, db_session):
       snp = db_session.query(SNP).filter(SNP.rs_id==snp_name).first()
       if not snp:
         snp = SNP(rs_id=snp_name)
+        db_session.add(snp)
         db_session.commit()
 
       for t in templates:

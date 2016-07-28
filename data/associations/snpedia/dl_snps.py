@@ -20,10 +20,12 @@ def crawl(folder):
       if not (snp.startswith('I') or snp.startswith('R')):
         continue
 
-      pagehandle = page.Page(site,snp)
-      snp_page = pagehandle.getWikiText()
-      with open(folder + '/' + snp + '.txt', 'w') as f:
-        f.write(snp_page)
+      targetfile = folder + '/' + snp + '.txt'
+      if not os.path.isfile(targetfile):
+        pagehandle = page.Page(site,snp)
+        snp_page = pagehandle.getWikiText()
+        with open(targetfile, 'w') as f:
+          f.write(snp_page)
 
       print n, snp
       time.sleep(0.5)

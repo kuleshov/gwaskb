@@ -4,6 +4,7 @@ import unicodedata
 import os
 import requests
 import urllib
+import time
 
 from xml.etree import ElementTree
 
@@ -20,6 +21,8 @@ def main():
   parser.add_argument('--init', action='store_true', help='Init db')
   parser.add_argument('--mark-open-access', help='Path to open access list')
   parser.add_argument('--download-oa', help='Path to target folder')
+  parser.add_argument('--wait', help='Wait time in between server calls',
+                                type=int, default=1)
 
   args = parser.parse_args()
 
@@ -30,7 +33,7 @@ def main():
     mark_oa(args.mark_open_access)
 
   if args.download_oa:
-    download_oa(args.download_oa)
+    download_oa(args.download_oa, args.wait)
 
 def mark_oa(open_access):
   # load oa paper set
@@ -62,7 +65,7 @@ def mark_oa(open_access):
   print 'all papers:', db_session.query(Paper).count()
   print 'all associaitons:', db_session.query(Association).count()
 
-def download_oa(folder):
+def download_oa(folder, wait=1):
   open_papers = db_session.query(Paper).filter(Paper.open_access==True).all()
   n_open_papers = db_session.query(Paper).filter(Paper.open_access==True).count()
   for i, paper in enumerate(open_papers):
@@ -74,19 +77,21 @@ def download_oa(folder):
     if not paper.files:
       # download xml body
       filename = str(paper.pubmed_id) + '.xml'
-      if not os.path.isfile(filename):
-        if _get_oa_body(paper.pubmed_id, paper.pmc_id, folder):
-          file = File(paper=paper, format='xml', filename=filename)
-          db_session.add(file)
+      
+      if _get_oa_body(paper.pubmed_id, paper.pmc_id, folder):
+        file = File(paper=paper, format='xml', filename=filename)
+        db_session.add(file)
 
-        # download pdf and supplementary
-        files = _get_oa_pdf(paper.pubmed_id, paper.pmc_id, folder)
-        for filename in files:
-          if filename.endswith('.pdf'): format = 'pdf'
-          elif filename.endswith('.tgz'): format = 'tgz'
-          else: continue
-          file = File(paper=paper, format='html', filename=filename)
-          db_session.add(file)
+      # download pdf and supplementary
+      files = _get_oa_pdf(paper.pubmed_id, paper.pmc_id, folder)
+      for filename in files:
+        if filename.endswith('.pdf'): format = 'pdf'
+        elif filename.endswith('.tgz'): format = 'tgz'
+        else: continue
+        file = File(paper=paper, format='html', filename=filename)
+        db_session.add(file)
+
+    time.sleep(wait)
 
     db_session.commit()
 
@@ -103,10 +108,16 @@ def _get_oa_pdf(pubmed_id, pmc_id, outfolder):
   files_dl = list()
   for link in links:
     if link.get('format') == 'pdf':
-      if _dl_file(link.get('href'), pdf_target):
+      if not os.path.isfile(pdf_target):
+        if _dl_file(link.get('href'), pdf_target):
+          files_dl.append( str(pubmed_id) + '.pdf' )
+      else:
         files_dl.append( str(pubmed_id) + '.pdf' )
     elif link.get('format') == 'tgz':
-      if _dl_file(link.get('href'), tgz_target):
+      if not os.path.isfile(tgz_target):
+        if _dl_file(link.get('href'), tgz_target):
+          files_dl.append( str(pubmed_id) + '.tgz' )
+      else:
         files_dl.append( str(pubmed_id) + '.tgz' )
 
   return files_dl
@@ -118,8 +129,9 @@ def _get_oa_body(pubmed_id, pmc_id, outfolder):
   response = requests.get(url)
   if response.status_code == requests.codes.ok:
     xml_target = outfolder + '/' + str(pubmed_id) + '.xml'
-    with open(xml_target, 'w') as f:
-      f.write(response.content)
+    if not os.path.isfile(xml_target):
+      with open(xml_target, 'w') as f:
+        f.write(response.content)
     return True
   else:
     return False

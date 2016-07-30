@@ -27,9 +27,9 @@ def crawl(folder):
         snp_page = pagehandle.getWikiText()
         with open(targetfile, 'w') as f:
           f.write(snp_page)
+        time.sleep(0.5)  
 
-      print n, snp
-      time.sleep(0.5)
+      print n, snp      
       n += 1
       # if n>3:exit()
 

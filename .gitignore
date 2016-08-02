@@ -6,3 +6,8 @@
 *.pdf
 *.tgz
 *.xml
+*-checkpoint.ipynb
+*.sublime-project
+*.sublime-workspace
+env
+sftp-config.json

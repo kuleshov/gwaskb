@@ -69,6 +69,30 @@ def gold_pval_precision(candidates, gold_set):
   return [ ngram for ngram in candidates if ngram.doc_id in strange_pmids
            and floor(log10(pvalue_to_float(ngram.get_attrib_span('words')))) in pval_dict[ngram.doc_id]]
 
+def gold_phen_stats(candidates, gold_set):
+  gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
+  gold_dict = { doc_id : set() for doc_id, phen in gold }
+  for doc_id, phen in gold:
+    gold_dict[doc_id].add(phen)
+
+  n_both = 0
+  n_tot = 0
+  for ngram in candidates:
+    phen = ngram.get_attrib_span('words')
+    if phen in gold_dict[ngram.doc_id]:
+      n_both += 1
+    n_tot += 1
+
+  # compute stats
+  nc    = n_tot
+  ng    = len(gold)
+  both  = n_both
+  print "# of gold annotations\t= %s" % ng
+  print "# of candidates\t\t= %s" % nc
+  print "Candidate recall\t= %0.3f" % (both / float(ng),)
+  print "Candidate precision\t= %0.3f" % (both / float(nc),)
+
+
 # ----------------------------------------------------------------------------
 # other helpers
 

@@ -95,7 +95,7 @@ def crawl(fname, db_session):
       n_controls = _get_single_digit(fields[9])
       pop = fields[8] + ' ' + fields[9]
       freq = _get_float(fields[26])
-      pvalue = _get_float(fields[28])
+      pvalue = _get_float(fields[27])
       beta_params = _normalize_str(fields[31])
       oddsratio, beta = _get_or(fields[30], fields[31])
       allele = _get_allele(fields[18])
@@ -112,6 +112,8 @@ def crawl(fname, db_session):
         beta_params=beta_params,
         source='gwas_catalog'
       ))
+
+      # print pubmed_id, pvalue
 
       db_session.commit()
 
@@ -149,6 +151,7 @@ def _get_allele(s):
 def _get_or(s1, s2):
   if not s1 or not s2: return None, None
   if s2[-1] == ']':
+    # it's an OR if there are no units
     oddsratio = float(s1) if s1 else None
     beta = None
   else:

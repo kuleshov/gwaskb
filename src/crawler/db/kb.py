@@ -19,11 +19,9 @@ class KnowledgeBase():
 
   def rsids_by_pmid(self, pmid):
     paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
-    assocs = db_session.query(Association).filter(Association.paper==paper).all()
     return [str(assoc.snp.rs_id) for assoc in paper.associations]
 
   def pvals_by_pmid(self, pmid):
     paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
-    assocs = db_session.query(Association).filter(Association.paper==paper).all()
     return [assoc.pvalue for assoc in paper.associations]
 

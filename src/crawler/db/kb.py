@@ -11,6 +11,29 @@ class KnowledgeBase():
   def __init__(self):
     pass
 
+  # ----------------------------------------------------------------------------
+  # database lookup
+
+  def rsids_by_pmid(self, pmid):
+    paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
+    return [str(assoc.snp.rs_id) for assoc in paper.associations]
+
+  def pvals_by_pmid(self, pmid):
+    paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
+    return [assoc.pvalue for assoc in paper.associations]
+
+  def phens_by_pmid(self, pmid):
+    paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
+    return [assoc.phenotype.name.lower() for assoc in paper.associations]
+         # + [assoc.phenotype.ontology_ref.lower() for assoc in paper.associations if assoc.phenotype.ontology_ref]
+
+  def title_by_pmid(self, pmid):
+    paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
+    return paper.title
+
+  # ----------------------------------------------------------------------------
+  # candidate extraction
+
   def get_rsid_candidates(self):
     """Returns list of valid rs-ids"""
     candidates = db_session.query(SNP.rs_id).all()
@@ -31,17 +54,4 @@ class KnowledgeBase():
         phenotype_names.add(phenotype.ontology_ref.lower())
 
     return list(phenotype_names)
-
-  def rsids_by_pmid(self, pmid):
-    paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
-    return [str(assoc.snp.rs_id) for assoc in paper.associations]
-
-  def pvals_by_pmid(self, pmid):
-    paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
-    return [assoc.pvalue for assoc in paper.associations]
-
-  def phens_by_pmid(self, pmid):
-    paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
-    return [assoc.phenotype.name.lower() for assoc in paper.associations] \
-         + [assoc.phenotype.ontology_ref.lower() for assoc in paper.associations if assoc.phenotype.ontology_ref]
 

@@ -92,6 +92,21 @@ def gold_phen_stats(candidates, gold_set):
   print "Candidate recall\t= %0.3f" % (both / float(ng),)
   print "Candidate precision\t= %0.3f" % (both / float(nc),)
 
+def gold_phen_recall(candidates, gold_set):
+  gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
+  gold_dict = { doc_id : set() for doc_id, phen in gold }
+  for doc_id, phen in gold:
+    gold_dict[doc_id].add(phen)
+
+  cand_dict = { ngram.doc_id : set() for ngram in candidates }
+  for ngram in candidates: cand_dict[ngram.doc_id].add(ngram.get_attrib_span('words'))
+
+  not_found = list()
+  for doc_id, doc_candidates in cand_dict.items():
+    doc_not_found = gold_dict[doc_id] - doc_candidates
+    not_found.extend([(doc_id, word) for word in doc_not_found])
+
+  return not_found
 
 # ----------------------------------------------------------------------------
 # other helpers

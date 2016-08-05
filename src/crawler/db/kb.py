@@ -51,7 +51,8 @@ class KnowledgeBase():
       if phenotype.name:
         phenotype_names.add(phenotype.name.lower())
       if phenotype.ontology_ref:
-        phenotype_names.add(phenotype.ontology_ref.lower())
+        if not phenotype.ontology_ref.startswith('http'):
+          phenotype_names.add(phenotype.ontology_ref.lower())
 
     return list(phenotype_names)
 

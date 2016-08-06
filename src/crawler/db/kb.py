@@ -24,12 +24,16 @@ class KnowledgeBase():
 
   def phens_by_pmid(self, pmid):
     paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
-    return [assoc.phenotype.name.lower() for assoc in paper.associations]
+    return set([_clean_phenotype(assoc.phenotype.name) for assoc in paper.associations])
          # + [assoc.phenotype.ontology_ref.lower() for assoc in paper.associations if assoc.phenotype.ontology_ref]
 
   def title_by_pmid(self, pmid):
     paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
     return paper.title
+
+  def assoc_by_pmid(self, pmid):
+    paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
+    return paper.associations
 
   # ----------------------------------------------------------------------------
   # candidate extraction
@@ -56,3 +60,12 @@ class KnowledgeBase():
 
     return list(phenotype_names)
 
+# ----------------------------------------------------------------------------
+# helpers
+
+def _clean_phenotype(text):
+  text = text.lower()
+  text = re.sub(r'\([^)]*\)', '', text)
+  fields = text.split()
+  text = ' '.join(fields)
+  return text

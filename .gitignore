@@ -11,3 +11,4 @@
 *.sublime-workspace
 env
 sftp-config.json
+*.pkl

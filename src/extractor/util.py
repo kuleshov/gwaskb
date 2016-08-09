@@ -13,7 +13,7 @@ def gold_rsid_stats(candidates, gold_set):
   """
 
   gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
-  pmids = set( [ (ngram.doc_id, ngram.get_attrib_span('words')) for ngram in candidates] )
+  pmids = set( [ (ngram.context.document.name, ngram.get_attrib_span('words')) for ngram in candidates] )
   nc    = len(pmids)
   ng    = len(gold)
   both  = len(gold.intersection(pmids))
@@ -21,6 +21,13 @@ def gold_rsid_stats(candidates, gold_set):
   print "# of candidates\t\t= %s" % nc
   print "Candidate recall\t= %0.3f" % (both / float(ng),)
   print "Candidate precision\t= %0.3f" % (both / float(nc),)
+
+def gold_rsid_recall(candidates, gold_set):
+  gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
+  pmids = set( [ (ngram.context.document.name, ngram.get_attrib_span('words')) for ngram in candidates] )
+  missing = [p for p in gold - pmids]
+  missing_pmids = set ([p[0] for p in missing])
+  return gold - pmids
 
 def gold_rsid_precision(candidates, gold_set):
   gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
@@ -37,7 +44,7 @@ def gold_pval_stats(candidates, gold_set):
 
   # store collected and gold sets
   gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
-  pmids = set( [ (ngram.doc_id, pvalue_to_float(ngram.get_attrib_span('words'))) for ngram in candidates] )
+  pmids = set( [ (ngram.context.document.name, pvalue_to_float(ngram.get_attrib_span('words'))) for ngram in candidates] )
 
   # only keep exponents
   gold = { (doc_id, floor(log10(pval))) for doc_id, pval in gold if pval > 0 }
@@ -51,6 +58,51 @@ def gold_pval_stats(candidates, gold_set):
   print "# of candidates\t\t= %s" % nc
   print "Candidate recall\t= %0.3f" % (both / float(ng),)
   print "Candidate precision\t= %0.3f" % (both / float(nc),)
+
+def gold_pval_stats_limited(candidates, gold_set_dict, rsid_candidates):
+  """Computes gold stats for pvalues
+
+  We only ask for the exponent to be correct.
+  """
+
+  # store collected and gold sets
+  rsids_found = { ngram.context.document.name : set() for ngram in rsid_candidates }
+  for ngram in rsid_candidates:
+    rsids_found[ngram.context.document.name].add(str(ngram.get_attrib_span('words')))
+  gold = set([ (pmid, assoc.pvalue) for pmid in gold_set_dict for assoc in gold_set_dict[pmid] if pmid in rsids_found and str(assoc.snp.rs_id) in rsids_found[pmid] ])
+  pmids = set( [ (ngram.context.document.name, pvalue_to_float(ngram.get_attrib_span('words'))) for ngram in candidates] )
+
+  # only keep exponents
+  gold = { (doc_id, floor(log10(pval))) for doc_id, pval in gold if pval > 0 }
+  pmids = { (doc_id, floor(log10(pval))) for doc_id, pval in pmids if pval > 0 }
+
+  # compute stats
+  nc    = len(pmids)
+  ng    = len(gold)
+  both  = len(gold.intersection(pmids))
+  print "# of gold annotations\t= %s" % ng
+  print "# of candidates\t\t= %s" % nc
+  print "Candidate recall\t= %0.3f" % (both / float(ng),)
+  print "Candidate precision\t= %0.3f" % (both / float(nc),)
+
+def gold_pval_recall(candidates, gold_set_dict, rsid_candidates):
+  """Computes gold stats for pvalues
+
+  We only ask for the exponent to be correct.
+  """
+
+  # store collected and gold sets
+  rsids_found = { ngram.context.document.name : set() for ngram in rsid_candidates }
+  for ngram in rsid_candidates:
+    rsids_found[ngram.context.document.name].add(str(ngram.get_attrib_span('words')))
+  gold = set([ (pmid, assoc.pvalue) for pmid in gold_set_dict for assoc in gold_set_dict[pmid] if pmid in rsids_found and str(assoc.snp.rs_id) in rsids_found[pmid] ])
+  pmids = set( [ (ngram.context.document.name, pvalue_to_float(ngram.get_attrib_span('words'))) for ngram in candidates] )
+
+  # only keep exponents
+  gold = { (doc_id, floor(log10(pval))) for doc_id, pval in gold if pval > 0 }
+  pmids = { (doc_id, floor(log10(pval))) for doc_id, pval in pmids if pval > 0 }
+
+  return gold - pmids
 
 def gold_pval_precision(candidates, gold_set):
   gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
@@ -113,14 +165,24 @@ def gold_phen_recall(candidates, gold_set):
 
 def pvalue_to_float(pstr):
   # extract groups via regex
-  rgx = u'(\d+\.?\d*)\s*\xd7\s*10\s*\u2212\s*(\d+)'
-  result = re.search(rgx, pstr)
+  rgx1 = u'([1-9]\d?[\.\xb7]?\d*)\s*\xd7\s*10\s*[-\u2212]\s*(\d+)'
+  result1 = re.search(rgx1, pstr)
+  rgx2 = u'([1-9]\d?[\xb7\.]?\d*)\s*[eE][-\u2212](\d)+'
+  result1 = re.search(rgx1, pstr)
 
   # convert the result to a float
-  if result:
-    groups = result.groups()
+  if result1:
+    groups = result1.groups()
     if len(groups) == 2:
-      multiplier = float(groups[0])
+      mult_str = groups[0].replace(u'\xb7', '.')
+      multiplier = float(mult_str)
+      exponent = float(groups[1])    
+      return multiplier * 10 ** -exponent
+  elif result2:
+    groups = result2.groups()
+    if len(groups) == 2:
+      mult_str = groups[0].replace(u'\xb7', '.')
+      multiplier = float(mult_str)
       exponent = float(groups[1])    
       return multiplier * 10 ** -exponent
   

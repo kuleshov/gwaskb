@@ -165,10 +165,12 @@ def gold_phen_recall(candidates, gold_set):
 
 def pvalue_to_float(pstr):
   # extract groups via regex
-  rgx1 = u'([1-9]\d?[\.\xb7]?\d*)\s*\xd7\s*10\s*[-\u2212]\s*(\d+)'
+  rgx1 = u'([1-9]\d?[\.\xb7]?\d*)\s*[\xd7\*]\s*10\s*[-\u2212\u2013]\s*(\d+)'
   result1 = re.search(rgx1, pstr)
-  rgx2 = u'([1-9]\d?[\xb7\.]?\d*)\s*[eE][-\u2212](\d)+'
-  result1 = re.search(rgx1, pstr)
+  rgx2 = u'([1-9]\d?[\xb7\.]?\d*)\s*[eE][-\u2212\u2013](\d+)'
+  result2 = re.search(rgx2, pstr)
+  rgx3 = u'(0\.0000+\d+)'
+  result3 = re.search(rgx2, pstr)
 
   # convert the result to a float
   if result1:
@@ -185,5 +187,9 @@ def pvalue_to_float(pstr):
       multiplier = float(mult_str)
       exponent = float(groups[1])    
       return multiplier * 10 ** -exponent
+  elif result3:
+    groups = result2.groups()
+    if len(groups) == 1:
+      return float(groups[0])
   
   return None

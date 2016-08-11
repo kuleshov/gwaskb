@@ -160,6 +160,24 @@ def gold_phen_recall(candidates, gold_set):
 
   return not_found
 
+def gold_rspval_stats(candidates, gold_set):
+  candidate_set = set([
+    ( spanpair.span0.get_span().lower(), get_exponent(pvalue_to_float(spanpair.span1.get_span())) )
+    for spanpair in candidates
+  ])
+
+  gold_exp_set = set([ (rs_id, get_exponent(pval)) for rs_id, pval in gold_set ])
+
+  # compute stats
+  nc    = len(candidate_set)
+  ng    = len(gold_exp_set)
+  both  = len(gold_exp_set.intersection(candidate_set))
+  print "# of gold annotations\t= %s" % ng
+  print "# of candidates\t\t= %s" % nc
+  print "Candidate recall\t= %0.3f" % (both / float(ng),)
+  print "Candidate precision\t= %0.3f" % (both / float(nc),)
+
+
 # ----------------------------------------------------------------------------
 # other helpers
 
@@ -191,5 +209,11 @@ def pvalue_to_float(pstr):
     groups = result2.groups()
     if len(groups) == 1:
       return float(groups[0])
+
+def get_exponent(flt):
+  if flt is not None:
+    return floor(log10(flt))
+  else:
+    return flt
   
   return None

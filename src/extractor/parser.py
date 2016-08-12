@@ -84,7 +84,7 @@ class UnicodeTableParser(TableParser):
                   parts['document'] = table.document
                   parts['table'] = table
 
-                  parts['text'] = unicode(html_cell.get_text(strip=True))
+                  parts['text'] = unicode(html_cell.get_text(" ", strip=True))
                   parts['row_num'] = row_num
                   parts['col_num'] = col_num
                   parts['html_tag'] = html_cell.name

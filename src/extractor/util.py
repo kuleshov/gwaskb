@@ -72,9 +72,13 @@ def gold_pval_stats_limited(candidates, gold_set_dict, rsid_candidates):
   gold = set([ (pmid, assoc.pvalue) for pmid in gold_set_dict for assoc in gold_set_dict[pmid] if pmid in rsids_found and str(assoc.snp.rs_id) in rsids_found[pmid] ])
   pmids = set( [ (ngram.context.document.name, pvalue_to_float(ngram.get_attrib_span('words'))) for ngram in candidates] )
 
+  print list(sorted(gold))[:10]
   # only keep exponents
   gold = { (doc_id, floor(log10(pval))) for doc_id, pval in gold if pval > 0 }
   pmids = { (doc_id, floor(log10(pval))) for doc_id, pval in pmids if pval > 0 }
+
+  print list(sorted(gold))[:10]
+  print list(sorted(pmids))[:10]
 
   # compute stats
   nc    = len(pmids)

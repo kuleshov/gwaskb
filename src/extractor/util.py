@@ -31,10 +31,9 @@ def gold_rsid_recall(candidates, gold_set):
 
 def gold_rsid_precision(candidates, gold_set):
   gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
-  pmids = set( [ (ngram.doc_id, ngram.get_attrib_span('words')) for ngram in candidates] )
+  pmids = set( [ (ngram.context.document.name, ngram.get_attrib_span('words')) for ngram in candidates] )
   strange = [p for p in pmids - gold]
-  strange_pmids = set ([p[0] for p in strange])
-  return [ngram for ngram in candidates if ngram.doc_id in strange_pmids]
+  return [ngram for ngram in candidates if (ngram.context.document.name, ngram.get_span()) in strange]
 
 def gold_pval_stats(candidates, gold_set):
   """Computes gold stats for pvalues

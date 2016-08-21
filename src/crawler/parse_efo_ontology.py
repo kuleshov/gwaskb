@@ -39,19 +39,21 @@ def parse_ontology(fname, db_session):
     for line in f:
       fields = line.split(',')
       ontology_id = fields[0]
-      name = _normalize_str(fields[1])
-      synonyms = _normalize_str(fields[2])
+      name = _normalize_str(fields[1].lower())
+      synonyms = _normalize_str(fields[2].lower())
       # print line
       # print fields
-      
-      db_session.add(
-        Phenotype(
-          name=name,
-          source='efo',
-          synonyms=synonyms,
-          ontology_ref=ontology_id
-        )
-      )
+
+      phenotype = Phenotype(
+                    name=name,
+                    source='efo',
+                    synonyms=synonyms,
+                    ontology_ref=ontology_id
+                  )
+
+      # if ontology_id == "http://www.ebi.ac.uk/efo/EFO_0000676":
+      #   print phenotype.name, phenotype.ontology_id
+      db_session.add(phenotype)
   
   db_session.commit()
 

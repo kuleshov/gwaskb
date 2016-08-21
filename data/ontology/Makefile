@@ -5,16 +5,17 @@ EFOURL:=http://data.bioontology.org/ontologies/EFO/download?apikey=8b5b7825-538d
 load-ontology: ./efo.corrected.csv
 	python $(PARSER) --csv $<
 
+clean:
+	-rm efo.corrected.csv
+	-rm /tmp/gwas.sql
+
 efo.csv:
 	wget "$(EFOURL)" -O $@.gz
 	gunzip $@.gz
 
 efo.corrected.csv: efo.csv
 	cat $< | \
-	  grep 'EFO_' | \
-	  tr '\n' '\r' | \
-	  awk -v RS='"' 'NR % 2 == 0 { gsub(/\r/, "") } { printf("%s%s", $$0, RT) }' | \
-	  tr '\r' '\n' \
+	  awk -v RS='"' 'NR % 2 == 0 { gsub(/\n/, "") } { printf("%s%s", $$0, RT) }' \
 	> $@.tmp
 	mv $@.tmp $@
 

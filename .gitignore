@@ -13,3 +13,5 @@
 env
 sftp-config.json
 *.pkl
+*.sql
+*.bak

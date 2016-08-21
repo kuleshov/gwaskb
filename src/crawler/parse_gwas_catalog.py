@@ -13,7 +13,7 @@ def main():
   parser = argparse.ArgumentParser()
 
   parser.add_argument('--init', action='store_true', help='Init db')
-  parser.add_argument('--phenotypes', help='Load phenotype/ontology mapping')
+  parser.add_argument('--phenotypes', help='Phenotype/ontology mapping')
   parser.add_argument('--crawl', help='Start crawl; parse .tsv file')
 
   args = parser.parse_args()
@@ -21,36 +21,33 @@ def main():
   if args.init:
     init_db()
 
-  if args.phenotypes:
-    phenotypes(args.phenotypes, db_session)
-
   if args.crawl:
-    crawl(args.crawl, db_session)
+    crawl(args.crawl, args.phenotypes, db_session)
 
-def phenotypes(fname, db_session):
-  phenotypes = set()
+def load_phenotypes(fname, db_session):
+  """Load phenotype name -> efo_id list"""
+  phen2id = dict()
   with open(fname) as f:
     f.readline()
     for line in f:
       fields = line.split('\t')
-      reported_phenotype = _normalize_str(fields[0])
+      reported_phenotype = _normalize_str(fields[0].lower())
       ontology_phenotype = _normalize_str(fields[1])
       ontology_id = fields[2]
 
-      if reported_phenotype not in phenotypes:
-        db_session.add(
-          Phenotype(
-            name=reported_phenotype,
-            source='gwas_catalog',
-            synonyms=ontology_phenotype,
-            ontology_ref=ontology_id
-          )
-        )
-        phenotypes.add(reported_phenotype)
-  
-  db_session.commit()
+      if reported_phenotype not in phen2id:
+        phen2id[reported_phenotype] = ontology_id
+      else:
+        # raise Exception('Same phenotype maps to two EFO ids')
+        print 'WARNING: Phenotype "%s" maps to multiple EFO ids: %s, %s' % \
+              (reported_phenotype, ontology_id, phen2id[reported_phenotype])
+        
 
-def crawl(fname, db_session):
+  return phen2id
+
+def crawl(fname, phenotype_fname, db_session):
+  phen2id = load_phenotypes(phenotype_fname, db_session)
+
   with open(fname) as f:
     f.readline()
     for line in f:
@@ -80,12 +77,20 @@ def crawl(fname, db_session):
         db_session.commit()
 
       # create phenotype
-      phenotype_name = _normalize_str(fields[7])
-      phenotype = db_session.query(Phenotype).filter(and_(
-                    Phenotype.name==phenotype_name,
-                    Phenotype.source=='gwas_catalog',
-                  )).first() # max 1 phenotype from gwas_catalog
-      if not phenotype:
+      phenotype_name = _normalize_str(fields[7].lower())
+      if phenotype_name in phen2id:
+        efo_id = phen2id[phenotype_name]
+        phenotypes = db_session.query(Phenotype).filter(and_(
+                      Phenotype.ontology_ref==efo_id,
+                      Phenotype.source=='efo',
+                    )).all()
+        if len(phenotypes) != 1:
+          print [(p.name, p.ontology_ref) for p in phenotypes]
+          raise Exception('Could not find unique phenotype entry for %s (%s)'
+                          % (phenotype_name, efo_id))
+        else:
+          phenotype = phenotypes[0]
+      else:
         phenotype = Phenotype(name=phenotype_name, source='gwas_catalog')
         db_session.add(phenotype)
         db_session.commit()

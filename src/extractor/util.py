@@ -109,7 +109,7 @@ def gold_pval_recall(candidates, gold_set_dict, rsid_candidates):
 
 def gold_pval_precision(candidates, gold_set):
   gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
-  pmids = set( [ (ngram.doc_id, pvalue_to_float(ngram.get_attrib_span('words'))) for ngram in candidates] )
+  pmids = set( [ (ngram.context.document.name, pvalue_to_float(ngram.get_attrib_span('words'))) for ngram in candidates] )
 
   # only keep exponents
   gold = { (doc_id, floor(log10(pval))) for doc_id, pval in gold if pval > 0 }
@@ -121,10 +121,10 @@ def gold_pval_precision(candidates, gold_set):
   for doc_id, pval in strange:
       pval_dict[doc_id].append(pval)
 
-  return [ ngram for ngram in candidates if ngram.doc_id in strange_pmids
-           and floor(log10(pvalue_to_float(ngram.get_attrib_span('words')))) in pval_dict[ngram.doc_id]]
+  return [ ngram for ngram in candidates if ngram.context.document.name in strange_pmids
+           and floor(log10(pvalue_to_float(ngram.get_attrib_span('words')))) in pval_dict[ngram.context.document.name]]
 
-def gold_phen_stats(candidates, gold_set):
+def gold_phen_stats(candidates, gold_set, phen2id):
   gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
   gold_dict = { doc_id : set() for doc_id, phen in gold }
   for doc_id, phen in gold:
@@ -132,9 +132,10 @@ def gold_phen_stats(candidates, gold_set):
 
   n_both = 0
   n_tot = 0
-  for ngram in candidates:
-    phen = ngram.get_attrib_span('words')
-    if phen in gold_dict[ngram.doc_id]:
+  for span in candidates:
+    phen_name = span.get_span()
+    phen_id = phen2id.get(phen_name, None)
+    if phen_id in gold_dict[span.context.document.name]:
       n_both += 1
     n_tot += 1
 
@@ -153,8 +154,8 @@ def gold_phen_recall(candidates, gold_set):
   for doc_id, phen in gold:
     gold_dict[doc_id].add(phen)
 
-  cand_dict = { ngram.doc_id : set() for ngram in candidates }
-  for ngram in candidates: cand_dict[ngram.doc_id].add(ngram.get_attrib_span('words'))
+  cand_dict = { ngram.context.document.name : set() for ngram in candidates }
+  for ngram in candidates: cand_dict[ngram.context.document.name].add(ngram.get_attrib_span('words'))
 
   not_found = list()
   for doc_id, doc_candidates in cand_dict.items():

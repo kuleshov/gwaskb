@@ -1,5 +1,5 @@
 import re
-from snorkel.matchers import NgramMatcher, WORDS
+from snorkel.matchers import NgramMatcher, DictionaryMatch, WORDS
 
 from extractor.util import pvalue_to_float
 
@@ -32,3 +32,19 @@ class PvalMatcher(NgramMatcher):
     
     # otherwise  
     return False
+
+class PhenotypeMatcher(NgramMatcher):
+  def init(self):
+    self.mod_fn = self.opts.get('mod_fn', None)
+    self.d = set(self.opts.get('d', None))
+
+    self.ignore_case = self.opts.get('ignore_case', True)
+    self.attrib      = self.opts.get('attrib', WORDS)
+    self.sep         = self.opts.get('sep', " ")
+
+  def _f(self, c):
+    p = c.get_attrib_span(self.attrib)
+    p = p.lower() if self.ignore_case else p
+    p = self.mod_fn(p)
+    return True if p in self.d else False
+

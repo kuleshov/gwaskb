@@ -30,6 +30,37 @@ class UnicodeXMLDocParser(XMLDocParser):
       attribs = {'root':doc} if self.keep_xml_tree else {}
       yield Document(name=str(id), file=str(file_name), attribs=attribs), unicode(text)
 
+class GWASXMLDocParser(XMLDocParser):
+  """For parsing GWAS pubmed papers
+
+  It uses the title and abstract. If there is no abstract it uses par 1 instead.
+  String are stored in unicode.
+  """
+
+  def __init__(self, path, doc, title, abstract, par1, id, keep_xml_tree=False):
+    text = title + ' | ' + abstract
+    XMLDocParser.__init__(self, path, doc, text, id, keep_xml_tree)
+    self.title = title
+    self.abstract = abstract
+    self.par1 = par1
+
+  def parse_file(self, f, file_name):
+    for i,doc in enumerate(et.parse(f).xpath(self.doc)):
+      title_text    = ' '.join(filter(lambda t : t is not None, doc.xpath(self.title)))
+      abstract_text = ' '.join(filter(lambda t : t is not None, doc.xpath(self.abstract)))
+      par1_text     = ' '.join(filter(lambda t : t is not None, doc.xpath(self.par1)))
+
+      if not title_text.endswith('.'): title_text = title_text + '.'
+
+      ids = doc.xpath(self.id)
+      id = ids[0] if len(ids) > 0 else None
+      attribs = {'root':doc} if self.keep_xml_tree else {}
+      if abstract_text:
+        text = title_text + ' ' + abstract_text
+      else:
+        text = title_text + ' ' + par1_text
+      yield Document(name=str(id), file=str(file_name), attribs=attribs), unicode(text)      
+
 # ----------------------------------------------------------------------------
 # for tables
 

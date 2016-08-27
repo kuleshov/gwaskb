@@ -36,11 +36,16 @@ class PvalMatcher(NgramMatcher):
 class PhenotypeMatcher(NgramMatcher):
   def init(self):
     self.mod_fn = self.opts.get('mod_fn', None)
-    self.d = set(self.opts.get('d', None))
 
     self.ignore_case = self.opts.get('ignore_case', True)
     self.attrib      = self.opts.get('attrib', WORDS)
     self.sep         = self.opts.get('sep', " ")
+
+    try:
+      self.d = frozenset(self.mod_fn(w.lower()) if self.ignore_case 
+                         else self.mod_fn(w) for w in self.opts['d'])
+    except KeyError:
+      raise Exception("Please supply a dictionary (list of phrases) d as d=d.")
 
   def _f(self, c):
     p = c.get_attrib_span(self.attrib)

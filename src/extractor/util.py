@@ -139,10 +139,11 @@ def gold_phen_stats(candidates, gold_set, phen2id):
     if phen_id in gold_dict[span.context.document.name]:
       correct_candidates.add( (span.context.document.name, phen_id) )
 
-  # compute stats over EFO phenotypes
+  # compute stats
   nc    = len(candidates)
   ng    = len(gold)
   both  = len(correct_candidates)
+  print "Statistics over EFO phenotypes:"
   print "# of gold annotations\t= %s" % ng
   print "# of candidates\t\t= %s" % nc
   print "Candidate recall\t= %0.3f" % (both / float(ng),)
@@ -160,6 +161,46 @@ def gold_phen_recall(candidates, gold_set, phen2id):
     phen_id = phen2id.get(change_name(phen_name), None)
     if phen_id in gold_dict[span.context.document.name]:
       correct_candidates.add( (span.context.document.name, phen_id) )
+
+  return gold - correct_candidates
+
+def gold_agg_phen_stats(candidates, gold_set, phen2id):
+  gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
+  gold_dict = { doc_id : set() for doc_id, phen_id in gold }
+  for doc_id, phen_id in gold:
+    gold_dict[doc_id].add(phen_id)
+
+  correct_candidates = set()
+  for span in candidates:
+    phen_name = span.get_span()
+    phen_ids = phen2id.get(change_name(phen_name), None)
+    if phen_ids:
+      for phen_id in phen_ids & gold_dict[span.context.document.name]:
+        correct_candidates.add( (span.context.document.name, phen_id) )
+
+  # compute stats
+  nc    = len(candidates)
+  ng    = len(gold)
+  both  = len(correct_candidates)
+  print "Statistics over EFO phenotypes:"
+  print "# of gold annotations\t= %s" % ng
+  print "# of candidates\t\t= %s" % nc
+  print "Candidate recall\t= %0.3f" % (both / float(ng),)
+  print "Candidate precision\t= %0.3f" % (both / float(nc),)
+
+def gold_agg_phen_recall(candidates, gold_set, phen2id):
+  gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
+  gold_dict = { doc_id : set() for doc_id, phen_id in gold }
+  for doc_id, phen_id in gold:
+    gold_dict[doc_id].add(phen_id)
+
+  correct_candidates = set()
+  for span in candidates:
+    phen_name = span.get_span()
+    phen_ids = phen2id.get(change_name(phen_name), None)
+    if phen_ids:
+      for phen_id in phen_ids & gold_dict[span.context.document.name]:
+        correct_candidates.add( (span.context.document.name, phen_id) )
 
   return gold - correct_candidates
 
@@ -222,7 +263,7 @@ def get_exponent(flt):
   return None
 
 def change_name(phen_name):
-  DEL_LIST = ['measurement', 'levels', 'age', 'at', 'infection', 'major']
+  DEL_LIST = ['measurement', 'levels', 'age', 'at', 'infection', 'major', 'test']
   stemmer = PorterStemmer()
   punctuation = set(string.punctuation)
 

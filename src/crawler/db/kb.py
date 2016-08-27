@@ -14,6 +14,9 @@ class KnowledgeBase():
   # ----------------------------------------------------------------------------
   # database lookup
 
+  def paper_by_pmid(self, pmid):
+    return db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
+
   def rsids_by_pmid(self, pmid):
     paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
     return [str(assoc.snp.rs_id) for assoc in paper.associations]
@@ -68,6 +71,23 @@ class KnowledgeBase():
         phenotype_names.add(mod_fn(phenotype.name))
       synonyms = [mod_fn(syn) for syn in phenotype.synonyms.split('|')]
       phenotype_names.update(synonyms)
+
+    return list(phenotype_names)
+
+  def get_phenotype_candidates_cheating(self, mod_fn=lambda x: x.lower()):
+    """Returns dictionary of phenotype candidates
+
+    Outputs all phenotypes described in gwas_catalog, plus their EFO mappings
+    """
+    associations = db_session.query(Association).all()
+    phenotype_names = set()
+    for association in associations:
+      phenotypes = association.phenotype.equivalents
+      for phenotype in phenotypes:
+        if phenotype.name:
+          phenotype_names.add(mod_fn(phenotype.name))
+        synonyms = [mod_fn(syn) for syn in phenotype.synonyms.split('|')]
+        phenotype_names.update(synonyms)
 
     return list(phenotype_names)
 

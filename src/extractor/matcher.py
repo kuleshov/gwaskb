@@ -51,5 +51,5 @@ class PhenotypeMatcher(NgramMatcher):
     p = c.get_attrib_span(self.attrib)
     p = p.lower() if self.ignore_case else p
     p = self.mod_fn(p)
-    return True if p in self.d else False
+    return True if p and p in self.d else False
 

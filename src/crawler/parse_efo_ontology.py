@@ -38,6 +38,7 @@ def parse_ontology(fname, db_session):
     f.readline()
     for line in f:
       fields = line.split(',')
+      fields[2] = fields[2].replace('~', ',') # b/c of our pre-processing
       ontology_id = fields[0]
       name = _normalize_str(fields[1].lower())
       synonyms = _normalize_str(fields[2].lower())
@@ -58,6 +59,7 @@ def parse_ontology(fname, db_session):
   db_session.commit()
 
 def _normalize_str(s):
+  s = s.replace("\"", "") # remove quotes
   s = s.decode('utf-8')
   s = unicodedata.normalize('NFKD', s).encode('ascii','ignore')
   # print s

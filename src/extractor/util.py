@@ -165,44 +165,51 @@ def gold_phen_recall(candidates, gold_set, phen2id):
   return gold - correct_candidates
 
 def gold_agg_phen_stats(candidates, gold_set, phen2id):
-  gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
-  gold_dict = { doc_id : set() for doc_id, phen_id in gold }
-  for doc_id, phen_id in gold:
+  # doc_id -> set of GWC ids found in doc
+  gold_dict = { doc_id : set() for doc_id, phen_id in gold_set }
+  for doc_id, phen_id in gold_set:
     gold_dict[doc_id].add(phen_id)
 
+  # (doc_id, gwc_id) that are in gold and in candidates
   correct_candidates = set()
   for span in candidates:
     phen_name = span.get_span()
-    phen_ids = phen2id.get(change_name(phen_name), None)
+    phen_ids = phen2id.get(change_name(phen_name), None) # aggregate ids
     if phen_ids:
       for phen_id in phen_ids & gold_dict[span.context.document.name]:
         correct_candidates.add( (span.context.document.name, phen_id) )
 
+  assert len(correct_candidates - gold_set) == 0 # ours is subset of gold_set
+
   # compute stats
   nc    = len(candidates)
-  ng    = len(gold)
+  ng    = len(gold_set)
   both  = len(correct_candidates)
   print "Statistics over EFO phenotypes:"
   print "# of gold annotations\t= %s" % ng
   print "# of candidates\t\t= %s" % nc
+  print "# of correct candidates\t= %s" % both
   print "Candidate recall\t= %0.3f" % (both / float(ng),)
   print "Candidate precision\t= %0.3f" % (both / float(nc),)
 
 def gold_agg_phen_recall(candidates, gold_set, phen2id):
-  gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
-  gold_dict = { doc_id : set() for doc_id, phen_id in gold }
-  for doc_id, phen_id in gold:
+# doc_id -> set of GWC ids found in doc
+  gold_dict = { doc_id : set() for doc_id, phen_id in gold_set }
+  for doc_id, phen_id in gold_set:
     gold_dict[doc_id].add(phen_id)
 
+  # (doc_id, gwc_id) that are in gold and in candidates
   correct_candidates = set()
   for span in candidates:
     phen_name = span.get_span()
-    phen_ids = phen2id.get(change_name(phen_name), None)
+    phen_ids = phen2id.get(change_name(phen_name), None) # aggregate ids
     if phen_ids:
       for phen_id in phen_ids & gold_dict[span.context.document.name]:
         correct_candidates.add( (span.context.document.name, phen_id) )
 
-  return gold - correct_candidates
+  assert len(correct_candidates - gold_set) == 0 # ours is subset of gold_set
+
+  return gold_set - correct_candidates
 
 def gold_rspval_stats(candidates, gold_set):
   candidate_set = set([
@@ -263,7 +270,8 @@ def get_exponent(flt):
   return None
 
 def change_name(phen_name):
-  DEL_LIST = ['measurement', 'levels', 'age', 'at', 'infection', 'major', 'test']
+  DEL_LIST = ['measurement', 'levels', 'age', 'at', 'infection', 'major', 'test', 'performance']
+  # TODO: consider adding 'response to'
   stemmer = PorterStemmer()
   punctuation = set(string.punctuation)
 
@@ -272,6 +280,12 @@ def change_name(phen_name):
     phen_words = phen_name.split(',')
     if len(phen_words) == 2:
       phen_name = ' '.join([phen_words[1], phen_words[0]])
+
+  # reorder words in parantheses a b, (c d) -> c d a b
+  phen_name = re.sub('(.+),? \((.+)\)$', '\g<2> \g<1>', phen_name)
+
+  # replace dashes by spaces
+  phen_name = phen_name.replace('-', ' ')
 
   # remove punctuation
   phen_name = ''.join(ch for ch in phen_name if ch not in punctuation)

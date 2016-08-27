@@ -1,7 +1,7 @@
 from sqlalchemy.schema import Column, ForeignKey
 from sqlalchemy.types import String, Integer, Float, Boolean, LargeBinary
 from sqlalchemy.orm import relationship
-from sqlalchemy import func
+from sqlalchemy import func, Table
 
 from __init__ import Base, engine
 
@@ -20,6 +20,11 @@ class SNP(Base):
   omim            = Column( Boolean )
   pharmgkb        = Column( Boolean )
 
+phenotype_join_table = Table('phenotype_join_table', Base.metadata,
+    Column('left_id', Integer, ForeignKey('phenotypes.id')),
+    Column('right_id', Integer, ForeignKey('phenotypes.id'))
+)
+
 class Phenotype(Base):
   __tablename__ = 'phenotypes'
   id = Column( Integer, primary_key=True, nullable=False, autoincrement=True)
@@ -29,6 +34,9 @@ class Phenotype(Base):
   synonyms        = Column( String(1000) )
   ontology_ref    = Column( String(1000) )
   misc            = Column( String(1000) )
+  equivalents     = relationship("Phenotype", secondary=phenotype_join_table,
+                                  primaryjoin=id==phenotype_join_table.c.left_id,
+                                  secondaryjoin=id==phenotype_join_table.c.right_id)
 
 class Association(Base):
   __tablename__ = 'associations'

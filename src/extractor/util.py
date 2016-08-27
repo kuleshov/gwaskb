@@ -1,4 +1,6 @@
 import re
+import string
+from nltk.stem import PorterStemmer
 
 from math import floor, log10
 
@@ -126,47 +128,44 @@ def gold_pval_precision(candidates, gold_set):
 
 def gold_phen_stats(candidates, gold_set, phen2id):
   gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
-  gold_dict = { doc_id : set() for doc_id, phen in gold }
-  for doc_id, phen in gold:
-    gold_dict[doc_id].add(phen)
+  gold_dict = { doc_id : set() for doc_id, phen_id in gold }
+  for doc_id, phen_id in gold:
+    gold_dict[doc_id].add(phen_id)
 
-  n_both = 0
-  n_tot = 0
+  correct_candidates = set()
   for span in candidates:
     phen_name = span.get_span()
-    phen_id = phen2id.get(phen_name, None)
+    phen_id = phen2id.get(change_name(phen_name), None)
     if phen_id in gold_dict[span.context.document.name]:
-      n_both += 1
-    n_tot += 1
+      correct_candidates.add( (span.context.document.name, phen_id) )
 
-  # compute stats
-  nc    = n_tot
+  # compute stats over EFO phenotypes
+  nc    = len(candidates)
   ng    = len(gold)
-  both  = n_both
+  both  = len(correct_candidates)
   print "# of gold annotations\t= %s" % ng
   print "# of candidates\t\t= %s" % nc
   print "Candidate recall\t= %0.3f" % (both / float(ng),)
   print "Candidate precision\t= %0.3f" % (both / float(nc),)
 
-def gold_phen_recall(candidates, gold_set):
+def gold_phen_recall(candidates, gold_set, phen2id):
   gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
-  gold_dict = { doc_id : set() for doc_id, phen in gold }
-  for doc_id, phen in gold:
-    gold_dict[doc_id].add(phen)
+  gold_dict = { doc_id : set() for doc_id, phen_id in gold }
+  for doc_id, phen_id in gold:
+    gold_dict[doc_id].add(phen_id)
 
-  cand_dict = { ngram.context.document.name : set() for ngram in candidates }
-  for ngram in candidates: cand_dict[ngram.context.document.name].add(ngram.get_attrib_span('words'))
+  correct_candidates = set()
+  for span in candidates:
+    phen_name = span.get_span()
+    phen_id = phen2id.get(change_name(phen_name), None)
+    if phen_id in gold_dict[span.context.document.name]:
+      correct_candidates.add( (span.context.document.name, phen_id) )
 
-  not_found = list()
-  for doc_id, doc_candidates in cand_dict.items():
-    doc_not_found = gold_dict[doc_id] - doc_candidates
-    not_found.extend([(doc_id, word) for word in doc_not_found])
-
-  return not_found
+  return gold - correct_candidates
 
 def gold_rspval_stats(candidates, gold_set):
   candidate_set = set([
-    ( spanpair.span0.get_span().lower(), get_exponent(pvalue_to_float(spanpair.span1.get_span())) )
+    ( change_name(spanpair.span0.get_span()), get_exponent(pvalue_to_float(spanpair.span1.get_span())) )
     for spanpair in candidates
   ])
 
@@ -221,3 +220,24 @@ def get_exponent(flt):
     return flt
   
   return None
+
+def change_name(phen_name):
+  DEL_LIST = ['measurement', 'levels', 'age', 'at', 'infection', 'major']
+  stemmer = PorterStemmer()
+  punctuation = set(string.punctuation)
+
+  # reorder words with commas
+  if ',' in phen_name:
+    phen_words = phen_name.split(',')
+    if len(phen_words) == 2:
+      phen_name = ' '.join([phen_words[1], phen_words[0]])
+
+  # remove punctuation
+  phen_name = ''.join(ch for ch in phen_name if ch not in punctuation)
+
+  phen_name = phen_name.lower()
+  phen_words = phen_name.split()
+  phen_name = ' '.join([stemmer.stem(word) for word in phen_words 
+                        if word not in DEL_LIST])
+
+  return phen_name

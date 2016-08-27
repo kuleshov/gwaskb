@@ -36,12 +36,9 @@ def load_phenotypes(fname, db_session):
       ontology_id = fields[2]
 
       if reported_phenotype not in phen2id:
-        phen2id[reported_phenotype] = ontology_id
+        phen2id[reported_phenotype] = [ontology_id]
       else:
-        # raise Exception('Same phenotype maps to two EFO ids')
-        print 'WARNING: Phenotype "%s" maps to multiple EFO ids: %s, %s' % \
-              (reported_phenotype, ontology_id, phen2id[reported_phenotype])
-        
+        phen2id[reported_phenotype].append(ontology_id)
 
   return phen2id
 
@@ -78,21 +75,28 @@ def crawl(fname, phenotype_fname, db_session):
 
       # create phenotype
       phenotype_name = _normalize_str(fields[7].lower())
-      if phenotype_name in phen2id:
-        efo_id = phen2id[phenotype_name]
-        phenotypes = db_session.query(Phenotype).filter(and_(
-                      Phenotype.ontology_ref==efo_id,
-                      Phenotype.source=='efo',
-                    )).all()
-        if len(phenotypes) != 1:
-          print [(p.name, p.ontology_ref) for p in phenotypes]
-          raise Exception('Could not find unique phenotype entry for %s (%s)'
-                          % (phenotype_name, efo_id))
-        else:
-          phenotype = phenotypes[0]
-      else:
-        phenotype = Phenotype(name=phenotype_name, source='gwas_catalog')
+      phenotype = db_session.query(Phenotype).filter(and_(
+                    Phenotype.name==phenotype_name,
+                    Phenotype.source=='gwas_catalog',
+                  )).first() # max 1 phenotype from gwas_catalog
+      if not phenotype:
+        phenotype = Phenotype(name=phenotype_name, source='gwas_catalog')      
         db_session.add(phenotype)
+        db_session.commit()
+
+      # add links to existing efo phenotypes
+      if phenotype_name in phen2id:
+        for efo_id in phen2id[phenotype_name]:
+          phenotypes = db_session.query(Phenotype).filter(and_(
+                        Phenotype.ontology_ref==efo_id,
+                        Phenotype.source=='efo',
+                      )).all()
+          if len(phenotypes) != 1:
+            print [(p.name, p.ontology_ref) for p in phenotypes]
+            raise Exception('Could not find unique phenotype entry for %s (%s)'
+                            % (phenotype_name, efo_id))
+          if phenotypes[0] not in phenotype.equivalents:
+            phenotype.equivalents.append(phenotypes[0])
         db_session.commit()
 
       # create association

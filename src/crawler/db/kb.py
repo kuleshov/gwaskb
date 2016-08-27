@@ -30,10 +30,14 @@ class KnowledgeBase():
         if assoc.phenotype.ontology_ref ]
     )
 
-  def phen_by_pmid(self, pmid):
+  def phen_by_pmid(self, pmid, source='efo'):
     paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
-    return [ assoc.phenotype for assoc in paper.associations 
-             if assoc.phenotype.ontology_ref ]
+    first_degree_phens = [ assoc.phenotype for assoc in paper.associations 
+                           if assoc.phenotype.source == source ]
+    second_degree_phens = [ eqphen for assoc in paper.associations
+                                   for eqphen in assoc.phenotype.equivalents
+                                   if eqphen.source == source ]
+    return set(first_degree_phens + second_degree_phens)
 
   def title_by_pmid(self, pmid):
     paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
@@ -52,7 +56,7 @@ class KnowledgeBase():
     candidates = [str(c[0]) for c in candidates if re.match(r'^rs\d+$', c[0])]
     return candidates
 
-  def get_phenotype_candidates(self):
+  def get_phenotype_candidates(self, mod_fn=lambda x: x.lower()):
     """Returns dictionary of phenotype candidates
 
     Outputs all phenotypes described in gwas_catalog, plus their EFO mappings
@@ -61,11 +65,9 @@ class KnowledgeBase():
     phenotype_names = set()
     for phenotype in phenotypes:
       if phenotype.name:
-        phenotype_names.add(phenotype.name.lower())
-      if phenotype.ontology_ref:
-        if not phenotype.ontology_ref.startswith('http'):
-          synonyms = [syn.lower() for syn in phenotype.ontology_ref.split('|')]
-          phenotype_names.extend(synonyms)
+        phenotype_names.add(mod_fn(phenotype.name))
+      synonyms = [mod_fn(syn) for syn in phenotype.synonyms.split('|')]
+      phenotype_names.update(synonyms)
 
     return list(phenotype_names)
 

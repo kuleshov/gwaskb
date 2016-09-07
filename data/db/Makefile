@@ -5,6 +5,7 @@ all:
 	make init
 	make ontology
 	make gwas-catalog
+	make gwas-central
 	# make gwas-catalog snpedia
 
 clean:
@@ -24,6 +25,14 @@ gwas-catalog: ../associations/gwas_catalog
 	python $(BIN)/parse_gwas_catalog.py \
 	  --phenotypes $</trait_mappings.tsv \
 	  --crawl $</gwas_catalog.tsv
+
+gwas-central: first-15-paper-ids.txt
+	python $(BIN)/parse_gwas_central.py \
+		--ids $< \
+		--min-neg-log-pval 5
+
+first-15-paper-ids.txt:
+	  ls $(PAP) | grep xml | cut -f 1 -d '.' | head -n 15 > $@
 
 # TODO: add parsing intructions
 snpedia-associations:

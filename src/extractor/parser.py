@@ -1,3 +1,4 @@
+import xml
 import lxml.etree as et
 from bs4 import BeautifulSoup
 from itertools import chain
@@ -30,7 +31,7 @@ class UnicodeXMLDocParser(XMLDocParser):
       attribs = {'root':doc} if self.keep_xml_tree else {}
       yield Document(name=str(id), file=str(file_name), attribs=attribs), unicode(text)
 
-class GWASXMLDocParser(XMLDocParser):
+class GWASXMLAbstractParser(XMLDocParser):
   """For parsing GWAS pubmed papers
 
   It uses the title and abstract. If there is no abstract it uses par 1 instead.
@@ -59,7 +60,40 @@ class GWASXMLDocParser(XMLDocParser):
         text = title_text + ' ' + abstract_text
       else:
         text = title_text + ' ' + par1_text
-      yield Document(name=str(id), file=str(file_name), attribs=attribs), unicode(text)      
+      yield Document(name=str(id), file=str(file_name), attribs=attribs), unicode(text)
+
+class GWASXMLDocParser(XMLDocParser):
+  """For parsing GWAS pubmed papers
+
+  It uses the title and abstract. If there is no abstract it uses par 1 instead.
+  String are stored in unicode.
+  """
+
+  def __init__(self, path, doc, title, abstract, n_par, id, keep_xml_tree=False):
+    text = title + ' | ' + abstract
+    XMLDocParser.__init__(self, path, doc, text, id, keep_xml_tree)
+    self.title = title
+    self.abstract = abstract
+    self.n_par = n_par
+
+  def parse_file(self, f, file_name):
+    for i,doc in enumerate(et.parse(f).xpath(self.doc)):
+      title_text    = ' '.join(filter(lambda t : t is not None, doc.xpath(self.title)))
+      abstract_text = ' '.join(filter(lambda t : t is not None, doc.xpath(self.abstract)))
+      pars = doc.xpath('.//body//p')[:self.n_par]
+      par_text = ' '.join(filter(lambda t : t is not None, [_et2str(t) for t in pars]))
+
+      if not title_text.endswith('.'): title_text = title_text + '.'
+      if not abstract_text.endswith('.'): abstract_text = abstract_text + '.'
+
+      ids = doc.xpath(self.id)
+      id = ids[0] if len(ids) > 0 else None
+      attribs = {'root':doc} if self.keep_xml_tree else {}
+      text = title_text + ' ' + abstract_text + ' ' + par_text
+      yield Document(name=str(id), file=str(file_name), attribs=attribs), unicode(text) 
+
+def _et2str(t):
+  return ''.join(t.xpath('.//text()'))
 
 # ----------------------------------------------------------------------------
 # for tables
@@ -75,7 +109,7 @@ class UnicodeXMLTableDocParser(XMLDocParser):
 
   def __init__(self, path, doc='.//document', text='./text/text()', id='./id/text()',
                     keep_xml_tree=False):
-    XMLDocParser.__init__(self, path, doc, text, id, keep_xml_tree)
+    super(UnicodeXMLTableDocParser, self).__init__(path, doc, text, id, keep_xml_tree)
 
   def parse_file(self, f, file_name):
     for i,doc in enumerate(et.parse(f).xpath(self.doc)):

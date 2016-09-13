@@ -89,7 +89,7 @@ def crawl(pubmed_id_f, cutoff):
         source='gwas_central'
       ))
 
-      print 'Extracted association:', phenotype.name, snp.rs_id, pvalue
+      print 'Extracted association:', paper.pubmed_id, phenotype.name, snp.rs_id, pvalue
 
   db_session.commit()
 

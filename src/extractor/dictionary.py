@@ -1,4 +1,4 @@
-
+import re
 
 # ----------------------------------------------------------------------------
 # dictionary for resolving acronyms
@@ -35,11 +35,20 @@ class Dictionary(object):
     if doc_id not in self.storage: return None
     L = list(self.storage[doc_id].get(acronym, []))
     
-    if len(L) == 0: return None
-    if len(L) == 1: return L[0]
+    if len(L) == 1: 
+      return L[0]
+    
+    if len(L) > 1:
+      L = sorted(L, key=lambda x: self.evidence[doc_id][(acronym, x)], reverse=True)
+      return L[0]
 
-    L = sorted(L, key=lambda x: self.evidence[doc_id][(acronym, x)], reverse=True)
-    return L[0]
+    if len(L) == 0: 
+      acronym2 = acronym[1:]
+      L = list(self.storage[doc_id].get(acronym2, []))
+      if L:
+        return self.find(doc_id, acronym2)
+    
+    return None
 
 
   def __len__(self):
@@ -51,6 +60,9 @@ class Dictionary(object):
 def unravel(doc_id, text, D):
   words = text.split()
   replace_word = lambda w : D.find(doc_id, w) if D.find(doc_id, w) else w
-  new_words = ' '.join(replace_word(w) for w in words)
+  new_words = ' '.join(replace_word(_clean(w)) for w in words)
 
   return new_words
+
+def _clean(word):
+  return re.sub(u'\u2020', '', word)

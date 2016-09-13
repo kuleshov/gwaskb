@@ -29,7 +29,7 @@ gwas-catalog: ../associations/gwas_catalog
 gwas-central: first-15-paper-ids.txt
 	python $(BIN)/parse_gwas_central.py \
 		--ids $< \
-		--min-neg-log-pval 5
+		--min-neg-log-pval 1
 
 first-15-paper-ids.txt:
 	  ls $(PAP) | grep xml | cut -f 1 -d '.' | head -n 15 > $@

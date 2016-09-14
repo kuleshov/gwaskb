@@ -17,8 +17,9 @@ init:
 snpedia:
 	make -C ../associations/snpedia/
 
-ontology:
-	make -C ../ontology load-ontology
+phenotypes:
+	# make -C ../phenotypes/efo load-ontology
+	make -C ../phenotypes/snorkel load-ontology
 
 gwas-catalog: ../associations/gwas_catalog
 	make -C $<

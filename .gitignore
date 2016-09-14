@@ -15,3 +15,4 @@ sftp-config.json
 *.pkl
 *.sql
 *.bak
+data/phenotypes/snorkel/dicts*

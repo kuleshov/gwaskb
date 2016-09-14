@@ -91,6 +91,15 @@ class KnowledgeBase():
 
     return list(phenotype_names)
 
+  def get_snorkel_phenotype_candidates(self):
+    phenotypes = db_session.query(Phenotype).filter(Phenotype.source=='snorkel').all()
+    phenotype_names = list()
+    for phenotype in phenotypes:
+      if phenotype.name:
+        phenotype_names.append(phenotype.name.lower())
+
+    return phenotype_names
+
 # ----------------------------------------------------------------------------
 # helpers
 

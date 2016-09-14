@@ -290,6 +290,9 @@ def change_name(phen_name):
   # remove punctuation
   phen_name = ''.join(ch for ch in phen_name if ch not in punctuation)
 
+  # remove other characters
+  phen_name = re.sub(u'[\u2019]', '', phen_name)
+
   phen_name = phen_name.lower()
   phen_words = phen_name.split()
   phen_name = ' '.join([stemmer.stem(word) for word in phen_words 

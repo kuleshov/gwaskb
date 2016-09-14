@@ -7,7 +7,9 @@ dicts:
 	tar -zxvf dicts.tar.gz
 
 load-ontology: dicts
-	python $(PARSER) --file $</disease_names.csv
+	python $(PARSER) \
+	  --mesh $</CTD_diseases.tsv \
+	  --chemicals $</mention_chemical.txt
 
 init:
 	python $(PARSER) --init

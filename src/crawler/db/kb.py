@@ -59,46 +59,26 @@ class KnowledgeBase():
     candidates = [str(c[0]) for c in candidates if re.match(r'^rs\d+$', c[0])]
     return candidates
 
-  def get_phenotype_candidates(self, mod_fn=lambda x: x.lower()):
+  def get_phenotype_candidates(self, source='efo', mod_fn=lambda x: x.lower(), peek=False):
     """Returns dictionary of phenotype candidates
 
     Outputs all phenotypes described in gwas_catalog, plus their EFO mappings
     """
-    phenotypes = db_session.query(Phenotype).filter(Phenotype.source=='efo').all()
+    if peek:
+      associations = db_session.query(Association).all()
+      phenotypes = [p for a in associations for p in a.phenotype.equivalents]
+    else:
+      phenotypes = db_session.query(Phenotype).filter(Phenotype.source==source).all()
+    
     phenotype_names = set()
     for phenotype in phenotypes:
       if phenotype.name:
         phenotype_names.add(mod_fn(phenotype.name))
-      synonyms = [mod_fn(syn) for syn in phenotype.synonyms.split('|')]
-      phenotype_names.update(synonyms)
-
-    return list(phenotype_names)
-
-  def get_phenotype_candidates_cheating(self, mod_fn=lambda x: x.lower()):
-    """Returns dictionary of phenotype candidates
-
-    Outputs all phenotypes described in gwas_catalog, plus their EFO mappings
-    """
-    associations = db_session.query(Association).all()
-    phenotype_names = set()
-    for association in associations:
-      phenotypes = association.phenotype.equivalents
-      for phenotype in phenotypes:
-        if phenotype.name:
-          phenotype_names.add(mod_fn(phenotype.name))
+      if phenotype.synonyms:
         synonyms = [mod_fn(syn) for syn in phenotype.synonyms.split('|')]
         phenotype_names.update(synonyms)
 
     return list(phenotype_names)
-
-  def get_snorkel_phenotype_candidates(self):
-    phenotypes = db_session.query(Phenotype).filter(Phenotype.source=='snorkel').all()
-    phenotype_names = list()
-    for phenotype in phenotypes:
-      if phenotype.name:
-        phenotype_names.append(phenotype.name.lower())
-
-    return phenotype_names
 
 # ----------------------------------------------------------------------------
 # helpers

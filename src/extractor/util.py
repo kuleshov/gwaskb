@@ -228,6 +228,17 @@ def gold_rspval_stats(candidates, gold_set):
   print "Candidate recall\t= %0.3f" % (both / float(ng),)
   print "Candidate precision\t= %0.3f" % (both / float(nc),)
 
+def gold_rspval_precision(candidates, gold_set):
+  signatures = [
+    ( change_name(spanpair.span0.get_span()), get_exponent(pvalue_to_float(spanpair.span1.get_span())) )
+    for spanpair in candidates
+  ]
+
+  gold_exp_set = set([ (rs_id, get_exponent(pval)) for rs_id, pval in gold_set ])
+  missing_candidates = [candidate for candidate, signature in zip(candidates, signatures)
+                        if signature not in gold_exp_set]
+  
+  return missing_candidates
 
 # ----------------------------------------------------------------------------
 # other helpers
@@ -260,6 +271,13 @@ def pvalue_to_float(pstr):
     groups = result2.groups()
     if len(groups) == 1:
       return float(groups[0])
+
+  try:
+    pval = float(pstr)
+  except Exception:
+    return None
+
+  return pval
 
 def get_exponent(flt):
   if flt is not None:

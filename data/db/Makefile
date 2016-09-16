@@ -27,13 +27,13 @@ gwas-catalog: ../associations/gwas_catalog
 	  --phenotypes $</trait_mappings.tsv \
 	  --crawl $</gwas_catalog.tsv
 
-gwas-central: first-15-paper-ids.txt
+gwas-central: first-100-paper-ids.txt
 	python $(BIN)/parse_gwas_central.py \
 		--ids $< \
-		--min-neg-log-pval 1
+		--min-neg-log-pval 4
 
-first-15-paper-ids.txt:
-	  ls $(PAP) | grep xml | cut -f 1 -d '.' | head -n 15 > $@
+first-100-paper-ids.txt:
+	  ls $(PAP) | grep xml | cut -f 1 -d '.' | head -n 100 > $@
 
 # TODO: add parsing intructions
 snpedia-associations:

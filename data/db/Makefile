@@ -18,7 +18,7 @@ snpedia:
 	make -C ../associations/snpedia/
 
 phenotypes:
-	# make -C ../phenotypes/efo load-ontology
+	make -C ../phenotypes/efo load-ontology
 	make -C ../phenotypes/snorkel load-ontology
 
 gwas-catalog: ../associations/gwas_catalog

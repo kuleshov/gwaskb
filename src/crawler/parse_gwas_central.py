@@ -40,11 +40,9 @@ def crawl(pubmed_id_f, cutoff):
 
   # download GWC data for each paper
   for pmid in pubmed_ids:
-    # get study identifier
-    gwcid = pmid2gwcid(pmid)
-
-    # get list of results
-    results = gwcid2results(gwcid)
+    # check for previous associations:
+    assocs = db_session.query(Association).join(Association.paper).filter(Paper.pubmed_id==pmid).filter(Association.source=='gwas_central').all()
+    if len(assocs) > 1: continue
 
     # create/load paper
     paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()
@@ -52,6 +50,16 @@ def crawl(pubmed_id_f, cutoff):
       paper = Paper(pubmed_id=pmid)
       db_session.add(paper)
       db_session.commit()
+
+    # get study identifier
+    gwcid = pmid2gwcid(pmid)
+
+    # get list of results
+    try:
+      results = gwcid2results(gwcid)
+    except ValueError:
+      print 'ERROR!'
+      continue
 
     phenotypes = dict()
     snps = dict()

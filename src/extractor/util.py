@@ -281,6 +281,7 @@ def pvalue_to_float(pstr):
 
 def get_exponent(flt):
   if flt is not None:
+    if flt == 0: return -10**6 #something really big
     return floor(log10(flt))
   else:
     return flt

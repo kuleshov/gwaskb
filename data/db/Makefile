@@ -27,10 +27,13 @@ gwas-catalog: ../associations/gwas_catalog
 	  --phenotypes $</trait_mappings.tsv \
 	  --crawl $</gwas_catalog.tsv
 
-gwas-central: first-100-paper-ids.txt
+gwas-central: all-paper-ids.txt
 	python $(BIN)/parse_gwas_central.py \
 		--ids $< \
 		--min-neg-log-pval 4
+
+all-paper-ids.txt:
+	  ls $(PAP) | grep xml | cut -f 1 -d '.' > $@
 
 first-100-paper-ids.txt:
 	  ls $(PAP) | grep xml | cut -f 1 -d '.' | head -n 100 > $@

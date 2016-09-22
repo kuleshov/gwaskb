@@ -53,6 +53,7 @@ def crawl(pubmed_id_f, cutoff):
 
     # get study identifier
     gwcid = pmid2gwcid(pmid)
+    if not gwcid: continue
 
     # get list of results
     try:
@@ -109,8 +110,11 @@ def pmid2gwcid(pmid):
   json = r.json()
 
   # there should be only one study matching this pmid
-  if not len(json) == 1:
+  if len(json) > 1:
     print 'WARNING: >1 studies match pmid', pmid
+  elif len(json) == 0:
+    print 'WARNING: no studies for pmid', pmid
+    return None
 
   return json[0]['identifier']
 

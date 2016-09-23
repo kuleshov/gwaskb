@@ -1,5 +1,6 @@
 import re
 import string
+import unidecode
 from nltk.stem import PorterStemmer
 
 from math import floor, log10
@@ -289,7 +290,7 @@ def get_exponent(flt):
   return None
 
 def change_name(phen_name):
-  DEL_LIST = ['measurement', 'levels', 'age', 'at', 'infection', 'major', 'test', 'performance']
+  DEL_LIST = ['measurement', 'levels', 'age', 'at', 'response', 'to', 'infection', 'major', 'test', 'size', 'disorder', 'symptom', 'trait', 'disease']
   # TODO: consider adding 'response to'
   stemmer = PorterStemmer()
   punctuation = set(string.punctuation)
@@ -306,11 +307,14 @@ def change_name(phen_name):
   # replace dashes by spaces
   phen_name = phen_name.replace('-', ' ')
 
-  # remove punctuation
-  phen_name = ''.join(ch for ch in phen_name if ch not in punctuation)
+  # # remove punctuation #TODO: remove?
+  # phen_name = ''.join(ch for ch in phen_name if ch not in punctuation)
 
-  # remove other characters
-  phen_name = re.sub(u'[\u2019]', '', phen_name)
+  # remove other characters #TODO: remove?
+  phen_name = re.sub(u"[\u2019']", '', phen_name)
+
+  # fix unicode string
+  phen_name = unidecode.unidecode(phen_name)
 
   phen_name = phen_name.lower()
   phen_words = phen_name.split()

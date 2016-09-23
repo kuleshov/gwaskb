@@ -25,16 +25,36 @@ def main():
   parser.add_argument('--init', action='store_true', help='Init db')
   parser.add_argument('--mesh', help='Mesh diseases')
   parser.add_argument('--chemicals', help='Mesh chemicals')
+  parser.add_argument('--snomed', nargs='*', help='Snomed files')
   args = parser.parse_args()
 
   if args.init:
     init_db()
 
-  if args.mesh:
-    parse_mesh(args.mesh, db_session)
+  # if args.mesh:
+  #   parse_mesh(args.mesh, db_session)
 
-  if args.chemicals:
-    parse_chemicals(args.chemicals, db_session)  
+  # if args.chemicals:
+  #   parse_chemicals(args.chemicals, db_session)  
+
+  if args.snomed:
+    for f in args.snomed:
+      parse_snomed(f, db_session)
+
+def parse_snomed(fname, db_session):
+  with open(fname) as f:
+    for line in f:      
+      name = _normalize_str(line.strip())
+
+      phenotype = Phenotype(
+                    name=name,
+                    source='snomed'
+                  )
+
+      db_session.add(phenotype)
+  
+  db_session.commit()
+
 
 def parse_mesh(fname, db_session):
   with open(fname) as f:

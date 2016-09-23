@@ -24,15 +24,31 @@ def main():
 
   parser.add_argument('--init', action='store_true', help='Init db')
   parser.add_argument('--csv', help='Load phenotype/ontology mapping')
+  parser.add_argument('--filters', nargs='*', help='Take only these names')
   args = parser.parse_args()
 
   if args.init:
     init_db()
 
-  if args.csv:
-    parse_ontology(args.csv, db_session)
+  if args.filters:
+    filter_set = parse_filters(args.filters)
 
-def parse_ontology(fname, db_session):
+  if args.csv:
+    parse_ontology(args.csv, filter_set, db_session)
+
+def parse_filters(filters):
+  filter_set = set()
+  for filter in filters:
+    with open(filter) as f:
+      for line in f:
+        line = line.strip()
+        if line.startswith('\''): line = line[1:]
+        if line.endswith('\''): line = line[:-1]
+        filter_set.add(line)
+
+  return filter_set
+
+def parse_ontology(fname, filter_set, db_session):
   phenotypes = set()
   with open(fname) as f:
     f.readline()
@@ -51,9 +67,17 @@ def parse_ontology(fname, db_session):
                     synonyms=synonyms,
                     ontology_ref=ontology_id
                   )
+      db_session.add(phenotype)
 
-      # if ontology_id == "http://www.ebi.ac.uk/efo/EFO_0000676":
-      #   print phenotype.name, phenotype.ontology_id
+      if filter_set and fields[1] not in filter_set: continue
+
+      # create phenotype for matching
+      phenotype = Phenotype(
+                    name=name,
+                    source='efo-matching',
+                    synonyms=synonyms,
+                    ontology_ref=ontology_id
+                  )
       db_session.add(phenotype)
   
   db_session.commit()

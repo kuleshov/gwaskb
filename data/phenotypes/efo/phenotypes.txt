@@ -1,0 +1,320 @@
+phenotype
+  'Abnormality of the bladder'
+    'Neurogenic bladder'
+    'Urinary retention'
+    'Urinary incontinence'
+      'urgency urinary incontinence'
+  'abnormality of the mouth'
+    'cleft palate'
+    'Oral leukoplakia'
+      'mouth mucous membrane leukoplakia'
+      'leukoplakia of tongue'
+    'cleft lip'
+    'salivary gland lesion'
+  'abnormality of the nose'
+    'Nasal obstruction'
+  'Abnormality of the eye'
+    'Abnormality of refraction'
+      Astigmatism
+      Myopia
+        'pathological myopia'
+    hypermetropia
+    'age-related cataract'
+      'age-related nuclear cataract'
+  'Abnormality of the ear'
+    'Abnormality of the outer ear'
+      'Abnormality of the pinna'
+        'Abnormality of earlobe'
+          'Attached earlobe'
+    'Hearing abnormality'
+      'Sensorineural hearing impairment'
+      ototoxicity
+  'abnormality of the nervous system'
+    'behavioral abnormality'
+      'oppositional defiant disorder'
+    'febrile seizures'
+      'MMR-related febrile seizures'
+    Dysautonomia
+    'senile plaques'
+    'cognitive impairment'
+      'cognitive decline'
+  'Abnormality of the endocrine system'
+    'Abnormality of the thyroid gland'
+  'abnormality of the skeletal system'
+    osteopenia
+    arthralgia
+    Osteochondritis
+      'Osteochondritis Dissecans'
+    myelosuppression
+    'Bone Anteversion'
+  'abnormality of the abdomen'
+    'abnormality of the liver'
+      hepatitis
+        'drug-induced hepatitis'
+    ascites
+    diarrhea
+      'Secretory diarrhea'
+      'Diarrhea, Infantile'
+    constipation
+    'abdominal distention'
+    'abnormality of the gastrointestinal tract'
+      Dysphagia
+      'rectal prolapse'
+      'gastrointestinal hemorrhage'
+      'Abnormality of the intestine'
+        'Inflammation of the large intestine'
+        'Abnormality of the large intestine'
+        intussusception
+      megacolon
+      'rectal bleeding'
+      'Abnormality of gastrointestinal vasculature'
+      'gastrointestinal inflammation'
+        'Inflammation of the large intestine'
+        Esophagitis
+      'gastrointestinal obstruction'
+        'duodenal obstruction'
+          'superior mesenteric artery syndrome'
+        'intestinal pseudo-obstruction'
+          'colonic pseudo-obstruction'
+        'intestinal volvulus'
+      'Recurrent infection of the gastrointestinal tract'
+      'Functional abnormality of the gastrointestinal tract'
+        'Peptic ulcer'
+      'intestinal necrosis'
+    'Abdominal symptom'
+      'Nausea and vomiting'
+        Nausea
+        'post operative nausea and vomiting'
+        'Chemotherapy-induced nausea and vomiting'
+        'Radiation-induced nausea and vomiting'
+    'bile duct inflammation'
+    'pancreaticobiliary malunion'
+  'growth abnormality'
+    'growth delay'
+    overgrowth
+    'abnormality of body weight'
+      'weight loss'
+        cachexia
+  'abnormality of the integument'
+    'abnormality of the skin'
+      Eczema
+      Pruritus
+      'skin tags'
+      'erythema nodosum'
+      'Skin ulcer'
+        'chronic ulcer of skin'
+          'decubitus ulcer'
+          'ulcer of lower limb'
+      'pyoderma gangrenosum'
+      'cutaneous precancerous condition'
+  'Abnormality of the cardiovascular system'
+    'Mitral valve prolapse'
+    'tetralogy of fallot'
+    'prolonged QT interval'
+      'acquired long QT syndrome'
+    'abnormality of the aorta'
+      'abdominal aortic fatty streak'
+      'abdominal aortic raised atherosclerotic lesion'
+      'thoracic aortic fatty streak'
+      'thoracic aortic raised atherosclerotic lesion'
+    'Abnormality of the vasculature'
+      'Venous abnormality'
+        'Varicose veins'
+      'vascular malformation'
+    'Atrioventricular canal defect'
+    ischemia
+      'Cerebral ischemia'
+        'Ischemic stroke'
+    'coronary artery raised atherosclerotic lesion'
+    'Trilogy of Fallot'
+  'abnormality of blood and blood-forming tissues'
+    thrombocytopenia
+    'Venous thrombosis'
+      Thrombophlebitis
+        'Recurrent thrombophlebitis'
+      'deep vein thrombosis'
+    'disseminated intravascular coagulation'
+    Histiocytosis
+    hemorrhage
+      'gastrointestinal hemorrhage'
+    anemia
+      'iron deficiency anemia'
+      'Hypochromic microcytic anemia'
+      'hemolytic anemia'
+    'monoclonal B-cell lymphocytosis'
+  'aplastic anemia'
+    'acquired aplastic anemia'
+    'severe aplastic anemia'
+  'abnormality of metabolism/homeostasis'
+    'Abnormality of urine homeostasis'
+      Proteinuria
+        albuminuria
+    'Abnormality of ion homeostasis'
+      hypokalemia
+      'Abnormality of zinc homeostasis'
+        'Zinc deficiency'
+      'abnormality of iron homeostasis'
+      'Abnormality of phosphate homeostasis'
+        Hypophosphatemia
+    'Abnormality of lipid metabolism'
+      'Lipoid proteinosis'
+    'Abnormality of calcium homeostasis'
+      Hypocalcemia
+      Hypercalcemia
+    'Abnormality of nitrogen compound homeostasis'
+      hypoalbuminemia
+    'abnormality of temperature regulation'
+      fever
+        'Heat Stroke'
+    'abnormality of carbohydrate metabolism/homeostasis'
+      'Abnormal glucose homeostasis'
+        'Abnormality of blood glucose concentration'
+          Hypoglycemia
+            'Hypoketotic hypoglycemia'
+            'leucine-induced hypoglycemia'
+          Hyperglycemia
+        'abnormal glucose tolerance'
+          'Glucose intolerance'
+    'abnormality of vitamin metabolism'
+      'vitamin deficiency'
+        'vitamin B12 deficiency'
+        'folate deficiency'
+        'vitamin D deficiency'
+  'Abnormality of the respiratory system'
+    'abnormality of the lung'
+      'Alveolar proteinosis'
+      'obstructive lung disease'
+    'spontaneous pneumothorax'
+    'Abnormality of bronchi'
+      Bronchiectasis
+    Cough
+  'abnormality of the immune system'
+    'recurrent infection'
+      pyoderma
+        carbuncle
+        'cutaneous diphtheria'
+        erythrasma
+        impetigo
+          ecthyma
+          'impetigo herpetiformis'
+        'spongiotic dermatitis'
+    'aspirin induced asthma'
+    agranulocytosis
+      'drug-induced agranulocytosis'
+    'abnormality of the lymphatic system'
+      lymphadenitis
+    inflammation
+      Fasciitis
+      Cheilitis
+      'eye inflammation'
+      'vaginal inflammation'
+        'Atrophic Vaginitis'
+      'systemic inflammatory response syndrome'
+    sepsis
+  'abnormality of the musculature'
+    'Abnormality of muscle physiology'
+      Myalgia
+  hypercholesterolemia
+  hypocholesterolemia
+  'Abnormality of connective tissue'
+    'Abnormality of adipose tissue'
+      Lipoatrophy
+  'cerebral degeneration'
+  'abnormality of the urinary system physiology'
+    'abnormal renal physiology'
+      polyuria
+      'Acute kidney injury'
+      'Nephrogenic rest'
+  hypertrophy
+    'cardiac hypertrophy'
+      'left ventricular hypertrophy'
+  'sign or symptom'
+    'memory impairment'
+    'insulin resistance'
+    'essential tremor'
+    hyperlipidemia
+      'postprandial hyperlipidemia'
+    hyperemia
+    calcification
+    pain
+      'abdominal pain'
+      'pain in abdomen'
+      'neuropathic pain'
+      Mastodynia
+      Metatarsalgia
+      'Renal Colic'
+    'mental retardation'
+    dementia
+      'AIDS dementia'
+      'Lewy body dementia'
+    'functional laterality'
+    dysuria
+    'angina pectoris'
+    menopause
+    menarche
+    menorrhagia
+    'fever of unknown origin'
+    leukopenia
+    sneezing
+    'neurobehavioral manifestations'
+      'psychotic symptoms'
+    'sexual dysfunction'
+    'coronary artery calcification'
+    'formal thought disorder'
+    'abdominal aortic artery calcification'
+    anxiety
+    'mitral annular calcification'
+    'post-operative sign or symptom'
+      'post operative nausea and vomiting'
+      'post-operative sensory disturbance'
+    'airway hyperresponsiveness'
+    'autism spectrum disorder symptom'
+      'social communication impairment'
+    'borderline personality disorder symptom'
+    'chronic mucus hypersecretion'
+    'skin wound'
+    'antidepressant-induced side effect'
+      'antidepressant-induced dizziness'
+      'antidepressant-induced sexual dysfunction'
+      'antidepressant-induced visual impairment'
+      'antidepressant-induced hearing impairment'
+    'pulmonary artery enlargement'
+    'Alzheimer's disease neuropathologic change'
+    'yang deficiency'
+    stricture
+      'vein graft stenosis'
+    'septic shock'
+    'radiologic finding'
+    'motion sickness'
+      'space motion sickness'
+    asthenia
+    'major depressive episode'
+    'surgical shock'
+    'manic or hypomanic episode'
+  'skin pigmentation'
+    freckles
+    suntan
+  'premature birth'
+    'spontaneous preterm birth'
+  'hair color'
+  'eye color'
+  'facial morphology'
+  'male fertility'
+  'hair morphology'
+  'rapid kidney function decline'
+  fibrosis
+  'breast adenosis'
+  'female fertility'
+  endophenotype
+  'lachrymal gland lesion'
+  'outer ear morphology trait'
+    'ear protrusion'
+    'lobe size'
+    'lobe attachment'
+    'tragus size'
+    'antitragus size'
+    'helix rolling'
+    'folding of antihelix'
+    'crus helix expression'
+    'superior crus of antihelix expression'
+    'Darwin's tubercule'

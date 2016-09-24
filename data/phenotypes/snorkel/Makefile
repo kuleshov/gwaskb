@@ -10,8 +10,8 @@ dicts:
 load-ontology: dicts
 	python $(PARSER) \
 	  --snomed $(SNOMED) \
-	  # --mesh $</CTD_diseases.tsv \
-	  # --chemicals $</mention_chemical.txt \
+	  --mesh $</CTD_diseases.tsv \
+	  --chemicals $</mention_chemical.txt \
 
 init:
 	python $(PARSER) --init

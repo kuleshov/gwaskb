@@ -291,7 +291,6 @@ def get_exponent(flt):
 
 def change_name(phen_name):
   DEL_LIST = ['measurement', 'levels', 'age', 'at', 'response', 'to', 'infection', 'major', 'test', 'size', 'disorder', 'symptom', 'trait', 'disease']
-  # TODO: consider adding 'response to'
   stemmer = PorterStemmer()
   punctuation = set(string.punctuation)
 

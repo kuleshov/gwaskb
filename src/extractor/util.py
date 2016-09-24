@@ -290,7 +290,7 @@ def get_exponent(flt):
   return None
 
 def change_name(phen_name):
-  DEL_LIST = ['measurement', 'levels', 'age', 'at', 'response', 'to', 'infection', 'major', 'test', 'size', 'disorder', 'symptom', 'trait', 'disease']
+  DEL_LIST = ['measurement', 'levels', 'age at', 'response to', 'infection', 'major', 'test', 'size', 'disorder', 'symptom', 'trait', 'disease']
   stemmer = PorterStemmer()
   punctuation = set(string.punctuation)
 
@@ -315,7 +315,12 @@ def change_name(phen_name):
   # fix unicode string
   phen_name = unidecode.unidecode(phen_name)
 
+  # remove stopwords
   phen_name = phen_name.lower()
+  for word in DEL_LIST:
+    phen_name = re.sub(word, '', phen_name)
+
+  # stem words
   phen_words = phen_name.split()
   phen_name = ' '.join([stemmer.stem(word) for word in phen_words 
                         if word not in DEL_LIST])

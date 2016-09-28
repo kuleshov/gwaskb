@@ -246,9 +246,11 @@ def gold_rspval_precision(candidates, gold_set):
 
 def pvalue_to_float(pstr):
   # extract groups via regex
-  rgx1 = u'([1-9]\d?[\.\xb7]?\d*)\s*[\xd7\*]\s*10\s*[-\u2212\u2013]\s*(\d+)'
+  # rgx1 = u'([1-9]\d?[\.\xb7]?\d*)\s*[\xd7\*]\s*10\s*[-\u2212\u2013]\s*(\d+)'
+  rgx1 = u'([1-9]\d?[\xb7\.]?\d*)[\s\u2009]*[\xd7\*][\s\u2009]*10[\s\u2009]*[-\u2212\u2013\u2012][\s\u2009]*(\d+)'
   result1 = re.search(rgx1, pstr)
-  rgx2 = u'([1-9]\d?[\xb7\.]?\d*)\s*[eE][-\u2212\u2013](\d+)'
+  # rgx2 = u'([1-9]\d?[\xb7\.]?\d*)\s*[eE][-\u2212\u2013](\d+)'
+  rgx2 = u'([1-9]\d?[\xb7\.]?\d*)[\s\u2009]*[eE][\s\u2009]*[-\u2212\u2013\u2012][\s\u2009]*(\d+)'
   result2 = re.search(rgx2, pstr)
   rgx3 = u'(0\.0000+\d+)'
   result3 = re.search(rgx2, pstr)
@@ -276,6 +278,7 @@ def pvalue_to_float(pstr):
   try:
     pval = float(pstr)
   except Exception:
+    print pstr
     return None
 
   return pval

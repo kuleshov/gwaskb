@@ -119,10 +119,14 @@ class UnicodeXMLTableDocParser(XMLDocParser):
       # print doc.xpath('.//table')
       text = '\n'.join([ et.tostring(elem) for elem in doc.xpath(self.text) if elem is not None])
       ids = doc.xpath(self.id)
+      # print i, ids
       id = ids[0] if len(ids) > 0 else None
       attribs = {'root':doc} if self.keep_xml_tree else {}
       # print 'ok ok', text, self.text
       yield Document(name=str(id), file=str(file_name), attribs=attribs), unicode(text)
+
+  def _can_read(self, fpath):
+    return fpath.endswith('.xml') or fpath.endswith('.nxml')
 
 class UnicodeTableParser(TableParser):
   def __init__(self, tok_whitespace=False):

@@ -1,10 +1,12 @@
 BIN:=../../src/crawler
 PAP:=./papers
+OALISTURL:=ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/file_list.txt
 
 all:
 	make init
-	make ontology
+	make phenotypes
 	make gwas-catalog
+	make dl-papers
 	make gwas-central
 	# make gwas-catalog snpedia
 
@@ -42,9 +44,12 @@ first-100-paper-ids.txt:
 snpedia-associations:
 	make -C ../associations/snpedia/
 
-dl-papers:
-	make -C ../papers open-access.txt
+dl-papers: open-access.txt
 	python $(BIN)/dl_papers.py \
-	  --mark-open-access ../papers/open-access.txt \
+	  --mark-open-access $< \
 	  --download-oa $(PAP)
+
+open-access.txt:
+	wget $(OALISTURL) -O $@.tmp
+	mv $@.tmp $@
 

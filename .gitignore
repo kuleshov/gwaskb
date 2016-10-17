@@ -16,3 +16,5 @@ sftp-config.json
 *.sql
 *.bak
 data/phenotypes/snorkel/dicts*
+*tmp
+*.db

@@ -1,0 +1,7 @@
+export SNORKELHOME="`pwd`/snorkel-tables"
+echo "Snorkel home directory: $SNORKELHOME"
+export GWASDBHOME="`pwd`/src"
+echo "GwasDB home directory: $GWASDBHOME"
+export PYTHONPATH="$PYTHONPATH:$SNORKELHOME:$SNORKELHOME/treedlib:$GWASDBHOME"
+export PATH="$PATH:$SNORKELHOME:$SNORKELHOME/treedlib"
+echo "Environment variables set!"

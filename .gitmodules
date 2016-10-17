@@ -1,3 +1,6 @@
 [submodule "snorkel"]
 	path = snorkel
 	url = https://github.com/HazyResearch/snorkel.git
+[submodule "snorkel-tables"]
+	path = snorkel-tables
+	url = git@github.com:HazyResearch/snorkel.git

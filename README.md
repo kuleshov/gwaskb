@@ -24,6 +24,13 @@ git clone https://github.com/kuleshov/gwasdb.git
 cd gwasdb;
 git submodule init;
 git submodule update;
+
+# now you must cd into ./snorkel-tables and follow snorkel's installation instructions!
+cd ./snorkel-tables
+./run.sh # this will install treedlib and the Stanford CoreNLP tools
+cd ..
+
+# finally, we setup the enviornment variables
 source set_env.sh
 ```
 
@@ -63,12 +70,12 @@ This process can be automated by just typing `make`.
 
 ## Information extraction
 
-We demonstrate our information extraction system in a series of Jupyter notebooks in the `notebooks` subfolder. 
+We demo our system in a series of Jupyter notebooks in the `notebooks` subfolder. 
 
-1. `phenotype-extraction.ipynb` extracts a phenotype for each papers
-2. `table-extraction.ipynb` extracts mutation ids and their associated p-values
+1. `phenotype-extraction.ipynb` identifies the phenotypes studied in each paper
+2. `table-pval-extraction.ipynb` extracts mutation ids and their associated p-values
 3. `table-phenotype-extraction.ipynb` extracts relations between mutations and a specific phenotype (out of the many that can be described in the paper)
-4. `acronym-extraction.ipynb`: often, phenotypes are defined as acronym, and we need a module to resolve those acronyms
+4. `acronym-extraction.ipynb`: often, phenotypes are mentioned via acronyms, and we need a module to resolve those acronyms
 5. `evaluation.ipynb`: here, we merge all the results and evaluate our accuracy
 
 The result is a second SQLite database containing facts (e.g. mutation/disease relations) that we have extracted from the literature.  

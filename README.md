@@ -7,9 +7,9 @@ GWASdb is a machine reading system for discovering associations between genetic 
 
 GWASdb is implemented in Python and requires:
 
-* `lxml`, ElementTree
-* `numpy`
-* `sklearn`
+* `lxml`, `ElementTree`
+* `numpy`, `sklearn`
+* `nltk`
 * `sqlite`
 * `snorkel`
 

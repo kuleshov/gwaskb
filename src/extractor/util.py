@@ -8,6 +8,9 @@ from math import floor, log10
 # ----------------------------------------------------------------------------
 # statistics
 
+def _context(candidate):
+  return candidate.get_attributes()[0].parent
+
 def gold_rsid_stats(candidates, gold_set):
   """Computes gold stats for rsids
 
@@ -16,7 +19,7 @@ def gold_rsid_stats(candidates, gold_set):
   """
 
   gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
-  pmids = set( [ (ngram.context.document.name, ngram.get_attrib_span('words')) for ngram in candidates] )
+  pmids = set( [ (_context(ngram).document.name, ngram.get_attrib_span('words')) for ngram in candidates] )
   nc    = len(pmids)
   ng    = len(gold)
   both  = len(gold.intersection(pmids))
@@ -27,16 +30,16 @@ def gold_rsid_stats(candidates, gold_set):
 
 def gold_rsid_recall(candidates, gold_set):
   gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
-  pmids = set( [ (ngram.context.document.name, ngram.get_attrib_span('words')) for ngram in candidates] )
+  pmids = set( [ (_context(ngram).document.name, ngram.get_attrib_span('words')) for ngram in candidates] )
   missing = [p for p in gold - pmids]
   missing_pmids = set ([p[0] for p in missing])
   return gold - pmids
 
 def gold_rsid_precision(candidates, gold_set):
   gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
-  pmids = set( [ (ngram.context.document.name, ngram.get_attrib_span('words')) for ngram in candidates] )
+  pmids = set( [ (_context(ngram).document.name, ngram.get_attrib_span('words')) for ngram in candidates] )
   strange = [p for p in pmids - gold]
-  return [ngram for ngram in candidates if (ngram.context.document.name, ngram.get_span()) in strange]
+  return [ngram for ngram in candidates if (_context(ngram).document.name, ngram.get_span()) in strange]
 
 def gold_pval_stats(candidates, gold_set):
   """Computes gold stats for pvalues
@@ -46,7 +49,7 @@ def gold_pval_stats(candidates, gold_set):
 
   # store collected and gold sets
   gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
-  pmids = set( [ (ngram.context.document.name, pvalue_to_float(ngram.get_attrib_span('words'))) for ngram in candidates] )
+  pmids = set( [ (_context(ngram).document.name, pvalue_to_float(ngram.get_attrib_span('words'))) for ngram in candidates] )
 
   # only keep exponents
   gold = { (doc_id, floor(log10(pval))) for doc_id, pval in gold if pval > 0 }
@@ -68,11 +71,11 @@ def gold_pval_stats_limited(candidates, gold_set_dict, rsid_candidates):
   """
 
   # store collected and gold sets
-  rsids_found = { ngram.context.document.name : set() for ngram in rsid_candidates }
+  rsids_found = { _context(ngram).document.name : set() for ngram in rsid_candidates }
   for ngram in rsid_candidates:
-    rsids_found[ngram.context.document.name].add(str(ngram.get_attrib_span('words')))
+    rsids_found[_context(ngram).document.name].add(str(ngram.get_attrib_span('words')))
   gold = set([ (pmid, assoc.pvalue) for pmid in gold_set_dict for assoc in gold_set_dict[pmid] if pmid in rsids_found and str(assoc.snp.rs_id) in rsids_found[pmid] ])
-  pmids = set( [ (ngram.context.document.name, pvalue_to_float(ngram.get_attrib_span('words'))) for ngram in candidates] )
+  pmids = set( [ (_context(ngram).document.name, pvalue_to_float(ngram.get_attrib_span('words'))) for ngram in candidates] )
 
   print list(sorted(gold))[:10]
   # only keep exponents
@@ -98,11 +101,11 @@ def gold_pval_recall(candidates, gold_set_dict, rsid_candidates):
   """
 
   # store collected and gold sets
-  rsids_found = { ngram.context.document.name : set() for ngram in rsid_candidates }
+  rsids_found = { _context(ngram).document.name : set() for ngram in rsid_candidates }
   for ngram in rsid_candidates:
-    rsids_found[ngram.context.document.name].add(str(ngram.get_attrib_span('words')))
+    rsids_found[_context(ngram).document.name].add(str(ngram.get_attrib_span('words')))
   gold = set([ (pmid, assoc.pvalue) for pmid in gold_set_dict for assoc in gold_set_dict[pmid] if pmid in rsids_found and str(assoc.snp.rs_id) in rsids_found[pmid] ])
-  pmids = set( [ (ngram.context.document.name, pvalue_to_float(ngram.get_attrib_span('words'))) for ngram in candidates] )
+  pmids = set( [ (_context(ngram).document.name, pvalue_to_float(ngram.get_attrib_span('words'))) for ngram in candidates] )
 
   # only keep exponents
   gold = { (doc_id, floor(log10(pval))) for doc_id, pval in gold if pval > 0 }
@@ -112,7 +115,7 @@ def gold_pval_recall(candidates, gold_set_dict, rsid_candidates):
 
 def gold_pval_precision(candidates, gold_set):
   gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
-  pmids = set( [ (ngram.context.document.name, pvalue_to_float(ngram.get_attrib_span('words'))) for ngram in candidates] )
+  pmids = set( [ (_context(ngram).document.name, pvalue_to_float(ngram.get_attrib_span('words'))) for ngram in candidates] )
 
   # only keep exponents
   gold = { (doc_id, floor(log10(pval))) for doc_id, pval in gold if pval > 0 }
@@ -124,8 +127,8 @@ def gold_pval_precision(candidates, gold_set):
   for doc_id, pval in strange:
       pval_dict[doc_id].append(pval)
 
-  return [ ngram for ngram in candidates if ngram.context.document.name in strange_pmids
-           and floor(log10(pvalue_to_float(ngram.get_attrib_span('words')))) in pval_dict[ngram.context.document.name]]
+  return [ ngram for ngram in candidates if _context(ngram).document.name in strange_pmids
+           and floor(log10(pvalue_to_float(ngram.get_attrib_span('words')))) in pval_dict[_context(ngram).document.name]]
 
 def gold_phen_stats(candidates, gold_set, phen2id):
   gold  = gold_set if isinstance(gold_set, set) else set(gold_set)
@@ -137,8 +140,8 @@ def gold_phen_stats(candidates, gold_set, phen2id):
   for span in candidates:
     phen_name = span.get_span()
     phen_id = phen2id.get(change_name(phen_name), None)
-    if phen_id in gold_dict[span.context.document.name]:
-      correct_candidates.add( (span.context.document.name, phen_id) )
+    if phen_id in gold_dict[_context(span).document.name]:
+      correct_candidates.add( (_context(span).document.name, phen_id) )
 
   # compute stats
   nc    = len(candidates)
@@ -160,8 +163,8 @@ def gold_phen_recall(candidates, gold_set, phen2id):
   for span in candidates:
     phen_name = span.get_span()
     phen_id = phen2id.get(change_name(phen_name), None)
-    if phen_id in gold_dict[span.context.document.name]:
-      correct_candidates.add( (span.context.document.name, phen_id) )
+    if phen_id in gold_dict[_context(span).document.name]:
+      correct_candidates.add( (_context(span).document.name, phen_id) )
 
   return gold - correct_candidates
 
@@ -177,8 +180,8 @@ def gold_agg_phen_stats(candidates, gold_set, phen2id):
     phen_name = span.get_span()
     phen_ids = phen2id.get(change_name(phen_name), None) # aggregate ids
     if phen_ids:
-      for phen_id in phen_ids & gold_dict[span.context.document.name]:
-        correct_candidates.add( (span.context.document.name, phen_id) )
+      for phen_id in phen_ids & gold_dict[_context(span).document.name]:
+        correct_candidates.add( (_context(span).document.name, phen_id) )
 
   assert len(correct_candidates - gold_set) == 0 # ours is subset of gold_set
 
@@ -205,8 +208,8 @@ def gold_agg_phen_recall(candidates, gold_set, phen2id):
     phen_name = span.get_span()
     phen_ids = phen2id.get(change_name(phen_name), None) # aggregate ids
     if phen_ids:
-      for phen_id in phen_ids & gold_dict[span.context.document.name]:
-        correct_candidates.add( (span.context.document.name, phen_id) )
+      for phen_id in phen_ids & gold_dict[_context(span).document.name]:
+        correct_candidates.add( (_context(span).document.name, phen_id) )
 
   assert len(correct_candidates - gold_set) == 0 # ours is subset of gold_set
 
@@ -243,6 +246,19 @@ def gold_rspval_precision(candidates, gold_set):
 
 # ----------------------------------------------------------------------------
 # other helpers
+
+def make_ngrams(L, n_max=10, n_min=3, delim=' '):
+    for l in L:
+        yield l
+        tokens = l.strip().split(delim)
+        for ngram in slice_into_ngrams(tokens, n_max=n_max, n_min=n_min, delim=delim):
+            yield ngram
+
+def slice_into_ngrams(tokens, n_max=3, n_min=1, delim='_'):
+    N = len(tokens)
+    for root in range(N):
+        for n in range(max(0,n_min-1), min(n_max, N - root)):
+            yield delim.join(tokens[root:root+n+1])
 
 def pvalue_to_float(pstr):
   # extract groups via regex

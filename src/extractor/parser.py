@@ -113,23 +113,16 @@ class UnicodeXMLTableDocParser(XMLMultiDocParser):
   breaks p-value formatting). 
   """
 
-  def __init__(self, path, doc='.//document', text='./text/text()', id='./id/text()',
-                    keep_xml_tree=False):
-    super(UnicodeXMLTableDocParser, self).__init__(path, doc, text, id, keep_xml_tree)
-
   def parse_file(self, f, file_name):
     for i,doc in enumerate(et.parse(f).xpath(self.doc)):
-      # print et.tostring(doc)[:100]
-      # print f
-      # print et.parse('../data/db/papers/19305408.xml').xpath('./*')[0].xpath('.//table')
-      # print doc.xpath('.//table')
       text = '\n'.join([ et.tostring(elem) for elem in doc.xpath(self.text) if elem is not None])
       ids = doc.xpath(self.id)
-      # print i, ids
-      id = ids[0] if len(ids) > 0 else None
-      attribs = {'root':doc} if self.keep_xml_tree else {}
-      # print 'ok ok', text, self.text
-      yield Document(name=str(id), file=str(file_name), attribs=attribs), unicode(text)
+      doc_id = ids[0] if len(ids) > 0 else None
+      meta = {'file_name': str(file_name)}
+      if self.keep_xml_tree:
+          meta['root'] = et.tostring(doc)
+      stable_id = self.get_stable_id(doc_id)
+      yield Document(name=doc_id, stable_id=stable_id, meta=meta), text
 
   def _can_read(self, fpath):
     return fpath.endswith('.xml') or fpath.endswith('.nxml')

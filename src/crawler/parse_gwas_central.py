@@ -21,6 +21,8 @@ def main():
   parser.add_argument('--init', action='store_true', help='Init db')
   parser.add_argument('--ids', help='List of paper ids')
   parser.add_argument('--min-neg-log-pval', default=5, type=int)
+  parser.add_argument('--start-at', default=0, type=int)
+  parser.add_argument('--overwrite', action='store_true')
 
   args = parser.parse_args()
 
@@ -28,11 +30,12 @@ def main():
     init_db()
 
   if args.ids:
-    crawl(args.ids, args.min_neg_log_pval)
+    crawl(args.ids, args.min_neg_log_pval, start_at=args.start_at, 
+          overwrite=args.overwrite)
 
 # ----------------------------------------------------------------------------
 
-def crawl(pubmed_id_f, cutoff):
+def crawl(pubmed_id_f, cutoff, start_at=0, overwrite=False):
   # collect papers to parse
   pubmed_ids = list()
   with open(pubmed_id_f) as f:
@@ -40,9 +43,14 @@ def crawl(pubmed_id_f, cutoff):
 
   # download GWC data for each paper
   for pmid in pubmed_ids:
-    # check for previous associations:
-    assocs = db_session.query(Association).join(Association.paper).filter(Paper.pubmed_id==pmid).filter(Association.source=='gwas_central').all()
-    if len(assocs) > 1: continue
+    if pmid < start_at: continue
+
+    # overwrite previous associations:
+    if overwrite:
+      assocs = db_session.query(Association).join(Association.paper).filter(Paper.pubmed_id==pmid).filter(Association.source=='gwas_central').all()
+      if assocs:
+        for a in assocs: db_session.delete(a)
+        db_session.commit()
 
     # create/load paper
     paper = db_session.query(Paper).filter(Paper.pubmed_id==pmid).first()

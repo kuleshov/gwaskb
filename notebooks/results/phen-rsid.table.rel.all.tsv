@@ -1,0 +1,2253 @@
+17903292	rs1158167	cst3	0.0	table	1	3	1
+17903292	rs1712790	urinary albumin excretion	2e-06	table	1	4	1
+17903292	rs6977660	thyroid stimulating hormone	4e-06	table	1	5	1
+17903292	rs9322817	thyroid stimulating hormone	6e-06	table	1	6	1
+17903292	rs10499559	thyroid stimulating hormone	8e-06	table	1	7	1
+17903292	rs9305354	urinary albumin excretion	8e-06	table	1	8	1
+17903292	rs1243400	urinary albumin excretion	5e-06	table	1	34	1
+17903292	rs723464	urinary albumin excretion	1e-05	table	1	39	1
+17903292	rs754958	Serum Phosphorous	-1	table	1	64	1
+17903292	rs10495487	Uric acid	-1	table	1	65	1
+17903292	rs10489578	Serum creatinine (exam 6)	-1	table	1	66	1
+17903292	rs10515134	Luteinizing Hormone	-1	table	1	67	1
+17903292	rs10489578	glomerular filtration rate (exam 6)	-1	table	1	68	1
+17903292	rs10484370	Serum Calcium	-1	table	1	69	1
+17903292	rs10511176	glomerular filtration rate (exam 7)	-1	table	1	70	1
+17903292	rs10502302	Serum creatinine (exam 5)	-1	table	1	71	1
+17903292	rs10512437	glomerular filtration rate	-1	table	2	2	2
+17903292	rs2480555	glomerular filtration rate	-1	table	2	3	2
+17903292	rs10486135	glomerular filtration rate	-1	table	2	4	2
+17903292	rs727087	glomerular filtration rate	-1	table	2	5	2
+17903292	rs1005066	glomerular filtration rate	-1	table	2	6	2
+17903292	rs2885618	glomerular filtration rate	-1	table	2	7	2
+17903292	rs10496887	glomerular filtration rate	-1	table	2	8	2
+17903292	rs1712790	urinary albumin excretion	1e-06	table	2	9	2
+17903292	rs10485409	urinary albumin excretion	1e-05	table	2	10	2
+17903292	rs1158167	cst3	0.0	table	3	3	2
+17903292	rs911122	cst3	-1	table	3	6	2
+17903292	rs3760626	chronic kidney disease	-1	table	3	7	2
+17903292	rs1158167	cst3	-1	table	3	13	2
+17903292	rs2145231	cst3	-1	table	3	14	2
+17903292	rs911122	urinary albumin excretion ≥ 30*	-1	table	3	15	2
+17903293	rs2494250	Monocyte chemoattractant protein-1	0.0	table	1	3	1
+17903293	rs4128725	Monocyte chemoattractant protein-1	0.0	table	1	4	1
+17903293	rs2794520	C-reactive protein average exams 2,6,7	0.0	table	1	5	1
+17903293	rs2808629	C-reactive protein average exams 2,6,7	0.0	table	1	6	1
+17903293	rs2794520	C-reactive protein exam 6	0.0	table	1	7	1
+17903293	rs2808629	C-reactive protein exam 6	0.0	table	1	8	1
+17903293	rs7552393	Tumor necrosis factor alpha	1e-06	table	1	9	1
+17903293	rs746961	C-reactive protein exam 6	1e-06	table	1	10	1
+17903293	rs17532515	Bilirubin	1e-06	table	1	11	1
+17903293	rs1998303	Alanine aminotransferase	1e-06	table	1	12	1
+17903293	rs10489849	Monocyte chemoattractant protein-1	1e-06	table	1	13	1
+17903293	rs10518765	Alkaline phosphatase	1e-06	table	1	14	1
+17903293	rs2387326	Vitamin K plasma phylloquinone	1e-06	table	1	15	1
+17903293	rs1119582	C-reactive protein average exams 2,6,7	1e-06	table	1	16	1
+17903293	rs10485165	Vitamin D plasma 25(OH)-D	1e-06	table	1	17	1
+17903293	rs1417352	Atrial natriuretic peptide exam 6	2e-06	table	1	18	1
+17903293	rs583012	C-reactive protein exam 2	2e-06	table	1	19	1
+17903293	rs1486139	Atrial natriuretic peptide exam 6	2e-06	table	1	20	1
+17903293	rs1486140	Atrial natriuretic peptide exam 6	2e-06	table	1	21	1
+17903293	rs10492681	Alanine aminotransferase exam 2	2e-06	table	1	22	1
+17903293	rs10507577	Vitamin D plasma 25(OH)-D	3e-06	table	1	23	1
+17903293	rs1079596	Atrial natriuretic peptide exam 6	3e-06	table	1	24	1
+17903293	rs1474747	Monocyte chemoattractant protein-1	3e-06	table	1	25	1
+17903293	rs7778619	CD40 Ligand serum	3e-06	table	1	26	1
+17903293	rs8005745	CD40 Ligand serum	3e-06	table	1	27	1
+17903293	rs4128725	Monocyte chemoattractant protein-1	0.0	table	1	33	1
+17903293	rs2494250	Monocyte chemoattractant protein-1	0.0	table	1	34	1
+17903293	rs437021	B-type natriuretic peptide	1e-06	table	1	35	1
+17903293	rs2052028	Vitamin K % undercarboxylated osteocalcin	1e-06	table	1	36	1
+17903293	rs2372184	CD40 Ligand plasma	2e-06	table	1	37	1
+17903293	rs717145	Urinary isoprostanes/creatinine	5e-06	table	1	38	1
+17903293	rs4664604	CD40 Ligand serum	8e-06	table	1	39	1
+17903293	rs9288125	CD40 Ligand serum	9e-06	table	1	40	1
+17903293	rs1363258	C-reactive protein exam 7	9e-06	table	1	41	1
+17903293	rs17532515	Bilirubin	1e-06	table	1	42	1
+17903293	rs496269	Osteoprotegerin	9e-06	table	1	43	1
+17903293	rs3849944	Intercellular adhesion molecule-1	5e-06	table	1	49	1
+17903293	rs1457590	Interleukin-6, C-reactive protein and Fibrinogen	-1	table	2	9	1
+17903293	rs6848323	Interleukin-6, C-reactive protein and Fibrinogen	-1	table	2	10	1
+17903293	rs3110134	Interleukin-6, C-reactive protein and Fibrinogen	-1	table	2	11	1
+17903293	rs2016740	Interleukin-6, C-reactive protein and Fibrinogen	-1	table	2	12	1
+17903293	rs719006	Interleukin-6, C-reactive protein and Fibrinogen	-1	table	2	13	1
+17903293	rs877936	Interleukin-6, C-reactive protein and Fibrinogen	-1	table	2	14	1
+17903293	rs1436136	Interleukin-6, C-reactive protein and Fibrinogen	-1	table	2	15	1
+17903293	rs1436336	Interleukin-6, C-reactive protein and Fibrinogen	-1	table	2	16	1
+17903293	rs698270	Interleukin-6, C-reactive protein and Fibrinogen	-1	table	2	17	1
+17903293	rs847428	Interleukin-6, C-reactive protein and Fibrinogen	-1	table	2	18	1
+17903293	rs2359763	Interleukin-6, C-reactive protein and Fibrinogen	-1	table	2	19	1
+17903293	rs7969455	Interleukin-6, C-reactive protein and Fibrinogen	-1	table	2	20	1
+17903293	rs10503717	Interleukin-6, C-reactive protein and Fibrinogen	-1	table	2	21	1
+17903293	rs4899940	Interleukin-6, C-reactive protein and Fibrinogen	-1	table	2	22	1
+17903293	rs9319160	C-reactive protein: exams 2, 5, 6, 7	-1	table	2	30	1
+17903293	rs910232	C-reactive protein: exams 2, 5, 6, 7	-1	table	2	31	1
+17903293	rs4911146	Liver function: Alkaline phosphatase; AST; ALT; gamma-glutamyl transferase	8e-06	table	2	32	1
+17903293	rs953402	Liver function: Alkaline phosphatase; AST; ALT; gamma-glutamyl transferase	9e-06	table	2	33	1
+17903293	rs1376544	Vitamin D, Vitamin K phylloquinone & Vitamin K % undercarboxylated osteocalcin	9e-06	table	2	34	1
+17903294	rs966321	factor vii	8e-06	table	1	5	1
+17903294	rs4591494	factor vii	9e-06	table	1	10	1
+17903294	rs10488360	factor vii	7e-06	table	1	11	1
+17903294	rs727435	factor vii	1e-05	table	1	12	1
+17903294	rs561241	factor vii	0.0	table	1	14	1
+17903294	rs4460176	PAI1	3e-06	table	1	16	1
+17903294	rs10493485	tissue plasminogen activator	2e-06	table	1	17	1
+17903294	rs1954971	von willebrand factor	1e-05	table	1	24	1
+17903294	rs4133289	hemoglobin	0.0	table	2	1	1
+17903294	rs1510107	hemoglobin	1e-05	table	2	2	1
+17903294	rs1160297	hemoglobin	1e-06	table	2	3	1
+17903294	rs2357013	hemoglobin	6e-06	table	2	4	1
+17903294	rs7844723	hemoglobin	2e-06	table	2	5	1
+17903294	rs1829883	mean corpuscular hemoglobin	6e-06	table	2	6	1
+17903294	rs1200821	mean corpuscular hemoglobin	6e-06	table	2	7	1
+17903294	rs1397048	mean corpuscular hemoglobin	0.0	table	2	8	1
+17903294	rs10484128	platelet aggregation (ADP-induced)	6e-06	table	2	10	1
+17903294	rs565229	platelet aggregation (collagen-induced)	4e-06	table	2	12	1
+17903294	rs10506458	platelet aggregation (collagen-induced)	5e-06	table	2	13	1
+17903294	rs9253	red blood cell count	4e-06	table	2	17	1
+17903294	rs10489087	red blood cell count	5e-06	table	2	18	1
+17903294	rs636864	red blood cell count	6e-06	table	2	19	1
+17903294	rs727979	red blood cell count	7e-06	table	2	20	1
+17903294	rs6108011	red blood cell count	6e-06	table	2	21	1
+17903294	rs7159841	Viscosity	0.0	table	2	25	1
+17903294	rs1273819	Fibrinogen	-1	table	3	1	1
+17903294	rs1542535	factor vii	-1	table	3	2	1
+17903294	rs2400107	factor vii	-1	table	3	3	1
+17903294	rs10514670	von willebrand factor	-1	table	3	5	1
+17903294	rs4148751	platelet aggregation (ADP-induced)	-1	table	3	6	1
+17903294	rs17310225	platelet aggregation (collagen-induced)	-1	table	3	7	1
+17903294	rs2412522	hemoglobin	-1	table	3	8	1
+17903294	rs10514838	hemoglobin	-1	table	3	9	1
+17903294	rs38993	MCVavg12	-1	table	3	10	1
+17903294	rs9299952	MCVavg12	-1	table	3	11	1
+17903294	rs10522006	MCVavg12	-1	table	3	12	1
+17903294	rs956275	red blood cell count	-1	table	3	13	1
+17903294	rs2023048	red blood cell count	-1	table	3	14	1
+17903294	rs10500769	red blood cell count	-1	table	3	15	1
+17903294	rs10500770	red blood cell count	-1	table	3	16	1
+17903294	rs2178692	red blood cell count	-1	table	3	17	1
+17903294	rs10498633	red blood cell count	-1	table	3	18	1
+17903294	rs2271090	red blood cell count	-1	table	3	20	1
+17903294	rs486633	red blood cell count	-1	table	3	21	1
+17903294	rs20037	red blood cell count	-1	table	3	22	1
+17903294	rs561241	FVII, exam 5	0.0	table	6	1	1
+17903294	rs2066864	Fibrinogen, average	-1	table	6	2	1
+17903294	rs2066864	Fibrinogen, exam 5	-1	table	6	3	1
+17903294	rs2066864	Fibrinogen, exam 6	-1	table	6	4	1
+17903294	rs2066864	Fibrinogen, exam 7	-1	table	6	5	1
+17903294	rs1074801	Fibrinogen, average	-1	table	6	6	1
+17903294	rs1074801	Fibrinogen, exam 5	-1	table	6	7	1
+17903294	rs1074801	Fibrinogen, exam 6	-1	table	6	8	1
+17903294	rs1074801	Fibrinogen, exam 7	-1	table	6	9	1
+17903294	rs4525555	Platelet Aggregation, ADP, exam 5	-1	table	6	10	1
+17903294	rs4525555	Platelet Aggregation, Collagen, exam 5	-1	table	6	11	1
+17903294	rs4525555	Platelet Aggregation, epinephrine, exam 5	-1	table	6	12	1
+17903294	rs10514919	Platelet Aggregation, ADP, exam 5	-1	table	6	13	1
+17903294	rs10514919	Platelet Aggregation, Collagen, exam 5	-1	table	6	14	1
+17903294	rs10514919	Platelet Aggregation, epinephrine, exam 5	-1	table	6	15	1
+17903294	rs2015729	Platelet Aggregation, ADP, exam 5	-1	table	6	16	1
+17903294	rs2015729	Platelet Aggregation, Collagen, exam 5	-1	table	6	17	1
+17903294	rs2015729	Platelet Aggregation, epinephrine, exam 5	-1	table	6	18	1
+17903294	rs6950982	PAI1, average	-1	table	6	19	1
+17903294	rs6950982	PAI1, exam 5	-1	table	6	20	1
+17903294	rs6950982	PAI1, exam 6	-1	table	6	21	1
+17903294	rs6956010	PAI1, average	-1	table	6	22	1
+17903294	rs6956010	PAI1, exam 5	-1	table	6	23	1
+17903294	rs6956010	PAI1, exam 6	-1	table	6	24	1
+17903294	rs917858	wVW, exam 5	-1	table	6	25	1
+17903294	rs917859	wVW, exam 5	-1	table	6	26	1
+17903294	rs2239138	wVW, exam 5	-1	table	6	27	1
+17903294	rs216901	wVW, exam 5	-1	table	6	28	1
+17903294	rs216903	wVW, exam 5	-1	table	6	29	1
+17903294	rs216904	wVW, exam 5	-1	table	6	30	1
+17903295	rs1528753	Age at death	0.0	table	1	4	1
+17903295	rs2371208	Age at death	3e-06	table	1	5	1
+17903295	rs1412337	Morbidity-free survival at age 65	0.0	table	1	10	1
+17903295	rs32566	Morbidity-free survival at age 65	0.0	table	1	11	1
+17903295	rs10484246	Morbidity-free survival at age 65	0.0	table	1	12	1
+17903295	rs4831837	Morbidity-free survival at age 65	0.0	table	1	13	1
+17903295	rs2639889	Morbidity-free survival at age 65	1e-06	table	1	14	1
+17903295	rs10496265	Age at natural menopause‡	0.0	table	1	16	1
+17903295	rs10496262	Age at natural menopause‡	0.0	table	1	17	1
+17903295	rs958672	Age at natural menopause‡	2e-06	table	1	18	1
+17903295	rs291353	Age at natural menopause‡	5e-06	table	1	19	1
+17903295	rs7137869	Walking speed exam 7	1e-06	table	1	22	1
+17903295	rs1463605	Biologic age by osseographic scoring system	0.0	table	1	29	1
+17903295	rs7176093	Biologic age by osseographic scoring system	7e-06	table	1	30	1
+17903295	rs3772255	Biologic age by osseographic scoring system	8e-06	table	1	31	1
+17903295	rs10493513	Age at death	2e-06	table	1	40	1
+17903295	rs10493514	Age at death	3e-06	table	1	41	1
+17903295	rs4471448	Walking speed exam 7	4e-06	table	1	64	1
+17903295	rs1371217	Age at natural menopause	-1	table	1	82	1
+17903295	rs10509024	Age at natural menopause	-1	table	1	83	1
+17903295	rs4793513	Age at natural menopause	-1	table	1	84	1
+17903295	rs2769261	Walking speed, exam 7	-1	table	1	86	1
+17903295	rs921055	Walking speed, exam 7	-1	table	1	87	1
+17903295	rs2602044	Walking speed, exam 7	-1	table	1	88	1
+17903295	rs8011773	Walking speed, exam 7	-1	table	1	89	1
+17903295	rs1362626	Walking speed, exam 7	-1	table	1	90	1
+17903295	rs353810	Biologic age by osseographic scoring system	-1	table	1	92	1
+17903295	rs1203981	Biologic age by osseographic scoring system	-1	table	1	93	1
+17903295	rs2248383	Biologic age by osseographic scoring system	-1	table	1	94	1
+17903295	rs6682403	Age at Death	-1	table	2	3	2
+17903295	rs6682403	Morbidity-free at 65	-1	table	2	3	2
+17903295	rs10488907	Age at Death	-1	table	2	4	2
+17903295	rs10488907	Morbidity-free at 65	-1	table	2	4	2
+17903295	rs17190837	Age at Death	-1	table	2	5	2
+17903295	rs17190837	Morbidity-free at 65	-1	table	2	5	2
+17903295	rs4752977	Age at Death	-1	table	2	6	2
+17903295	rs4752977	Morbidity-free at 65	-1	table	2	6	2
+17903295	rs10506274	Age at Death	-1	table	2	7	2
+17903295	rs10506274	Morbidity-free at 65	-1	table	2	7	2
+17903295	rs2831154	Age at Death	-1	table	2	8	2
+17903295	rs2831154	Morbidity-free at 65	-1	table	2	8	2
+17903295	rs243725	Age at Death	-1	table	2	9	2
+17903295	rs243725	Morbidity-free at 65	-1	table	2	9	2
+17903295	rs9308261	Age at Death	-1	table	2	17	2
+17903295	rs9308261	Morbidity-free at 65	-1	table	2	17	2
+17903295	rs10490518	Age at Death	-1	table	2	18	2
+17903295	rs10490518	Morbidity-free at 65	-1	table	2	18	2
+17903295	rs2374983	Age at Death	-1	table	2	19	2
+17903295	rs2374983	Morbidity-free at 65	-1	table	2	19	2
+17903295	rs655883	Age at Death	-1	table	2	20	2
+17903295	rs655883	Morbidity-free at 65	-1	table	2	20	2
+17903295	rs1368850	Age at Death	-1	table	2	21	2
+17903295	rs1368850	Morbidity-free at 65	-1	table	2	21	2
+17903295	rs4943116	Age at Death	-1	table	2	22	2
+17903295	rs4943116	Morbidity-free at 65	-1	table	2	22	2
+17903295	rs2254191	Age at Death	-1	table	2	23	2
+17903295	rs2254191	Morbidity-free at 65	-1	table	2	23	2
+17903295	rs1620210	Age at Death	-1	table	2	24	2
+17903295	rs1620210	Morbidity-free at 65	-1	table	2	24	2
+17903295	rs2823322	Age at Death	-1	table	2	25	2
+17903295	rs2823322	Morbidity-free at 65	-1	table	2	25	2
+17903295	rs873348	Biologic age	-1	table	2	31	2
+17903295	rs873348	Walking speed	-1	table	2	31	2
+17903295	rs10520361	Biologic age	-1	table	2	32	2
+17903295	rs10520361	Walking speed	-1	table	2	32	2
+17903295	rs31564	Biologic age	-1	table	2	33	2
+17903295	rs31564	Walking speed	-1	table	2	33	2
+17903295	rs1862345	Biologic age	-1	table	2	34	2
+17903295	rs1862345	Walking speed	-1	table	2	34	2
+17903295	rs7844834	Biologic age	-1	table	2	35	2
+17903295	rs7844834	Walking speed	-1	table	2	35	2
+17903295	rs952658	Biologic age	-1	table	2	36	2
+17903295	rs952658	Walking speed	-1	table	2	36	2
+17903295	rs6487366	Biologic age	-1	table	2	37	2
+17903295	rs6487366	Walking speed	-1	table	2	37	2
+17903295	rs7135493	Biologic age	-1	table	2	38	2
+17903295	rs7135493	Walking speed	-1	table	2	38	2
+17903295	rs10492036	Biologic age	-1	table	2	39	2
+17903295	rs10492036	Walking speed	-1	table	2	39	2
+17903295	rs1978945	Biologic age	-1	table	2	40	2
+17903295	rs1978945	Walking speed	-1	table	2	40	2
+17903295	rs2165723	Biologic age	-1	table	2	41	2
+17903295	rs2165723	Walking speed	-1	table	2	41	2
+17903295	rs10492651	Biologic age	-1	table	2	42	2
+17903295	rs10492651	Walking speed	-1	table	2	42	2
+17903295	rs9301112	Biologic age	-1	table	2	43	2
+17903295	rs9301112	Walking speed	-1	table	2	43	2
+17903295	rs1474827	Biologic Age	-1	table	2	51	2
+17903295	rs1474827	Walking speed	-1	table	2	51	2
+17903295	rs10231641	Biologic Age	-1	table	2	52	2
+17903295	rs10231641	Walking speed	-1	table	2	52	2
+17903295	rs310575	Biologic Age	-1	table	2	53	2
+17903295	rs310575	Walking speed	-1	table	2	53	2
+17903295	rs10520603	Biologic Age	-1	table	2	54	2
+17903295	rs10520603	Walking speed	-1	table	2	54	2
+17903295	rs7166323	Biologic Age	-1	table	2	55	2
+17903295	rs7166323	Walking speed	-1	table	2	55	2
+17903295	rs2215921	Biologic Age	-1	table	2	56	2
+17903295	rs2215921	Walking speed	-1	table	2	56	2
+17903295	rs4943794	Age at death	-1	table	3	1	2
+17903295	rs10507486	Age at death	-1	table	3	2	2
+17903295	rs4764600	Age at death	-1	table	3	3	2
+17903295	rs683907	Age at death	-1	table	3	4	2
+17903295	rs687045	Age at death	-1	table	3	5	2
+17903295	rs1475398	Age at death	-1	table	3	6	2
+17903295	rs1343981	Age at death	-1	table	3	7	2
+17903295	rs10493379	Age at death	-1	table	3	8	2
+17903295	rs2154380	Age at death	-1	table	3	9	2
+17903295	rs6669117	Age at death	-1	table	3	10	2
+17903295	rs2374983	Age at death	-1	table	3	11	2
+17903295	rs362356	Age at death	-1	table	3	12	2
+17903295	rs911847	Age at death	-1	table	3	13	2
+17903295	rs2543600	Age at death	4e-06	table	3	14	2
+17903295	rs719756	Morbidity-free survival at age 65	-1	table	3	15	2
+17903295	rs1171278	Morbidity-free survival at age 65	-1	table	3	16	2
+17903295	rs3790426	Morbidity-free survival at age 65	-1	table	3	17	2
+17903295	rs1383636	Morbidity-free survival at age 65	-1	table	3	18	2
+17903295	rs2374983	Morbidity-free survival at age 65	-1	table	3	19	2
+17903295	rs854523	Morbidity-free survival at age 65	-1	table	3	20	2
+17903295	rs10500784	Morbidity-free survival at age 65	-1	table	3	21	2
+17903295	rs2725369	Morbidity-free survival at age 65	-1	table	3	22	2
+17903295	rs1923249	Biologic Age by OSS	-1	table	3	23	2
+17903295	rs4943794	Biologic Age by OSS	-1	table	3	24	2
+17903295	rs256014	Biologic Age by OSS	-1	table	3	25	2
+17903295	rs1002666	Biologic Age by OSS	-1	table	3	26	2
+17903295	rs911847	Biologic Age by OSS	-1	table	3	27	2
+17903295	rs1927914	Biologic Age by OSS	-1	table	3	28	2
+17903295	rs9322361	Walking speed	-1	table	3	29	2
+17903295	rs6433083	Walking speed	-1	table	3	30	2
+17903295	rs2918418	Walking speed	-1	table	3	31	2
+17903295	rs10515522	Walking speed	-1	table	3	32	2
+17903295	rs2833485	Walking speed	-1	table	3	33	2
+17903295	rs728546	Walking speed	-1	table	3	34	2
+17903295	rs6700734	Walking speed	-1	table	3	35	2
+17903296	rs6600671	neck section modulus**	1e-06	table	1	3	1
+17903296	rs2053506	NeckZ1	4e-06	table	1	4	1
+17903296	rs10510628	trochanter bmd**	3e-06	table	1	5	1
+17903296	rs2054989	shaftz1r	1e-06	table	1	6	1
+17903296	rs922948	shaft width**	2e-06	table	1	7	1
+17903296	rs991258	shaft width**	1e-06	table	1	8	1
+17903296	rs9291683	fnbmd	2e-06	table	1	9	1
+17903296	rs2548003	neck section modulus**	0.0	table	1	10	1
+17903296	rs10515148	neck section modulus**	1e-06	table	1	11	1
+17903296	rs10514345	lumbar spine bmd**	2e-06	table	1	12	1
+17903296	rs4715166	shaftz1r	3e-06	table	1	14	1
+17903296	rs2214681	fnbmd	3e-06	table	1	15	1
+17903296	rs10503887	shaft section modulus**	0.0	table	1	16	1
+17903296	rs2165468	femoral bmd**	1e-06	table	1	17	1
+17903296	rs1452928	shaft width**	1e-06	table	1	18	1
+17903296	rs638882	neck section modulus**	3e-06	table	1	19	1
+17903296	rs10492096	shaft section modulus**	3e-06	table	1	20	1
+17903296	rs10506701	trochanter bmd**	1e-06	table	1	21	1
+17903296	rs10506821	shaft width**	0.0	table	1	22	1
+17903296	rs1590305	lsbmd	3e-06	table	1	23	1
+17903296	rs9317284	femoral bmd**	0.0	table	1	24	1
+17903296	rs4087296	trochanter bmd**	0.0	table	1	25	1
+17903296	rs4131805	necklengf	2e-06	table	1	26	1
+17903296	rs4811196	trochanter bmd**	1e-06	table	1	27	1
+17903296	rs1395548	shaftz1r	1e-06	table	1	33	1
+17903296	rs1538173	femoral bmd**	3e-06	table	1	34	1
+17903296	rs3762397	trochanter bmd**	0.0	table	1	35	1
+17903296	rs9287234	shaft section modulus**	8e-06	table	1	36	1
+17903296	rs914951	trochanter bmd**	9e-06	table	1	37	1
+17903296	rs4143244	NeckW1	1e-06	table	1	38	1
+17903296	rs432446	nsa1	5e-06	table	1	42	1
+17903296	rs1552896	nsa1	9e-06	table	1	49	1
+17903296	rs7857590	lsbmd	8e-06	table	1	50	1
+17903296	rs10508076	femoral bmd**	4e-06	table	1	58	1
+17903296	rs1759687	femoral neck length**	-1	table	1	67	1
+17903296	rs2320625	shaft width**	-1	table	1	68	1
+17903296	rs1304771	nsa1	-1	table	1	69	1
+17903296	rs842288	fnbmd	-1	table	1	70	1
+17903296	rs1386389	NeckZ1	-1	table	1	71	1
+17903296	rs2094541	NeckW1	-1	table	1	72	1
+17903296	rs10492028	neckz1rm	-1	table	1	73	1
+17903296	rs10518923	ShaftZ1	-1	table	1	74	1
+17903296	rs10492922	fnbmd	-1	table	1	76	1
+17903296	rs6502901	NeckZ1	-1	table	1	77	1
+17903296	rs8081154	fnbmd	-1	table	1	78	1
+17903296	rs750160	NeckW1	-1	table	1	79	1
+17903296	rs7290139	ShaftZ1	-1	table	1	80	1
+17903296	rs1801133	shaft section modulus**	-1	table	3	1	2
+17903296	rs1801133	nsa1	-1	table	3	1	2
+17903296	rs1801133	shaft section modulus**	-1	table	3	1	4
+17903296	rs1801133	nsa1	-1	table	3	1	4
+17903296	rs2234693	necklengf	-1	table	3	4	2
+17903296	rs2234693	femoral neck length**	-1	table	3	4	2
+17903296	rs3866461	necklengf	-1	table	3	4	4
+17903296	rs3866461	femoral neck length**	-1	table	3	4	4
+17903296	rs1884052	shaft section modulus**	-1	table	3	5	4
+17903296	rs1884052	shaftz1r	-1	table	3	5	4
+17903296	rs3778099	fnbmd	-1	table	3	6	4
+17903296	rs3778099	femoral bmd**	-1	table	3	6	4
+17903296	rs9340799	fnbmd	-1	table	3	7	2
+17903296	rs9340799	femoral bmd**	-1	table	3	7	2
+17903296	rs4988321	shaft section modulus**	-1	table	3	8	2
+17903296	rs4988321	femoral bmd**	-1	table	3	8	2
+17903296	rs4988300	shaft section modulus**	-1	table	3	8	4
+17903296	rs4988300	femoral bmd**	-1	table	3	8	4
+17903296	rs627174	shaft section modulus**	-1	table	3	9	2
+17903296	rs627174	femoral bmd**	-1	table	3	9	2
+17903296	rs4988300	shaft section modulus**	-1	table	3	9	4
+17903296	rs4988300	femoral bmd**	-1	table	3	9	4
+17903296	rs3736228	shaft section modulus**	-1	table	3	10	2
+17903296	rs3736228	femoral bmd**	-1	table	3	10	2
+17903296	rs4988300	shaft section modulus**	-1	table	3	10	4
+17903296	rs4988300	femoral bmd**	-1	table	3	10	4
+17903296	rs11568820	lsbmd	-1	table	3	11	2
+17903296	rs11568820	neckz1rm	-1	table	3	11	2
+17903296	rs2189480	lsbmd	-1	table	3	11	4
+17903296	rs2189480	neckz1rm	-1	table	3	11	4
+17903296	rs10735810	lsbmd	-1	table	3	12	2
+17903296	rs10735810	neckz1rm	-1	table	3	12	2
+17903296	rs2189480	lsbmd	-1	table	3	12	4
+17903296	rs2189480	neckz1rm	-1	table	3	12	4
+17903296	rs1544410	lsbmd	-1	table	3	13	2
+17903296	rs1544410	neckz1rm	-1	table	3	13	2
+17903296	rs2189480	lsbmd	-1	table	3	13	4
+17903296	rs2189480	neckz1rm	-1	table	3	13	4
+17903296	rs7975232	lsbmd	-1	table	3	14	2
+17903296	rs7975232	neckz1rm	-1	table	3	14	2
+17903296	rs2189480	lsbmd	-1	table	3	14	4
+17903296	rs2189480	neckz1rm	-1	table	3	14	4
+17903296	rs731236	lsbmd	-1	table	3	15	2
+17903296	rs731236	neckz1rm	-1	table	3	15	2
+17903296	rs2189480	lsbmd	-1	table	3	15	4
+17903296	rs2189480	neckz1rm	-1	table	3	15	4
+17903296	rs700518	nsa1	-1	table	3	16	2
+17903296	rs700518	nsa1	-1	table	3	16	2
+17903296	rs10519297	nsa1	-1	table	3	16	4
+17903296	rs10519297	nsa1	-1	table	3	16	4
+17903296	rs2008691	nsa1	-1	table	3	17	4
+17903296	rs2008691	nsa1	-1	table	3	17	4
+17903296	rs4775936	nsa1	-1	table	3	18	2
+17903296	rs4775936	nsa1	-1	table	3	18	2
+17903296	rs10519297	nsa1	-1	table	3	18	4
+17903296	rs10519297	nsa1	-1	table	3	18	4
+17903296	rs10046	nsa1	-1	table	3	19	2
+17903296	rs10046	nsa1	-1	table	3	19	2
+17903296	rs10519297	nsa1	-1	table	3	19	4
+17903296	rs10519297	nsa1	-1	table	3	19	4
+17903296	rs11575899	nsa1	-1	table	3	20	2
+17903296	rs11575899	nsa1	-1	table	3	20	2
+17903296	rs10519297	nsa1	-1	table	3	20	4
+17903296	rs10519297	nsa1	-1	table	3	20	4
+17903296	rs1107946	shaftz1r	-1	table	3	21	2
+17903296	rs1107946	neckw1rf	-1	table	3	21	2
+17903296	rs2075555	shaftz1r	-1	table	3	21	4
+17903296	rs2075555	neckw1rf	-1	table	3	21	4
+17903296	rs11327935	shaftz1r	-1	table	3	22	2
+17903296	rs11327935	neckw1rf	-1	table	3	22	2
+17903296	rs2075555	shaftz1r	-1	table	3	22	4
+17903296	rs2075555	neckw1rf	-1	table	3	22	4
+17903296	rs1800012	shaftz1r	-1	table	3	23	2
+17903296	rs1800012	neckw1rf	-1	table	3	23	2
+17903296	rs2075555	shaftz1r	-1	table	3	23	4
+17903296	rs2075555	neckw1rf	-1	table	3	23	4
+17903297	rs1970546	tcbv	0.0	table	1	3	1
+17903297	rs2179965	f3	1e-06	table	1	4	1
+17903297	rs1155865	boston naming test	2e-06	table	1	5	1
+17903297	rs2832077	f3	2e-06	table	1	6	1
+17903297	rs2352904	factor 2:visual memory and organization	2e-06	table	1	7	1
+17903297	rs6914079	factor 2:visual memory and organization	2e-06	table	1	8	1
+17903297	rs9325032	factor 2:visual memory and organization	3e-06	table	1	9	1
+17903297	rs2847476	ALLV	3e-06	table	1	10	1
+17903297	rs3891355	similarities	3e-06	table	1	11	1
+17903297	rs5028798	temporal brain volume	3e-06	table	1	12	1
+17903297	rs530965	boston naming test	3e-06	table	1	13	1
+17903297	rs9303401	boston naming test	5e-06	table	1	14	1
+17903297	rs952700	tcbv	6e-06	table	1	15	1
+17903297	rs1031381	f3	6e-06	table	1	16	1
+17903297	rs10489896	factor 2:visual memory and organization	6e-06	table	1	17	1
+17903297	rs9300212	wide-range achievement test	8e-06	table	1	18	1
+17903297	rs1831521	boston naming test	8e-06	table	1	19	1
+17903297	rs934299	f3	9e-06	table	1	20	1
+17903297	rs360929	ALTHBV	9e-06	table	1	21	1
+17903297	rs2893363	factor 2:visual memory and organization	1e-05	table	1	22	1
+17903297	rs10502991	wide-range achievement test	1e-05	table	1	23	1
+17903297	rs7124781	ALLV	0.0	table	1	33	1
+17903297	rs1131497	similarities	3e-06	table	1	34	1
+17903297	rs10506065	wide-range achievement test	5e-06	table	1	35	1
+17903297	rs3852286	tcbv	6e-06	table	1	36	1
+17903297	rs2029395	factor 2:visual memory and organization	0.0	table	1	54	1
+17903297	rs1433527	temporal brain volume	0.0	table	1	56	1
+17903297	rs1547275	temporal brain volume	-1	table	1	62	1
+17903297	rs2975420	f3	-1	table	1	63	1
+17903297	rs2765241	boston naming test	-1	table	1	64	1
+17903297	rs293966	boston naming test	-1	table	1	65	1
+17903297	rs10512187	wide-range achievement test	-1	table	1	66	1
+17903297	rs1328822	wide-range achievement test	-1	table	1	67	1
+17903297	rs1846090	wide-range achievement test	-1	table	1	68	1
+17903297	rs10518241	wide-range achievement test	-1	table	1	69	1
+17903297	rs4426714	BMRIZLWMHVMV	-1	table	1	70	1
+17903297	rs236535	BMRIZLWMHVMV	-1	table	1	71	1
+17903297	rs502309	tcbv	5e-06	table	2	23	2
+17903297	rs1131497	similarities	3e-06	table	2	30	2
+17903297	rs2326510	parietal brain volume	-1	table	2	46	2
+17903298	rs2722425	28 yr time averaged fpg	0.0	table	1	3	2
+17903298	rs10497721	Incident DM	1e-06	table	1	4	2
+17903298	rs2877832	Fasting Insulin	2e-06	table	1	5	2
+17903298	rs2877832	homeostasis model insulin resistance	3e-06	table	1	6	2
+17903298	rs10510634	28 yr time averaged fpg	5e-06	table	1	7	2
+17903298	rs180730	fasting plasma glucose	5e-06	table	1	8	2
+17903298	rs180730	28 yr time averaged fpg	6e-06	table	1	9	2
+17903298	rs7731657	28 yr time averaged fpg	7e-06	table	1	10	2
+17903298	rs10486607	hemoglobin a1c	8e-06	table	1	11	2
+17903298	rs2722425	fasting plasma glucose	9e-06	table	1	13	2
+17903298	rs1489092	Incident DM	-1	table	1	53	2
+17903298	rs1890843	fasting plasma glucose	-1	table	1	63	2
+17903298	rs1463697	hemoglobin a1c	-1	table	1	64	2
+17903298	rs10513843	homeostasis model insulin resistance	-1	table	1	65	2
+17903298	rs4803953	Fasting insulin	-1	table	1	66	2
+17903298	rs10510060	hemoglobin a1c	-1	table	1	67	2
+17903298	rs10500300	homeostasis model insulin resistance	-1	table	1	68	2
+17903298	rs2837076	28 yr time averaged fpg	-1	table	1	69	2
+17903298	rs10497392	hemoglobin a1c	-1	table	1	70	2
+17903298	rs876362	28 yr time averaged fpg	-1	table	1	71	2
+17903298	rs10513860	Fasting insulin	-1	table	1	72	2
+17903298	rs1882347	fasting plasma glucose	-1	table	1	73	2
+17903298	rs10512296	fasting plasma glucose	-1	table	1	74	2
+17903298	rs2444962	28 yr time averaged fpg	-1	table	1	76	2
+17903298	rs10494382	hemoglobin a1c	-1	table	1	77	2
+17903298	rs757110	Fasting insulin	-1	table	3	1	1
+17903298	rs757110	Fasting insulin	-1	table	3	1	1
+17903298	rs878208	Fasting insulin	-1	table	3	1	3
+17903298	rs878208	Fasting insulin	-1	table	3	1	3
+17903298	rs722341	28 yr time averaged fpg	-1	table	3	2	3
+17903298	rs722341	hemoglobin a1c	-1	table	3	2	3
+17903298	rs916829	Fasting insulin	-1	table	3	3	3
+17903298	rs916829	Fasting insulin	-1	table	3	3	3
+17903298	rs2299641	Fasting insulin	-1	table	3	5	3
+17903298	rs2190454	Fasting insulin	-1	table	3	6	3
+17903298	rs1801282	28 yr time averaged fpg	-1	table	3	7	1
+17903298	rs10510422	28 yr time averaged fpg	-1	table	3	7	3
+17903298	rs3856808	28 yr time averaged fpg	-1	table	3	8	3
+17903298	rs10510421	28 yr time averaged fpg	-1	table	3	9	3
+17903298	rs2938392	Fasting insulin	-1	table	3	10	3
+17903298	rs2938392	Fasting insulin	-1	table	3	10	3
+17903298	rs10510418	Fasting insulin	-1	table	3	12	3
+17903298	rs1801282	hemoglobin a1c	-1	table	3	13	3
+17903298	rs1899951	hemoglobin a1c	-1	table	3	14	3
+17903298	rs4135268	28 yr time averaged fpg	-1	table	3	15	3
+17903298	rs2292101	28 yr time averaged fpg	-1	table	3	17	3
+17903298	rs2292101	Fasting insulin	-1	table	3	17	3
+17903298	rs10510419	28 yr time averaged fpg	-1	table	3	18	3
+17903298	rs10510410	fasting plasma glucose	-1	table	3	19	3
+17903298	rs10510410	Fasting insulin	-1	table	3	19	3
+17903298	rs10510411	fasting plasma glucose	-1	table	3	20	3
+17903298	rs10510411	Fasting insulin	-1	table	3	20	3
+17903298	rs10510412	fasting plasma glucose	-1	table	3	21	3
+17903298	rs10510412	Fasting insulin	-1	table	3	21	3
+17903298	rs12255372	hemoglobin a1c	-1	table	3	22	1
+17903298	rs10509967	hemoglobin a1c	-1	table	3	22	3
+17903298	rs7903146	28 yr time averaged fpg	-1	table	3	23	1
+17903298	rs7903146	28 yr time averaged fpg	-1	table	3	23	1
+17903298	rs7100927	28 yr time averaged fpg	-1	table	3	23	3
+17903298	rs7100927	28 yr time averaged fpg	-1	table	3	23	3
+17903298	rs10509966	hemoglobin a1c	-1	table	3	24	3
+17903298	rs10509969	Fasting insulin	-1	table	3	25	3
+17903298	rs10509969	fasting plasma glucose	-1	table	3	25	3
+17903298	rs290483	Fasting insulin	-1	table	3	26	3
+17903298	rs290483	28 yr time averaged fpg	-1	table	3	26	3
+17903298	rs7917983	28 yr time averaged fpg	-1	table	3	27	3
+17903298	rs7917983	hemoglobin a1c	-1	table	3	27	3
+17903298	rs10509970	28 yr time averaged fpg	-1	table	3	28	3
+17903298	rs10509970	28 yr time averaged fpg	-1	table	3	28	3
+17903300	rs1106683	Mean body mass index	0.0	table	1	3	1
+17903300	rs4471028	Mean waist circumference	0.0	table	1	4	1
+17903300	rs4469448	Mean waist circumference	0.0	table	1	5	1
+17903300	rs6996971	Mean waist circumference	0.0	table	1	6	1
+17903300	rs10504576	Mean waist circumference	1e-06	table	1	7	1
+17903300	rs1875517	Mean waist circumference	2e-06	table	1	8	1
+17903300	rs1106684	Mean body mass index	2e-06	table	1	9	1
+17903300	rs1333026	Mean body mass index	8e-06	table	1	10	1
+17903300	rs10488165	Mean waist circumference	3e-06	table	1	33	1
+17903300	rs2206682	Mean waist circumference	4e-06	table	1	34	1
+17903300	rs2223662	Mean waist circumference	5e-06	table	1	35	1
+17903300	rs953536	Mean waist circumference	8e-06	table	1	36	1
+17903300	rs9309153	Mean body mass index	-1	table	1	63	1
+17903300	rs1992901	Mean waist circumference	-1	table	1	64	1
+17903300	rs10518418	Mean body mass index	-1	table	1	65	1
+17903301	rs1379659	left ventricular diastolic dimension	0.0	table	1	5	1
+17903301	rs366676	left ventricular fractional shortening	2e-06	table	1	6	1
+17903301	rs666088	left ventricular diastolic dimension	5e-06	table	1	7	1
+17903301	rs10504543	left ventricular systolic dimension	5e-06	table	1	8	1
+17903301	rs1935881	Left atrial diameter	6e-06	table	1	9	1
+17903301	rs10498091	left ventricular mass	6e-06	table	1	10	1
+17903301	rs10493389	Left atrial diameter	7e-06	table	1	11	1
+17903301	rs4920799	left ventricular diastolic dimension	7e-06	table	1	12	1
+17903301	rs10519181	left ventricular wall thickness	1e-05	table	1	13	1
+17903301	rs6847149	Stage 2 Exercise heart rate	3e-06	table	1	23	1
+17903301	rs2819770	Stage 2 Exercise heart rate	4e-06	table	1	24	1
+17903301	rs746463	Post-exercise 3 minute recovery systolic blood pressure	5e-06	table	1	25	1
+17903301	rs2056387	Stage 2 Exercise heart rate	5e-06	table	1	26	1
+17903301	rs2553268	Stage 2 Exercise systolic blood pressure	6e-06	table	1	27	1
+17903301	rs3814219	Baseline brachial artery flow velocity	1e-06	table	1	31	1
+17903301	rs1392284	left ventricular systolic dimension	6e-06	table	1	43	1
+17903301	rs2016718	Post-exercise 3 minute recovery systolic blood pressure	0.0	table	1	61	1
+17903301	rs1029947	Post-exercise 3 minute recovery heart rate	1e-06	table	1	62	1
+17903301	rs1029946	Post-exercise 3 minute recovery heart rate	4e-06	table	1	63	1
+17903301	rs1958055	Stage 2 Exercise heart rate	9e-06	table	1	64	1
+17903301	rs7828552	Post-exercise 3 minute recovery systolic blood pressure	9e-06	table	1	65	1
+17903301	rs10515509	left ventricular mass	-1	table	1	81	1
+17903301	rs10513442	Aortic root diameter	-1	table	1	82	1
+17903301	rs3813713	left ventricular wall thickness	-1	table	1	83	1
+17903301	rs10511550	left ventricular wall thickness	-1	table	1	84	1
+17903301	rs2438085	left ventricular wall thickness	-1	table	1	86	1
+17903301	rs7327514	Left atrial diameter	-1	table	1	87	1
+17903301	rs1719	left ventricular wall thickness	-1	table	1	88	1
+17903301	rs10489725	left ventricular mass	-1	table	1	89	1
+17903301	rs1989051	left ventricular mass	-1	table	1	90	1
+17903301	rs190982	Stage 2 Exercise heart rate	-1	table	1	95	1
+17903301	rs7286558	Stage 2 Exercise heart rate	-1	table	1	97	1
+17903301	rs10483844	Stage 2 Exercise heart rate	-1	table	1	98	1
+17903301	rs1425727	Baseline brachial artery flow velocity	-1	table	1	102	1
+17903301	rs3007456	Baseline brachial artery flow velocity	-1	table	1	104	1
+17903301	rs4920799	left ventricular diastolic dimension	-1	table	2	3	1
+17903301	rs1379659	left ventricular diastolic dimension	-1	table	2	4	1
+17903301	rs26438	Aortic root diameter	-1	table	2	5	1
+17903301	rs473664	left ventricular mass	-1	table	2	6	1
+17903301	rs10488825	Aortic root diameter	-1	table	2	7	1
+17903301	rs10498091	left ventricular mass	-1	table	2	8	1
+17903301	rs10514431	left ventricular diastolic dimension	-1	table	2	9	1
+17903301	rs10505599	left ventricular diastolic dimension	-1	table	2	10	1
+17903301	rs10504543	left ventricular systolic dimension	-1	table	2	11	1
+17903301	rs2900208	left ventricular diastolic dimension	-1	table	2	12	1
+17903301	rs861857	left ventricular mass	-1	table	2	13	1
+17903301	rs10501940	left ventricular systolic dimension	-1	table	2	14	1
+17903301	rs707025	left ventricular systolic dimension	-1	table	2	15	1
+17903301	rs1395204	Aortic root diameter	-1	table	2	16	1
+17903301	rs10513272	left ventricular diastolic dimension	-1	table	2	17	1
+17903301	rs1379659	Across left ventricular phenotypes	-1	table	2	21	1
+17903301	rs10498091	Across left ventricular phenotypes	-1	table	2	22	1
+17903301	rs861857	Across left ventricular phenotypes	-1	table	2	23	1
+17903301	rs473664	Across left ventricular phenotypes	-1	table	2	24	1
+17903301	rs3766377	Across left ventricular phenotypes	-1	table	2	25	1
+17903301	rs10504543	Across left ventricular phenotypes	-1	table	2	26	1
+17903301	rs10518462	Across left ventricular phenotypes	-1	table	2	27	1
+17903301	rs1959289	Across left ventricular phenotypes	-1	table	2	28	1
+17903301	rs667269	Across left ventricular phenotypes	-1	table	2	29	1
+17903301	rs1959290	Across left ventricular phenotypes	-1	table	2	30	1
+17903301	rs1959291	Across left ventricular phenotypes	-1	table	2	31	1
+17903301	rs10485104	Across left ventricular phenotypes	-1	table	2	32	1
+17903301	rs10491574	Across left ventricular phenotypes	-1	table	2	33	1
+17903301	rs707025	Across left ventricular phenotypes	-1	table	2	34	1
+17903301	rs525960	Across left ventricular phenotypes	-1	table	2	35	1
+17903301	rs1560916	Across phenotypes	-1	table	2	39	1
+17903301	rs1432214	Across phenotypes	-1	table	2	40	1
+17903301	rs10512056	Across phenotypes	-1	table	2	41	1
+17903301	rs2056387	Across phenotypes	-1	table	2	42	1
+17903301	rs6560812	Across phenotypes	-1	table	2	43	1
+17903301	rs2912991	Across phenotypes	-1	table	2	47	1
+17903301	rs10510677	Across phenotypes	-1	table	2	48	1
+17903301	rs10493052	Across phenotypes	-1	table	2	49	1
+17903301	rs7155941	Across phenotypes	-1	table	2	50	1
+17903301	rs1954627	Across phenotypes	-1	table	2	51	1
+17903301	rs10510001	left ventricular diastolic dimension	-1	table	3	5	1
+17903301	rs10510001	left ventricular systolic dimension	-1	table	3	6	1
+17903301	rs10510000	left ventricular diastolic dimension	-1	table	3	7	1
+17903301	rs10510000	left ventricular systolic dimension	-1	table	3	8	1
+17903301	rs7902873	left ventricular diastolic dimension	-1	table	3	9	1
+17903301	rs10509999	left ventricular diastolic dimension	-1	table	3	10	1
+17903301	rs180940	left ventricular wall thickness	-1	table	3	11	1
+17903301	rs180934	left ventricular wall thickness	-1	table	3	12	1
+17903301	rs180935	left ventricular wall thickness	-1	table	3	13	1
+17903301	rs998334	left ventricular diastolic dimension	-1	table	3	14	1
+17903301	rs7902873	left ventricular systolic dimension	-1	table	3	15	1
+17903301	rs10509999	left ventricular systolic dimension	-1	table	3	16	1
+17903301	rs180935	left ventricular mass	-1	table	3	17	1
+17903301	rs180934	left ventricular mass	-1	table	3	18	1
+17903301	rs7902873	left ventricular mass	-1	table	3	19	1
+17903301	rs998334	left ventricular systolic dimension	-1	table	3	20	1
+17903301	rs10510001	left ventricular fractional shortening	-1	table	3	21	1
+17903301	rs10510000	left ventricular fractional shortening	-1	table	3	22	1
+17903301	rs180940	left ventricular mass	-1	table	3	23	1
+17903301	rs10510001	left ventricular mass	-1	table	3	24	1
+17903301	rs6585258	left ventricular mass	-1	table	3	25	1
+17903301	rs10510000	left ventricular mass	-1	table	3	26	1
+17903301	rs10495300	Left atrial diameter	-1	table	3	27	1
+17903301	rs2478518	left ventricular fractional shortening	-1	table	3	28	1
+17903301	rs1202585	left ventricular wall thickness	-1	table	3	29	1
+17903301	rs2180478	left ventricular diastolic dimension	-1	table	3	30	1
+17903301	rs758216	Aortic root diameter	-1	table	3	31	1
+17903301	rs1202524	left ventricular diastolic dimension	-1	table	3	32	1
+17903301	rs2478518	left ventricular systolic dimension	-1	table	3	33	1
+17903301	rs731824	Left atrial diameter	-1	table	3	34	1
+17903301	rs1202585	left ventricular mass	-1	table	3	35	1
+17903301	rs1059502	Aortic root diameter	-1	table	3	36	1
+17903301	rs1357424	left ventricular fractional shortening	-1	table	3	37	1
+17903301	rs1357424	left ventricular systolic dimension	-1	table	3	38	1
+17903301	rs1059502	left ventricular diastolic dimension	-1	table	3	39	1
+17903301	rs2331406	Aortic root diameter	-1	table	3	40	1
+17903301	rs10513333	Left atrial diameter	-1	table	3	41	1
+17903301	rs729761	left ventricular fractional shortening	-1	table	3	42	1
+17903301	rs729761	Left atrial diameter	-1	table	3	43	1
+17903301	rs729761	left ventricular systolic dimension	-1	table	3	44	1
+17903301	rs2396083	left ventricular fractional shortening	-1	table	3	45	1
+17903301	rs2396083	Left atrial diameter	-1	table	3	46	1
+17903301	rs2396083	left ventricular systolic dimension	-1	table	3	47	1
+17903301	rs10491167	Stage 2 Exercise systolic blood pressure	-1	table	3	55	1
+17903301	rs10491168	Stage 2 Exercise systolic blood pressure	-1	table	3	56	1
+17903301	rs721575	Post-exercise 3 minute recovery heart rate	-1	table	3	57	1
+17903301	rs2419857	Stage 2 Exercise heart rate	-1	table	3	58	1
+17903301	rs4345919	Post-exercise 3 minute recovery heart rate	-1	table	3	59	1
+17903301	rs1752189	Post-exercise 3 minute recovery systolic blood pressure	-1	table	3	60	1
+17903301	rs758216	Post-exercise 3 minute recovery systolic blood pressure	-1	table	3	61	1
+17903301	rs10495298	Stage 2 Exercise systolic blood pressure	-1	table	3	62	1
+17903301	rs2478516	Stage 2 Exercise systolic blood pressure	-1	table	3	63	1
+17903301	rs275678	Post-exercise 3 minute recovery systolic blood pressure	-1	table	3	64	1
+17903301	rs427832	Post-exercise 3 minute recovery systolic blood pressure	-1	table	3	65	1
+17903301	rs1949350	Stage 2 Exercise heart rate	-1	table	3	66	1
+17903301	rs729761	Stage 2 Exercise heart rate	-1	table	3	67	1
+17903301	rs2303928	Stage 2 Exercise heart rate	-1	table	3	68	1
+17903301	rs180940	brachial artery hyperemic flow velocity	-1	table	3	76	1
+17903301	rs180935	brachial artery hyperemic flow velocity	-1	table	3	77	1
+17903301	rs180934	brachial artery hyperemic flow velocity	-1	table	3	78	1
+17903301	rs10509999	brachial artery hyperemic flow velocity	-1	table	3	79	1
+17903301	rs10510000	brachial artery hyperemic flow velocity	-1	table	3	80	1
+17903301	rs10510001	brachial artery hyperemic flow velocity	-1	table	3	81	1
+17903301	rs758216	Baseline brachial artery flow velocity	-1	table	3	82	1
+17903301	rs1202585	Baseline brachial artery diameter	-1	table	3	83	1
+17903301	rs1202585	brachial artery hyperemic flow velocity	-1	table	3	84	1
+17903301	rs1492090	brachial artery hyperemic flow velocity	-1	table	3	85	1
+17903301	rs427832	Baseline brachial artery flow velocity	-1	table	3	86	1
+17903301	rs833048	brachial artery hyperemic flow velocity	-1	table	3	87	1
+17903301	rs10498756	brachial artery hyperemic flow velocity	-1	table	3	88	1
+17903301	rs741067	Baseline brachial artery diameter	-1	table	3	89	1
+17903301	rs1006581	Baseline brachial artery diameter	-1	table	3	90	1
+17903301	rs2215564	brachial artery hyperemic flow velocity	-1	table	3	91	1
+17903302	rs1963982	blood-pressure	3e-06	table	1	5	2
+17903302	rs935334	blood-pressure	3e-06	table	1	6	2
+17903302	rs4370013	blood-pressure	4e-06	table	1	7	2
+17903302	rs10491334	blood-pressure	4e-06	table	1	8	2
+17903302	rs2121070	blood-pressure	5e-06	table	1	9	2
+17903302	rs2509458	blood-pressure	7e-06	table	1	10	2
+17903302	rs10493340	blood-pressure	2e-06	table	1	18	2
+17903302	rs6063312	RW	2e-06	table	1	31	2
+17903302	rs770189	CB-PWV	3e-06	table	1	32	2
+17903302	rs10514688	CB-PWV	6e-06	table	1	33	2
+17903302	rs7042864	CB-PWV	6e-06	table	1	34	2
+17903302	rs1322512	MAP	8e-06	table	1	35	2
+17903302	rs1590919	blood-pressure	1e-06	table	1	50	2
+17903302	rs636864	blood-pressure	2e-06	table	1	51	2
+17903302	rs1588260	blood-pressure	3e-06	table	1	61	2
+17903302	rs1539377	FW	5e-06	table	1	72	2
+17903302	rs792833	RW	6e-06	table	1	73	2
+17903302	rs7591163	blood-pressure	0.0	table	2	3	1
+17903302	rs3096277	blood-pressure	0.0	table	2	16	1
+17903302	rs1721359	blood-pressure	1e-05	table	2	17	1
+17903302	rs3773643	MAP	0.0	table	2	29	1
+17903302	rs3793427	FW	2e-06	table	2	30	1
+17903302	rs6492654	RW	2e-06	table	2	31	1
+17903302	rs1367248	CF-PWV	3e-06	table	2	32	1
+17903302	rs10521232	CF-PWV	4e-06	table	2	33	1
+17903302	rs3766680	FW	4e-06	table	2	34	1
+17903302	rs1371924	RW	4e-06	table	2	35	1
+17903302	rs10488172	RW	8e-06	table	2	36	1
+17903302	rs731824	MAP	-1	table	4	23	2
+17903302	rs2478518	FW	-1	table	4	24	2
+17903302	rs2478516	FW	-1	table	4	25	2
+17903302	rs2478516	RW	-1	table	4	26	2
+17903302	rs1059502	MAP	-1	table	4	27	2
+17903302	rs427832	FW	-1	table	4	28	2
+17903302	rs2717594	CF-PWV	-1	table	4	29	2
+17903302	rs3910046	CF-PWV	-1	table	4	30	2
+17903302	rs9307847	CB-PWV	-1	table	4	31	2
+17903302	rs3910046	CB-PWV	-1	table	4	32	2
+17903302	rs10519959	CB-PWV	-1	table	4	33	2
+17903302	rs3846317	RW	-1	table	4	34	2
+17903302	rs4835136	CB-PWV	-1	table	4	35	2
+17903302	rs3846318	RW	-1	table	4	36	2
+17903302	rs10519958	RW	-1	table	4	37	2
+17903302	rs16776	FW	-1	table	4	38	2
+17903302	rs3911890	FW	-1	table	4	39	2
+17903303	rs1376877	Internal carotid artery intimal medial thickness	0.0	table	1	3	2
+17903303	rs2390582	Coronary artery calcification	1e-06	table	1	4	2
+17903303	rs3849150	Abdominal aortic calcification	2e-06	table	1	5	2
+17903303	rs2896103	Ankle brachial index	5e-06	table	1	6	2
+17903303	rs10483853	Coronary artery calcification	6e-06	table	1	7	2
+17903303	rs1400544	Common carotid artery intimal medial thickness	6e-06	table	1	8	2
+17903303	rs7715811	Ankle brachial index	6e-06	table	1	9	2
+17903303	rs10507130	Coronary artery calcification	7e-06	table	1	10	2
+17903303	rs1320267	Ankle brachial index	7e-06	table	1	11	2
+17903303	rs1350445	Ankle brachial index	8e-06	table	1	12	2
+17903303	rs1502050	Ankle brachial index	9e-06	table	1	13	2
+17903303	rs4814615	Common carotid artery intimal medial thickness	3e-06	table	1	33	2
+17903303	rs6053733	Common carotid artery intimal medial thickness	4e-06	table	1	34	2
+17903303	rs10499903	Ankle brachial index	4e-06	table	1	35	2
+17903303	rs9302997	Ankle brachial index	5e-06	table	1	36	2
+17903303	rs590183	Ankle brachial index	9e-06	table	1	37	2
+17903303	rs6832344	Ankle brachial index	1e-05	table	1	38	2
+17903303	rs959987	Internal carotid artery intimal medial thickness	-1	table	1	64	2
+17903303	rs1180937	Internal carotid artery intimal medial thickness	-1	table	1	65	2
+17903303	rs17030524	Abdominal aortic calcification	-1	table	1	66	2
+17903303	rs394884	Ankle brachial index	-1	table	1	68	2
+17903303	rs300574	Internal carotid artery intimal medial thickness	-1	table	1	69	2
+17903303	rs714647	Internal carotid artery intimal medial thickness	-1	table	1	70	2
+17903303	rs1106679	Coronary artery calcification	-1	table	1	71	2
+17903303	rs1454183	Abdominal aortic calcification	-1	table	1	72	2
+17903303	rs7000744	Coronary artery calcification	-1	table	1	73	2
+17903303	rs10483084	Ankle brachial index	-1	table	1	74	2
+17903303	rs1948685	Internal carotid artery intimal medial thickness	-1	table	1	75	2
+17903303	rs10832008	Internal carotid artery intimal medial thickness	-1	table	1	76	2
+17903303	rs10483853	Coronary artery calcification	1e-05	table	2	19	2
+17903303	rs3762823	Common carotid artery intimal medial thickness	-1	table	3	3	3
+17903303	rs3853250	Ankle brachial index	-1	table	3	8	3
+17903303	rs3853251	Ankle brachial index	-1	table	3	9	3
+17903303	rs2813563	Abdominal aortic calcification	-1	table	3	14	3
+17903303	rs725467	Abdominal aortic calcification	-1	table	3	15	3
+17903303	rs10240716	Ankle brachial index	-1	table	3	18	3
+17903303	rs10505346	Ankle brachial index	-1	table	3	22	3
+17903303	rs4444073	Ankle brachial index	-1	table	3	25	3
+17903303	rs1467558	Coronary artery calcification	-1	table	3	39	3
+17903304	rs958546	atrial fibrillation	5e-06	table	1	3	1
+17903304	rs499818	Major cardiovascular disease	7e-06	table	1	4	1
+17903304	rs4776472	atrial fibrillation	8e-06	table	1	5	1
+17903304	rs740363	heart failure	9e-06	table	1	6	1
+17903304	rs10501920	atrial fibrillation	9e-06	table	1	7	1
+17903304	rs2549513	Major coronary heart disease	1e-05	table	1	8	1
+17903304	rs7983138	Major coronary heart disease	-1	table	3	4	2
+17903304	rs2985183	Major coronary heart disease	-1	table	3	5	2
+17903304	rs7984952	Major coronary heart disease	-1	table	3	6	2
+17903304	rs117395	Major coronary heart disease	-1	table	3	7	2
+17903304	rs4603405	Major coronary heart disease	-1	table	3	8	2
+17903304	rs10507391	Major coronary heart disease	-1	table	3	9	2
+17903304	rs10507391	Major cardiovascular disease	-1	table	3	10	2
+17903304	rs7995384	Major coronary heart disease	-1	table	3	11	2
+17903304	rs618675	Major coronary heart disease	-1	table	3	12	2
+17903304	rs10489658	Major coronary heart disease	-1	table	3	13	2
+17903304	rs618675	Major cardiovascular disease	-1	table	3	14	2
+17903304	rs10493062	Major coronary heart disease	-1	table	3	15	2
+17903304	rs768586	Major coronary heart disease	-1	table	3	16	2
+17903304	rs10489658	Major cardiovascular disease	-1	table	3	17	2
+17903304	rs10489656	Major coronary heart disease	-1	table	3	18	2
+17903304	rs10489656	Major cardiovascular disease	-1	table	3	19	2
+17903304	rs2093185	Major cardiovascular disease	-1	table	3	20	2
+17903304	rs6686484	Major coronary heart disease	-1	table	3	21	2
+17903304	rs10492225	Major coronary heart disease	-1	table	3	24	2
+17903304	rs2033546	Major cardiovascular disease	-1	table	3	25	2
+17903304	rs2863274	Major cardiovascular disease	-1	table	3	26	2
+17903304	rs2033546	Major coronary heart disease	-1	table	3	27	2
+17903304	rs2863274	Major coronary heart disease	-1	table	3	28	2
+17903304	rs2096767	Major cardiovascular disease	-1	table	3	29	2
+17903304	rs2096767	Major coronary heart disease	-1	table	3	30	2
+17903304	rs566125	Major cardiovascular disease	-1	table	3	31	2
+17903304	rs2114580	Major coronary heart disease	-1	table	3	33	2
+17903304	rs2114580	Major cardiovascular disease	-1	table	3	34	2
+17903304	rs2317951	Major cardiovascular disease	-1	table	3	35	2
+17903304	rs2317951	Major coronary heart disease	-1	table	3	36	2
+17903304	rs2317948	Major coronary heart disease	-1	table	3	37	2
+17903304	rs2317948	Major cardiovascular disease	-1	table	3	38	2
+17903304	rs911839	Major cardiovascular disease	-1	table	3	39	2
+17903304	rs911839	Major coronary heart disease	-1	table	3	40	2
+17903304	rs264986	Major coronary heart disease	-1	table	3	41	2
+17903304	rs758216	Major coronary heart disease	-1	table	3	47	2
+17903304	rs10512574	Major coronary heart disease	-1	table	3	51	2
+17903304	rs10488674	Major coronary heart disease	-1	table	3	52	2
+17903304	rs7277304	Major coronary heart disease	-1	table	3	53	2
+17903304	rs9305551	Major coronary heart disease	-1	table	3	54	2
+17903304	rs752876	Major coronary heart disease	-1	table	3	59	2
+17903304	rs40949	Major coronary heart disease	-1	table	3	61	2
+17903304	rs185021	Major coronary heart disease	-1	table	3	62	2
+17903304	rs10484326	Major coronary heart disease	-1	table	3	68	2
+17903304	rs3951042	Major coronary heart disease	-1	table	3	76	2
+17903304	rs724868	Major coronary heart disease	-1	table	3	77	2
+17903304	rs9320660	Major coronary heart disease	-1	table	3	78	2
+17903304	rs10484286	Major coronary heart disease	-1	table	3	79	2
+17903304	rs1133415	Major coronary heart disease	-1	table	3	81	2
+17903304	rs832177	Major coronary heart disease	-1	table	3	83	2
+17903304	rs10519186	Major coronary heart disease	-1	table	3	84	2
+17903304	rs902027	Major coronary heart disease	-1	table	3	85	2
+17903304	rs10497521	Major coronary heart disease	-1	table	3	86	2
+17903305	rs7564590	Breast cancer	-1	table	2	4	2
+17903305	rs7558615	Breast cancer	-1	table	2	5	2
+17903305	rs2410373	Prostate cancer	-1	table	2	7	2
+17903306	rs10507380	QT	8e-06	table	2	3	2
+17903306	rs882300	PR	0.0	table	2	25	2
+17903306	rs1395479	LF/HF	7e-06	table	2	36	2
+17903306	rs9315385	TP	8e-06	table	2	47	2
+17903306	rs1011725	PR	-1	table	3	3	2
+17903306	rs10512617	QT	-1	table	3	4	2
+17903306	rs164462	QT	-1	table	3	5	2
+17903306	rs10519165	LF/HF	-1	table	3	9	2
+17903306	rs10500600	TP	-1	table	3	10	2
+17903306	rs10494365	QT	-1	table	4	3	1
+17903306	rs347311	QT	-1	table	4	6	1
+17903306	rs10503797	RR	-1	table	4	12	1
+17903306	rs10515621	RR	-1	table	4	13	1
+17903306	rs520180	PR	-1	table	4	17	1
+17903306	rs2195926	TP	-1	table	4	25	1
+17903306	rs9325124	TP	-1	table	4	26	1
+17903306	rs10503791	SDNN	-1	table	4	30	1
+17903306	rs2195926	SDNN	-1	table	4	31	1
+17903306	rs10503788	SDNN	-1	table	4	32	1
+17903306	rs10503789	SDNN	-1	table	4	33	1
+17903306	rs10503790	SDNN	-1	table	4	34	1
+17903306	rs10503794	SDNN	-1	table	4	35	1
+17903306	rs7000280	SDNN	-1	table	4	36	1
+17903307	rs3867498	longitudinal slope of fev	1e-06	table	1	3	1
+17903307	rs441051	mean fvc from two exams	2e-06	table	1	4	1
+17903307	rs2838815	mean fev	3e-06	table	1	5	1
+17903307	rs1455782	percent predicted fvc for latest exam	4e-06	table	1	6	1
+17903307	rs10516541	mean fvc from two exams	4e-06	table	1	7	1
+17903307	rs310558	percent predicted fev	5e-06	table	1	9	1
+17903307	rs3820928	for latest exam	5e-06	table	1	10	1
+17903307	rs730532	for latest exam	6e-06	table	1	11	1
+17903307	rs808225	percent predicted fef	7e-06	table	1	12	1
+17903307	rs4129267	for latest exam	7e-06	table	1	14	1
+17903307	rs2906966	for latest exam	8e-06	table	1	15	1
+17903307	rs357394	percent predicted fvc for latest exam	9e-06	table	1	16	1
+17903307	rs1994169	longitudinal slope of fef	1e-05	table	1	17	1
+17903307	rs2225434	mean fev	1e-05	table	1	18	1
+17903307	rs156697	mean fvc from two exams	1e-05	table	1	19	1
+17903307	rs564425	percent predicted fef	1e-05	table	1	21	1
+17903307	rs10922530	percent predicted fev	1e-06	table	1	36	1
+17903307	rs3753683	percent predicted fef	2e-06	table	1	39	1
+17903307	rs219349	percent predicted fev	6e-06	table	1	42	1
+17903307	rs219391	percent predicted fev	6e-06	table	1	44	1
+17903307	rs219326	percent predicted fev	9e-06	table	1	45	1
+17903307	rs1409149	percent predicted fef	9e-06	table	1	47	1
+17903307	rs2906966	for latest exam	8e-06	table	1	63	1
+17903307	rs2300081	mean fev	-1	table	1	74	1
+17903307	rs5909594	longitudinal slope of fef	-1	table	1	75	1
+17903307	rs10497042	percent predicted fev	-1	table	1	77	1
+17903307	rs10518669	mean fev	-1	table	1	78	1
+17903307	rs2974490	for latest exam	-1	table	1	79	1
+17903307	rs10488908	mean fvc from two exams	-1	table	1	80	1
+17903307	rs10518032	for latest exam	-1	table	1	81	1
+17903307	rs10489542	percent predicted fvc for latest exam	-1	table	1	82	1
+17903307	rs721411	for latest exam	-1	table	1	83	1
+17903307	rs753765	for latest exam	-1	table	1	84	1
+17903307	rs4918762	mean fev	-1	table	1	85	1
+17903307	rs10517825	percent predicted fvc for latest exam	-1	table	1	86	1
+17903307	rs2402446	percent predicted fvc for latest exam longitudinal slope of fev	-1	table	3	1	2
+17903307	rs10484042	percent predicted fvc for latest exam longitudinal slope of fev	-1	table	3	1	2
+17903307	rs30329	longitudinal slope of fef mean fev	-1	table	3	2	2
+17903307	rs9325117	longitudinal slope of fef mean fev	-1	table	3	2	2
+17903307	rs213987	mean fvc from two exams percent predicted fev	-1	table	3	3	2
+17903307	rs10487367	mean fvc from two exams percent predicted fev	-1	table	3	3	2
+17903307	rs3738051	longitudinal slope of fef percent predicted fef	-1	table	3	4	2
+17903307	rs423817	percent predicted fef percent predicted fef	-1	table	3	5	2
+17903307	rs842873	percent predicted fef percent predicted fef	-1	table	3	5	2
+17903307	rs542338	mean fev longitudinal slope of fev	-1	table	3	6	2
+17903307	rs156697	mean fvc from two exams	1e-05	table	3	7	2
+17903307	rs688878	percent predicted fef percent predicted fvc for latest exam	-1	table	3	8	2
+17903307	rs140289	percent predicted fvc for latest exam for latest exam	-1	table	3	9	2
+17903307	rs2267331	longitudinal slope of fev mean fev	-1	table	3	10	2
+17903307	rs10483190	longitudinal slope of fev mean fev	-1	table	3	10	2
+17903307	rs10494879	longitudinal slope of fef longitudinal slope of fev	-1	table	3	11	2
+17903307	rs495366	longitudinal slope of fef for latest exam	-1	table	3	12	2
+17903307	rs2903908	percent predicted fef	-1	table	3	13	2
+17903307	rs10484047	percent predicted fvc for latest exam longitudinal slope of fev	-1	table	3	14	2
+17903307	rs717610	mean fvc from two exams mean fev	-1	table	3	15	2
+17903307	rs7577293	mean fev	-1	table	3	16	2
+17903307	rs726289	longitudinal slope of fef	-1	table	3	17	2
+17903307	rs10489030	for latest exam percent predicted fvc for latest exam	-1	table	3	18	2
+17903307	rs3745295	longitudinal slope of fev for latest exam	-1	table	3	19	2
+17903307	rs2889529	for latest exam mean fev	-1	table	3	20	2
+17903308	rs1823068	Sleepiness	0.0	table	1	3	1
+17903308	rs2218488	Sleepiness	3e-06	table	1	4	1
+17903308	rs2247614	Sleepiness	-1	table	1	5	1
+17903308	rs7073579	Sleepiness	-1	table	1	6	1
+17903308	rs9298693	Sleepiness	-1	table	1	7	1
+17903308	rs949175	Bedtime	1e-05	table	1	8	1
+17903308	rs2288292	Bedtime	-1	table	1	9	1
+17903308	rs324981	Bedtime	-1	table	1	10	1
+17903308	rs10483871	Bedtime	-1	table	1	11	1
+17903308	rs10507551	Bedtime	-1	table	1	12	1
+17903308	rs6599077	Sleep duration	0.0	table	1	13	1
+17903308	rs10492604	Sleep duration	4e-06	table	1	14	1
+17903308	rs10489832	Sleep duration	-1	table	1	15	1
+17903308	rs2256551	Sleep duration	-1	table	1	16	1
+17903308	rs2165207	Sleep duration	-1	table	1	17	1
+17903308	rs10510835	Sleepiness	-1	table	1	23	1
+17903308	rs2189829	Sleepiness	-1	table	1	24	1
+17903308	rs434052	Sleepiness	-1	table	1	25	1
+17903308	rs4896580	Sleepiness	-1	table	1	26	1
+17903308	rs10520010	Sleepiness	-1	table	1	27	1
+17903308	rs1940013	Bedtime	6e-06	table	1	28	1
+17903308	rs2525724	Bedtime	-1	table	1	29	1
+17903308	rs1725021	Bedtime	-1	table	1	30	1
+17903308	rs932650	Bedtime	-1	table	1	31	1
+17903308	rs2985334	Bedtime	-1	table	1	32	1
+17903308	rs481233	Sleep duration	-1	table	1	33	1
+17903308	rs2359894	Sleep duration	-1	table	1	34	1
+17903308	rs2061579	Sleep duration	-1	table	1	35	1
+17903308	rs10492507	Sleep duration	-1	table	1	36	1
+17903308	rs6974138	Sleep duration	-1	table	1	37	1
+17903308	rs28168	Bedtime	-1	table	1	43	1
+17903308	rs10498313	Bedtime	-1	table	1	44	1
+17903308	rs10503857	Bedtime	-1	table	1	45	1
+17903308	rs10512058	Bedtime	-1	table	1	46	1
+19043545	rs9309413	rs number	-1	table	0	2	1
+19043545	rs992037	rs number	-1	table	0	2	2
+19043545	rs1148259	rs number	-1	table	0	2	3
+19043545	rs1200826	rs number	-1	table	0	2	3
+19043545	rs174548	rs number	-1	table	0	2	4
+19043545	rs4775041	rs number	-1	table	0	2	5
+19430483	rs17367504	SBP	1e-05	table	1	3	3
+19430483	rs11191548	SBP	0.0	table	1	9	3
+19430483	rs12946454	SBP	4e-06	table	1	16	3
+19430483	rs16998073	DBP	0.0	table	1	28	3
+19430483	rs1530440	DBP	3e-06	table	1	34	3
+19430483	rs653178	DBP	0.0	table	1	42	3
+19430483	rs1378942	DBP	0.0	table	1	47	3
+19430483	rs16948048	DBP	5e-06	table	1	55	3
+19430483	rs17367504	SBP	1e-05	table	2	1	0
+19430483	rs11191548	SBP	0.0	table	2	4	0
+19430483	rs12946454	SBP	4e-06	table	2	7	0
+19430483	rs16998073	DBP	0.0	table	2	10	0
+19430483	rs1530440	DBP	3e-06	table	2	13	0
+19430483	rs653178	DBP	0.0	table	2	16	0
+19430483	rs1378942	DBP	0.0	table	2	19	0
+19430483	rs16948048	DBP	5e-06	table	2	22	0
+19430483	rs17367504	SBP	0.0	table	3	1	0
+19430483	rs11191548	SBP	0.0	table	3	2	0
+19430483	rs16998073	DBP	0.0	table	3	4	0
+19430483	rs653178	DBP	1e-06	table	3	6	0
+19430483	rs1378942	DBP	0.0	table	3	7	0
+19609347	rs9791170	HTN	1e-06	table	5	1	1
+19609347	rs991316	HTN	3e-06	table	5	2	1
+19609347	rs1550576	HTN	3e-06	table	5	5	1
+19609347	rs16877320	SBP	0.0	table	5	6	1
+19609347	rs11160059	SBP	0.0	table	5	7	1
+19609347	rs17365948	SBP	0.0	table	5	8	1
+19609347	rs8039294	SBP	8e-06	table	5	9	1
+19609347	rs10135446	DBP	4e-06	table	5	11	1
+19609347	rs9590141	DBP	1e-06	table	5	12	1
+19609347	rs1867226	DBP	1e-06	table	5	13	1
+19721433	rs17390445	Ziprasidone –Positive	0.0	table	1	4	1
+19721433	rs11722719	Ziprasidone – Positive	1e-06	table	1	5	1
+19721433	rs888219	Risperidone – Negative	0.0	table	1	7	1
+19721433	rs7968606	Olanzapine – Negative	0.0	table	1	8	1
+19721433	rs17727261	Risperidone – Negative	1e-06	table	1	9	1
+19721433	rs10888501	Olanzapine – Negative	1e-06	table	1	10	1
+19721433	rs1040994	Olanzapine – Excitement	2e-06	table	1	12	1
+19721433	rs10484256	Olanzapine – Excitement	3e-06	table	1	13	1
+19721433	rs7635839	Olanzapine – Excitement	3e-06	table	1	15	1
+19721433	rs12526186	Risperidone – Negative	3e-06	table	1	16	1
+19721433	rs17815774	Risperidone – Negative	3e-06	table	1	17	1
+19721433	rs12860002	Quetiapine – Negative	-1	table	2	3	1
+19721433	rs12122534	Quetiapine – Emotion	-1	table	2	5	1
+19721433	rs12122453	Quetiapine – Emotion	-1	table	2	6	1
+19721433	rs6688154	Quetiapine – Emotion	-1	table	2	8	1
+19721433	rs12728058	Quetiapine – Emotion	-1	table	2	9	1
+19721433	rs2353967	Quetiapine – Emotion	-1	table	2	10	1
+19721433	rs2353969	Quetiapine – Emotion	-1	table	2	11	1
+19721433	rs11584787	Quetiapine – Emotion	-1	table	2	13	1
+19721433	rs2382121	Perphenazine – Disorganiz.	-1	table	2	14	1
+19721433	rs3899033	Perphenazine – Negative	-1	table	2	15	1
+19721433	rs13174727	Perphenazine– Emotion	-1	table	2	16	1
+19721433	rs2036702	Quetiapine– Emotion	-1	table	2	17	1
+19721433	rs2684878	Perphenazine– Emotion	-1	table	2	18	1
+19721433	rs7829383	Perphenazine– Negative	-1	table	2	20	1
+19721433	rs6988339	Perphenazine– Negative	-1	table	2	21	1
+19721433	rs7823899	Perphenazine– Negative	-1	table	2	23	1
+19721433	rs887829	Perphenazine– Negative	-1	table	2	24	1
+19721433	rs2454513	Quetiapine– Emotion	-1	table	2	25	1
+19721433	rs2445223	Quetiapine– Emotion	-1	table	2	26	1
+19820699	rs1800562	MCV	-1	table	0	9	1
+19820699	rs3811647	MCV	-1	table	0	16	1
+20066028	rs1532624	HDL-C	1e-06	table	1	3	0
+20066028	rs5400	TC	2e-06	table	1	5	0
+20195266	rs11163585	Perphenazine - HDL	1e-06	table	2	1	1
+20195266	rs17410015	Perphenazine - Triglycerides	2e-06	table	2	2	1
+20195266	rs6735179	Perphenazine - Triglycerides	0.0	table	2	3	1
+20195266	rs6741819	Perphenazine - Triglycerides	0.0	table	2	4	1
+20195266	rs1991126	Risperidone - Hip Circumference	1e-06	table	2	5	1
+20195266	rs1117324	Risperidone - Hip Circumference	0.0	table	2	6	1
+20195266	rs10202231	Perphenazine - Triglycerides	1e-06	table	2	7	1
+20195266	rs399885	Clozapine - Heart Rate	1e-06	table	2	8	1
+20195266	rs7570469	Clozapine - Heart Rate	1e-06	table	2	9	1
+20195266	rs1534238	Clozapine - Triglycerides	3e-06	table	2	10	1
+20195266	rs17385675	Clozapine - Triglycerides	3e-06	table	2	11	1
+20195266	rs13134954	Perphenazine - Triglycerides	2e-06	table	2	12	1
+20195266	rs11735070	Perphenazine - Triglycerides	1e-06	table	2	13	1
+20195266	rs1405687	Ziprasidone - Hip Circumference	0.0	table	2	14	1
+20195266	rs1967256	Olanzapine - Hemoglobin A1c	0.0	table	2	15	1
+20195266	rs11954387	Olanzapine - Hemoglobin A1c	0.0	table	2	16	1
+20195266	rs17100498	Risperidone - Hemoglobin A1c	0.0	table	2	17	1
+20195266	rs17100506	Risperidone - Hemoglobin A1c	1e-06	table	2	18	1
+20195266	rs9658108	Clozapine - Glucose	0.0	table	2	19	1
+20195266	rs1577917	Clozapine - Triglycerides	3e-06	table	2	20	1
+20195266	rs1979096	Clozapine - Total Cholesterol	1e-06	table	2	21	1
+20195266	rs10499504	Clozapine - Total Cholesterol	0.0	table	2	22	1
+20195266	rs13224682	Clozapine - Triglycerides	0.0	table	2	23	1
+20195266	rs977396	Olanzapine - Total Cholesterol	0.0	table	2	24	1
+20195266	rs320209	Clozapine - Glucose	0.0	table	2	25	1
+20195266	rs4838255	Perphenazine - Triglycerides	0.0	table	2	26	1
+20195266	rs17661538	Clozapine - Triglycerides	1e-06	table	2	27	1
+20195266	rs2994684	Clozapine - Triglycerides	0.0	table	2	28	1
+20195266	rs1771628	Clozapine - Triglycerides	1e-06	table	2	29	1
+20195266	rs7119817	Risperidone - Hip Circumference	0.0	table	2	30	1
+20195266	rs7105881	Risperidone - Hip Circumference	0.0	table	2	31	1
+20195266	rs7108821	Risperidone - Hip Circumference	0.0	table	2	32	1
+20195266	rs620875	Clozapine - Triglycerides	3e-06	table	2	33	1
+20195266	rs1464500	Perphenazine - HDL	0.0	table	2	34	1
+20195266	rs518590	Quetiapine - HDL	0.0	table	2	35	1
+20195266	rs1187614	Perphenazine - Total Cholesterol	0.0	table	2	36	1
+20195266	rs1568679	Risperidone - Hip Circumference	0.0	table	2	37	1
+20195266	rs1568679	Risperidone - Waist Circumference	0.0	table	2	38	1
+20195266	rs13335336	Risperidone - Hemoglobin A1c	1e-06	table	2	39	1
+20195266	rs153091	Perphenazine - Triglycerides	2e-06	table	2	40	1
+20195266	rs4783227	Olanzapine - Total Cholesterol	0.0	table	2	41	1
+20195266	rs17216786	Clozapine - Triglycerides	1e-06	table	2	42	1
+20195266	rs17651157	Perphenazine - Triglycerides	0.0	table	2	43	1
+20195266	rs10502661	Perphenazine - Triglycerides	0.0	table	2	44	1
+20195266	rs8092443	Risperidone - Hemoglobin A1c	1e-06	table	2	45	1
+20195266	rs11663206	Risperidone - Hemoglobin A1c	2e-06	table	2	46	1
+20195266	rs6092078	Risperidone - Hip Circumference	3e-06	table	2	47	1
+20395239	rs12571093	Disc	-1	table	1	2	3
+20395239	rs3858145	Disc	-1	table	1	3	3
+20395239	rs2241970	Disc	-1	table	1	4	3
+20395239	rs17231602	Disc	-1	table	1	5	3
+20395239	rs7067601	Disc	-1	table	1	6	3
+20395239	rs10733843	Disc	-1	table	1	7	3
+20395239	rs4517412	Disc	-1	table	1	8	3
+20395239	rs690037	Cup	-1	table	1	9	3
+20395239	rs6480314	Disc	-1	table	1	10	3
+20395239	rs3858145	Cup	-1	table	1	11	3
+20395239	rs1192415	Disc	-1	table	1	12	3
+20395239	rs491391	Disc	-1	table	1	13	3
+20395239	rs6611365	Disc	-1	table	1	14	3
+20395239	rs1192404	Disc	-1	table	1	15	3
+20395239	rs10762217	Disc	-1	table	1	16	3
+20463881	rs3768056	S	0.0	table	1	3	0
+20463881	rs9782955	S	0.0	table	1	4	0
+20463881	rs7219915	C HS1	0.0	table	1	6	0
+20463881	rs9894429	C HS1	0.0	table	1	7	0
+20463881	rs12452184	C HS1	0.0	table	1	8	0
+20463881	rs1003719	C HS1	0.0	table	1	10	0
+20463881	rs2252893	C HS1	0.0	table	1	11	0
+20463881	rs2835621	C HS1	0.0	table	1	12	0
+20463881	rs2835630	C HS1	0.0	table	1	13	0
+20463881	rs7277820	C HS1	0.0	table	1	14	0
+20526338	rs12566888	ADP 3 u M	0.0	table	0	3	0
+20526338	rs12566888	ADP 2 u M	0.0	table	0	3	0
+20526338	rs7940646	ADP 5 u M	0.0	table	0	4	0
+20526338	rs7940646	ADP 10 u M	0.0	table	0	4	0
+20526338	rs2363910	ADP EC50	0.0	table	0	5	0
+20526338	rs2363910	ADP 2 u M	0.0	table	0	5	0
+20526338	rs4311994	Epi EC50	0.0	table	0	9	0
+20526338	rs4311994	Epi 2 u M	0.0	table	0	9	0
+20526338	rs12566888	Epi EC50	0.0	table	0	11	0
+20526338	rs12566888	Epi 2 u M	0.0	table	0	11	0
+20526338	rs342286	Epi EC50	0.0	table	0	13	0
+20526338	rs342286	Epi 2 u M	0.0	table	0	13	0
+20526338	rs10761741	Epi EC50	0.0	table	0	14	0
+20526338	rs10761741	Epi 2 u M	0.0	table	0	14	0
+20526338	rs1671152	Lag 190 u g/mL	0.0	table	0	18	0
+20526338	rs1671152	Lag 2 u g/mL	0.0	table	0	18	0
+20526338	rs12566888	ADP 3 u M	0.0	table	1	3	0
+20526338	rs12566888	ADP 2 u M	0.0	table	1	3	0
+20526338	rs7940646	ADP 5 u M	0.0	table	1	6	0
+20526338	rs7940646	ADP 10 u M	0.0	table	1	6	0
+20526338	rs2363910	ADP EC50 *	0.0	table	1	9	0
+20526338	rs2363910	ADP 2 u M	0.0	table	1	9	0
+20526338	rs4311994	Epi EC50 *	0.0	table	1	13	0
+20526338	rs4311994	Epi 2 u M	0.0	table	1	13	0
+20526338	rs12566888	Epi EC50 *	0.0	table	1	16	0
+20526338	rs12566888	Epi 2 u M	0.0	table	1	16	0
+20526338	rs342286	Epi EC50 *	0.0	table	1	19	0
+20526338	rs342286	Epi 2 u M	0.0	table	1	19	0
+20526338	rs10761741	Epi EC50 *	0.0	table	1	22	0
+20526338	rs10761741	Epi 2 u M	0.0	table	1	22	0
+20526338	rs1671152	Coll.	0.0	table	1	26	0
+20526338	rs1671152	lag	0.0	table	1	26	0
+20526338	rs1671152	Coll.	0.0	table	1	26	0
+20526338	rs1671152	lag	0.0	table	1	26	0
+20548944	rs2278729	NSA	0.0	table	0	3	0
+20548944	rs12808199	FN BMD	1e-06	table	0	4	0
+20548944	rs7227401	NW	0.0	table	0	5	0
+20548944	rs494453	NW	0.0	table	0	7	0
+20548944	rs12151790	FN BMD	0.0	table	0	8	0
+20548944	rs2062375	LS BMD	0.0	table	0	9	0
+20548944	rs17184557	LS BMD	1e-06	table	0	10	0
+20548944	rs6588313	LSBMD, women	5e-06	table	3	5	0
+20548944	rs17463551	LSBMD, women	3e-06	table	3	14	0
+20548944	rs10895656	LSBMD, men	3e-06	table	3	16	0
+20548944	rs3784131	NL, men	3e-06	table	3	17	0
+20548944	rs17201113	NL, men	1e-06	table	3	18	0
+20548944	rs11664087	NSA, women	3e-06	table	3	20	0
+20585627	rs17646946	Hair curl	-1	table	1	1	1
+20585627	rs499697	Hair curl	-1	table	1	2	1
+20585627	rs7349332	Hair curl	-1	table	1	3	1
+20585627	rs4481887	Asparagus	-1	table	1	4	1
+20585627	rs4309013	Asparagus	-1	table	1	5	1
+20585627	rs4244187	Asparagus	-1	table	1	6	1
+20585627	rs10427255	Sneeze	-1	table	1	7	1
+20585627	rs12203592	Freckling	-1	table	1	8	1
+20585627	rs872071	Freckling	-1	table	1	9	1
+20585627	rs3778607	Freckling	-1	table	1	10	1
+20585627	rs9328192	Freckling	-1	table	1	11	1
+20585627	rs9405675	Freckling	-1	table	1	12	1
+20585627	rs12931267	Freckling	-1	table	1	13	1
+20585627	rs8049897	Freckling	-1	table	1	14	1
+20585627	rs1805008	Freckling	-1	table	1	15	1
+20585627	rs1805009	Freckling	-1	table	1	16	1
+20585627	rs11547464	Freckling	-1	table	1	17	1
+20585627	rs11861084	Freckling	-1	table	1	18	1
+20585627	rs7204478	Freckling	-1	table	1	19	1
+20585627	rs7195066	Freckling	-1	table	1	20	1
+20585627	rs11648785	Freckling	-1	table	1	21	1
+20585627	rs8060934	Freckling	-1	table	1	22	1
+20585627	rs154659	Freckling	-1	table	1	23	1
+20585627	rs619865	Freckling	-1	table	1	24	1
+20585627	rs4911442	Freckling	-1	table	1	25	1
+20585627	rs291671	Freckling	-1	table	1	26	1
+20585627	rs6088316	Freckling	-1	table	1	27	1
+20585627	rs761238	Freckling	-1	table	1	28	1
+20585627	rs17305657	Freckling	-1	table	1	29	1
+20585627	rs4812405	Freckling	-1	table	1	30	1
+20585627	rs1474976	Freckling	-1	table	1	31	1
+20585627	rs4911414	Freckling	-1	table	1	32	1
+20585627	rs2153271	Freckling	-1	table	1	33	1
+20585627	rs12913832	Hair color	-1	table	2	1	1
+20585627	rs7183877	Hair color	-1	table	2	2	1
+20585627	rs4778138	Hair color	-1	table	2	3	1
+20585627	rs12203592	Hair color	-1	table	2	4	1
+20585627	rs16891982	Hair color	-1	table	2	5	1
+20585627	rs12896399	Hair color	-1	table	2	6	1
+20585627	rs12931267	Hair color	-1	table	2	7	1
+20585627	rs12931267	Red hair	-1	table	2	8	1
+20585627	rs4238833	Red hair	-1	table	2	9	1
+20585627	rs8049897	Red hair	-1	table	2	10	1
+20585627	rs1805008	Red hair	-1	table	2	11	1
+20585627	rs4408545	Red hair	-1	table	2	12	1
+20585627	rs1805009	Red hair	-1	table	2	13	1
+20585627	rs2353033	Red hair	-1	table	2	14	1
+20585627	rs2159116	Red hair	-1	table	2	15	1
+20585627	rs7196459	Red hair	-1	table	2	16	1
+20585627	rs7195066	Red hair	-1	table	2	17	1
+20585627	rs447735	Red hair	-1	table	2	18	1
+20585627	rs11648785	Red hair	-1	table	2	19	1
+20585627	rs4347628	Red hair	-1	table	2	20	1
+20585627	rs291671	Red hair	-1	table	2	21	1
+20585627	rs17305657	Red hair	-1	table	2	22	1
+20585627	rs619865	Red hair	-1	table	2	23	1
+20585627	rs12913832	Eye color	-1	table	3	1	1
+20585627	rs8039195	Eye color	-1	table	3	2	1
+20585627	rs16950987	Eye color	-1	table	3	3	1
+20585627	rs2240204	Eye color	-1	table	3	4	1
+20585627	rs6497253	Eye color	-1	table	3	5	1
+20585627	rs1470608	Eye color	-1	table	3	6	1
+20585627	rs4778232	Eye color	-1	table	3	7	1
+20585627	rs1597196	Eye color	-1	table	3	8	1
+20585627	rs7170451	Eye color	-1	table	3	9	1
+20585627	rs1800407	Eye color	-1	table	3	10	1
+20585627	rs4778220	Eye color	-1	table	3	11	1
+20585627	rs728405	Eye color	-1	table	3	12	1
+20585627	rs1800404	Eye color	-1	table	3	13	1
+20585627	rs1107267	Eye color	-1	table	3	14	1
+20585627	rs3930739	Eye color	-1	table	3	15	1
+20585627	rs17565953	Eye color	-1	table	3	16	1
+20585627	rs977588	Eye color	-1	table	3	17	1
+20585627	rs12896399	Eye color	-1	table	3	18	1
+20585627	rs4904868	Eye color	-1	table	3	19	1
+20585627	rs12203592	Eye color	-1	table	3	20	1
+20585627	rs16891982	Eye color	-1	table	3	21	1
+20585627	rs1393350	Eye color	-1	table	3	22	1
+20585627	rs12913832	Green eyes	-1	table	3	23	1
+20585627	rs7183877	Green eyes	-1	table	3	24	1
+20585627	rs12896399	Green eyes	-1	table	3	25	1
+20585627	rs1847134	Green eyes	-1	table	3	26	1
+20585627	rs1827430	Green eyes	-1	table	3	27	1
+20585627	rs11018528	Green eyes	-1	table	3	28	1
+20585627	rs7120151	Green eyes	-1	table	3	29	1
+20585627	rs1806319	Green eyes	-1	table	3	30	1
+20585627	rs1556547	Haircurl	-1	table	4	1	1
+20585627	rs10960751	Eye color	-1	table	4	2	1
+20585627	rs1042602	Freckle	-1	table	4	3	1
+20585627	rs11856995	Sneeze	-1	table	4	4	1
+20694148	rs3764261	Log HDL-C (mmol/l)	0.0	table	1	2	1
+20694148	rs9989419	“	0.0	table	1	3	1
+20694148	rs2083637	“	0.0	table	1	4	1
+20694148	rs4523270	“	0.0	table	1	5	1
+20694148	rs496300	“	0.0	table	1	6	1
+20694148	rs174546	“	0.0	table	1	7	1
+20694148	rs1535	“	1e-06	table	1	8	1
+20694148	rs7903146	T2D	0.0	table	1	9	1
+20694148	rs7865146	DBP (mmHg)	1e-06	table	1	10	1
+20838585	rs7704530	diastolic BP	0.0	table	0	1	3
+20838585	rs709595	diastolic BP	1e-06	table	0	2	3
+20838585	rs853773	glucose	1e-06	table	0	3	3
+20838585	rs781718	glucose	1e-06	table	0	4	3
+20838585	rs247616	HDL-cholesterol	1e-06	table	0	5	3
+20838585	rs3793275	insulin	0.0	table	0	6	3
+20838585	rs6052399	insulin	0.0	table	0	7	3
+20838585	rs16892328	insulin	0.0	table	0	8	3
+20838585	rs1613695	insulin	0.0	table	0	9	3
+20838585	rs10498337	insulin	1e-06	table	0	10	3
+20838585	rs8131349	LDL-cholesterol	0.0	table	0	11	3
+20838585	rs7412	LDL-cholesterol	0.0	table	0	12	3
+20838585	rs7738656	LDL-cholesterol	0.0	table	0	13	3
+20838585	rs10044666	LDL-cholesterol	0.0	table	0	14	3
+20838585	rs11822822	systolic BP	1e-06	table	0	15	3
+20838585	rs726914	systolic BP	1e-06	table	0	16	3
+20838585	rs8131349	total cholesterol	0.0	table	0	17	3
+20838585	rs6829649	total cholesterol	0.0	table	0	18	3
+20838585	rs7738656	total cholesterol	0.0	table	0	19	3
+20838585	rs4897695	total cholesterol	0.0	table	0	20	3
+20838585	rs891541	waist circumference	1e-06	table	0	21	3
+20838585	rs17104804	distolic BP	1e-06	table	1	1	3
+20838585	rs4783595	glucose	0.0	table	1	2	3
+20838585	rs3793275	glucose	0.0	table	1	3	3
+20838585	rs5979903	glucose	0.0	table	1	4	3
+20838585	rs12807555	glucose	0.0	table	1	5	3
+20838585	rs9909931	glucose	0.0	table	1	6	3
+20838585	rs12069004	glucose	1e-06	table	1	7	3
+20838585	rs12548494	glucose	1e-06	table	1	8	3
+20838585	rs10260737	glucose	1e-06	table	1	9	3
+20838585	rs3019325	glucose	1e-06	table	1	10	3
+20838585	rs6440031	heart rate	0.0	table	1	11	3
+20838585	rs1449460	heart rate	1e-06	table	1	12	3
+20838585	rs1144036	height	0.0	table	1	13	3
+20838585	rs8103264	height	1e-06	table	1	14	3
+20838585	rs1552257	insulin	1e-06	table	1	15	3
+20838585	rs8073909	LDL	0.0	table	1	16	3
+20838585	rs11258628	LDL	0.0	table	1	17	3
+20838585	rs1046391	systolic BP	0.0	table	1	18	3
+20838585	rs17104804	systolic BP	1e-06	table	1	19	3
+20838585	rs8073909	total cholesterol	0.0	table	1	20	3
+20838585	rs7890572	triglycerides	0.0	table	1	21	3
+20838585	rs12280753	triglycerides	0.0	table	1	22	3
+20838585	rs13290397	triglycerides	0.0	table	1	23	3
+20838585	rs6726786	triglycerides	0.0	table	1	24	3
+20838585	rs12330441	triglycerides	0.0	table	1	25	3
+20838585	rs127430	waist circumference	0.0	table	1	26	3
+20838585	rs7121446	waist circumference	0.0	table	1	27	3
+20838585	rs7210277	waist circumference	1e-06	table	1	28	3
+20838585	rs17568778	waist circumference	1e-06	table	1	29	3
+20838585	rs6552560	weight	0.0	table	1	30	3
+20838585	rs7704530	diastolic BP	0.0	table	2	2	1
+20838585	rs709595	diastolic BP	1e-06	table	2	3	1
+20838585	rs853773	glucose	1e-06	table	2	4	1
+20838585	rs781718	glucose	1e-06	table	2	5	1
+20838585	rs247616	HDL-cholesterol	0.0	table	2	6	1
+20838585	rs3793275	insulin	0.0	table	2	7	1
+20838585	rs6052399	insulin	0.0	table	2	8	1
+20838585	rs16892328	insulin	0.0	table	2	9	1
+20838585	rs1613695	insulin	0.0	table	2	10	1
+20838585	rs10498337	insulin	1e-06	table	2	11	1
+20838585	rs8131349	LDL-cholesterol	0.0	table	2	12	1
+20838585	rs445925	LDL-cholesterol	0.0	table	2	13	1
+20838585	rs7738656	LDL-cholesterol	0.0	table	2	14	1
+20838585	rs10044666	LDL-cholesterol	0.0	table	2	15	1
+20838585	rs11822822	systolic BP	1e-06	table	2	16	1
+20838585	rs726914	systolic BP	1e-06	table	2	17	1
+20838585	rs8131349	total cholesterol	0.0	table	2	18	1
+20838585	rs6829649	total cholesterol	0.0	table	2	19	1
+20838585	rs7738656	total cholesterol	0.0	table	2	20	1
+20838585	rs4897695	total cholesterol	0.0	table	2	21	1
+20838585	rs891541	waist circumference	1e-06	table	2	22	1
+20838585	rs17104804	distolic BP	1e-06	table	2	23	1
+20838585	rs4783595	glucose	0.0	table	2	24	1
+20838585	rs3793275	glucose	0.0	table	2	25	1
+20838585	rs5979903	glucose	0.0	table	2	26	1
+20838585	rs12807555	glucose	0.0	table	2	27	1
+20838585	rs9909931	glucose	0.0	table	2	28	1
+20838585	rs12069004	glucose	1e-06	table	2	29	1
+20838585	rs12548494	glucose	1e-06	table	2	30	1
+20838585	rs10260737	glucose	1e-06	table	2	31	1
+20838585	rs3019325	glucose	1e-06	table	2	32	1
+20838585	rs6440031	heart rate	0.0	table	2	33	1
+20838585	rs1449460	heart rate	1e-06	table	2	34	1
+20838585	rs1144036	height	0.0	table	2	35	1
+20838585	rs8103264	height	1e-06	table	2	36	1
+20838585	rs1552257	insulin	1e-06	table	2	37	1
+20838585	rs8073909	LDL	0.0	table	2	38	1
+20838585	rs11258628	LDL	0.0	table	2	39	1
+20838585	rs1046391	systolic BP	0.0	table	2	40	1
+20838585	rs17104804	systolic BP	1e-06	table	2	41	1
+20838585	rs8073909	total cholesterol	0.0	table	2	42	1
+20838585	rs7890572	triglycerides	0.0	table	2	43	1
+20838585	rs12280753	triglycerides	0.0	table	2	44	1
+20838585	rs13290397	triglycerides	0.0	table	2	45	1
+20838585	rs6726786	triglycerides	0.0	table	2	46	1
+20838585	rs12330441	triglycerides	0.0	table	2	47	1
+20838585	rs127430	waist circumference	0.0	table	2	48	1
+20838585	rs7121446	waist circumference	0.0	table	2	49	1
+20838585	rs7210277	waist circumference	1e-06	table	2	50	1
+20838585	rs17568778	waist circumference	1e-06	table	2	51	1
+20838585	rs6552560	weight	0.0	table	2	52	1
+20838585	rs7704530	diastolic BP	-1	table	3	1	1
+20838585	rs709595	diastolic BP	-1	table	3	2	1
+20838585	rs853773	glucose	-1	table	3	3	1
+20838585	rs781718	glucose	-1	table	3	4	1
+20838585	rs3793275	insulin	-1	table	3	6	1
+20838585	rs6052399	insulin	-1	table	3	7	1
+20838585	rs16892328	insulin	-1	table	3	8	1
+20838585	rs1613695	insulin	-1	table	3	9	1
+20838585	rs10498337	insulin	-1	table	3	10	1
+20838585	rs8131349	LDL-cholesterol	-1	table	3	11	1
+20838585	rs445925	LDL-cholesterol	2e-06	table	3	12	1
+20838585	rs7738656	LDL-cholesterol	-1	table	3	13	1
+20838585	rs10044666	LDL-cholesterol	-1	table	3	14	1
+20838585	rs11822822	systolic BP	-1	table	3	15	1
+20838585	rs726914	systolic BP	-1	table	3	16	1
+20838585	rs8131349	total cholesterol	-1	table	3	17	1
+20838585	rs6829649	total cholesterol	-1	table	3	18	1
+20838585	rs7738656	total cholesterol	-1	table	3	19	1
+20838585	rs4897695	total cholesterol	-1	table	3	20	1
+20838585	rs891541	waist circumference	-1	table	3	21	1
+20838585	rs4783595	glucose	0.0	table	3	23	1
+20838585	rs3793275	glucose	1e-06	table	3	24	1
+20838585	rs12807555	glucose	0.0	table	3	26	1
+20838585	rs9909931	glucose	0.0	table	3	27	1
+20838585	rs12548494	glucose	3e-06	table	3	29	1
+20838585	rs1449460	heart rate	-1	table	3	33	1
+20838585	rs1144036	height	-1	table	3	34	1
+20838585	rs8103264	height	-1	table	3	35	1
+20838585	rs8073909	LDL	1e-06	table	3	37	1
+20838585	rs11258628	LDL	7e-06	table	3	38	1
+20838585	rs17104804	systolic BP	-1	table	3	40	1
+20838585	rs8073909	total cholesterol	0.0	table	3	41	1
+20838585	rs7890572	triglycerides	4e-06	table	3	42	1
+20838585	rs12280753	triglycerides	0.0	table	3	43	1
+20838585	rs13290397	triglycerides	1e-06	table	3	44	1
+20838585	rs6726786	triglycerides	4e-06	table	3	45	1
+20838585	rs127430	waist circumference	0.0	table	3	47	1
+20838585	rs7121446	waist circumference	2e-06	table	3	48	1
+20838585	rs7210277	waist circumference	1e-06	table	3	49	1
+20838585	rs17568778	waist circumference	1e-06	table	3	50	1
+20838585	rs653178	diastolic BP	-1	table	5	1	1
+20838585	rs560887	glucose	-1	table	5	2	1
+20838585	rs1532624	HDL-cholesterol	-1	table	5	3	1
+20838585	rs964184	HDL-cholesterol	-1	table	5	4	1
+20838585	rs157580	HDL-cholesterol	-1	table	5	5	1
+20838585	rs7395662	HDL-cholesterol	-1	table	5	6	1
+20838585	rs471364	HDL-cholesterol	-1	table	5	7	1
+20838585	rs185819	height	-1	table	5	8	1
+20838585	rs3748069	height	-1	table	5	9	1
+20838585	rs710841	height	-1	table	5	10	1
+20838585	rs4896582	height	-1	table	5	11	1
+20838585	rs967417	height	-1	table	5	12	1
+20838585	rs757608	height	-1	table	5	13	1
+20838585	rs3760318	height	-1	table	5	14	1
+20838585	rs16896068	height	-1	table	5	15	1
+20838585	rs6060373	height	-1	table	5	16	1
+20838585	rs12740374	LDL-cholesterol	-1	table	5	17	1
+20838585	rs12272004	LDL-cholesterol	-1	table	5	18	1
+20838585	rs3184504	systolic BP	-1	table	5	19	1
+20838585	rs693	total cholesterol	-1	table	5	20	1
+20838585	rs2304130	total cholesterol	-1	table	5	21	1
+20838585	rs964184	triglycerides	2e-06	table	5	22	1
+20838585	rs780094	triglycerides	-1	table	5	23	1
+20838585	rs7819412	triglycerides	-1	table	5	24	1
+20838585	rs7138803	weight	-1	table	5	25	1
+20921969	rs10458561	risperidone/QTc	0.0	table	3	1	1
+20921969	rs4959235	quetiapine/QTc	0.0	table	3	2	1
+20921969	rs16895513	risperidone/QTc	1e-06	table	3	3	1
+20921969	rs6468544	risperidone/QTc	1e-06	table	3	4	1
+20927387	rs7775698	RBC count	0.0	table	1	1	2
+20927387	rs4895441	RBC count	0.0	table	1	2	2
+20927387	rs9376092	RBC count	0.0	table	1	3	2
+20927387	rs9494145	RBC count	0.0	table	1	4	2
+20927387	rs6569992	RBC count	0.0	table	1	5	2
+20927387	rs7775698	MCV	0.0	table	1	6	2
+20927387	rs4895441	MCV	0.0	table	1	7	2
+20927387	rs9376092	MCV	0.0	table	1	8	2
+20927387	rs9494145	MCV	0.0	table	1	9	2
+20927387	rs6569992	MCV	0.0	table	1	10	2
+20927387	rs17064262	MCV	0.0	table	1	11	2
+20927387	rs855791	MCV	0.0	table	1	12	2
+20927387	rs7775698	MCH	0.0	table	1	13	2
+20927387	rs4895441	MCH	0.0	table	1	14	2
+20927387	rs9376092	MCH	0.0	table	1	15	2
+20927387	rs9494145	MCH	0.0	table	1	16	2
+20927387	rs6569992	MCH	0.0	table	1	17	2
+20927387	rs17064262	MCH	0.0	table	1	18	2
+20927387	rs17342717	MCH	0.0	table	1	19	2
+20927387	rs1800562	MCH	0.0	table	1	20	2
+20927387	rs855791	MCH	0.0	table	1	21	2
+20927387	rs5756504	MCH	0.0	table	1	22	2
+20927387	rs4820268	MCH	0.0	table	1	23	2
+20927387	rs855791	MCHC	0.0	table	1	24	2
+20927387	rs4820268	MCHC	0.0	table	1	25	2
+20927387	rs4895441	MCV	0.0	table	2	2	2
+20927387	rs4895441	MCV	0.0	table	2	2	7
+20927387	rs4895441	MCV	0.0	table	2	3	2
+20927387	rs9402686	MCV	0.0	table	2	3	7
+20927387	rs4895441	RBC count	0.0	table	2	4	2
+20927387	rs9483788	RBC count	0.0	table	2	4	7
+20927387	rs855791	MCV	0.0	table	2	5	2
+20927387	rs855791	MCV	0.0	table	2	5	7
+20927387	rs855791	MCV	0.0	table	2	6	2
+20927387	rs2413450	MCV	0.0	table	2	6	7
+20927387	rs855791	MCH	0.0	table	2	7	2
+20927387	rs855791	MCH	0.0	table	2	7	7
+20927387	rs855791	MCH	0.0	table	2	8	2
+20927387	rs5756506	MCH	0.0	table	2	8	7
+20927387	rs1800562	MCV	1e-06	table	2	9	2
+20927387	rs1800562	MCV	1e-06	table	2	9	7
+20927387	rs1800562	MCV	1e-06	table	2	10	2
+20927387	rs1800562	MCV	1e-06	table	2	10	7
+20927387	rs1800562	MCV	1e-06	table	2	11	2
+20927387	rs1800562	MCV	1e-06	table	2	11	7
+20927387	rs1800562	MCV	1e-06	table	2	12	2
+20927387	rs198846	MCV	1e-06	table	2	12	7
+20927387	rs1800562	MCH	0.0	table	2	13	2
+20927387	rs198846	MCH	0.0	table	2	13	7
+21203500	rs7159888	DG1	0.0	table	0	1	3
+21203500	rs10483776	DG6	0.0	table	0	2	3
+21203500	rs7953249	DG7	0.0	table	0	3	3
+21203500	rs3760776	DG7	0.0	table	0	4	3
+21203500	rs3760776	DG9	0.0	table	0	5	3
+21203500	rs735396	DG11	0.0	table	0	6	3
+21203500	rs3760776	DG12	0.0	table	0	7	3
+21203500	rs3760776	FUCA	0.0	table	0	8	3
+21347282	rs7323893	HDL-C	0.0	table	1	2	1
+21347282	rs937254	HDL-C	1e-06	table	1	3	1
+21347282	rs7801190	Hypertension	0.0	table	1	4	1
+21347282	rs13161895	LDL-C	1e-06	table	1	5	1
+21347282	rs4977574	Coronary heart disease	-1	table	2	1	3
+21347282	rs7903146	Type-2 diabetes	0.0	table	2	3	3
+21347282	rs2144300	HDL-C	-1	table	2	4	3
+21347282	rs10096633	HDL-C	0.0	table	2	7	3
+21347282	rs3905000	HDL-C	-1	table	2	8	3
+21347282	rs13284054	HDL-C	-1	table	2	9	3
+21347282	rs174547	HDL-C	-1	table	2	10	3
+21347282	rs1800588	HDL-C	0.0	table	2	12	3
+21347282	rs8034802	HDL-C	0.0	table	2	13	3
+21347282	rs3764261	HDL-C	0.0	table	2	14	3
+21347282	rs247617	HDL-C	0.0	table	2	15	3
+21347282	rs255052	HDL-C	0.0	table	2	16	3
+21347282	rs7679	HDL-C	-1	table	2	17	3
+21347282	rs10889353	LDL-C	-1	table	2	19	3
+21347282	rs12740374	LDL-C	0.0	table	2	21	3
+21347282	rs10493178	LDL-C	0.0	table	2	22	3
+21347282	rs562338	LDL-C	0.0	table	2	23	3
+21347282	rs503662	LDL-C	0.0	table	2	24	3
+21347282	rs6511720	LDL-C	0.0	table	2	25	3
+21347282	rs1160985	LDL-C	0.0	table	2	26	3
+21347282	rs6674681	Coronary heart disease	0.0	table	3	2	1
+21347282	rs6753112	Coronary heart disease	1e-06	table	3	3	1
+21347282	rs8078633	HDL-C	0.0	table	3	4	1
+21347282	rs10218356	Hypertension	1e-06	table	3	5	1
+21347282	rs17441606	LDL-C	0.0	table	3	6	1
+21347282	rs9306885	LDL-C	0.0	table	3	7	1
+21347282	rs6728440	LDL-C	0.0	table	3	8	1
+21347282	rs7560236	LDL-C	0.0	table	3	9	1
+21347282	rs6748157	LDL-C	0.0	table	3	10	1
+21347282	rs7075036	Smoking	1e-06	table	3	11	1
+21347282	rs11088655	Smoking	0.0	table	3	12	1
+21347282	rs16982414	Smoking	1e-06	table	3	13	1
+21386085	rs780093	TG-BP	0.0	table	1	1	1
+21386085	rs780093	WC-TG	0.0	table	1	2	1
+21386085	rs1919128	WC-TG	0.0	table	1	3	1
+21386085	rs13022873	WC-TG	0.0	table	1	4	1
+21386085	rs3749147	WC-TG	0.0	table	1	5	1
+21386085	rs569805	HDLC-GLUC	0.0	table	1	6	1
+21386085	rs2206277	WC-GLUC	0.0	table	1	7	1
+21386085	rs9987289	HDLC-TG	0.0	table	1	8	1
+21386085	rs9987289	HDLC-WC	0.0	table	1	9	1
+21386085	rs295	MetS	0.0	table	1	10	1
+21386085	rs301	HDLC-WC	0.0	table	1	11	1
+21386085	rs13702	HDLC-TG	0.0	table	1	12	1
+21386085	rs15285	TG-BP	0.0	table	1	13	1
+21386085	rs2197089	TG-GLUC	0.0	table	1	14	1
+21386085	rs1441756	BP-HDLC	0.0	table	1	15	1
+21386085	rs2954026	HDLC-TG	0.0	table	1	16	1
+21386085	rs2954033	TG-BP	0.0	table	1	17	1
+21386085	rs1387153	BP-GLUC	0.0	table	1	18	1
+21386085	rs1387153	HDLC-GLUC	0.0	table	1	19	1
+21386085	rs10830956	TG-GLUC	0.0	table	1	20	1
+21386085	rs11825181	TG-BP	0.0	table	1	21	1
+21386085	rs11820589	TG-GLUC	0.0	table	1	22	1
+21386085	rs10790162	HDLC-TG	0.0	table	1	23	1
+21386085	rs10790162	MetS	0.0	table	1	24	1
+21386085	rs10790162	WC-TG	0.0	table	1	25	1
+21386085	rs11823543	TG-BP	0.0	table	1	26	1
+21386085	rs12286037	TG-GLUC	0.0	table	1	27	1
+21386085	rs2075290	HDLC-TG	0.0	table	1	28	1
+21386085	rs2075290	MetS	0.0	table	1	29	1
+21386085	rs2075290	WC-TG	0.0	table	1	30	1
+21386085	rs2266788	HDLC-TG	0.0	table	1	31	1
+21386085	rs2266788	MetS	0.0	table	1	32	1
+21386085	rs2266788	TG-BP	0.0	table	1	33	1
+21386085	rs2266788	WC-TG	0.0	table	1	34	1
+21386085	rs10468017	HDLC-WC	0.0	table	1	35	1
+21386085	rs2043085	HDLC-GLUC	0.0	table	1	36	1
+21386085	rs173539	HDLC-TG	0.0	table	1	37	1
+21386085	rs173539	HDLC-WC	0.0	table	1	38	1
+21386085	rs173539	MetS	0.0	table	1	39	1
+21386085	rs3764261	BP-HDLC	0.0	table	1	40	1
+21386085	rs9939224	HDLC-GLUC	0.0	table	1	41	1
+21386085	rs439401	HDLC-TG	0.0	table	1	42	1
+21483845	rs3811647	Case-Control	-1	table	1	11	1
+21483845	rs1800562	Case-Control	-1	table	1	19	1
+21483845	rs987710	Case-Control	0.0	table	1	35	1
+21552555	rs17126232	BMI	0.0	table	4	1	2
+21552555	rs17126237	BMI	1e-06	table	4	2	2
+21552555	rs10953454	HIP	1e-06	table	4	3	2
+21552555	rs10216243	HIP	1e-06	table	4	4	2
+21552555	rs17126232	HIP	0.0	table	4	5	2
+21552555	rs17126237	HIP	0.0	table	4	6	2
+21552555	rs9923451	HIP	1e-06	table	4	7	2
+21552555	rs5762430	HIP	1e-06	table	4	8	2
+21552555	rs11088859	Waist	0.0	table	4	9	2
+21552555	rs17126232	Weight	0.0	table	4	10	2
+21552555	rs17126237	Weight	0.0	table	4	11	2
+21552555	rs17081231	Weight	1e-06	table	4	12	2
+21552555	rs7581710	WHR	0.0	table	4	13	2
+21552555	rs2807278	WHR	0.0	table	4	14	2
+21552555	rs11624704	WHR	0.0	table	4	15	2
+21738479	rs17609240	WBC	0.0	table	3	2	4
+21738479	rs4065321	WBC	0.0	table	3	3	4
+21738479	rs4895441	WBC	0.0	table	3	4	4
+21738479	rs3094212	WBC	0.0	table	3	5	4
+21738479	rs445	WBC	0.0	table	3	6	4
+21738479	rs12313946	WBC	0.0	table	3	7	4
+21738479	rs4794822	Neutrophils	0.0	table	3	8	4
+21738479	rs2072910	Neutrophils	0.0	table	3	9	4
+21738479	rs1420101	Eosinophils	0.0	table	3	10	4
+21738479	rs12619285	Eosinophils	0.0	table	3	11	4
+21738479	rs4857855	Eosinophils	0.0	table	3	12	4
+21738479	rs4143832	Eosinophils	0.0	table	3	13	4
+21738479	rs3184504	Eosinophils	0.0	table	3	14	4
+21738480	rs2517524	WBC	0.0	table	2	2	1
+21738480	rs4794822	WBC	0.0	table	2	3	1
+21738480	rs8078723	Neutrophils	0.0	table	2	4	1
+21738480	rs4328821	Basophils	0.0	table	2	5	1
+21738480	rs2524079	Lymphocytes	0.0	table	2	6	1
+21738480	rs11878602	Lymphocytes	0.0	table	2	7	1
+21738480	rs1449263	Monocytes	0.0	table	2	8	1
+21738480	rs9880192	Monocytes	0.0	table	2	9	1
+21738480	rs1991866	Monocytes	0.0	table	2	10	1
+21738480	rs10980800	Monocytes	0.0	table	2	11	1
+21738480	rs2517524	WBC	0.0	table	3	2	1
+21738480	rs4794822	WBC	0.0	table	3	3	1
+21738480	rs8078723	Neutrophils	0.0	table	3	4	1
+21738480	rs4328821	Basophils	0.0	table	3	5	1
+21738480	rs2524079	Lymphocytes	0.0	table	3	6	1
+21738480	rs11878602	Lymphocytes	0.0	table	3	7	1
+21738480	rs1449263	Monocytes	0.0	table	3	8	1
+21738480	rs9880192	Monocytes	0.0	table	3	9	1
+21738480	rs1991866	Monocytes	0.0	table	3	10	1
+21738480	rs10980800	Monocytes	0.0	table	3	11	1
+21738491	rs4687718	QRS	-1	table	1	1	2
+21738491	rs4687718	−0.63	-1	table	1	1	2
+21738491	rs11153730	QRS	-1	table	1	2	2
+21738491	rs12143842	QT	-1	table	1	3	2
+21738491	rs11970286	QT	-1	table	1	4	2
+21738491	rs12296050	QT	-1	table	1	5	2
+21931564	rs7072216	TMAu	-1	table	3	2	3
+21931564	rs9309473	N-ACu	-1	table	3	3	3
+21931564	rs37369	BAIBu	-1	table	3	4	3
+21931564	rs6584194	DMAp	-1	table	3	5	3
+21931564	rs174547	PC aa C36:3/PC aa C36:4	-1	table	3	6	3
+21931564	rs2014355	C3/C4	-1	table	3	7	3
+21931564	rs9393903	PC aa C40:3/PC aa C42:5	-1	table	3	10	3
+21931564	rs2216405	Gly–PTC/PC ae C38:2	-1	table	3	11	3
+21931564	rs7156144	PC ae C32:1/PC ae C34:1	-1	table	3	12	3
+21931564	rs11158519	PC ae C38:1/PC aa C28:1	-1	table	3	13	3
+21931564	rs168622	SM (OH) C24:1/SM C16:0	-1	table	3	14	3
+21931564	rs7094971	C0	-1	table	3	16	3
+21931564	rs2046813	PC ae C44:5/PC ae C42:5	-1	table	3	17	3
+21931564	rs272889	Val-PTC/C5	-1	table	3	19	3
+21931564	rs541503	Orn-PTC/Ser-PTC	-1	table	3	20	3
+21931564	rs174547	PC aa C36:3/PC aa C36:4	0.0	table	4	2	0
+21931564	rs2014355	C3/C4	0.0	table	4	3	0
+21931564	rs9393903	PC aa C40:3/PC aa C42:5	0.0	table	4	6	0
+21931564	rs2216405	Gly-PTC/PC ae C38:2	0.0	table	4	7	0
+21931564	rs7156144	PC ae C32:1/PC ae C34:1	0.0	table	4	8	0
+21931564	rs11158519	PC ae C38:1/PC aa C28:1	0.0	table	4	9	0
+21931564	rs168622	SM (OH) C24:1/SM C16:0	0.0	table	4	10	0
+21931564	rs7094971	C0	0.0	table	4	12	0
+21931564	rs2046813	PC ae C44:5/PC ae C42:5	0.0	table	4	13	0
+21931564	rs272889	Val-PTC/C5	0.0	table	4	15	0
+21931564	rs541503	Orn-PTC/Ser-PTC	0.0	table	4	16	0
+22216198	rs867186	PC	0.0	table	0	1	1
+22216198	rs8119351	PC	0.0	table	0	2	1
+22216198	rs11906160	PC	1e-06	table	0	3	1
+22216198	rs13230047	PC	8e-06	table	0	4	1
+22216198	rs1006973	PC	8e-06	table	0	5	1
+22216198	rs1413885	fPS	0.0	table	0	11	1
+22216198	rs1570868	fPS	0.0	table	0	12	1
+22216198	rs12086738	fPS	3e-06	table	0	13	1
+22216198	rs2137111	fPS	7e-06	table	0	14	1
+22216198	rs13130255	funcPS	3e-06	table	0	21	1
+22216198	rs1401543	Total PS	8e-06	table	0	31	1
+22216198	rs1607504	Total PS	8e-06	table	0	32	1
+22216198	rs2523674	Total PS	1e-05	table	0	33	1
+22291609	rs643434	IL-6	0.0	table	0	2	2
+22291609	rs12034598	ESR	0.0	table	0	3	2
+22291609	rs4910742	ESR	0.0	table	0	4	2
+22291609	rs12075	MCP-1	0.0	table	0	5	2
+22291609	rs3026968	MCP-1	0.0	table	0	6	2
+22291609	rs1341665	hsCRP	0.0	table	0	7	2
+22291609	rs3845624	hsCRP	0.0	table	0	8	2
+22291609	rs657152	IL-6	0.0	table	1	1	2
+22291609	rs643434	IL-6	0.0	table	1	1	9
+22291609	rs4129267	IL-6	0.0	table	1	2	2
+22291609	rs12567990	ESR	0.0	table	1	3	2
+22291609	rs12034598	ESR	0.0	table	1	3	9
+22291609	rs4910742	ESR	0.0	table	1	4	2
+22291609	rs10903129	ESR	0.0	table	1	5	2
+22291609	rs11829037	ESR	0.0	table	1	6	2
+22291609	rs12075	MCP-1	0.0	table	1	7	2
+22291609	rs17141006	MCP-1	0.0	table	1	8	2
+22291609	rs3918357	MCP-1	0.0	table	1	8	9
+22291609	rs1205	hsCRP	0.0	table	1	9	2
+22291609	rs1341665	hsCRP	0.0	table	1	9	9
+22291609	rs3093077	hsCRP	0.0	table	1	10	2
+22291609	rs3845624	hsCRP	0.0	table	1	10	9
+22291609	rs11829037	hsCRP	0.0	table	1	11	2
+22291609	rs2259816	hsCRP	5e-06	table	1	12	2
+22291609	rs4420638	hsCRP	0.0	table	1	13	2
+22291609	rs113459440	hsCRP	0.0	table	1	14	2
+22509378	rs13202860	Arousal	0.0	table	0	1	1
+22509378	rs1876525	Arousal	0.0	table	0	2	1
+22509378	rs13209281	Arousal	1e-06	table	0	3	1
+22509378	rs4820255	Overall FSD	2e-06	table	0	4	1
+22509378	rs4821535	Overall FSD	2e-06	table	0	5	1
+22509378	rs2284024	Overall FSD	2e-06	table	0	6	1
+22509378	rs5750311	Overall FSD	2e-06	table	0	7	1
+22509378	rs739031	Overall FSD	2e-06	table	0	8	1
+22509378	rs4821536	Overall FSD	3e-06	table	0	9	1
+22509378	rs2370759	Lubrication	2e-06	table	0	10	1
+22509378	rs11594963	Lubrication	2e-06	table	0	11	1
+22509378	rs11599044	Lubrication	2e-06	table	0	12	1
+22509378	rs10508773	Lubrication	2e-06	table	0	13	1
+22509378	rs16933243	Lubrication	3e-06	table	0	14	1
+22509378	rs11008865	Lubrication	3e-06	table	0	15	1
+22558069	rs4985726	TP	0.0	table	1	2	1
+22558069	rs1260326	ALB	0.0	table	1	3	1
+22558069	rs4985726	NAP	0.0	table	1	4	1
+22558069	rs3803800	NAP	0.0	table	1	5	1
+22558069	rs11552708	NAP	0.0	table	1	6	1
+22558069	rs10007186	NAP	0.0	table	1	7	1
+22589738	rs984222	Men	-1	table	2	2	1
+22589738	rs1011731	Men	-1	table	2	3	1
+22589738	rs4846567	Men	-1	table	2	4	1
+22589738	rs10195252	Men	-1	table	2	5	1
+22589738	rs6784615	Men	-1	table	2	6	1
+22589738	rs6795735	Men	-1	table	2	7	1
+22589738	rs6861681	Men	-1	table	2	8	1
+22589738	rs1294421	Men	-1	table	2	9	1
+22589738	rs6905288	Men	-1	table	2	10	1
+22589738	rs9491696	Men	-1	table	2	11	1
+22589738	rs1055144	Men	-1	table	2	12	1
+22589738	rs718314	Men	-1	table	2	13	1
+22589738	rs1443512	Men	-1	table	2	14	1
+22589738	rs4823006	Men	-1	table	2	15	1
+22589738	rs984222	Women	-1	table	2	16	1
+22589738	rs1011731	Women	-1	table	2	17	1
+22589738	rs4846567	Women	-1	table	2	18	1
+22589738	rs10195252	Women	-1	table	2	19	1
+22589738	rs6784615	Women	-1	table	2	20	1
+22589738	rs6795735	Women	-1	table	2	21	1
+22589738	rs6861681	Women	-1	table	2	22	1
+22589738	rs1294421	Women	-1	table	2	23	1
+22589738	rs6905288	Women	-1	table	2	24	1
+22589738	rs9491696	Women	-1	table	2	25	1
+22589738	rs1055144	Women	-1	table	2	26	1
+22589738	rs718314	Women	-1	table	2	27	1
+22589738	rs1443512	Women	-1	table	2	28	1
+22589738	rs4823006	Women	-1	table	2	29	1
+22589738	rs984222	Overall	-1	table	2	30	1
+22589738	rs1011731	Overall	-1	table	2	31	1
+22589738	rs4846567	Overall	-1	table	2	32	1
+22589738	rs10195252	Overall	-1	table	2	33	1
+22589738	rs6784615	Overall	-1	table	2	34	1
+22589738	rs6795735	Overall	-1	table	2	35	1
+22589738	rs6861681	Overall	-1	table	2	36	1
+22589738	rs1294421	Overall	-1	table	2	37	1
+22589738	rs6905288	Overall	-1	table	2	38	1
+22589738	rs9491696	Overall	-1	table	2	39	1
+22589738	rs1055144	Overall	-1	table	2	40	1
+22589738	rs718314	Overall	-1	table	2	41	1
+22589738	rs1443512	Overall	-1	table	2	42	1
+22589738	rs4823006	Overall	-1	table	2	43	1
+22832964	rs2036527	CPD	0.0	table	1	1	1
+22832964	rs667282	CPD	0.0	table	1	2	1
+22832964	rs3101457	CPD	0.0	table	1	3	1
+22832964	rs938682	CPD	0.0	table	1	4	1
+22832964	rs547843	CPD	1e-06	table	1	5	1
+22832964	rs3813570	CPD	1e-06	table	1	6	1
+22832964	rs1678618	AOI	1e-06	table	1	7	1
+22832964	rs1245577	AOI	1e-06	table	1	8	1
+22832964	rs1612028	AOI	1e-06	table	1	9	1
+23028342	rs12437854	ESRD	0.0	table	1	2	0
+23028342	rs7583877	ESRD	0.0	table	1	3	0
+23028342	rs7588550	T1DN	0.0	table	1	4	0
+23118974	rs1667394	Eye C'	0.0	table	1	2	1
+23118974	rs702477	Eye C'	0.0	table	1	3	1
+23118974	rs8039195	Eye C'	0.0	table	1	4	1
+23118974	rs886890	Eye C'	6e-06	table	1	5	1
+23118974	rs1635168	Eye C'	0.0	table	1	6	1
+23118974	rs9809315	Skin M	0.0	table	1	7	1
+23118974	rs2033739	Skin M	5e-06	table	1	8	1
+23118974	rs262825	Hair M	8e-06	table	1	9	1
+23251661	rs1056513	Weight (kg)	0.0	table	0	1	0
+23251661	rs1056513	BMI (kg/m 2 )	8e-06	table	0	2	0
+23251661	rs1056513	Fat mass (kg)	0.0	table	0	3	0
+23251661	rs1056513	Trunk fat mass (kg)	0.0	table	0	4	0
+23251661	rs1056513	Fat free mass (kg)	0.0	table	0	5	0
+23251661	rs1056513	Hip circumference (cm)	2e-06	table	0	6	0
+23251661	rs494558	Weight z-score change (SD/y)	0.0	table	0	7	0
+23251661	rs40357	Height change (cm/y)	0.0	table	0	8	0
+23251661	rs3733402	IGF-1 free (ng/mL)	-1	table	1	1	0
+23251661	rs11974269	Urinary creatinine(mmol/d)	0.0	table	1	2	0
+23251661	rs7030241	TSH (µIU/mL)	0.0	table	1	3	0
+23251661	rs10830963	Glucose (mg/dL)	0.0	table	1	4	0
+23251661	rs3741298	Triglycerides(mg/dL)	0.0	table	1	5	0
+23251661	rs2266788	Triglycerides(mg/dL)	0.0	table	1	6	0
+23251661	rs10131141	Urinary nitrogen (g/d)	0.0	table	1	7	0
+23251661	rs3783637	Urinary freedopamine:creatinine	0.0	table	1	8	0
+23251661	rs61744862	IGFBP-3 (ng/mL)	0.0	table	1	9	0
+23251661	rs6044834	Total antioxidants(mM)	0.0	table	1	10	0
+23251661	rs863002	MCP-1 (pg/mL)	0.0	table	2	1	0
+23251661	rs12075	MCP-1 (pg/mL)	0.0	table	2	2	0
+23251661	rs73175262	MCP-1 (pg/mL)	0.0	table	2	3	0
+23251661	rs7645716	MCP-1 (pg/mL)	0.0	table	2	4	0
+23251661	rs79509430	MCP-1 (pg/mL)	0.0	table	2	5	0
+23251661	rs657152	IL-6 (pg/mL)	0.0	table	2	6	0
+23251661	rs28461806	MCP-1 (pg/mL)	0.0	table	2	7	0
+23251661	rs16933006	Light activity (min/d)	0.0	table	3	1	0
+23251661	rs17104363	Dinner intake, adjEER (kcal)	0.0	table	3	2	0
+23251661	rs8037818	Sleep duration (min/d)	0.0	table	3	3	0
+23251661	rs8040868	Sleep energyexpenditure adjweight (kcal/d)	0.0	table	3	4	0
+23251661	rs12104221	Total energyexpenditure adjweight (kcal/d)	0.0	table	3	5	0
+23251661	rs6025590	Sedentary&lightactivity (min/d)	0.0	table	3	6	0
+23251661	rs2823615	Sleep RQ	0.0	table	3	7	0
+23408906	rs753760	TSH	-1	table	5	1	0
+23408906	rs2983521	TSH	-1	table	5	1	5
+23408906	rs9347083	TSH	-1	table	5	1	5
+23408906	rs9472138	TSH/FT4	-1	table	5	2	0
+23408906	rs11755845	TSH/FT4	-1	table	5	2	0
+23408906	rs9472138	TSH/FT4	-1	table	5	2	5
+23408906	rs11755845	TSH/FT4	-1	table	5	2	5
+23408906	rs13015993	TSH	-1	table	5	3	0
+23408906	rs737308	TSH	-1	table	5	3	5
+23408906	rs9915657	TSH	-1	table	5	4	0
+23408906	rs334699	TSH	-1	table	5	5	0
+23408906	rs334725	TSH	-1	table	5	5	5
+23408906	rs10519227	TSH	-1	table	5	6	0
+23408906	rs4338740	TSH	-1	table	5	6	5
+23408906	rs17723470	TSH	-1	table	5	7	0
+23408906	rs7128207	TSH	-1	table	5	7	5
+23408906	rs17776563	TSH	-1	table	5	8	0
+23408906	rs4804416	TSH	-1	table	5	9	0
+23408906	rs10420008	TSH	-1	table	5	9	5
+23408906	rs657152	TSH	-1	table	5	10	0
+23408906	rs11624776	TSH	-1	table	5	11	0
+23408906	rs7825175	TSH	-1	table	5	12	0
+23408906	rs2439302	TSH	-1	table	5	12	5
+23408906	rs1537424	TSH	-1	table	5	13	0
+23408906	rs944289	TSH	-1	table	5	13	5
+23408906	rs9497965	TSH	-1	table	5	14	0
+23408906	rs1571583	TSH	-1	table	5	15	0
+23408906	rs7860634	FT4/TSH	-1	table	5	16	0
+23408906	rs7045138	FT4	-1	table	5	17	0
+23408906	rs1443434	FT4	-1	table	5	17	5
+23408906	rs965513	FT4	-1	table	5	17	5
+23408906	rs7850258	FT4	-1	table	5	17	5
+23408906	rs716822	FT4	-1	table	5	18	0
+23408906	rs7240777	FT4	-1	table	5	19	0
+23408906	rs6499766	FT4	-1	table	5	20	0
+23696099	rs7120391	MCHC	0.0	table	1	2	2
+23696099	rs9924561	MCV	0.0	table	1	3	2
+23696099	rs9924561	MCH	0.0	table	1	4	2
+23696099	rs9924561	MCHC	0.0	table	1	5	2
+23696099	rs1050828	RBC count	0.0	table	1	6	2
+23696099	rs1050828	MCV	0.0	table	1	7	2
+23696099	rs1050828	MCH	0.0	table	1	8	2
+23704328	rs17101923	psL-psR: left-to-right palpebrale superius distance	-1	table	1	2	1
+23704328	rs17101923	piL-piR: left-to-right palpebrale inferius distance	-1	table	1	3	1
+23704328	rs17101923	exR.yz: distance of the right exocanthion from the YZ plane	-1	table	1	4	1
+23704328	rs17101923	enL.yz: distance of the left endocanthion from the YZ plane	-1	table	1	5	1
+23704328	rs17101923	enL-enR: left-to-right endocanthion distance	-1	table	1	6	1
+23704328	rs17101923	exL-exR: left-to-right exocanthion distance	-1	table	1	7	1
+23704328	rs17101923	prn-alL: pronasale to left alare distance	-1	table	1	9	1
+23704328	rs7924176	sn-alL: subnasale to left alare	-1	table	1	10	1
+23704328	rs17101923	alL-alR: left-to-right alare distance	-1	table	1	11	1
+23704328	rs997154	g-men: glabella to mid-endocanthion distance	-1	table	1	13	1
+23754948	rs6717858	WHRadjBMI	0.0	table	0	3	0
+23754948	rs2820443	WHRadjBMI	0.0	table	0	4	0
+23754948	rs1358980	WHRadjBMI	0.0	table	0	5	0
+23754948	rs11743303	WCadjBMI	0.0	table	0	6	0
+23754948	rs2371767	WHRadjBMI	0.0	table	0	7	0
+23754948	rs10478424	WHRadjBMI	0.0	table	0	8	0
+23754948	rs4684854	WHRadjBMI	0.0	table	0	9	0
+23754948	rs6717858	WHRADJ [31]	0.0	table	1	1	0
+23754948	rs10195252	WHRADJ [31]	0.0	table	1	1	8
+23754948	rs2820443	HEIGHT [25] ; WHRADJ [31]	0.0	table	1	2	0
+23754948	rs11118346	HEIGHT [25] ; WHRADJ [31]	0.0	table	1	2	8
+23754948	rs4846567	HEIGHT [25] ; WHRADJ [31]	0.0	table	1	2	8
+23754948	rs1358980	WHRADJ [31]	0.0	table	1	3	0
+23754948	rs6905288	WHRADJ [31]	0.0	table	1	3	8
+23754948	rs2371767	WHRADJ [31]	2e-06	table	1	5	0
+23754948	rs6795735	WHRADJ [31]	2e-06	table	1	5	8
+23836780	rs4656461	Glaucoma	-1	table	0	1	1
+23836780	rs3213787	Glaucoma	-1	table	0	3	1
+23836780	rs735860	Glaucoma	-1	table	0	4	1
+23836780	rs4977756	Glaucoma	-1	table	0	6	1
+23836780	rs3825942	Glaucoma (exfoliation)	-1	table	0	7	1
+23836780	rs11656696	IOP	-1	table	0	8	1
+23935956	rs1155865	MCHC	0.0	table	0	1	1
+23935956	rs1887582	MCHC	0.0	table	0	2	1
+23966867	rs2075064	WC_BMI_pooled	0.0	table	1	2	1
+23966867	rs6931262	WHR_BMI_pooled	0.0	table	1	3	1
+23966867	rs6867983	WC_men	0.0	table	1	4	1
+23966867	rs7601155	WC_pooled	0.0	table	1	5	1
+23966867	rs10894604	WHR_BMI_pooled	0.0	table	1	6	1
+23966867	rs17213965	WHR_BMI_Men	0.0	table	1	7	1
+23966867	rs2570467	WC_Men	0.0	table	1	8	1
+23966867	rs11777345	WHR_BMI_men	0.0	table	1	9	1
+23966867	rs4730779	WC_BMI_men	0.0	table	1	10	1
+23966867	rs6739392	WHR_BMI_women	1e-06	table	1	11	1
+23966867	rs1345301	WC_Men	0.0	table	1	12	1
+23966867	rs16830366	WC_women	0.0	table	1	13	1
+23966867	rs11961438	WC_women	1e-06	table	1	14	1
+23966867	rs7672174	WC_pooled	0.0	table	1	15	1
+23966867	rs4292018	WHR_pooled	1e-06	table	1	16	1
+23966867	rs1355187	WC_pooled	0.0	table	1	17	1
+23966867	rs2907512	WC_men	1e-06	table	1	18	1
+23966867	rs12777819	WC_BMI_pooled	0.0	table	1	19	1
+23966867	rs11197515	WHR_men	2e-06	table	1	20	1
+23966867	rs214679	WHR_pooled	1e-06	table	1	21	1
+23966867	rs17134146	WHR_pooled	0.0	table	1	22	1
+23966867	rs2881189	WC_BMI_pooled	0.0	table	1	23	1
+23966867	rs2548774	WC_BMI_men	1e-06	table	1	24	1
+23966867	rs2958759	WC_pooled	1e-06	table	1	25	1
+23966867	rs7296740	WHR_men	4e-06	table	1	26	1
+24324551	rs4149018	Cardio	0.0	table	0	1	2
+24324551	rs12582717	Cardio	0.0	table	0	2	2
+24324551	rs2645430	EF	0.0	table	0	3	2
+24324551	rs1497042	EF	0.0	table	0	4	2
+24324551	rs2252567	EF	1e-06	table	0	5	2
+24324551	rs111981433	EF	1e-06	table	0	6	2
+24324551	rs807029	EF	0.0	table	0	7	2
+24324551	rs13078828	EIA	0.0	table	0	8	2
+24324551	rs57302454	PCR	1e-06	table	0	9	2
+24324551	rs7013781	PCR	1e-06	table	0	10	2
+24324551	rs2054148	PCR	1e-06	table	0	11	2
+24324551	rs10955961	PCR	0.0	table	0	12	2
+24324551	rs10955962	PCR	0.0	table	0	13	2
+24324551	rs2034842	PCR	1e-06	table	0	14	2
+24324551	rs10808508	PCR	0.0	table	0	15	2
+24324551	rs7387094	PCR	0.0	table	0	16	2
+24324551	rs7387373	PCR	1e-06	table	0	17	2
+24324551	rs56159702	PCR	0.0	table	0	18	2
+24324551	rs58829748	PCR	1e-06	table	0	19	2
+24324551	rs6989074	PCR	0.0	table	0	20	2
+24324551	rs4408325	PCR	0.0	table	0	21	2
+24324551	rs116303449	PCR	1e-06	table	0	22	2
+24324551	rs56988800	PR	0.0	table	0	23	2
+24324551	rs79523511	PR	0.0	table	0	24	2
+24324551	rs76090503	PR	0.0	table	0	25	2
+24324551	rs9815195	PR	1e-06	table	0	26	2
+24324551	rs114133078	PR	0.0	table	0	27	2
+24324551	rs61018535	PR	0.0	table	0	28	2
+24324551	rs59623110	PR	0.0	table	0	29	2
+24324551	rs73276602	PR	0.0	table	0	30	2
+24324551	rs114137957	PR	1e-06	table	0	31	2
+24324551	rs115744676	PR	0.0	table	0	32	2
+24324551	rs116187617	PR	0.0	table	0	33	2
+24324551	rs75609241	PR	0.0	table	0	34	2
+24324551	rs78852656	PR	0.0	table	0	35	2
+24324551	rs59403466	PR	1e-06	table	0	36	2
+24324551	rs117364231	PR	0.0	table	0	37	2
+24324551	rs75041531	PR	1e-06	table	0	38	2
+24324551	rs191392302	PR	0.0	table	0	39	2
+24324551	rs11664027	PR	0.0	table	0	40	2
+24324551	rs8087073	PR	0.0	table	0	41	2
+24324551	rs3176130	PR	0.0	table	0	42	2
+24324551	rs182503338	QRS	1e-06	table	0	43	2
+24324551	rs72786268	QRS	0.0	table	0	44	2
+24324551	rs10769783	QRS	0.0	table	0	45	2
+24324551	rs2274511	QRS	1e-06	table	0	46	2
+24347629	rs733048	PD1	1e-06	table	0	1	2
+24347629	rs11713199	PD2	7e-06	table	0	11	2
+24347629	rs12630254	PD2	7e-06	table	0	12	1
+24347629	rs12630931	PD2	6e-06	table	0	13	1
+24376456	rs648425	SBP	1e-06	table	2	2	2
+24376456	rs17669622	MAP	1e-06	table	2	3	2
+24376456	rs16849553	MAP	1e-06	table	2	4	2
+24376456	rs13008299	DBP	0.0	table	2	5	2
+24376456	rs4953404	PP	1e-06	table	2	6	2
+24376456	rs9874923	MAP	0.0	table	2	8	2
+24376456	rs3852160	MAP	0.0	table	2	9	2
+24376456	rs4537030	MAP	1e-06	table	2	10	2
+24376456	rs7791745	MAP	1e-06	table	2	11	2
+24376456	rs11766519	PP	0.0	table	2	12	2
+24376456	rs10826334	MAP	1e-06	table	2	13	2
+24376456	rs12773465	MAP	0.0	table	2	16	2
+24376456	rs7902871	DBP	1e-06	table	2	17	2
+24376456	rs7116456	SBP	0.0	table	2	18	2
+24376456	rs12292796	PP	0.0	table	2	19	2
+24376456	rs10841530	SBP	1e-06	table	2	20	2
+24376456	rs991427	SBP	0.0	table	2	21	2
+24376456	rs4494364	SBP	0.0	table	2	22	2
+24376456	rs9318552	DBP	0.0	table	2	23	2
+24376456	rs2735413	SBP	1e-06	table	2	24	2
+24376456	rs16963349	SBP	0.0	table	2	25	2
+24376456	rs1943940	DBP	1e-06	table	2	26	2
+24376456	rs2410182	SBP	1e-06	table	2	28	2
+24376456	rs2837253	SBP	1e-06	table	2	29	2
+24376456	rs648425	Blood pressure	-1	table	3	2	2
+24376456	rs669733	Blood pressure	-1	table	3	2	4
+24376456	rs10518590	Blood pressure	3e-06	table	3	3	4
+24376456	rs17669622	Cardiac hypertrophy	0.0	table	3	4	2
+24376456	rs12757165	Cardiac hypertrophy	0.0	table	3	4	4
+24376456	rs4953404	Coronary heart disease	2e-06	table	3	8	2
+24376456	rs2346177	Coronary heart disease	2e-06	table	3	8	4
+24376456	rs1523351	Coronary artery disease	1e-06	table	3	10	4
+24376456	rs3852160	QT interval	1e-06	table	3	11	2
+24376456	rs7728043	QT interval	1e-06	table	3	11	4
+24376456	rs2937785	Hypertension	9e-06	table	3	12	4
+24376456	rs10486744	Blood pressure	-1	table	3	14	4
+24376456	rs10826334	Blood pressure	4e-06	table	3	15	2
+24376456	rs10509096	Blood pressure	4e-06	table	3	15	4
+24376456	rs12356193	Uric acid levels	0.0	table	3	16	4
+24376456	rs7094971	Carnitine	0.0	table	3	17	4
+24376456	rs6479671	Alcohol drinking	-1	table	3	18	4
+24376456	rs1171614	Urate levels	0.0	table	3	19	4
+24376456	rs12773465	Cystathionine	6e-06	table	3	20	2
+24376456	rs3824789	Cystathionine	6e-06	table	3	20	4
+24376456	rs7902871	Total cysteine	7e-06	table	3	21	2
+24376456	rs12767760	Total cysteine	7e-06	table	3	21	4
+24376456	rs2275588	Blood pressure	0.0	table	3	22	4
+24376456	rs10500968	Echocardiography	1e-06	table	3	24	4
+24376456	rs10841530	Baseline blood pressure	9e-06	table	3	25	2
+24376456	rs10841397	Baseline blood pressure	9e-06	table	3	25	4
+24376456	rs10770612	Aortic root size	0.0	table	3	26	4
+24376456	rs1348582	QT interval	1e-06	table	3	27	4
+24376456	rs991427	Sudden cardiac arrest	5e-06	table	3	28	2
+24376456	rs10777317	Sudden cardiac arrest	5e-06	table	3	28	4
+24376456	rs4494364	Sudden cardiac arrest	-1	table	3	29	2
+24376456	rs2735413	Folate	7e-06	table	3	30	2
+24376456	rs4888671	Folate	7e-06	table	3	30	4
+24376456	rs2059238	Cardiac structure and function	3e-06	table	3	31	4
+24376456	rs2278075	Cardiovascular disease	0.0	table	3	32	4
+24376456	rs16963349	Blood pressure	0.0	table	3	33	2
+24376456	rs3096277	Blood pressure	0.0	table	3	33	4
+24376456	rs1943940	Hypertension	1e-05	table	3	34	2
+24376456	rs4892138	Hypertension	1e-05	table	3	34	4
+24376456	rs2410182	Coronary heart disease	9e-06	table	3	36	2
+24376456	rs1735151	Coronary heart disease	9e-06	table	3	36	4
+24379826	rs938553	Body weight	5e-06	table	2	1	1
+24379826	rs6832439	Total antioxidant status	1e-06	table	2	12	1
+24379826	rs737267	Total antioxidant status	1e-06	table	2	13	1
+24386095	rs11207995	TC	0.0	table	1	2	1
+24386095	rs10045497	TC	0.0	table	1	3	1
+24386095	rs10045497	LDL	0.0	table	1	4	1
+24386095	rs328	TG	0.0	table	1	5	1
+24386095	rs328	HDL	0.0	table	1	6	1
+24386095	rs507666	TC	0.0	table	1	7	1
+24386095	rs507666	LDL	0.0	table	1	8	1
+24386095	rs651821	TG	0.0	table	1	9	1
+24386095	rs2043085	HDL	0.0	table	1	10	1
+24386095	rs1160985	LDL	0.0	table	1	11	1
+24386095	rs3764261	HDL	0.0	table	1	12	1
+24386095	rs599839	LDL	0.0	table	2	2	2
+24386095	rs646776	LDL	0.0	table	2	3	2
+24386095	rs12740374	LDL	0.0	table	2	4	2
+24386095	rs673548	HDL	1e-06	table	2	5	2
+24386095	rs693	HDL	0.0	table	2	6	2
+24386095	rs6754295	HDL	0.0	table	2	7	2
+24586186	rs11884776	N-acetylated compounds	0.0	table	0	2	1
+24586186	rs3764913	Unknown	0.0	table	0	3	1
+24586186	rs37370	3-Aminoisobutyrate	0.0	table	0	4	1
+24586186	rs4921914	Unknown	0.0	table	0	5	1
+24586186	rs579459	Unknown	0.0	table	0	6	1
+24586186	rs2147896	Trimethylamine	0.0	table	0	7	1
+24586186	rs4345897	Unknown	0.0	table	0	8	1
+24586186	rs3916	Unknown	0.0	table	0	9	1
+24586186	rs7314056	2-Hydroxyisobutyrate	0.0	table	0	10	1
+24586186	rs8101881	Lysine	0.0	table	0	11	1
+24586186	rs492602	Fucose	0.0	table	0	12	1
+24892410	rs6556114	Daytime PP	-1	table	1	1	1
+24892410	rs897669	Daytime PP	-1	table	1	2	1
+24892410	rs2527083	Daytime PP	-1	table	1	3	1
+24892410	rs505299	Daytime PP	-1	table	1	4	1
+24892410	rs9564376	Daytime PP	-1	table	1	5	1
+24892410	rs6696698	Nighttime PP	-1	table	1	6	1
+24892410	rs17039365	Nighttime PP	-1	table	1	7	1
+24892410	rs17338512	Nighttime PP	-1	table	1	8	1
+24892410	rs7596980	Nighttime PP	-1	table	1	9	1
+24892410	rs897876	Nighttime PP	-1	table	1	10	1
+24892410	rs1019102	Nighttime PP	-1	table	1	11	1
+24892410	rs17513926	Nighttime PP	-1	table	1	12	1
+24903457	rs13390641	SBP	-1	table	1	2	2
+24945404	rs3765350	TBLH-BMD	0.0	table	1	2	1
+24945404	rs6726821	TBLH-BMD	0.0	table	1	3	1
+24945404	rs7776725	TBLH-BMD	0.0	table	1	4	1
+24945404	rs7466269	TBLH-BMD	0.0	table	1	5	1
+24945404	rs4420311	TBLH-BMD	0.0	table	1	6	1
+24945404	rs17536328	TBLH-BMD	0.0	table	1	7	1
+24945404	rs754388	TBLH-BMD	0.0	table	1	8	1
+24945404	rs3765350	LL-BMD	0.0	table	1	9	1
+24945404	rs2908004	LL-BMD	0.0	table	1	10	1
+24945404	rs7466269	LL-BMD	0.0	table	1	11	1
+24945404	rs4420311	LL-BMD	0.0	table	1	12	1
+24945404	rs754388	LL-BMD	0.0	table	1	13	1
+24945404	rs2235529	UL-BMD	0.0	table	1	14	1
+24945404	rs6726821	UL-BMD	0.0	table	1	15	1
+24945404	rs1262476	UL-BMD	0.0	table	1	16	1
+24945404	rs798943	UL-BMD	0.0	table	1	17	1
+24945404	rs9525638	UL-BMD	0.0	table	1	18	1
+24945404	rs3920498	SK-BMD	0.0	table	1	19	1
+24945404	rs2130604	SK-BMD	0.0	table	1	20	1
+24945404	rs3012465	SK-BMD	0.0	table	1	21	1
+24945404	rs13223036	SK-BMD	0.0	table	1	22	1
+24945404	rs2450083	SK-BMD	0.0	table	1	23	1
+24945404	rs10835187	SK-BMD	0.0	table	1	24	1
+24945404	rs12272917	SK-BMD	0.0	table	1	25	1
+24945404	rs884205	SK-BMD	0.0	table	1	26	1
+25087078	rs6732655	All epilepsy	0.0	table	1	1	0
+25087078	rs28498976	All epilepsy	0.0	table	1	2	0
+25087078	rs111577701	All epilepsy	0.0	table	1	3	0
+25087078	rs535066	All epilepsy	0.0	table	1	4	0
+25087078	rs2947349	GGE	0.0	table	1	5	0
+25087078	rs1939012	GGE	0.0	table	1	6	0
+25087078	rs1044352	GGE	0.0	table	1	7	0
+25087078	rs55670112	GGE	0.0	table	1	8	0
+25087078	rs12987787	Focal epilepsy	0.0	table	1	9	0
+25133637	rs955423	BMI	-1	table	0	1	3
+25133637	rs3096490	BMI	-1	table	0	2	3
+25133637	rs1392280	BMI	-1	table	0	3	3
+25133637	rs1426654	BMI	-1	table	0	4	3
+25133637	rs794149	BMI	-1	table	0	5	3
+25133637	rs3096483	BMI	-1	table	0	6	3
+25133637	rs10041997	Change in BMI	-1	table	0	7	3
+25133637	rs1347155	Change in BMI	-1	table	0	8	3
+25133637	rs7565158	Change in BMI	-1	table	0	9	3
+25133637	rs8042988	Height	-1	table	0	10	3
+25133637	rs4898878	Height	-1	table	0	11	3
+25133637	rs12882679	Underweight	-1	table	0	12	3
+25133637	rs1475010	Overweight	-1	table	0	13	3
+25133637	rs8181969	Overweight	-1	table	0	14	3
+25133637	rs1426654	BMI: Female	-1	table	1	2	3
+25133637	rs1331623	Height: Female	-1	table	1	4	3
+25133637	rs6833159	Underweight: Male	-1	table	1	5	3
+25133637	rs12101726	Overweight: Male	-1	table	1	7	3
+25133637	rs1161397	Overweight: Male	-1	table	1	8	3
+25133637	rs280325	Overweight: Male	-1	table	1	9	3
+25133637	rs6447650	Change in BMI: Male	-1	table	1	11	3
+25133637	rs347313	Change in BMI: Female	-1	table	1	12	3
+25133637	rs347306	Change in BMI: Female	-1	table	1	13	3
+25133637	rs1347155	Change in BMI: Female	-1	table	1	14	3
+25133637	rs347282	Change in BMI: Female	-1	table	1	15	3
+25188341	rs6857	Primary (Case-Control)	0.0	table	1	1	1
+25188341	rs6857	Complete (Case-Control)	0.0	table	1	3	1
+25188341	rs6857	NFT Braak (Ordinal I)	0.0	table	1	5	1
+25188341	rs6857	NFT Braak (Ordinal II)	0.0	table	1	6	1
+25188341	rs6857	Neuritic Plaque (Ordinal)	0.0	table	1	7	1
+25188341	rs6857	Neuritic Plaque (Case-Control)	0.0	table	1	8	1
+25188341	rs62341097	Neuritic Plaque (Case-Control)	0.0	table	1	9	1
+25188341	rs429358	Lewy Body (Ordinal I)	0.0	table	1	12	1
+25188341	rs429358	Lewy Body (Case-Control)	0.0	table	1	13	1
+25188341	rs429358	Lewy Body (Ordinal II)	0.0	table	1	14	1
+25188341	rs6857	CAA (Case-Control)	0.0	table	1	16	1
+25340798	rs4968782	ACE	0.0	table	1	1	1
+25340798	rs4459609	ACE	0.0	table	1	2	1
+25340798	rs4316	ACE	0.0	table	1	3	1
+25340798	rs4343	ACE	0.0	table	1	4	1
+25340798	rs2228467	CCL2	0.0	table	1	5	1
+25340798	rs6808835	CCL4	0.0	table	1	6	1
+25340798	rs6762266	CCL4	0.0	table	1	7	1
+25340798	rs11575821	CCL4	0.0	table	1	8	1
+25340798	rs113263161	CCL4	0.0	table	1	9	1
+25340798	rs11574428	CCL4	0.0	table	1	10	1
+25340798	rs3092960	CCL4	0.0	table	1	11	1
+25340798	rs6441977	CCL4	0.0	table	1	12	1
+25340798	rs61812598	IL6R	0.0	table	1	13	1
+25340798	rs4845622	IL6R	0.0	table	1	14	1
+25340798	rs2228145	IL6R	0.0	table	1	15	1
+25340798	rs4129267	IL6R	0.0	table	1	16	1
+25340798	rs3811448	IL6R	0.0	table	1	17	1
+25340798	rs2229238	IL6R	0.0	table	1	18	1
+25340798	rs573521	MMP3	0.0	table	1	19	1
+25340798	rs645419	MMP3	0.0	table	1	20	1
+25340798	rs679620	MMP3	0.0	table	1	21	1
+25340798	rs7926920	MMP3	0.0	table	1	22	1
+25340798	rs11225434	MMP3	0.0	table	1	23	1
+25340798	rs948399	MMP3	0.0	table	1	24	1
+25340798	rs495366	MMP3	0.0	table	1	25	1
+25340798	rs650108	MMP3	0.0	table	1	26	1
+25340798	rs603050	MMP3	0.0	table	1	27	1
+25340798	rs4845622	IL6R	0.0	table	2	1	1
+25340798	rs61812598	IL6R	0.0	table	2	2	1
+25340798	rs4129267	IL6R	0.0	table	2	3	1
+25340798	rs2228145	IL6R	0.0	table	2	4	1
+25340798	rs2229238	IL6R	0.0	table	2	5	1
+25340798	rs3811448	IL6R	0.0	table	2	6	1
+25340798	rs2228467	CCL2	0.0	table	2	7	1
+25340798	rs3092960	CCL4	1e-06	table	2	8	1
+25340798	rs11575821	CCL4	0.0	table	2	9	1
+25340798	rs113263161	CCL4	1e-06	table	2	10	1
+25340798	rs11574428	CCL4	0.0	table	2	11	1
+25340798	rs6808835	CCL4	0.0	table	2	12	1
+25340798	rs6441977	CCL4	1e-06	table	2	13	1
+25340798	rs6762266	CCL4	0.0	table	2	14	1
+25340798	rs603050	MMP3	0.0	table	2	15	1
+25340798	rs11225434	MMP3	0.0	table	2	16	1
+25340798	rs495366	MMP3	0.0	table	2	17	1
+25340798	rs7926920	MMP3	0.0	table	2	18	1
+25340798	rs650108	MMP3	0.0	table	2	19	1
+25340798	rs679620	MMP3	0.0	table	2	20	1
+25340798	rs645419	MMP3	0.0	table	2	21	1
+25340798	rs573521	MMP3	0.0	table	2	22	1
+25340798	rs948399	MMP3	0.0	table	2	23	1
+25340798	rs4968782	ACE	0.0	table	2	24	1
+25340798	rs4459609	ACE	0.0	table	2	25	1
+25340798	rs4316	ACE	1e-05	table	2	26	1
+25367360	rs10226930	RA	-1	table	3	4	1
+17903295	rs1528753	Age at death	0.0	table	1	4	1
+17903295	rs2371208	Age at death	3e-06	table	1	5	1
+17903295	rs10493513	Age at death	2e-06	table	1	40	1
+17903295	rs10493514	Age at death	3e-06	table	1	41	1
+19197348	rs6560749	BMI	2e-06	table	2	2	3
+19197348	rs10486715	Height	3e-06	table	2	4	3
+19197348	rs17718077	Height	3e-06	table	2	5	3
+19197348	rs2222328	Waist Circumference	1e-06	table	2	7	3
+19197348	rs613391	Waist Circumference	5e-06	table	2	8	3
+19197348	rs527485	Waist Circumference	7e-06	table	2	9	3
+19197348	rs976731	Waist Circumference	7e-06	table	2	10	3
+19197348	rs976730	Waist Circumference	8e-06	table	2	11	3
+19197348	rs2225614	Weight	3e-06	table	2	13	3
+19197348	rs10928195	Weight	4e-06	table	2	14	3
+19197348	rs1874326	Weight	9e-06	table	2	15	3
+19197348	rs755109	Thyroid Stimulating Hormone	1e-06	table	2	63	3
+19197348	rs6462411	Thyroid Stimulating Hormone	1e-06	table	2	64	3
+19197348	rs10983893	Thyroid Stimulating Hormone	2e-06	table	2	65	3
+19197348	rs10848704	Thyroid Stimulating Hormone	2e-06	table	2	66	3
+19197348	rs4743136	Thyroid Stimulating Hormone	2e-06	table	2	67	3
+19197348	rs10241703	Thyroid Stimulating Hormone	2e-06	table	2	68	3
+19197348	rs6958535	Thyroid Stimulating Hormone	3e-06	table	2	69	3
+19197348	rs925488	Thyroid Stimulating Hormone	3e-06	table	2	70	3
+19197348	rs10983932	Thyroid Stimulating Hormone	3e-06	table	2	71	3
+19197348	rs6959674	Thyroid Stimulating Hormone	3e-06	table	2	72	3
+19197348	rs11514766	Thyroid Stimulating Hormone	3e-06	table	2	73	3
+19197348	rs7804166	Thyroid Stimulating Hormone	3e-06	table	2	74	3
+19197348	rs1877431	Thyroid Stimulating Hormone	3e-06	table	2	75	3
+19197348	rs1588635	Thyroid Stimulating Hormone	4e-06	table	2	76	3
+19197348	rs10984516	Thyroid Stimulating Hormone	4e-06	table	2	77	3
+19197348	rs1962785	Thyroid Stimulating Hormone	4e-06	table	2	78	3
+19197348	rs2805809	Thyroid Stimulating Hormone	4e-06	table	2	79	3
+19197348	rs12531984	Thyroid Stimulating Hormone	5e-06	table	2	80	3
+19197348	rs10243770	Thyroid Stimulating Hormone	5e-06	table	2	81	3
+19197348	rs10119795	Thyroid Stimulating Hormone	5e-06	table	2	82	3
+19197348	rs12539695	Thyroid Stimulating Hormone	6e-06	table	2	83	3
+19197348	rs2805810	Thyroid Stimulating Hormone	6e-06	table	2	84	3
+19197348	rs6956479	Thyroid Stimulating Hormone	6e-06	table	2	85	3
+19197348	rs2668804	Thyroid Stimulating Hormone	6e-06	table	2	86	3
+19197348	rs7036589	Thyroid Stimulating Hormone	7e-06	table	2	87	3
+19197348	rs6909430	Thyroid Stimulating Hormone	8e-06	table	2	88	3
+19197348	rs2808693	Thyroid Stimulating Hormone	1e-05	table	2	89	3
+19197348	rs10245389	Thyroid Stimulating Hormone	1e-05	table	2	90	3
+19197348	rs9939609	BMI	0.0	table	3	3	0
+19197348	rs17782313	BMI	0.0	table	3	4	0
+19197348	rs6763931	Height	0.0	table	3	6	0
+19197348	rs6440003	Height	0.0	table	3	6	7
+19197348	rs724016	Height	0.0	table	3	7	0
+19197348	rs6440003	Height	0.0	table	3	7	7
+19197348	rs1042725	Height	0.0	table	3	8	0
+19197348	rs6060369	Height	0.0	table	3	9	0
+19197348	rs798544	Height	0.0	table	3	10	0
+19197348	rs3748069	Height	0.0	table	3	11	0
+19197348	rs7755109	Height	0.0	table	3	11	7
+19197348	rs1812175	Height	0.0	table	3	12	0
+19197348	rs7153027	Height	0.0	table	3	13	0
+19197348	rs6830062	Height	0.0	table	3	14	0
+19197348	rs3760318	Height	0.0	table	3	15	0
+19197348	rs7225461	Height	0.0	table	3	15	7
+19197348	rs2282978	Height	0.0	table	3	16	0
+19197348	rs967417	Height	0.0	table	3	17	0
+19197348	rs4743034	Height	0.0	table	3	18	0
+19197348	rs678962	Height	0.0	table	3	19	0
+19197348	rs12411264	Height	0.0	table	3	19	7
+19197348	rs4533267	Height	0.0	table	3	20	0
+19197348	rs7846385	Height	0.0	table	3	21	0
+19197348	rs2562784	Height	0.0	table	3	22	0
+19197348	rs4794665	Height	0.0	table	3	23	0
+19197348	rs563694	Fasting plasma glucose	0.0	table	3	45	0
+19197348	rs1799884	Fasting plasma glucose	0.0	table	3	46	0
+19197348	rs4704397	Thyroid Stimulating Hormone	0.0	table	3	48	0
+19448621	rs314277	Age at Menarche	0.0	table	0	3	0
+19448621	rs314263	Age at Menarche	0.0	table	0	4	0
+19448621	rs369065	Age at Menarche	0.0	table	0	5	0
+19448621	rs7861820	Age at Menarche	0.0	table	0	6	0
+19448621	rs314280	Age at Menarche	0.0	table	0	7	0
+19448621	rs4946651	Age at Menarche	0.0	table	0	8	0
+19448621	rs12684013	Age at Menarche	0.0	table	0	9	0
+19448621	rs4452860	Age at Menarche	0.0	table	0	10	0
+19448621	rs7028916	Age at Menarche	0.0	table	0	11	0
+19448621	rs314262	Age at Menarche	0.0	table	0	12	0
+22911880	rs7624327	BULIMIA	3e-06	table	2	6	0
+24886709	rs6027281	BMI	0.0	table	1	16	0

@@ -57,7 +57,7 @@ make init # this will initialize an empty database
 make phenotypes
 
 # next, we download the contents of the hand-curated GWAS catalog database 
-make gwas-catalog # the results will go in the sqlite db (in /tmp/gwas.sql by default)
+make gwas-catalog # loads into sqlite db (/tmp/gwas.sql by default); this takes a while
 
 # now, let's download from pubmed all the open-access papers mentioned in the GWAS catalog
 make dl-papers # downloads ~600 papers + their supplementary material!

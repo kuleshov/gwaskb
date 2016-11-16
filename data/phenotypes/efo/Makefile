@@ -5,10 +5,12 @@ FILTERS=./dispositions.txt ./measurement.txt ./phenotypes.txt ./biological-proce
 
 load-ontology: ./efo.corrected.csv
 	python $(PARSER) --csv $< --filters $(FILTERS)
+	touch $@
 
 clean:
 	-rm efo.corrected.csv
 	-rm /tmp/gwas.sql
+	-rm load-ontology
 
 efo.csv:
 	wget "$(EFOURL)" -O $@.gz

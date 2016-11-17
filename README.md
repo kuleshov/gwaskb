@@ -3,6 +3,18 @@ GWASdb
 
 GWASdb is a machine reading system for discovering associations between genetic mutations and disease from academic papers.
 
+## Results
+
+The machine-curated relations are found in `notebooks/results/associations.tsv`. 
+The five columns are: `pmid`, `rsid`, high-level phenotype, low-level phenotype, p-value. If the latter is `-1`, it means we were not able not extract it, but we believe the SNP is significant.
+Our system reports all relations that have been deemed significant in the paper at `p < 1e-5` or better in at least one cohort.
+
+In addition, the following files are important:
+
+* `notebooks/results/nb-output`: folder containing the output of each system module
+* `notebooks/util/phenotype.mapping.annotated.tsv`: manually annotated mapping between GWAS Central and GWASdb phenotypes
+* `notebooks/util/phenotype.mapping.gwascat.annotated.tsv`: manually annotated mapping between GWAS Catalog and GWASdb phenotypes
+
 ## Requirements
 
 GWASdb is implemented in Python and requires:

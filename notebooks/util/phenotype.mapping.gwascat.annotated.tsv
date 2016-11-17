@@ -1,0 +1,767 @@
+hemostatic factors and hematological phenotypes	Hematological Phenotypes	mean corpuscular hemoglobin	3
+neuritic plaque	Dementias|Alzheimer's Disease	Complete (Case-Control)	2
+eye color traits	Eye Color	C HS1	3
+eosinophilic esophagitis	Allergic Disease|Eosinophilic Esophagitis		3
+response to antipsychotic treatment	Response Treatment|Antipsychotics	Ziprasidone –Positive	3
+testosterone levels	Serum Testosterone		3
+systemic lupus erythematosus	Systemic Lupus Erythematosus		3
+partial epilepsies	Partial Epilepsies		3
+bone mineral density (paediatric, skull)	Bone Mineral Density|Bone	SK-BMD	3
+cerebral amyloid angiopathy	Dementias|Alzheimer's Disease	Primary (Case-Control)	2
+glycated hemoglobin levels	Glycated Hemoglobin		3
+phospholipid levels (plasma)	Sphingolipids		3
+response to antipsychotic treatment	Antipsychotic Drugs|Metabolic Side Effects	Clozapine - Glucose	3
+metabolic syndrome	Metabolic Syndrome	TG-BP	3
+alzheimer's disease	Alzheimer’s Disease		3
+antipsychotic-induced qtc interval prolongation	Cardiac Arrhythmias	risperidone/QTc	3
+qt interval	Sudden Cardiac Death		0
+dementia and core alzheimer's disease neuropathologic changes	Dementias|Alzheimer's Disease	Complete (Case-Control)	3
+handedness in dyslexia	Handedness|Dyslexia		3
+obesity	Anthropometric Traits		2
+cognitive test performance	Brain|Cognitive Test	wide-range achievement test	3
+anger	Aggression		3
+n-glycan levels	Master|Plasma Protein	DG6	2
+iron status biomarkers	Erythrocyte	MCV	2
+select biomarker traits	Biomarker Traits	CD40 Ligand serum	3
+obesity-related traits	Childhood Obesity|Childhood	BMI (kg/m 2 )	3
+tonometry	Arterial Stiffness|Blood Pressure	MAP	3
+hdl cholesterol	Lipid		2
+waist circumference	Body Fat Distribution	WC_BMI_pooled	2
+body mass index	Body Mass Index		3
+sudden cardiac arrest	Coronary Artery Disease|Sudden Cardiac Arrest		3
+select biomarker traits	Biomarker Traits	Monocyte chemoattractant protein-1	3
+echocardiographic traits	Exercise Responses|Artery	Left atrial diameter	3
+response to statin therapy	LDL-c Response|Lpa		3
+schizophrenia (treatment resistant)	Treatment Refractory Schizophrenia		3
+progressive supranuclear palsy	Progressive Supranuclear Palsy		3
+hippocampal atrophy	Hippocampal Atrophy|Quantitative Trait|Alzheimer's Disease		3
+colorectal cancer (diet interaction)	Colorectal Cancer		3
+blood pressure (anthropometric measures interaction)	Blood Pressure	SBP	2
+hemostatic factors and hematological phenotypes	Hematological Phenotypes	platelet aggregation (collagen-induced)	3
+longevity (90 years and older)	Longevity|Analysis|Population		3
+fasting insulin-related traits	Fasting Glucose|Type 2 Diabetes|Glucose Homeostasis		3
+hip geometry	Association Bone	neck section modulus**	2
+bone mineral density (spine)	Bone Mineral Density		2
+complement c3 and c4 levels	Complement C3		3
+eating disorders	Behaviors|Personality Traits|Eating		3
+cholesterol, total	Lipid Levels		3
+n-glycan levels	Master|Plasma Protein	DG12	2
+pulmonary function (interaction)	Pulmonary Function|Lung Function		3
+white blood cell count	Cell Phenotypes|White Blood Cell	Basophils	2
+hair color	Common Traits	Freckling	3
+select biomarker traits	Biomarker Traits	Alanine aminotransferase	3
+obesity-related traits	Childhood Obesity|Childhood	IL-6 (pg/mL)	3
+platelet aggregation	Platelet Aggregation	ADP 10 u M	3
+social communication problems	Social Communication		3
+select biomarker traits	Biomarker Traits	Tumor necrosis factor alpha	3
+drug-induced torsades de pointes	Torsades De Pointes		3
+smoking behavior	Smoking Behaviors|Cigarette Smoking		3
+cerebrospinal ab1-42 levels	Τ Protein Levels		0
+triglycerides-blood pressure (tg-bp)	Metabolic Syndrome	TG-BP	3
+qrs duration	Conduction|Qrs Duration		3
+response to antipsychotic treatment	Antipsychotic Drugs|Metabolic Side Effects	Perphenazine - HDL	3
+nonalcoholic fatty liver disease	Metabolic Traits|Nonalcoholic Fatty Liver Disease		3
+thyroid hormone levels	Thyroid|Thyroid-Related Traits|Differences		2
+asthma	Asthma		3
+cerebrospinal fluid levels of alzheimer's disease-related proteins	Proteins Involved|Inflammation|Alzheimer's Disease	MMP3	3
+gray matter volume (schizophrenia interaction)	Schizophrenia|Quantitative Phenotype|Matter Volume		2
+bone mineral density	Association Bone	trochanter bmd**	2
+breast cancer in brca2 mutation carriers	Breast Cancer		2
+mesial temporal lobe epilepsy with hippocampal sclerosis	Epilepsy|Febrile Seizures		2
+systemic lupus erythematosus	Systemic Lupus Erythematosus|Autoantibody		3
+neuritic plaque	Dementias|Alzheimer's Disease	NFT Braak (Ordinal II)	2
+response to antipsychotic treatment	Antipsychotic Drugs|Metabolic Side Effects	Quetiapine - HDL	3
+metabolite levels	Metabolite	rs number	3
+autism	Autism Spectrum		3
+quantitative traits	Complex Disease	BMI	3
+very long-chain saturated fatty acid levels (fatty acid 20:0)	Long-Chain Saturated Fatty Acids		3
+hyperopia	Myopia|Hyperopia		3
+retinal vascular caliber	Cardiovascular Diseases		2
+obesity	Obesity|Obesity-Related Traits		3
+narcolepsy	Narcolepsy		3
+thyroid hormone levels	Thyroid|Thyroid-Related Traits|Differences	FT4/TSH	2
+bone mineral density (paediatric, lower limb)	Bone Mineral Density|Bone		2
+echocardiographic traits	Exercise Responses|Artery	left ventricular diastolic dimension	3
+lung cancer	Lung Cancer		3
+mean forced vital capacity from 2 exams	Pulmonary Function	mean fvc from two exams	3
+waist-hip ratio	Body Fat Distribution	WHR_BMI_pooled	2
+underweight status	Body Mass Index	Underweight	3
+body mass index	Body Mass Index	BMI: Female	3
+sudden cardiac arrest	Sudden Cardiac Death		3
+cerebrospinal t-tau levels	Τ Protein Levels		2
+dementia and core alzheimer's disease neuropathologic changes	Dementias|Alzheimer's Disease		3
+morbidity-free survival	Age-Related Phenotypes|Longevity	Morbidity-free survival at age 65	3
+sexual dimorphism in anthropometric traits	Anthropometric Traits|Sexual	WCadjBMI	3
+paget's disease	Paget’s Disease Bone		3
+behcet's disease	Behçet's Disease		3
+platelet aggregation	Platelet Aggregation		3
+triglycerides-blood pressure (tg-bp)	Metabolic Syndrome		2
+obesity-related traits	Childhood Obesity|Childhood	Fat mass (kg)	3
+dengue shock syndrome	Dengue Shock Syndrome		3
+glycated hemoglobin levels	Diabetic Retinopathy|Chronic Kidney Disease|Hemoglobin A		3
+acute lymphoblastic leukemia (childhood)	Acute Lymphoblastic Leukemia|Childhood		3
+follicular lymphoma	Diffuse Large B-cell Lymphoma|Follicular Lymphoma|Diffuse		3
+sexual dimorphism in anthropometric traits	Anthropometric Traits|Sexual	WHRadjBMI	3
+aging traits	Age-Related Phenotypes|Longevity	Walking speed exam 7	3
+white blood cell count	Cell Phenotypes|White Blood Cell	Neutrophils	2
+insulin resistance/response	Insulin Resistance|Copy Number Variation		3
+qt interval	Qt Interval Duration		3
+serum ferritin levels	Serum Ferritin		3
+obesity-related traits	Childhood Obesity|Childhood	Sleep duration (min/d)	3
+waist-hip ratio	Body Fat Distribution	WHR_BMI_men	2
+number of children (6+ vs. 0 or 1)	Parity		2
+nephrolithiasis	Nephrolithiasis		3
+barrett's esophagus	Barrett’s Esophagus		3
+parkinson's disease	Parkinson’s Disease		3
+lipid traits	Lipid Levels	TG	3
+parasitemia in tripanosoma cruzi seropositivity	Chagas Cardiomyopathy|Trypanosoma Cruzi Seropositive	PCR	2
+response to antipsychotic treatment	Antipsychotic Drugs|Metabolic Side Effects	Olanzapine - Hemoglobin A1c	3
+hypertension	Hypertension|Blood Pressure		3
+intracranial aneurysm	Intracranial Aneurysm		3
+select biomarker traits	Biomarker Traits	C-reactive protein exam 6	3
+cocaine dependence	Cocaine Dependence		3
+select biomarker traits	Biomarker Traits	Alanine aminotransferase exam 2	3
+inflammatory bowel disease	Inflammatory Bowel Disease		3
+obesity-related traits	Childhood Obesity|Childhood	IGFBP-3 (ng/mL)	3
+height	Height		3
+type 2 diabetes	Type 2 Diabetes|Transferability		3
+type 1 diabetes	Type 1 Diabetes		3
+hip geometry	Association Bone	shaft width**	2
+tonometry	Arterial Stiffness|Blood Pressure	RW	2
+obesity-related traits	Childhood Obesity|Childhood	Glucose (mg/dL)	3
+obesity	Childhood Obesity		3
+basal cell carcinoma	Basal Cell Carcinoma		3
+hepatitis b (viral clearance)	Chronic Hepatitis B		3
+ige levels	Serum IgE Levels		3
+aging traits	Age-Related Phenotypes|Longevity	Age at natural menopause‡	3
+alzheimer's disease (late onset)	Late-Onset Alzheimer's Disease		3
+airway hyperresponsiveness	Airway Responsiveness		3
+coronary heart disease	Coronary Heart Disease		3
+n-glycan levels	Master|Plasma Protein	DG7	2
+platelet aggregation	Platelet Aggregation	ADP 2 u M	3
+obesity-related traits	Childhood Obesity|Childhood	Triglycerides(mg/dL)	3
+epilepsy	Epilepsies	All epilepsy	3
+pr interval in tripanosoma cruzi seropositivity	Chagas Cardiomyopathy|Trypanosoma Cruzi Seropositive	PR	2
+hepatocellular carcinoma	Chronic Hepatitis B|Hepatitis B Virus|Carriers		0
+electrocardiographic traits	Heart Rate|Variability Traits	QT	2
+response to citalopram treatment	Global Disease|Depression|Citalopram-Induced Side Effects		3
+coffee consumption	Cyp1A2		0
+social autistic-like traits	Autistic-Like Traits		3
+optic nerve measurement (disc area)	Optic Disc Size	Cup	3
+obesity	Obesity|Obesity-Related Traits	WHR	3
+primary tooth development (number of teeth)	Primary Tooth Development		3
+uric acid levels	Uric Acid Levels		3
+common traits (other)	Common Traits	Hair curl	3
+age-related macular degeneration	Age-Related Macular Degeneration		3
+type 2 diabetes	Type 2 Diabetes|Body Mass Index		3
+height	Body Mass Index	Height: Female	3
+chagas cardiomyopathy in tripanosoma cruzi seropositivity	Chagas Cardiomyopathy|Trypanosoma Cruzi Seropositive	Cardio	3
+breast cancer	Breast Cancer|Breast		3
+bone mineral density	Bone Mineral Density|Osteoporosis		3
+addiction	Opiates Addiction|African-Origin		3
+neurofibrillary tangles	Dementias|Alzheimer's Disease	NFT Braak (Ordinal I)	2
+number of children	Parity		2
+pulmonary function	Lung Function|Follow-Up		3
+bone mineral density	Association Bone	femoral bmd**	3
+antipsychotic-induced qtc interval prolongation	Cardiac Arrhythmias	quetiapine/QTc	2
+obesity-related traits	Childhood Obesity|Childhood	Sedentary&lightactivity (min/d)	3
+pulmonary function	Pulmonary Function	longitudinal slope of fev	3
+red blood cell traits	Cell Traits|Red Blood Cell	MCV	3
+presence of antiphospholipid antibodies	Antiphospholipid Antibodies		3
+hip geometry	Association Bone	shaft section modulus**	3
+bilirubin levels	Bilirubin Levels		3
+bone mineral density (paediatric, total body less head)	Bone Mineral Density|Bone		2
+intraocular pressure	Intraocular Pressure|Glaucoma		3
+serum thyroid-stimulating hormone levels	Serum Thyroid Stimulating Hormone		3
+diabetes related insulin traits	Diabetes-Related Traits	Fasting Insulin	3
+ovarian cancer	Ovarian Cancer		3
+longevity	Longevity		3
+amyotrophic lateral sclerosis	Amyotrophic Lateral Sclerosis		3
+response to cytidine analogues (gemcitabine)	Biomarkers		0
+venous thromboembolism	Venous Thrombosis		3
+neurofibrillary tangles	Dementias|Alzheimer's Disease	Primary (Case-Control)	2
+hemostatic factors and hematological phenotypes	Hematological Phenotypes	hemoglobin	3
+upper aerodigestive tract cancers	Cancers|Conducted|Upper Aerodigestive Tract		3
+response to antipsychotic treatment	Response Treatment|Antipsychotics	Olanzapine – Negative	3
+longevity (85 years and older)	Longevity|Analysis|Population		3
+non-albumin protein levels	Immunoglobulin Isotypes|Non-Albumin Protein	ALB	3
+hiv-1 control	Hiv-1		3
+refractive astigmatism	Astigmatism|Refractive Error		3
+qt interval	Qt Interval|Calcium		3
+urinary metabolites (h-nmr features)	Metabolic Traits|Metabolite-Disease	Unknown	2
+response to methotrexate in juvenile idiopathic arthritis	Methotrexate Response|Juvenile Idiopathic Arthritis		3
+obesity-related traits	Childhood Obesity|Childhood	MCP-1 (pg/mL)	3
+cerebrospinal fluid levels of alzheimer's disease-related proteins	Proteins Involved|Inflammation|Alzheimer's Disease	IL6R	3
+smoking behavior	Smoking Behaviors	CPD	3
+cholesterol	Serum Cholesterol Levels		3
+tetralogy of fallot	Tetralogy Fallot		3
+dementia and core alzheimer's disease neuropathologic changes	Dementias|Alzheimer's Disease	Neuritic Plaque (Case-Control)	3
+warfarin maintenance dose	Warfarin		2
+response to cytadine analogues (cytosine arabinoside)	Biomarkers		0
+response to antipsychotic treatment	Antipsychotic Drugs|Metabolic Side Effects	Ziprasidone - Hip Circumference	3
+neuranatomic and neurocognitive phenotypes	Neurocognitive Phenotypes		3
+cognitive test performance	Brain|Cognitive Test	f3	3
+atrial fibrillation	Lone Atrial Fibrillation		3
+quantitative traits	Complex Disease	Waist Circumference	3
+bone mineral density	Volumetric Bone Mineral Densities		3
+suicide attempts in depression or bipolar disorder	Suicidal Ideation|Attempts Suicidal|Suicide Attempts		3
+platelet aggregation	Platelet Aggregation	Lag 2 u g/mL	3
+arthritis (juvenile idiopathic)	Juvenile Idiopathic Arthritis		3
+dental caries	Dental Caries		3
+systolic blood pressure (alcohol consumption interaction)	Blood Pressure	MAP	3
+parkinson's disease	Parkinson's Disease		3
+adolescent idiopathic scoliosis (severe)	Adolescent Idiopathic Scoliosis		3
+sexual dysfunction (female)	Sexual Dysfunction	Arousal	3
+response to antipsychotic treatment	Antipsychotic Drugs|Metabolic Side Effects	Clozapine - Heart Rate	3
+systolic blood pressure	Cardiovascular Disease|Blood Pressure		2
+age-related cataracts (age at onset)	Cataract		2
+metabolite levels	Metabolite Quantitative Trait	TMAu	3
+diabetes related insulin traits	Diabetes-Related Traits		3
+freckling	Common Traits	Hair color	3
+red blood cell traits	Cell Traits|Red Blood Cell	MCH	3
+pulmonary function	Pulmonary Function	mean fev	3
+breast cancer (survival)	Breast Cancer		3
+word reading	Reading|Language		3
+corneal astigmatism	Corneal Astigmatism		3
+lewy body disease	Dementias|Alzheimer's Disease	Lewy Body (Case-Control)	3
+glioma	Increased Disease Risk		0
+esophageal cancer and gastric cancer	Esophageal Squamous Cell Carcinoma|Gastric Adenocarcinoma		3
+bone mineral density (paediatric, total body less head)	Bone Mineral Density|Bone	UL-BMD	3
+response to antipsychotic treatment	Antipsychotic Drugs|Metabolic Side Effects	Risperidone - Waist Circumference	3
+age-related cataracts	Cataract		3
+red blood cell traits	Cell Traits|Red Blood Cell|Resistance	MCHC	3
+cystatin c	Kidney|Endocrine-Related Traits	cst3	2
+hdl cholesterol - triglycerides (hdlc-tg)	Metabolic Syndrome	TG-BP	2
+testosterone levels	Sex Hormone-Binding Globulin|Testosterone|Estradiol		3
+cerebrospinal fluid levels of alzheimer's disease-related proteins	Proteins Involved|Inflammation|Alzheimer's Disease		3
+neuritic plaque	Dementias|Alzheimer's Disease	CAA (Case-Control)	2
+sex hormone-binding globulin levels	Globulin|Hormone|Steroid Hormone		2
+bone mineral density (paediatric, total body less head)	Bone Mineral Density|Bone	TBLH-BMD	2
+parkinson's disease (age of onset)	Parkinson Disease|Onset		3
+bone mineral density	Association Bone	fnbmd	3
+ulcerative colitis	Ulcerative Colitis		3
+neurofibrillary tangles	Dementias|Alzheimer's Disease	Complete (Case-Control)	2
+mean arterial pressure (alcohol consumption interaction)	Blood Pressure	MAP	2
+obesity	Obesity|Obesity-Related Traits	Weight	3
+cerebrospinal fluid levels of alzheimer's disease-related proteins	Proteins Involved|Inflammation|Alzheimer's Disease	CCL2	2
+cerebral amyloid angiopathy	Dementias|Alzheimer's Disease	Neuritic Plaque (Case-Control)	2
+urinary metabolites (h-nmr features)	Metabolic Traits|Metabolite-Disease	Lysine	3
+quantitative traits	Complex Disease	Weight	3
+sleep-related phenotypes	Circadian Phenotypes|Sleep	Sleep duration	3
+heart rate variability traits	Heart Rate|Variability Traits	TP	3
+metabolic syndrome	Metabolic Syndrome	MetS	3
+heart rate variability traits	Heart Rate|Variability Traits	LF/HF	3
+systemic lupus erythematosus	Systemic Lupus Erythematosus Sle		3
+triglycerides-blood pressure (tg-bp)	Metabolic Syndrome	MetS	2
+hemostatic factors and hematological phenotypes	Hematological Phenotypes	platelet aggregation (ADP-induced)	3
+bone mineral density	Bone Mineral Density|Bone|Osteoporotic Fracture		3
+systolic blood pressure	Blood Pressure		2
+quantitative traits	Complex Disease		0
+response to antipsychotic treatment	Response Treatment|Antipsychotics	Risperidone – Negative	3
+quantitative traits	Complex Disease	Thyroid Stimulating Hormone	3
+cognitive test performance	Brain|Cognitive Test	boston naming test	3
+vitamin d levels	Vitamin D Levels		3
+periodontal disease-related phenotypes	Periodontal		3
+fasting plasma glucose	Diabetes-Related Traits	fasting plasma glucose	3
+soluble icam-1	Icam-1		3
+waist circumference	Body Fat Distribution	WC_pooled	2
+stroke	Ischemic Stroke		3
+diastolic blood pressure	Cardiovascular Disease|Blood Pressure		2
+response to antipsychotic treatment	Antipsychotic Drugs|Metabolic Side Effects	Olanzapine - Total Cholesterol	3
+bladder cancer	Bladder Cancer|Bladder		3
+eye color	Pigmentation|Skin	Eye C'	3
+body mass index	Waist Circumference|Body Mass Index	Mean body mass index	3
+vitamin b levels in ischemic stroke	Ischemic Stroke|Vitamin|Folate Levels		2
+lewy body disease	Dementias|Alzheimer's Disease	Lewy Body (Ordinal II)	3
+periodontal disease-related phenotypes	Periodontal	PD1	3
+hypertension	Hypertension|Blood Pressure	HTN	3
+osteoarthritis	Osteoarthritis		3
+nonalcoholic fatty liver disease	Non-Alcoholic Fatty Liver Disease|Liver Disease		3
+osteoporosis-related phenotypes	Osteoporosis-Related Traits|Gene Expression Profiling	LS BMD	3
+metabolic syndrome (bivariate traits)	Metabolic Syndrome	BP-HDLC	3
+adiponectin levels	Metabolic Traits|Type 2 Diabetes|Adiponectin Levels		3
+lipid traits	Lipid Levels	HDL	3
+metabolic syndrome (bivariate traits)	Metabolic Syndrome	TG-GLUC	3
+anticoagulant levels	Protein C	Total PS	0
+glycated hemoglobin levels	Hemoglobin A		3
+natriuretic peptide levels	NT-proBNP		0
+optic nerve measurement (cup area)	Optic Disc Size	Cup	3
+triglycerides	Lipid Levels		2
+urinary metabolites (h-nmr features)	Metabolic Traits|Metabolite-Disease	N-acetylated compounds	3
+body mass index	Type 2 Diabetes|Body Mass Index		3
+obesity and osteoporosis	Obesity|Osteoporosis Phenotypes		3
+femoral neck bone geometry	Femoral Neck Bone Geometry		3
+estradiol levels	Sex Hormone-Binding Globulin|Testosterone|Estradiol		3
+height	Body Mass Index	Height	3
+neurofibrillary tangles	Dementias|Alzheimer's Disease	Neuritic Plaque (Ordinal)	2
+endometrial cancer	Cancer		2
+menarche (age at onset)	Age Menarche		3
+body mass index	Body Mass Index	BMI	3
+exudative age-related macular degeneration	Age-Related Macular Degeneration		3
+response to antipsychotic treatment	Response Treatment|Antipsychotics	Olanzapine – Excitement	3
+systolic blood pressure (alcohol consumption interaction)	Blood Pressure	SBP	2
+serum selenium levels	Serum Selenium		3
+vitiligo	Generalized Vitiligo		3
+urinary albumin excretion	Kidney|Endocrine-Related Traits	urinary albumin excretion	3
+disc degeneration (lumbar)	Lumbar Disc Degeneration		3
+menarche and menopause (age at onset)	Age Menarche|Menopause		3
+hip geometry	Association Bone	lsbmd	2
+multiple sclerosis (ocb status)	Multiple Sclerosis|Oligoclonal Band		3
+red blood cell traits	Cell Traits|Red Blood Cell	MCHC	3
+obesity-related traits	Childhood Obesity|Childhood	Hip circumference (cm)	3
+metabolic syndrome (bivariate traits)	Metabolic Syndrome	WC-GLUC	2
+dietary macronutrient intake	Analysis		0
+thyroid hormone levels	Thyroid|Thyroid-Related Traits|Differences	TSH	2
+igg glycosylation	Immunoglobulin G|Human Immunoglobulin|-Glycosylation		3
+eye color	Common Traits	Green eyes	3
+hdl cholesterol - triglycerides (hdlc-tg)	Metabolic Syndrome	HDLC-WC	2
+periodontitis	Chronic Periodontitis		3
+neuroblastoma (high-risk)	Neuroblastoma		3
+tourette syndrome	Tourette Syndrome		3
+multiple sclerosis	Multiple Sclerosis		3
+wilms tumor	Wilms Tumor		3
+fibrinogen levels (smoking status, alcohol consumption or body mass index interaction)	Fibrinogen|Alcohol Consumption|Body Mass Index		3
+waist circumference	Body Fat Distribution	WC_BMI_men	2
+very long-chain saturated fatty acid levels (fatty acid 24:0)	Long-Chain Saturated Fatty Acids		3
+select biomarker traits	Biomarker Traits	Vitamin D plasma 25(OH)-D	3
+esophageal adenocarcinoma	Barrett’s Esophagus|Esophageal Adenocarcinoma		3
+conotruncal heart defects	Birth		0
+response to statin therapy	Lipid-Lowering Response|Response Statins		3
+response to taxane treatment (placlitaxel)	Lung Cancer|Overall Survival		0
+n-glycan levels	Master|Plasma Protein	DG9	2
+iron deficiency	Iron Deficiency	Case-Control	3
+self-reported allergy	Allergy		3
+cardiovascular disease risk factors	Migraine|Cardiovascular Events|Cardiovascular		3
+hip geometry	Association Bone	NeckZ1	2
+body mass index (change over time)	Body Mass Index	Change in BMI: Male	3
+pulmonary function	Pulmonary Function	percent predicted fef	3
+hirschsprung disease	Hirschsprung Disease		3
+platelet aggregation	Platelet Aggregation	lag	3
+expressive vocabulary in infants	Suggest|Associated|Linguistic Phenotype		2
+diabetic retinopathy in type 2 diabetes	Diabetic Retinopathy		3
+ldl cholesterol	LDL-cholesterol		3
+crohn's disease and celiac disease	Celiac Disease|Crohn's Disease		3
+response to antipsychotic treatment	Antipsychotic Drugs|Metabolic Side Effects	Risperidone - Hemoglobin A1c	3
+factor vii	Hematological Phenotypes	factor vii	3
+response to antipsychotic treatment	Antipsychotic Drugs|Metabolic Side Effects	Clozapine - Total Cholesterol	3
+cerebral amyloid angiopathy	Dementias|Alzheimer's Disease	Complete (Case-Control)	2
+myopia	Myopia|Hyperopia		3
+electrocardiographic traits	Heart Rate|Variability Traits	PR	2
+lymphoma	Malignancies		2
+thyroid hormone levels	Thyroid|Thyroid-Related Traits|Differences	TSH/FT4	2
+anticoagulant levels	Protein C	funcPS	0
+subclinical atherosclerosis traits (other)	Atherosclerosis	Ankle brachial index	3
+retinal arteriolar caliber	Arterioles		2
+hdl cholesterol - triglycerides (hdlc-tg)	Metabolic Syndrome	HDLC-TG	2
+sensory disturbances after bilateral sagittal split ramus osteotomy	Sensory Disturbances|Split		2
+primary tooth development (time to first tooth eruption)	Tooth Eruption|Height		2
+anticoagulant levels	Protein C	fPS	0
+white blood cell types	White Blood Cell Count|Cell Phenotypes|White Blood Cell		3
+protein biomarker	Lectin		3
+glioma (high-grade)	Telomere Length|Glioma		3
+height	Anthropometric Traits		2
+cholelithiasis-related traits in sickle cell anemia	Total Bilirubin|Sickle Cell Anemia|Sickle Cell		2
+hemostatic factors and hematological phenotypes	Hematological Phenotypes	tissue plasminogen activator	3
+breast cancer in brca1 mutation carriers	Breast Cancer|Breast Ovarian Cancer|Carriers		2
+crohn's disease	Inflammatory Bowel Disease		2
+obesity	Obesity|Obesity-Related Traits	HIP	3
+blood pressure	Arterial Stiffness|Blood Pressure	blood-pressure	3
+echocardiographic traits	Exercise Responses|Artery	left ventricular systolic dimension	3
+interstitial lung disease	Pulmonary Fibrosis		3
+major cvd	Cardiovascular Disease	Major cardiovascular disease	3
+neuritic plaque	Dementias|Alzheimer's Disease	Neuritic Plaque (Ordinal)	3
+select biomarker traits	Biomarker Traits	Bilirubin	3
+chagas cardiomyopathy in tripanosoma cruzi seropositivity	Chagas Cardiomyopathy|Trypanosoma Cruzi Seropositive	QRS	3
+neuroblastoma	Neuroblastoma		3
+migraine - clinic-based	Migraine		3
+subclinical atherosclerosis traits (other)	Atherosclerosis	Abdominal aortic calcification	3
+hemostatic factors and hematological phenotypes	Hematological Phenotypes	red blood cell count	3
+cardiovascular disease risk factors	Cardiovascular Disease	LDL-cholesterol	3
+metabolite levels	Atherosclerosis		3
+optic nerve measurement (cup area)	Optic Disc Size	Disc	3
+lipid traits	Lipid Levels	TC	3
+type 2 diabetes	Type 2 Diabetes		3
+serum uric acid levels	Serum Uric Acid Levels	Total antioxidant status	3
+cystic fibrosis severity	Cystic Fibrosis|Lung Disease		3
+factor vii	Hematological Phenotypes	FVII, exam 5	3
+circulating cell-free dna	Cell-Free Dna|Cardiovascular		3
+periodontal disease-related phenotypes	Periodontal	PD2	3
+obesity-related traits	Childhood Obesity|Childhood	Urinary creatinine(mmol/d)	3
+select biomarker traits	Biomarker Traits	Alkaline phosphatase	3
+bone mineral density	Femoral Neck Bone|Bone Mineral Density		3
+myopia (pathological)	Ocular Axial Length|High Myopia		3
+optic disc parameters	Optic Disc		3
+metabolic syndrome (bivariate traits)	Metabolic Syndrome	HDLC-WC	2
+lewy body disease	Dementias|Alzheimer's Disease	Lewy Body (Ordinal I)	3
+metabolic syndrome (bivariate traits)	Metabolic Syndrome	MetS	3
+osteoporosis-related phenotypes	Osteoporosis-Related Traits|Gene Expression Profiling	FN BMD	3
+serum uric acid levels	Serum Uric Acid Levels		3
+migraine	Migraine		3
+platelet aggregation	Platelet Aggregation	Epi 2 u M	3
+pulse pressure (alcohol consumption interaction)	Blood Pressure	PP	2
+serum alkaline phosphatase levels	Serum Alkaline Phosphatase Levels		3
+ovarian reserve	Ovarian Reserve		3
+parent of origin effect on language impairment (paternal)	Specific Language Impairment|Genotype Effects		2
+menopause (age at onset)	Menopause		3
+epilepsy	Epilepsies	Focal epilepsy	3
+metabolic syndrome	Metabolic Syndrome	Log HDL-C (mmol/l)	3
+fasting plasma glucose	Melatonin|Plasma Glucose|Type 2 Diabetes		2
+underweight status	Body Mass Index	Underweight: Male	3
+hair color	Common Traits	Eye color	0
+dementia and core alzheimer's disease neuropathologic changes	Dementias|Alzheimer's Disease	NFT Braak (Ordinal II)	3
+obesity-related traits	Childhood Obesity|Childhood	Urinary freedopamine:creatinine	3
+renal sinus fat	Chronic Kidney Disease		2
+white blood cell count	Cell Phenotypes|White Blood Cell	Monocytes	2
+body mass index (change over time)	Body Mass Index	Change in BMI	3
+soluble icam-1	Antigen|Icam-1		3
+obesity-related traits	Childhood Obesity|Childhood	Total antioxidants(mM)	3
+waist circumference - triglycerides (wc-tg)	Metabolic Syndrome	WC-TG	2
+freckling	Common Traits	Eye color	3
+cognitive test performance	Brain|Cognitive Test	similarities	3
+rheumatoid arthritis	Rheumatoid Arthritis		3
+schizophrenia (negative symptoms)	Schizophrenia		3
+iron status biomarkers	Iron Deficiency	Case-Control	3
+inflammatory biomarkers	Inflammation	ESR	3
+type 1 diabetes autoantibodies	Type 1 Diabetes|Autoantibody		3
+atrial fibrillation	Atrial Fibrillation		3
+neuritic plaque	Dementias|Alzheimer's Disease	Primary (Case-Control)	2
+white blood cell count	Cell Phenotypes|White Blood Cell	WBC	2
+pulse pressure in young-onset hypertension	Onset|Hypertension|Cardiovascular Events	Nighttime PP	2
+corneal astigmatism	Corneal Astigmatism|Platelet-Derived Growth Factor		3
+heart failure	Cardiovascular Disease	heart failure	3
+serum uric acid levels	Serum Uric Acid		3
+autism	Autism		3
+non-albumin protein levels	Immunoglobulin Isotypes|Non-Albumin Protein	TP	3
+breast cancer	Breast Cancer		3
+thyroid peroxidase antibody positivity	Thyroid Peroxidase Antibodies|Thyroid Disease		2
+brachial circumference	Brachial Circumference		3
+hemostatic factors and hematological phenotypes	Hematological Phenotypes	PAI1	3
+shingles	Herpes Zoster		0
+relative hand skill in reading disability	Brain		0
+phospholipid levels (plasma)	Plasma Phospholipid|Fatty Acids		3
+obesity-related traits	Childhood Obesity|Childhood	Sleep energyexpenditure adjweight (kcal/d)	3
+freckling	Common Traits	Red hair	3
+schizophrenia	Schizophrenia|Cytomegalovirus Infection|Infection Suggests		3
+pr interval	Pr Interval		3
+mean arterial pressure (alcohol consumption interaction)	Blood Pressure	DBP	3
+borderline personality disorder features	Borderline Personality		3
+eye color	Common Traits	Eye color	3
+sphingolipid levels	Sphingolipid		3
+neuritic plaque	Dementias|Alzheimer's Disease	Neuritic Plaque (Case-Control)	3
+ige levels in asthmatics	Mite-Specific IgEs|Asthma		3
+cholesterol, total	Lipid		2
+asthma (bronchodilator response)	Asthma|Bronchodilator Response		3
+cerebral amyloid angiopathy	Dementias|Alzheimer's Disease	NFT Braak (Ordinal II)	2
+chronic obstructive pulmonary disease	Chronic Obstructive Pulmonary Disease		3
+sleep-related phenotypes	Circadian Phenotypes|Sleep	Sleepiness	3
+hip geometry	Association Bone	shaftz1r	2
+chronic lymphocytic leukemia	Chronic Lymphocytic Leukemia		3
+anxiety disorder	Anxiety		3
+prostate cancer (early onset)	Prostate Cancer|Early-Onset		3
+type 2 diabetes (dietary heme iron intake interaction)	Iron Intake|Type 2 Diabetes		3
+epilepsy	Epilepsies	GGE	3
+bone mineral density (paediatric, lower limb)	Bone Mineral Density|Bone	LL-BMD	3
+tonometry	Arterial Stiffness|Blood Pressure	FW	3
+coronary artery calcification	Atherosclerosis	Coronary artery calcification	3
+migraine without aura	Migraine		3
+response to statins (ldl cholesterol change)	Ldl Cholesterol Response|Response Statins		3
+response to antipsychotic treatment	Antipsychotic Drugs|Metabolic Side Effects	Risperidone - Hip Circumference	3
+epstein-barr virus immune response (ebna-1)	Antibodies|Epstein-Barr Virus Nuclear Antigen		3
+select biomarker traits	Biomarker Traits	C-reactive protein average exams 2,6,7	3
+urinary metabolites (h-nmr features)	Metabolic Traits|Metabolite-Disease	Trimethylamine	3
+waist-hip ratio	Body Fat Distribution		2
+neurofibrillary tangles	Dementias|Alzheimer's Disease	Neuritic Plaque (Case-Control)	3
+male-pattern baldness	Onset|Androgenetic Alopecia|Common Diseases		3
+waist circumference - triglycerides (wc-tg)	Metabolic Syndrome	MetS	0
+ejection fraction in tripanosoma cruzi seropositivity	Chagas Cardiomyopathy|Trypanosoma Cruzi Seropositive	EF	2
+pulmonary function	Pulmonary Function	percent predicted fvc for latest exam	3
+body mass index (change over time)	Body Mass Index	Change in BMI: Female	3
+hdl cholesterol - triglycerides (hdlc-tg)	Metabolic Syndrome	MetS	2
+tonometry	Arterial Stiffness|Blood Pressure	CF-PWV	3
+dementia and core alzheimer's disease neuropathologic changes	Dementias|Alzheimer's Disease	NFT Braak (Ordinal I)	3
+reading and spelling	Reading|Language		3
+osteoarthritis (hip)	Hip|Osteoarthritis		3
+atopic dermatitis	Atopic Dermatitis		3
+waist circumference - triglycerides (wc-tg)	Metabolic Syndrome	TG-BP	2
+schizophrenia, schizoaffective disorder or bipolar disorder	Schizophrenia		3
+hip geometry	Association Bone	lumbar spine bmd**	0
+metabolic syndrome	Metabolic Syndrome	“	3
+sex hormone-binding globulin levels	Sex Hormone-Binding Globulin|Testosterone|Estradiol		3
+type 1 diabetes nephropathy	Type 1 Diabetes|Kidney Disease|Diabetic Nephropathy	T1DN	3
+ulcerative colitis	Inflammatory Bowel Disease		2
+obesity-related traits	Childhood Obesity|Childhood	Light activity (min/d)	3
+igm levels	Serum IgM		3
+aortic root size	Aortic Root		3
+obesity-related traits	Childhood Obesity|Childhood	Total energyexpenditure adjweight (kcal/d)	3
+urinary metabolites (h-nmr features)	Metabolic Traits|Metabolite-Disease	2-Hydroxyisobutyrate	3
+obesity	Obesity|Obesity-Related Traits	BMI	3
+chronic hepatitis c infection	Chronic Hepatitis C		3
+chronic mucus hypersecretion	Chronic Mucus Hypersecretion		3
+hypertension	Cardiovascular Disease|Blood Pressure		3
+waist circumference	Distribution|Adiposity|Waist Circumference		3
+exercise treadmill test traits	Exercise Responses|Artery	Post-exercise 3 minute recovery systolic blood pressure	3
+adiponectin levels	Adiponectin|Quantitative Trait|Cardiometabolic Outcomes		3
+chronic periodontitis	Chronic Periodontitis		3
+blood pressure	Mean Arterial Pressure|Pulse Pressure		3
+waist-hip ratio	Body Fat Distribution	WHR_BMI_women	2
+response to antipsychotic treatment	Antipsychotic Drugs|Metabolic Side Effects	Perphenazine - Triglycerides	3
+obesity-related traits	Childhood Obesity|Childhood	Weight z-score change (SD/y)	3
+c-reactive protein	C-Reactive Protein		3
+hdl cholesterol	Coronary Heart Disease	HDL-C	2
+social communication problems	Social-Communication|Spectrum Phenotypes		3
+obesity	Obesity|Obesity-Related Traits	Waist	3
+life threatening arrhythmia	Arrhythmias		3
+hair color	Common Traits	Green eyes	0
+volumetric brain mri	Brain|Cognitive Test	temporal brain volume	3
+subclinical atherosclerosis traits (other)	Atherosclerosis	Common carotid artery intimal medial thickness	3
+sexual dysfunction (female)	Sexual Dysfunction	Lubrication	3
+uric acid levels	Uric Acid		3
+bone mineral density (paediatric, upper limb)	Bone Mineral Density|Bone	TBLH-BMD	3
+subclinical atherosclerosis traits (other)	Atherosclerosis	Internal carotid artery intimal medial thickness	3
+left inferior lateral ventricle volume (cerebrospinal fluid biomarker status interaction)	Neurodegeneration|Biomarker		0
+chronic obstructive pulmonary disease	Chronic Obstructive Pulmonary Disease Copd|Pulmonary Function		3
+lipoprotein-associated phospholipase a2 activity and mass	Phospholipase A		2
+height	C-type Natriuretic Peptide|Height		3
+thyroid hormone levels	Thyroid|Thyroid-Related Traits|Differences	FT4	2
+schizophrenia or bipolar disorder	Schizophrenia|Bipolar Disorder|Disorder		3
+cleft plate (environmental tobacco smoke interaction)	Tobacco Smoke|Chromosome 4|Cleft Palate		3
+obesity-related traits	Childhood Obesity|Childhood	Weight (kg)	3
+suicide attempts in bipolar disorder	Attempted Suicide		3
+prostate cancer	Prostate Cancer|Breast		3
+endothelial function traits	Exercise Responses|Artery	Baseline brachial artery flow velocity	3
+fasting plasma glucose	Diabetes-Related Traits	28 yr time averaged fpg	3
+atopic dermatitis	Psoriasis|Atopic Dermatitis|Asthma		3
+select biomarker traits	Biomarker Traits	C-reactive protein exam 2	3
+type 2 diabetes (young onset) and obesity	Onset|Cardiovascular Disease|Diabetes		2
+hdl cholesterol	Lipid Levels		2
+hodgkin's lymphoma	Hodgkin Lymphoma		3
+eating disorders	Behaviors|Personality Traits|Eating	BULIMIA	3
+dementia and core alzheimer's disease neuropathologic changes	Dementias|Alzheimer's Disease	Primary (Case-Control)	2
+number of pregnancies	Parity		2
+psoriatic arthritis	Psoriasis|Psoriatic Arthritis		3
+volumetric brain mri	Brain|Cognitive Test	tcbv	2
+obesity-related traits	Childhood Obesity|Childhood	Dinner intake, adjEER (kcal)	3
+amyloid a serum levels	Serum Amyloid A|Type 2 Diabetes		3
+bone mineral density (paediatric, upper limb)	Bone Mineral Density|Bone		2
+alzheimer's disease	Glutamate|Alzheimer's Disease		3
+response to antipsychotic treatment	Antipsychotic Drugs|Metabolic Side Effects	Perphenazine - Total Cholesterol	3
+menarche and menopause (age at onset)	Age Menarche|Menopause	Age at Menarche	3
+metabolic syndrome (bivariate traits)	Metabolic Syndrome	HDLC-GLUC	3
+glaucoma (primary open-angle)	Optic Nerve|Glaucoma		3
+waist circumference	Waist Circumference|Body Mass Index	Mean waist circumference	3
+thyroid stimulating hormone	Kidney|Endocrine-Related Traits	thyroid stimulating hormone	3
+diabetes (incident)	Diabetes-Related Traits	Incident DM	3
+temperament	Temperament Character Inventory		3
+dehydroepiandrosterone sulphate levels	Dehydroepiandrosterone Sulphate		3
+thyroid peroxidase antibody levels	Thyroid Peroxidase Antibodies|Thyroid Disease		3
+breast cancer	Prostate Cancer|Breast		3
+waist circumference	Body Fat Distribution	WC_Men	2
+inflammatory biomarkers	Inflammation	IL-6	3
+hypersomnia (hla-dqb1*06:02 negative)	Hypersomnia		2
+red blood cell traits	Cell Traits|Red Blood Cell|Resistance	MCV	3
+telomere length	Homeostasis		0
+cerebrospinal p-tau181p levels	Τ Protein Levels		3
+femoral neck bone geometry and menarche (age at onset)	Age Menarche|Femoral Neck Bone Geometry		3
+melanoma	Melanoma		3
+staphylococcus aureus infection	Staphylococcus Aureus		3
+lipid traits	Lipid Levels	LDL	3
+coronary heart disease event reduction in response to statin therapy (interaction)	Cardiovascular Event		2
+asthma (bronchodilator response)	Asthmatics|Bronchodilator Response		3
+non-word repetition	Reading|Language		2
+volumetric brain mri	Brain|Cognitive Test	ALTHBV	0
+caudate nucleus volume	Brain		0
+adverse response to chemotherapy in breast cancer (alopecia)	Chemotherapy-Induced Alopecia|Breast Cancer		2
+cerebral amyloid angiopathy	Dementias|Alzheimer's Disease	CAA (Case-Control)	2
+warfarin maintenance dose	Cyp2C9|Warfarin		2
+psoriasis	Psoriasis|Psoriatic Arthritis|New Disease		3
+esophageal squamous cell carcinoma	Esophageal Squamous Cell Carcinoma		3
+cognitive test performance	Brain|Cognitive Test	factor 2:visual memory and organization	3
+inflammatory biomarkers	Inflammation	MCP-1	3
+overweight status	Body Mass Index	Overweight	3
+antibody status in tripanosoma cruzi seropositivity	Chagas Cardiomyopathy|Trypanosoma Cruzi Seropositive	EIA	3
+black vs. blond hair color	Hair Color|Skin Pigmentation		3
+pancreatic cancer	Pancreatic Cancer		3
+pulmonary function	Chronic Obstructive Pulmonary Disease Copd|Pulmonary Function		3
+metabolite levels	Metabolite Quantitative Trait	N-ACu	3
+obesity	Obesity		3
+bone mineral density (paediatric, upper limb)	Bone Mineral Density|Bone	UL-BMD	3
+mathematical ability in children with dyslexia	Mathematical Abilities|Dyslexia|Myosin		3
+black vs. red hair color	Hair Color|Skin Pigmentation		2
+height	Stature		3
+systemic sclerosis	Systemic Sclerosis		3
+red blood cell traits	Cell Traits|Red Blood Cell|Resistance		3
+common traits (other)	Common Traits	Asparagus	3
+sphingolipid levels	Sphingolipids		3
+obesity-related traits	Childhood Obesity|Childhood	Fat free mass (kg)	3
+digestive system disease (barrett's esophagus and esophageal adenocarcinoma combined)	Barrett’s Esophagus|Esophageal Adenocarcinoma		3
+diastolic blood pressure	Blood Pressure	DBP	3
+optic nerve measurement (disc area)	Optic Disc Size	Disc	3
+atopy	Respiratory|Atopy		3
+rheumatoid arthritis	Rheumatoid Arthritis|Biology		3
+waist circumference	Body Fat Distribution	WC_women	2
+type 1 diabetes nephropathy	Type 1 Diabetes|Kidney Disease|Diabetic Nephropathy	ESRD	3
+white blood cell count	White Blood Cell Count|Cell Phenotypes|White Blood Cell	WBC	3
+eye color	Common Traits	Hair color	0
+dementia and core alzheimer's disease neuropathologic changes	Dementias|Alzheimer's Disease	Neuritic Plaque (Ordinal)	2
+narcolepsy	Narcolepsy|Influenza|Changes		3
+n-glycan levels	Master|Plasma Protein	DG1	3
+select biomarker traits	Biomarker Traits	Vitamin K plasma phylloquinone	3
+primary tooth development (time to first tooth eruption)	Primary Tooth Development		2
+diastolic blood pressure (alcohol consumption interaction)	Blood Pressure	DBP	3
+chronic hepatitis b infection	Infection		0
+qrs duration in tripanosoma cruzi seropositivity	Chagas Cardiomyopathy|Trypanosoma Cruzi Seropositive	QRS	3
+protein quantitative trait loci	Protein Quantitative Trait|Genome|Association		3
+inflammatory biomarkers	Inflammation	hsCRP	3
+colorectal cancer	Colorectal Cancer		3
+chronic bronchitis and chronic obstructive pulmonary disease	Chronic Obstructive Pulmonary Disease|Chronic Bronchitis		3
+red blood cell traits	Cell Traits|Red Blood Cell|Resistance	MCH	3
+pulmonary function	Pulmonary Function	percent predicted fev	3
+n-glycan levels	Master|Plasma Protein	FUCA	2
+waist circumference	Body Fat Distribution	WC_men	2
+metabolite levels	Metabolite Quantitative Trait	BAIBu	3
+carotid intima media thickness	Intima Media Thickness|Plaque		3
+red blood cell traits	Cell Traits|Red Blood Cell	RBC count	3
+echocardiographic traits	Exercise Responses|Artery	left ventricular mass	3
+quantitative traits	Complex Disease	Height	3
+metabolic syndrome (bivariate traits)	Metabolic Syndrome	BP-GLUC	3
+dementia and core alzheimer's disease neuropathologic changes	Dementias|Alzheimer's Disease	CAA (Case-Control)	3
+adiponectin levels	Adiponectin Levels		3
+obesity (early onset extreme)	Onset|Obesity-Related Traits|Body-Weight		3
+neurofibrillary tangles	Dementias|Alzheimer's Disease	NFT Braak (Ordinal II)	2
+freckling	Common Traits	Freckling	3
+plasma homocysteine levels (post-methionine load test)	Homocysteine|Methionine|Metabolism		2
+body mass index	Waist Circumference|Body Mass Index		3
+hair color	Common Traits	Hair color	3
+waist circumference - triglycerides (wc-tg)	Metabolic Syndrome		2
+psoriasis	Psoriasis		3
+substance dependence	European-Origin|Substance Dependence		3
+metabolic syndrome	Metabolic Syndrome		3
+intraocular pressure	Primary Open-Angle Glaucoma|Intraocular Pressure		3
+coronary heart disease	Coronary Artery Stenosis|Coronary Artery		3
+osteoporosis	Osteoporosis		3
+tonometry	Arterial Stiffness|Blood Pressure	CB-PWV	2
+sexual dysfunction (female)	Sexual Dysfunction	Overall FSD	3
+left ventricular mass	Left Ventricular Mass		3
+hdl cholesterol - triglycerides (hdlc-tg)	Metabolic Syndrome		2
+echocardiographic traits	Exercise Responses|Artery	left ventricular fractional shortening	3
+hair color	Common Traits	Red hair	3
+very long-chain saturated fatty acid levels (fatty acid 22:0)	Long-Chain Saturated Fatty Acids		3
+type 2 diabetes	Obese|Type 2 Diabetes		3
+bipolar disorder with mood-incongruent psychosis	Bipolar Disorder		3
+osteoporosis-related phenotypes	Osteoporosis-Related Phenotypes		3
+red blood cell traits	Cell Traits|Red Blood Cell|Resistance	RBC count	3
+creutzfeldt-jakob disease	Creutzfeldt–Jakob Disease		3
+aging traits	Age-Related Phenotypes|Longevity	Biologic age by osseographic scoring system	3
+metabolic syndrome (bivariate traits)	Metabolic Syndrome		3
+coronary artery calcification	Atherosclerosis		3
+kawasaki disease	Kawasaki Disease		3
+vertical cup-disc ratio	Optic Disc		3
+myopia (pathological)	Pathological Myopia		3
+celiac disease	Celiac Disease		3
+hip bone size	Hip Bone Size|Females		3
+stroke (ischemic)	Ischaemic Stroke		3
+pancreatitis	Pancreatitis		3
+metabolic syndrome	Metabolic Syndrome	DBP (mmHg)	3
+non-albumin protein levels	Immunoglobulin Isotypes|Non-Albumin Protein	NAP	3
+primary tooth development (number of teeth)	Tooth Eruption|Height		3
+callous-unemotional behaviour	Behavior		0
+overweight status	Body Mass Index	Overweight: Male	3
+osteoporosis-related phenotypes	Osteoporosis-Related Traits|Gene Expression Profiling	NW	3
+obesity-related traits	Childhood Obesity|Childhood	Trunk fat mass (kg)	3
+bone mineral density (paediatric, skull)	Bone Mineral Density|Bone		2
+cardiovascular disease risk factors	Cardiovascular Disease	HDL-cholesterol	3
+hypertension	Coronary Heart Disease	Hypertension	3
+optic nerve measurement (cup-to-disc ratio)	Optic Disc Size	Cup	3
+pulmonary function	Pulmonary Function	for latest exam	3
+systolic blood pressure	Blood Pressure	SBP	2
+smoking behavior	Smoking Behaviors	AOI	3
+chronic kidney disease	Kidney|Follow-Up		2
+bone mineral density (hip)	Bone Mineral Density		3
+major depressive disorder (broad)	Major Depression		3
+waist-hip ratio	Body Fat Distribution	WHR_BMI_Men	2
+endometriosis	Endometriosis		3
+atrial fibrillation	Cardiovascular Disease	atrial fibrillation	3
+sleep-related phenotypes	Circadian Phenotypes|Sleep	Bedtime	3
+asthma (childhood onset)	Asthma		3
+metabolic syndrome	Metabolic Syndrome	HDLC-TG	3
+hearing function	Kinase|Hearing		3
+exercise treadmill test traits	Exercise Responses|Artery	Stage 2 Exercise systolic blood pressure	3
+metabolic syndrome	Metabolic Syndrome	T2D	3
+triglycerides	Lipid		2
+celiac disease or rheumatoid arthritis	Rheumatoid Arthritis|Celiac Disease		3
+magnesium levels	Potassium|Serum Magnesium|Serum Magnesium Levels		3
+obesity-related traits	Childhood Obesity|Childhood	Sleep RQ	3
+crohn's disease	Crohn's Disease		3
+diabetes related insulin traits	Diabetes-Related Traits	homeostasis model insulin resistance	3
+cortical thickness	Bone Mineral Density|Bone|Osteoporotic Fracture		2
+hip geometry	Association Bone	necklengf	2
+white blood cell count	Cell Phenotypes|White Blood Cell	Lymphocytes	3
+testicular germ cell tumor	Testicular Cancer		3
+anticoagulant levels	Protein C	PC	0
+select biomarker traits	Biomarker Traits	Atrial natriuretic peptide exam 6	3
+ovarian cancer in brca1 mutation carriers	Breast Cancer|Breast Ovarian Cancer|Carriers		2
+restless legs syndrome	Restless Legs Syndrome		3
+c-reactive protein levels	C-Reactive Protein Levels		3
+telomere length	Telomere Length		3
+cerebral amyloid angiopathy	Dementias|Alzheimer's Disease	Neuritic Plaque (Ordinal)	2
+triglycerides-blood pressure (tg-bp)	Metabolic Syndrome	HDLC-TG	2
+glaucoma (primary open-angle)	Glaucoma|Optic-Nerve		3
+obesity (extreme)	Extremely|Overweight|Body Mass Index		3
+central corneal thickness	Central Corneal Thickness|Brittle Cornea Syndrome|Blinding Disease		3
+marginal zone lymphoma	Marginal Zone Lymphoma		3
+alzheimer's disease	Alzheimer's Disease		3
+alzheimer's disease (late onset)	Late-Onset Alzheimer’s Disease		3
+bone mineral density (paediatric, lower limb)	Bone Mineral Density|Bone	TBLH-BMD	2
+cerebral amyloid angiopathy	Dementias|Alzheimer's Disease	NFT Braak (Ordinal I)	2
+aging traits	Age-Related Phenotypes|Longevity	Age at death	3
+calcium levels	Serum Calcium		3
+chronic bronchitis in chronic obstructive pulmonary disease	Chronic Obstructive Pulmonary Disease|Chronic Bronchitis		3
+fasting glucose-related traits	Fasting Glucose|Type 2 Diabetes|Glucose Homeostasis		3
+triglycerides-blood pressure (tg-bp)	Metabolic Syndrome	WC-TG	3
+colorectal cancer	Colon Cancer		3
+obesity-related traits	Childhood Obesity|Childhood	Urinary nitrogen (g/d)	3
+ldl cholesterol	Coronary Heart Disease	LDL-C	3
+celiac disease	Celiac Disease|Celiac		3
+caffeine consumption	Caffeine Consumption|Cyp1A2		3
+bitter taste perception	Bitter Taste|Bitter Taste Perception		3
+hdl cholesterol - triglycerides (hdlc-tg)	Metabolic Syndrome	WC-TG	2
+cardiovascular disease risk factors	Cardiovascular Disease	waist circumference	3
+ige levels	Serum IgE		3
+metabolic syndrome (bivariate traits)	Metabolic Syndrome	HDLC-TG	3
+select biomarker traits	Biomarker Traits		3
+diabetes related insulin traits	Diabetes-Related Traits	hemoglobin a1c	3
+volumetric brain mri	Brain|Cognitive Test	ALLV	2
+self-employment	Self-Employment		3
+waist circumference - triglycerides (wc-tg)	Metabolic Syndrome	HDLC-TG	0
+response to antipsychotic treatment	Antipsychotic Drugs|Metabolic Side Effects	Clozapine - Triglycerides	3
+bone mineral density (paediatric, total body less head)	Bone Mineral Density|Bone	LL-BMD	2
+fetal hemoglobin levels in sickle cell anemia	Sickle Cell Anemia|Fetal Hemoglobin|Sickle Cell		3
+primary biliary cirrhosis	Primary Biliary Cirrhosis		3
+cholesterol	Serum Cholesterol Levels	HDL-C	3
+proinsulin levels	Type 2 Diabetes|Proinsulin Levels		3
+cerebrospinal fluid levels of alzheimer's disease-related proteins	Proteins Involved|Inflammation|Alzheimer's Disease	CCL4	2
+serum metabolite levels	Intermediate Phenotypes		0
+mean platelet volume	Platelet Count|Mean Platelet Volume		3
+hippocampal volume	Hippocampal Volume		3
+bipolar disorder	Bipolar Disorder		3
+cardiovascular disease risk factors	Cardiovascular Disease	triglycerides	3
+metabolic syndrome	Metabolic Syndrome	WC-TG	3
+hemostatic factors and hematological phenotypes	Hematological Phenotypes	Viscosity	3
+exercise treadmill test traits	Exercise Responses|Artery	Stage 2 Exercise heart rate	3
+n-glycan levels	Master|Plasma Protein	DG11	3
+neuritic plaque	Dementias|Alzheimer's Disease	NFT Braak (Ordinal I)	3
+cerebrospinal fluid levels of alzheimer's disease-related proteins	Proteins Involved|Inflammation|Alzheimer's Disease	ACE	3
+psoriatic arthritis	Psoriatic Arthritis		3
+common traits (other)	Common Traits	Sneeze	3
+response to mtor inhibitor (rapamycin)	Biomarker		0
+ldl cholesterol	Lipid Levels		2
+metabolic syndrome	Metabolic Syndrome	HDLC-WC	3
+neurofibrillary tangles	Dementias|Alzheimer's Disease	CAA (Case-Control)	2
+menopause (age at onset)	Age Menopause		3
+osteoporosis-related phenotypes	Osteoporosis-Related Traits|Gene Expression Profiling	NSA	3
+crohn's disease	Ibd Disease		2
+bone mineral density	Bone Mineral Density		3
+eye color	Common Traits	Freckling	0
+cardiovascular disease risk factors	Cardiovascular-Related Traits		3
+schizophrenia	Schizophrenia		3
+congenital heart disease	Congenital Heart Disease|Atrial Septal Defect		3

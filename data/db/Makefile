@@ -1,6 +1,6 @@
 BIN:=../../src/crawler
 PAP:=./papers
-OALISTURL:=ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/file_list.txt
+OALISTURL:=ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_file_list.txt
 
 all:
 	make init

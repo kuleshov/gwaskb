@@ -45,6 +45,7 @@ snpedia-associations:
 	make -C ../associations/snpedia/
 
 dl-papers: open-access.txt
+	mkdir -p $(PAP)
 	python $(BIN)/dl_papers.py \
 	  --mark-open-access $< \
 	  --download-oa $(PAP)

@@ -1,0 +1,589 @@
+25086665	Pancreatic Cancer	
+23349640	Malignancies	
+20436471	Paget’s Disease Bone	
+24714607	Chronic Mucus Hypersecretion	
+22174851	Viral Set Point|Hiv-1	
+22993228	Lumbar Disc Degeneration	
+24204828	Diabetes-Related Traits	
+19812673	Autism	
+20011104	Adiponectin Levels	
+23128233	Inflammatory Bowel Disease	
+17903297	Brain|Cognitive Test	
+23358160	Schizophrenia|Cytomegalovirus Infection|Infection Suggests	
+24223155	Torsades De Pointes	
+22044751	Chronic Kidney Disease	
+25105248	Colorectal Cancer	
+21801394	Stevens-Johnson Syndrome|Toxic Epidermal Necrolysis	
+17903305	Prostate Cancer|Breast	
+22116950	Ovarian Reserve	
+17658951	Obesity-Related Traits	
+24651765	Homocysteine|Methionine|Metabolism	
+22144915	Corneal Astigmatism	
+24489884	Aggression	
+18604267	Antigen|Icam-1	
+21424380	Breast Cancer	
+23378610	Type 2 Diabetes|Metabolism|Glycine	
+23844046	C-Reactive Protein	
+17903294	Hematological Phenotypes	
+23300701	Colorectal Cancer	
+22763110	Osteoarthritis	
+20522523	Partial Epilepsies	
+21909108	Intima Media Thickness|Plaque	
+20041166	Hiv-1	
+17903308	Circadian Phenotypes|Sleep	
+18262040	LDL-cholesterol	
+24023788	Lung Function	
+23118916	Serum IgM	
+19936222	Cholesterol|Plasma Lipoprotein Size	
+25352737	Cataract	
+21242260	Colon Cancer	
+22028671	Ratio|Total Cholesterol	
+22792071	Bone Mineral Density|Bone|Osteoporotic Fracture	
+25133637	Body Mass Index	
+19820699	Erythrocyte	
+25569183	Marginal Zone Lymphoma	
+25705158	Metabolic Syndrome	
+24101674	Type 2 Diabetes	
+23646285	Hypersomnia	
+21878437	Vitamin A	
+19116933	Juvenile Idiopathic Arthritis	
+19056611	Type 2 Diabetes	
+20173748	Chronic Obstructive Pulmonary Disease	
+25625606	Hippocampal Volume|Dementia	
+24778558	Coronary Heart Disease	
+23829686	Childhood|Childhood Asthma	
+19668339	Hippocampal Atrophy|Quantitative Trait|Alzheimer's Disease	
+25628645	Homoharringtonine	
+23593202	Age Menarche|Femoral Neck Bone Geometry	
+23793025	Migraine	
+23666240	Testicular Cancer	
+23350875	Colorectal Cancer	
+20062060	Pr Interval	
+22719876	Non-Alcoholic Fatty Liver Disease|Liver Disease	
+23326517	Age-Related Macular Degeneration	
+22792082	Asthma|Bronchodilator Response	
+25038754	Breast Cancer	
+24908248	Telomere Length|Glioma	
+23508266	Asthmatics|Bronchodilator Response	
+25350695	Ldl Cholesterol Response|Response Statins	
+21573128	Osteoporosis	
+21533074	Diffuse Large B-cell Lymphoma|Follicular Lymphoma|Diffuse	
+23967269	Mite-Specific IgEs|Asthma	
+24586186	Metabolic Traits|Metabolite-Disease	
+24586183	Thyroid Peroxidase Antibodies|Thyroid Disease	
+17903296	Association Bone	
+22511988	Cell-Free Dna|Cardiovascular	
+21573004	Telomere Length	
+21901158	Insulin Resistance|Copy Number Variation	
+21909115	Cardiovascular Disease|Blood Pressure	
+24816252	Blood Metabolites	
+25017104	Allergic Disease|Eosinophilic Esophagitis	
+24941225	Serum Carcinoembryonic Antigen Levels|Lymph Nodes|Colorectal Cancer	
+25372704	Sickle Cell Anemia|Fetal Hemoglobin|Sickle Cell	
+17903300	Waist Circumference|Body Mass Index	
+21448238	Migraine	
+19305408	Qt Interval Duration	
+25526632	Breast Cancer	
+24920014	Hodgkin Lymphoma	
+22737229	Chronic Hepatitis B	
+24379826	Serum Uric Acid Levels	
+21386085	Metabolic Syndrome	
+19454037	Left Ventricular Mass	
+23535730	Ovarian Cancer	
+21502949	Brain	
+17903303	Atherosclerosis	
+17903298	Diabetes-Related Traits	
+22076464	Acute Lymphoblastic Leukemia	
+21750679	Systemic Sclerosis	
+21779181	Systemic Sclerosis	
+21602798	Prostate Cancer|Prostate	
+20862305	Type 2 Diabetes	
+20661308	Serum Calcium	
+23979607	Borderline Personality	
+25140149	Neurodegeneration|Biomarker	
+21390209	Late-Onset Alzheimer's Disease	
+23341777	Lung Squamous Cell Carcinoma	
+21775986	Recombination	
+22430674	Alzheimer's Disease	
+19448621	Age Menarche|Menopause	
+23698163	Serum Selenium	
+25317112	Gastritis|Gastric Ulcer	
+21082022	Hypertension|Blood Pressure	
+20072603	Osteoporosis	
+22941191	Neuroblastoma	
+23535967	Glomerular Filtration Rate|Quantitative Trait	
+24324551	Chagas Cardiomyopathy|Trypanosoma Cruzi Seropositive	
+24244560	Diabetic Retinopathy|Chronic Kidney Disease|Hemoglobin A	
+21602797	Cystic Fibrosis|Lung Disease	
+23307926	Menopause	
+20861866	Age-Related Macular Degeneration	
+17447842	Crohn Disease	
+22247754	Arrhythmias	
+21060863	Cardiovascular Diseases	
+21980494	Venous Thrombosis	
+20200953	Osteoporosis-Related Phenotypes	
+20858683	Hemoglobin A	
+21810271	Factor Viii	
+25533491	Sepsis|Due Pneumonia	
+23886662	Psoriasis|Atopic Dermatitis|Asthma	
+19609347	Hypertension|Blood Pressure	
+19503597	Uric Acid	
+19587794	Sudden Cardiac Death	
+25705159	Hepatitis	
+25056061	Schizophrenia	
+23958962	Cocaine Dependence	
+25129146	Esophageal Squamous Cell Carcinoma	
+21339755	Galactose|Mutarotase|Serotonin Transporter	
+21483845	Iron Deficiency	
+21533175	Dehydroepiandrosterone Sulphate	
+22589738	Adipose	
+22675492	Sex Hormone-Binding Globulin|Testosterone|Estradiol	
+21779176	Restless Legs Syndrome	
+24068947	Brain	
+22479419	Treatment Refractory Schizophrenia	
+21700879	Adiponectin Levels	
+19557197	Distribution|Adiposity|Waist Circumference	
+25705162	Platelet Count	
+22961080	Type 2 Diabetes	
+23770605	Chronic Lymphocytic Leukemia	
+23459443	Qt Interval	
+25310821	Hirschsprung Disease	
+20634892	Neuroticism	
+20081856	Major Mood Disorders	
+21983785	Melanoma	
+23536807	Primary Open Angle Glaucoma|Macular Degeneration	
+24324648	Serum IgE	
+24348519	Body Mass Index	
+20686651	Chronic Kidney Disease|Kidney Stones|Comorbid Diseases	
+24121790	Barrett’s Esophagus|Esophageal Adenocarcinoma	
+19421330	Onset|Hypertension	
+20169177	Systemic Lupus Erythematosus	
+24892410	Onset|Hypertension|Cardiovascular Events	
+23509613	Antiphospholipid Antibodies	
+19343178	Stature	
+20038947	Major Depression	
+24740154	Prostate Cancer|Early-Onset	
+20421936	Onset|Obesity-Related Traits|Body-Weight	
+21399635	Primary Biliary Cirrhosis	
+22087292	Femoral Neck Bone Geometry	
+24023777	Adolescent Idiopathic Scoliosis	
+24743840	Colorectal Cancer	
+19430480	Type 1 Diabetes	
+21738484	Bipolar Disorder|Disorder Suggests	
+22666496	Cardiovascular Event	
+21552555	Obesity|Obesity-Related Traits	
+24836286	Colorectal Cancer	
+21844884	Treatment	
+22001756	Dengue Shock Syndrome	
+20526338	Platelet Aggregation	
+23565137	Late-Onset Alzheimer’s Disease	
+22792070	Bone Mineral Density|Bone|Osteoporotic Fracture	
+22807686	Chronic Hepatitis B|Hepatitis B Virus|Carriers	
+18483556	Hair Color|Skin Pigmentation	
+24964207	Suicidal Ideation|Attempts Suicidal|Suicide Attempts	
+20927387	Cell Traits|Red Blood Cell	
+19714249	Obesity|Osteoporosis Phenotypes	
+22493691	Hypothyroidism	
+21804549	Asthma	
+18455228	Bone Mineral Density|Osteoporosis	
+23708191	Congenital Heart Disease|Atrial Septal Defect	
+19412175	Neuroblastoma	
+20548946	Optic Disc	
+19961619	Respiratory|Atopy	
+20663923	Autism	
+20932310	Τ Protein Levels	
+22952603	-Amphetamine Response	
+19304780	Blood Pressure	
+20395239	Optic Disc Size	
+25064009	Parkinson’s Disease	
+24133439	Autistic-Like Traits	
+20081858	Fasting Glucose|Type 2 Diabetes|Glucose Homeostasis	
+23727862	Osteosarcoma	
+17903292	Kidney|Endocrine-Related Traits	
+25241763	Optic Nerve	
+23118974	Pigmentation|Skin	
+23049750	Smoking|Cyp2A6	
+23419831	Cerebral Amyloid Deposition	
+21876539	Cyp1A2	
+24068962	Serum Calcium	
+21347282	Coronary Heart Disease	
+21423719	Metabolic Traits|Nonalcoholic Fatty Liver Disease	
+23300278	Type 2 Diabetes	
+23028483	Asthma	
+24280982	Schizophrenia|Bipolar Disorder|Disorder	
+23936387	Celiac Disease	
+22359512	Sphingolipids	
+23259602	Dental Caries	
+23183491	Sensitivity	
+20953189	Psoriasis	
+25310577	Acute Lymphoblastic Leukemia|Childhood	
+20174558	Type 2 Diabetes	
+24166486	Schizophrenia	
+22479309	Brachial Circumference	
+22504420	Bone Mineral Density	
+23717212	Malaria	
+22570617	Optic Nerve|Glaucoma	
+22558069	Immunoglobulin Isotypes|Non-Albumin Protein	
+22452962	Breast Cancer	
+23381943	Ischemic Stroke	
+25364816	Diabetic Retinopathy	
+23297363	Tetralogy Fallot	
+21729881	Vitamin E Levels	
+20694148	Metabolic Syndrome	
+20585626	Breast Cancer	
+22832961	Alzheimer's Disease	
+24047820	Social Communication	
+21998595	Height	
+21060860	Breast Cancer	
+24880342	Lung Cancer|Lung	
+22368281	LDL-c Response|Lp(a)	
+23006423	Lung Cancer|Overall Survival	
+22085899	Bilirubin Levels	
+20485516	Central Corneal Thickness|Brittle Cornea Syndrome|Blinding Disease	
+22205951	Bipolar Disorder	
+23028342	Type 1 Diabetes|Kidney Disease|Diabetic Nephropathy	
+23966867	Body Fat Distribution	
+22197932	Atopic Dermatitis	
+24709693	Methotrexate Response|Juvenile Idiopathic Arthritis	
+20622878	Behçet's Disease	
+21827660	Increased Disease Risk	
+25009551	Peripheral Arterial Disease	
+24253340	Schizophrenia|Bipolar Disorder	
+19132087	Kawasaki Disease	
+24999842	Celiac Disease|Celiac	
+21627779	Alzheimer's Disease	
+21665990	Age-Related Macular Degeneration	
+19779542	Pathological Myopia	
+21490707	Caffeine Consumption|Cyp1A2	
+25340798	Proteins Involved|Inflammation|Alzheimer's Disease	
+20548944	Osteoporosis-Related Traits|Gene Expression Profiling	
+23326239	Antibodies|Epstein-Barr Virus Nuclear Antigen	
+21483430	Neurocognitive Phenotypes	
+24518671	Pressure	
+20305777	Osteoarthritis	
+20885792	Dementia|Late-Onset Alzheimer Disease	
+23001122	Male Breast Cancer	
+23001564	Homeostasis	
+20195514	Primary Tooth Development	
+23028356	Rheumatoid Arthritis	
+22344219	Body Mass Index	
+21873549	Type 2 Diabetes|Proinsulin Levels	
+23776548	Arterioles	
+22916037	Atherosclerosis	
+22238593	Type 2 Diabetes	
+22479202	Metabolic Traits|Type 2 Diabetes|Adiponectin Levels	
+23209189	Type 2 Diabetes	
+22286170	Asthma|Gene Expression|Lymphocyte Count	
+22589742	Pericardial	
+20686608	Pancreatic Cancer	
+24465473	Telomere Length	
+23284291	Pulmonary Function|Lung Function	
+21685912	Progressive Supranuclear Palsy	
+23636237	Analysis	
+21738478	White Blood Cell Count|Cell Phenotypes|White Blood Cell	
+22570627	Primary Open-Angle Glaucoma|Intraocular Pressure	
+20801717	Sporadic Amyotrophic Lateral Sclerosis	
+22383894	Toxicity Phenotypes|Metabolism	
+23408906	Thyroid|Thyroid-Related Traits|Differences	
+17997608	Serum Uric Acid Levels	
+21931564	Metabolite Quantitative Trait	
+21738487	Parkinson's Disease	
+24392092	Memory	
+23666239	Testicular Germ Cell Tumor	
+20802479	Migraine	
+24564958	Social-Communication|Spectrum Phenotypes	
+25008200	Chronic Periodontitis	
+21490949	Type 2 Diabetes|Transferability	
+24058526	Systolic Blood Pressure|Sickle Cell Disease	
+22745674	Coronary Artery Stenosis|Coronary Artery	
+24483146	Biomarkers	
+22747683	Breast Cancer|Breast Size	
+22561518	Generalized Vitiligo	
+22792221	Normal Tension Glaucoma	
+17903302	Arterial Stiffness|Blood Pressure	
+22760553	Global Disease|Depression|Citalopram-Induced Side Effects	
+17903307	Pulmonary Function	
+23966204	Bitter Taste|Bitter Taste Perception	
+20372150	Birth Weight|Fetal Growth	
+20339536	Lipid-Lowering Response|Response Statins	
+18464913	Protein Quantitative Trait|Genome|Association	
+25241909	Chronic Obstructive Pulmonary Disease|Chronic Bronchitis	
+21383967	Rheumatoid Arthritis|Celiac Disease	
+17903293	Biomarker Traits	
+19300499	Cyp2C9|Warfarin	
+25162662	Serum Ferritin	
+23533358	Opiates Addiction|African-Origin	
+23874384	Behavior	
+22412388	Crohn's Disease	
+24009623	Biomarker	
+21829377	Plasma Phospholipid|Fatty Acids	
+22911880	Behaviors|Personality Traits|Eating	
+25087078	Epilepsies	
+23532257	Type 2 Diabetes	
+23738518	Reading|Language	
+18159244	Onset|Obesity|Obesity Associated	
+22423221	Platelet Count|Mean Platelet Volume	
+18776929	Hip Bone Size|Females	
+19300482	Chronic Obstructive Pulmonary Disease (Copd)|Pulmonary Function	
+18282107	Schizophrenia	
+20418485	Vitamin D Levels	
+24688116	Longevity|Analysis|Population	
+20639881	Follicular Lymphoma	
+20675712	Quinine	
+22216198	Protein C	
+21347284	Pr Interval	
+24390342	Rheumatoid Arthritis|Biology	
+22843504	Autism Spectrum	
+23755828	Warfarin	
+23382809	Schizophrenia	
+22685421	Ocular Axial Length|High Myopia	
+19801982	Bone Mineral Density	
+19874204	Femoral Neck Bone|Bone Mineral Density	
+19597492	Atrial Fibrillation	
+19219042	Breast Cancer	
+19096518	Glycated Hemoglobin	
+23974872	Schizophrenia	
+24603532	Primary Angle Closure Glaucoma|Anterior Chamber Depth	
+23903356	Pregnancy|Glycemic Traits	
+21771975	Adiponectin|Quantitative Trait|Cardiometabolic Outcomes	
+24465431	Onset|Cardiovascular Disease|Diabetes	
+19197348	Complex Disease	
+23041239	Ischaemic Stroke	
+23459936	Chronic Periodontitis	
+23386860	Iron Intake|Type 2 Diabetes	
+23583978	Body Mass Index	
+23437003	Volumetric Bone Mineral Densities	
+24871463	Systemic Lupus Erythematosus (Sle)	
+23989986	Hip|Osteoarthritis	
+21124946	Bone Mineral Density	
+19169254	Psoriasis	
+24449572	Rheumatoid Arthritis	
+18823527	Late-Onset Alzheimer's Disease	
+25742292	Parity	
+22693459	Onset|Androgenetic Alopecia|Common Diseases	
+20881960	Height	
+24940741	Infection	
+22504421	Hippocampal Volume	
+23423138	Mathematical Abilities|Dyslexia|Myosin	
+25760438	Type 2 Diabetes|Body Mass Index	
+23468962	Breast Cancer	
+23785401	Oligoclonal Bands|Multiple Sclerosis	
+23667675	Age Menarche	
+21042317	Major Depressive Disorder	
+21244703	Multiple Sclerosis	
+21326860	Kawasaki Disease	
+22428042	Glaucoma|Optic-Nerve	
+22479191	Kidney|Follow-Up	
+19651812	Melatonin|Plasma Glucose|Type 2 Diabetes	
+23761726	Corneal Astigmatism|Platelet-Derived Growth Factor	
+24509480	Type 2 Diabetes	
+19570815	C-type Natriuretic Peptide|Height	
+23555300	Rheumatoid Arthritis|Response Etanercept	
+17903295	Age-Related Phenotypes|Longevity	
+23028341	Complement C3	
+19122664	Ulcerative Colitis	
+25147783	Ischemic Stroke|Vitamin|Folate Levels	
+21946350	Lung Function|Follow-Up	
+22403646	Haptoglobin Levels	
+21935397	Extremely|Overweight|Body Mass Index	
+21460841	Late-Onset Alzheimer’s Disease	
+23696099	Cell Traits|Red Blood Cell|Resistance	
+19043545	Metabolite	
+20463881	Eye Color	
+23754948	Anthropometric Traits|Sexual	
+25226531	Suggest|Associated|Linguistic Phenotype	
+21156761	Rheumatoid Arthritis	
+25003214	Reading|Mathematics Ability	
+24800985	Birth	
+21151130	Endometriosis	
+23472185	Multiple Sclerosis|Oligoclonal Band	
+19081515	Creutzfeldt–Jakob Disease	
+22005930	Alzheimer’s Disease|Psychotic Symptoms	
+24938310	Exfoliation Glaucoma	
+24124408	Standing|Blood Pressure Changes|Orthostatic Hypotension	
+24097068	Lipid Levels	
+24403052	Basal Cell Carcinoma	
+19503088	Rheumatoid Arthritis	
+24376456	Blood Pressure	
+22291604	Lupus	
+25436638	Serum Thyroid Stimulating Hormone	
+21418511	Longevity	
+18941528	Multiple Sclerosis	
+25378659	Long-Chain Saturated Fatty Acids	
+24386095	Lipid Levels	
+20585627	Common Traits	
+24886709	Lipid	
+22832964	Smoking Behaviors	
+19772629	Parkinson Disease|Onset	
+22384028	Pressure Traits|Hypertension|Blood Pressure	
+22233651	Gestational Diabetes Mellitus	
+22306652	Ischemic Stroke	
+23263487	Colorectal Cancer	
+25085501	Allergic Rhinitis	
+21983787	Melanoma	
+25102180	Type 2 Diabetes	
+19412176	Narcolepsy	
+19247474	Smoking Behaviors|Cigarette Smoking	
+23817569	Allergy	
+21364930	Hiv-1	
+19359265	Telomere Length	
+20066028	Serum Cholesterol Levels	
+24511991	Parkinson’s Disease	
+23291585	Visceral Leishmaniasis	
+22267201	Age Menopause	
+21738491	Sudden Cardiac Death	
+22961001	Barrett’s Esophagus	
+25188341	Dementias|Alzheimer's Disease	
+20364137	Intracranial Aneurysm	
+23401653	Platelet-Derived Growth Factor|Quantitative Trait|Corneal	
+19714205	Asthma	
+19401414	Type 2 Diabetes	
+21931568	Eruption	
+21980299	Type 1 Diabetes	
+21943158	Cardiovascular-Related Traits	
+23104006	Endometriosis	
+19430483	Blood Pressure	
+21998597	Serum Testosterone	
+22693455	Obese|Type 2 Diabetes	
+24903457	Blood Pressure	
+23544013	Breast Cancer|Breast Ovarian Cancer|Carriers	
+21298047	European-Origin|Substance Dependence	
+24478790	Telomere Length	
+24143190	Breast Cancer|Breast	
+20442857	Phospholipase A	
+21124955	Serum Amyloid A|Type 2 Diabetes	
+21829393	Type 1 Diabetes|Autoantibody	
+22470424	Amyotrophic Lateral Sclerosis	
+18846228	Serum IgE Levels	
+24376798	Chronic Hepatitis C	
+22509378	Sexual Dysfunction	
+21799836	Type 2 Diabetes	
+18840781	Type 1 Diabetes	
+19915575	Parkinson’s Disease	
+17903306	Heart Rate|Variability Traits	
+25187353	Agranulocytosis	
+21379329	Late-Onset Alzheimer's Disease	
+21533022	Bone Mineral Density	
+22544364	Wilms Tumor	
+21738479	White Blood Cell Count|Cell Phenotypes|White Blood Cell	
+21186350	Glycemic Response|Type 2 Diabetes|Response Metformin	
+23382691	Immunoglobulin G|Human Immunoglobulin|-Glycosylation	
+21044948	Parkinson's Disease	
+19557161	Distribution|Adiposity|Waist Circumference	
+22899653	Lung Cancer	
+22832960	Temperament Character Inventory	
+24571439	Specific Language Impairment|Genotype Effects	
+24014518	Epilepsy|Febrile Seizures	
+23984888	Airway Responsiveness	
+23870195	Coronary Artery|Coronary Artery Calcification	
+21273288	NT-proBNP	
+17684544	Ibd Disease	
+23509962	Venous Thrombosis	
+21909110	Mean Arterial Pressure|Pulse Pressure	
+24625756	Intermediate Phenotypes	
+23326512	Elated|Mania|Irritable	
+21833088	Immune Mechanisms|Multiple Sclerosis	
+17903304	Cardiovascular Disease	
+21738480	Cell Phenotypes|White Blood Cell	
+23935489	Hiv-1	
+23209447	I Antigen|Nasopharyngeal Carcinoma	
+21437268	Cancers|Conducted|Upper Aerodigestive Tract	
+19798445	Sphingolipid	
+22291609	Inflammation	
+19734902	Alzheimer's Disease	
+23092984	Bipolar Disorder	
+20921969	Cardiac Arrhythmias	
+23563607	Anthropometric Traits	
+23400010	Metabolic Response|Response Hctz	
+20686565	Lipids	
+21460840	Alzheimer’s Disease	
+21423239	Attempted Suicide	
+21294900	Serum Uric Acid	
+19578366	High Grade|Glioma	
+19721433	Response Treatment|Antipsychotics	
+21298027	Celiac Disease|Crohn's Disease	
+24516586	Tobacco Smoke|Chromosome 4|Cleft Palate	
+19571809	Schizophrenia	
+21297633	Ulcerative Colitis	
+21812969	Parkinson's Disease	
+22484627	Childhood Obesity	
+20711177	Parkinson’s Disease	
+21076409	Conduction|Qrs Duration	
+24513273	Serum Uric Acid	
+19300500	Chronic Obstructive Pulmonary Disease (Copd)|Pulmonary Function	
+25390645	Anxiety	
+20953186	Psoriasis|Psoriatic Arthritis	
+23900074	Telomere Length|Cancer	
+25060954	Kinase|Hearing	
+23935956	Red Blood Cell	
+21278746	Mammographic Density|Breast Cancer	
+23251661	Childhood Obesity|Childhood	
+19966805	Type 1 Diabetes	
+22438815	Parkinson's Disease	
+23704328	Tooth Eruption|Height	
+20190752	Celiac Disease	
+25044758	Height-Adjusted Bmi	
+20729852	Esophageal Squamous Cell Carcinoma|Gastric Adenocarcinoma	
+23291587	Behçet's Disease	
+24124411	Liver Enzymes	
+23834954	Sensory Disturbances|Split	
+22383897	Breast Cancer	
+21408207	Systemic Lupus Erythematosus|Autoantibody	
+20700443	Potassium|Serum Magnesium|Serum Magnesium Levels	
+22570697	Multiple Sclerosis	
+21223598	Aortic Root	
+20700438	Lung Adenocarcinoma|Lung	
+20838585	Cardiovascular Disease	
+25551457	Fibrinogen|Alcohol Consumption|Body Mass Index	
+21779381	Migraine|Cardiovascular Events|Cardiovascular	
+23143602	Pancreatitis	
+24204295	Narcolepsy|Influenza|Changes	
+21533024	Icam-1	
+23393555	Retinopathy|Diabetes	
+24847357	Staphylococcus Aureus	
+24945404	Bone Mineral Density|Bone	
+22170493	Psoriatic Arthritis	
+23670970	Cystic Fibrosis|Diabetes	
+22396660	Nephrolithiasis	
+21658281	Coronary Artery Disease|Sudden Cardiac Arrest	
+17903301	Exercise Responses|Artery	
+25297839	Herpes Zoster	
+24755620	Glutamate|Alzheimer's Disease	
+24025145	Chemotherapy-Induced Alopecia|Breast Cancer	
+24347629	Periodontal	
+21051773	Handedness|Dyslexia	
+24763700	C-Reactive Protein Levels	
+21079607	Anorexia Nervosa	
+23703922	Uric Acid Levels	
+23678272	Vitiligo	
+20195266	Antipsychotic Drugs|Metabolic Side Effects	
+24086445	Schizophrenia|Quantitative Phenotype|Matter Volume	
+25233373	Myopia|Hyperopia	
+24096698	Cancer	
+25367360	Astigmatism|Refractive Error	
+20972438	Bladder Cancer|Bladder	
+21814517	Asthma	
+23593239	Self-Employment	
+20852633	Ovarian Cancer	
+23583980	Pulmonary Fibrosis	
+25383866	General Cognitive Ability	
+21203500	Master|Plasma Protein	
+25317111	Chronic Diseases|Medication Adherence	
+23455636	Age-Related Macular Degeneration	
+20173747	Lone Atrial Fibrillation	
+18369459	Psoriasis|Psoriatic Arthritis|New Disease	
+20834067	Longevity	
+24952745	Qt Interval|Calcium	
+23836780	Intraocular Pressure|Glaucoma	
+24094242	Serum Alkaline Phosphatase Levels	
+25729143	Maximal Oxygen Consumption	
+25629512	Age-Related Macular Degeneration	
+23202124	Birth Weight|Intrauterine Growth|Height	
+23056639	Lectin	
+20935630	Body Mass Index	
+22889924	Tourette Syndrome	
+22829776	Globulin|Hormone|Steroid Hormone	
+21708048	Obesity	
+21037568	Hodgkin Lymphoma	
+22558097	Total Bilirubin|Sickle Cell Anemia|Sickle Cell	
+23472165	Endometriosis	

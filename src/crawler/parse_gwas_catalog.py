@@ -47,8 +47,11 @@ def crawl(fname, phenotype_fname, db_session):
 
   with open(fname) as f:
     f.readline()
-    for line in f:
+    for i, line in enumerate(f):
       fields = line.split('\t')
+
+      if i % 500 == 0: 
+        print '%d associations parsed' % i
 
       # create paper
       pubmed_id = _get_int(fields[1])

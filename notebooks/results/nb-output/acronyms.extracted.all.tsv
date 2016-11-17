@@ -1,0 +1,693 @@
+17903292	PHENOTYPE	Candidate gene
+17903292	Candidate gene	PHENOTYPE
+17903292	CysC	CST3
+17903292	CST3	CysC
+17903292	CysC	CST3
+17903292	CST3	CysC
+17903292	CysC	CST3
+17903292	CST3	CysC
+17903292	CysC	CST3
+17903292	CST3	CysC
+17903292	CKD	APOE
+17903292	APOE	CKD
+17903292	PHENOTYPE	Candidate gene
+17903292	Candidate gene	PHENOTYPE
+17903292	CysC	CST3
+17903292	CST3	CysC
+17903292	CysC	CST3
+17903292	CST3	CysC
+17903292	UAE ≥ 30*	CST3
+17903292	CST3	UAE ≥ 30*
+17903293	CD40 Ligand, serum & plasma	CD40L
+17903293	C-reactive protein	CRP
+17903293	Intercellular adhesion molecule-1	ICAM1
+17903293	Interleukin-6	IL6
+17903293	Urinary isoprostanes/creatinine	IsoCrUrine
+17903293	Monocyte chemoattractant protein-1	MCP1
+17903293	Myeloperoxidase	MPO
+17903293	Osteoprotegerin	OPG
+17903293	P-selectin	Pselectin
+17903293	Tumor necrosis factor alpha	TNFA
+17903293	Tumor necrosis factor receptor-2	TNFRII
+17903293	N-terminal pro-atrial natriuretic peptide	ANP
+17903293	B-type natriuretic peptide	BNP
+17903293	Bilirubin	Bili
+17903293	Aspartate aminotransferase **	AST
+17903293	Alanine aminotransferase	ALT
+17903293	Alkaline phosphatase	AlkPhos
+17903293	Gamma-glutamyl transferase	GGT
+17903293	Vitamin K plasma phylloquinone	VitKPhylloq
+17903293	Vitamin K percentage of undercarboxylated osteocalcin	VitKPucOC
+17903293	Vitamin D plasma 25(OH)-D	VitD25OH
+17903296	Femoral BMD**	FNBMD
+17903296	Femoral BMD**	FNBMDf
+17903296	Femoral BMD**	FNBMDm
+17903296	Trochanter BMD**	TRBMD
+17903296	Trochanter BMD**	TRBMDf
+17903296	Trochanter BMD**	TRBMDm
+17903296	Lumbar spine BMD**	LSBMD
+17903296	Lumbar spine BMD**	LSBMDf
+17903296	Lumbar spine BMD**	LSBMDm
+17903296	Broadband ultrasound attenuation**	BUA
+17903296	Speed of Sound	SOS
+17903296	Neck-shaft angle**	NSA1
+17903296	Neck-shaft angle**	NSAf
+17903296	Neck-shaft angle**	NSAm
+17903296	Femoral neck length**	NeckLeng1
+17903296	Femoral neck length**	NeckLengf
+17903296	Femoral neck length**	NeckLengm
+17903296	Neck width**	NeckW1r
+17903296	Neck width**	NeckW1rf
+17903296	Neck width**	NeckW1rm
+17903296	Neck section modulus**	NeckZ1r
+17903296	Neck section modulus**	NeckZ1rf
+17903296	Neck section modulus**	NeckZ1rm
+17903296	Neck Cross-Sectional Moment of Inertia	NeckCSMI1r
+17903296	Neck Cross-Sectional Moment of Inertia	NeckCSMI1rf
+17903296	Neck Cross-Sectional Moment of Inertia	NeckCSMI1rm
+17903296	Neck Average Buckling Ratio	NeckAvgBR1r
+17903296	Neck Average Buckling Ratio	NeckAvgBR1rf
+17903296	Neck Average Buckling Ratio	NeckAvgBR1rm
+17903296	Shaft width**	ShaftW1
+17903296	Shaft width**	ShaftW1f
+17903296	Shaft width**	ShaftW1m
+17903296	Shaft Section modulus**	ShaftZ1r
+17903296	Shaft Section modulus**	ShaftZ1rf
+17903296	Shaft Section modulus**	ShaftZ1rm
+17903296	Shaft Cross-Sectional Moment of Inertia	ShaftCSMIr
+17903296	Shaft Cross-Sectional Moment of Inertia	ShaftCSMIrf
+17903296	Shaft Cross-Sectional Moment of Inertia	ShaftCSMIrm
+17903296	Shaft Average Buckling Ratio	ShaftAvgBR1r
+17903296	Shaft Average Buckling Ratio	ShaftAvgBR1rf
+17903296	Shaft Average Buckling Ratio	ShaftAvgBR1rm
+17903296	Inter-Trochanteric Average Buckling Ratio	ITAvgBR1r
+17903296	Inter-Trochanteric Average Buckling Ratio	ITAvgBR1rf
+17903296	Inter-Trochanteric Average Buckling Ratio	ITAvgBR1rm
+17903296	NSA1	ShaftZ1rm
+17903296	ShaftZ1rm	NSA1
+17903296	NeckLengf	NSAm
+17903296	NSAm	NeckLengf
+17903296	NeckW1rf	ShaftZ1R
+17903296	ShaftZ1R	NeckW1rf
+17903296	FNBMD	BUA
+17903296	BUA	FNBMD
+17903296	FNBMDf	ShaftZ1rm
+17903296	ShaftZ1rm	FNBMDf
+17903296	LSBMD	NeckZ1rm
+17903296	NeckZ1rm	LSBMD
+17903296	NSA1	NSA1
+17903296	NSA1	NSA1
+17903296	NSA1	NSA1
+17903296	NSA1	NSA1
+17903296	ShaftWm	NeckW1rf
+17903296	NeckW1rf	ShaftWm
+17903297	MRI phenotype showing strongest association with SNP	Selected Phenotype : (p < 0.001)
+17903297	Selected Phenotype : (p < 0.001)	MRI phenotype showing strongest association with SNP
+17903297	APBV	TCBV
+17903297	TCBV	APBV
+17903297	ATCBV	TCBV
+17903297	TCBV	ATCBV
+17903297	ATBV	TCBV
+17903297	TCBV	ATBV
+17903297	AFBV	TCBV
+17903297	TCBV	AFBV
+17903297	ATBV	TCBV
+17903297	TCBV	ATBV
+17903297	ATCBV	TCBV
+17903297	TCBV	ATCBV
+17903297	ATCBV	TCBV
+17903297	TCBV	ATCBV
+17903297	ATCBV	TCBV
+17903297	TCBV	ATCBV
+17903297	AFBV	TCBV
+17903297	TCBV	AFBV
+17903297	ATCBV	TCBV
+17903297	TCBV	ATCBV
+17903297	Phenotype showing strongest association with SNP	Selected Phenotype : (p < 0.001)
+17903297	Selected Phenotype : (p < 0.001)	Phenotype showing strongest association with SNP
+17903297	AFBV	TCBV
+17903297	TCBV	AFBV
+17903297	ATCBV	TCBV
+17903297	TCBV	ATCBV
+17903297	ATCBV	TCBV
+17903297	TCBV	ATCBV
+17903297	AFBV	TCBV
+17903297	TCBV	AFBV
+17903297	ATCBV	TCBV
+17903297	TCBV	ATCBV
+17903297	AFBV	TCBV
+17903297	TCBV	AFBV
+17903297	AFBV	TCBV
+17903297	TCBV	AFBV
+17903297	Phenotype showing strongest association with SNP	Selected Phenotype : (p < 0.001)
+17903297	Selected Phenotype : (p < 0.001)	Phenotype showing strongest association with SNP
+17903297	Sim	F1
+17903297	F1	Sim
+17903297	F1	F1
+17903297	F1	F1
+17903297	F1	F1
+17903297	F1	F1
+17903297	F1	F1
+17903297	F1	F1
+17903297	F1	F1
+17903297	F1	F1
+17903297	F1	F1
+17903297	F1	F1
+17903297	F3	F1
+17903297	F1	F3
+17903297	F3	F3
+17903297	F3	F3
+17903297	F3	F3
+17903297	F3	F3
+17903297	F3	F3
+17903297	F3	F3
+17903297	F3	F3
+17903297	F3	F3
+17903305	Cohort- and sex-specific	All Cancer* (excluding non-melanoma skin cancer)
+17903305	1.	All Cancer* (excluding non-melanoma skin cancer)
+17903305	age at study entry (allcancer1)	All Cancer* (excluding non-melanoma skin cancer)
+17903305	2.	All Cancer* (excluding non-melanoma skin cancer)
+17903305	multivariable adjusted for age, body mass index, and cigarette smoking at study entry (allcancer2)	All Cancer* (excluding non-melanoma skin cancer)
+17903305	All Cancer* (excluding non-melanoma skin cancer)	Cohort- and sex-specific
+17903305	All Cancer* (excluding non-melanoma skin cancer)	1.
+17903305	All Cancer* (excluding non-melanoma skin cancer)	age at study entry (allcancer1)
+17903305	All Cancer* (excluding non-melanoma skin cancer)	2.
+17903305	All Cancer* (excluding non-melanoma skin cancer)	multivariable adjusted for age, body mass index, and cigarette smoking at study entry (allcancer2)
+17903305	Cohort-specific	Breast Cancer (women)
+17903305	1.	Breast Cancer (women)
+17903305	age at study entry (breastcancer1)	Breast Cancer (women)
+17903305	2.	Breast Cancer (women)
+17903305	multivariable adjusted for age, parity, and body mass index at study entry (breastcancer2)	Breast Cancer (women)
+17903305	Breast Cancer (women)	Cohort-specific
+17903305	Breast Cancer (women)	1.
+17903305	Breast Cancer (women)	age at study entry (breastcancer1)
+17903305	Breast Cancer (women)	2.
+17903305	Breast Cancer (women)	multivariable adjusted for age, parity, and body mass index at study entry (breastcancer2)
+17903305	Cohort-specific	Prostate Cancer (men)
+17903305	1.	Prostate Cancer (men)
+17903305	age at study entry (prostatecancer1)	Prostate Cancer (men)
+17903305	Prostate Cancer (men)	Cohort-specific
+17903305	Prostate Cancer (men)	1.
+17903305	Prostate Cancer (men)	age at study entry (prostatecancer1)
+17903306	QT sex-pooled	QTPOOL
+17903306	QT men only	QTMEN**
+17903306	QT women only	QTWOMEN**
+17903306	RR sex-pooled	RRPOOL
+17903306	RR men only	RRMEN**
+17903306	RR women only	RRWOMEN**
+17903306	PR sex-pooled	PRAdjRRPOOL
+17903306	SDNN sex-pooled	SDNNHRV
+17903306	Total power sex-pooled	TOTPWRHRV
+17903306	Low frequency/high frequency power sex-pooled	LFHFHRV
+17903307	Percent predicted FEV	ppfev1
+17903307	for latest exam	ppfev1
+17903307	Percent predicted FVC for latest exam	ppfvc
+17903307	Percent predicted FEV	ppratio
+17903307	/FVC for latest exam	ppratio
+17903307	Percent predicted FEF	ppfef
+17903307	for latest exam	ppfef
+17903307	Percent predicted FEF	ppfefrat
+17903307	/FVC for latest exam	ppfefrat
+17903307	Mean FEV	meanfev1
+17903307	from two exams	meanfev1
+17903307	Mean FVC from two exams	meanfvc
+17903307	Mean FEV	meanratio
+17903307	/FVC from two exams	meanratio
+17903307	Longitudinal slope of FEV	fev1slope
+17903307	Longitudinal slope of FEF	fefslope
+17903292	Glomerular Filtration Rate	GFR
+17903292	Thyroid stimulation hormone	TSH
+17903292	Dehydroepiandrosterone sulfate	DHEAS
+17903292	Physical Location	Mb
+17903292	Physical Location	Mb
+17903292	Physical location	Mb
+17903292	Mean p-value	GEE
+17903292	Mean p-value	FBAT
+17903292	P_value	GEE
+17903294	Sample size	min-max
+17903295	558	558
+17903296	Bone mineral density	BMD
+17903296	Combined	1141
+17903296	Females	646
+17903296	Males	495
+17903296	Combined	1117
+17903296	Females	641
+17903296	Males	486
+17903296	Quantitative ultrasound	QUS
+17903296	Combined	1105
+17903296	Combined	1104
+17903296	Combined	1096
+17903296	Females	622
+17903296	Males	474
+17903296	Combined	1090
+17903296	Females	619
+17903296	Males	471
+17903296	Combined	1095
+17903296	Females	618
+17903296	Males	477
+17903296	Combined	1096
+17903296	Females	618
+17903296	Males	478
+17903296	Combined	1094
+17903296	Females	618
+17903296	Males	476
+17903296	Combined	1096
+17903296	Females	618
+17903296	Males	478
+17903296	Combined	1028
+17903296	Females	599
+17903296	Males	429
+17903296	Combined	1028
+17903296	Females	599
+17903296	Males	429
+17903296	Combined	1026
+17903296	Females	599
+17903296	Males	427
+17903296	Combined	1028
+17903296	Females	599
+17903296	Males	429
+17903296	Combined	1024
+17903296	Females	596
+17903296	Males	428
+17903297	Total Cerebral Brain Volume	ATCBV
+17903297	Frontal Brain volume	AFBV
+17903297	Parietal Brain Volume	APBV
+17903297	Occipital Brain Volume	AOBV
+17903297	Temporal Brain volume	ATBV
+17903297	Hippocampal Volume	AHPV
+17903297	Factor 1:Verbal Memory	F1
+17903297	Factor 2:Visual Memory and Organization	F2
+17903297	Factor 3: Measure of attention and executive function-Trails A and B	F3
+17903297	Boston Naming Test	Nam
+17903297	Similarities	Sim
+17903297	Wide-Range Achievement Test	WRAT
+17903298	Fasting plasma glucose	FPG
+17903298	Hemoglobin A1c	HbA1c
+17903298	28 yr time averaged FPG	tFPG
+17903298	Homeostasis model insulin resistance	HOMA-IR
+17903298	0–120 min insulin sensitivity	ISI_0-120
+17903300	Physical Position	Mb
+17903300	Physical Location	Mb
+17903301	LV mass	LVM
+17903301	LV diastolic dimension	LVDD
+17903301	LV systolic dimension	LVDS
+17903301	LV wall thickness	LVWT
+17903301	LV fractional shortening	LVFS
+17903301	Left atrial diameter	LAD
+17903301	Aortic root diameter	AOR
+17903301	Stage 2 Exercise systolic blood pressure	SBP
+17903301	Stage 2 Exercise diastolic blood pressure	DBP
+17903305	age at study entry	allcancer1
+17903306	position	Mb
+17903308	Unadjusted Mean	SD
+17903308	Heritability	SE
+18262040	Pooled β-coefficient	SE
+18369459	Location	hg18
+18369459	Location	hg18
+18369459	Location	hg18
+18455228	Bone mineral density	SD
+18455228	Osteoporotic fracture	OR
+18455228	Osteoporosis	OR
+18483556	rs8039195	rs916977
+18840781	Stage 1	GWA
+19043545	rs1148259	rs1200826
+19081515	p	vCJD
+19081515	p	iCJD
+19081515	p	sCJD
+19096518	P-Value	one-sided
+19116933	Birth cohort directly genotyped	CS
+19116933	0	0
+19116933	Yes	NA
+19116933	Yes	NA
+19116933	Birth cohort directly genotyped	CS
+19116933	0	0
+19116933	0	0
+19116933	0	0
+19169254	Age at Onset	Mean
+19169254	Age at Exam	Mean
+19197348	Position	Mb
+19300482	p value	PBAT
+19300499	Replication	588
+19300499	Combined	1641
+19305408	Beta	SD
+19305408	Beta	SD
+19343178	Beta	SE
+19343178	Beta	SE
+19343178	Beta	SE
+19359265	β GWA	SE
+19359265	β replication	SE
+19359265	β combined	SE
+19430483	Lolipop	Europeans
+19430483	Position	NCBI35
+19430483	position	NCBI35
+19454037	Distance	Mb
+19454037	Distance	Mb
+19454037	Distance	Mb
+19557161	β	SE
+19587794	Beta	SE
+19609347	Body mass index	BMI
+19651812	Systolic blood pressure	mmHg
+19651812	Diastolic blood pressure	mmHg
+19798445	4p12	ATP10D
+19798445	4p12	ATP10D
+19798445	4p12	ATP10D
+19798445	Meta OR	95CI
+19820699	rs1800562	HFE
+19820699	rs3811647	TF
+19936222	0	0
+19936222	0	0
+19936222	0	0
+19936222	0	0
+19961619	COL29A1	COL6A5
+19961619	Position	build36
+20011104	Adiponectin	SD
+20011104	Adiponectin Males	SD
+20011104	Adiponectin Females	SD
+20011104	Age	SD
+20038947	GenotypedSNPs	post-QC
+20038947	All cases	Broad
+20038947	C21orf94	187075
+20038947	C8orf71	28772
+20038947	mRNA BC053410	LOC643542
+20066028	Glucose transporter type 2	GLUT-2
+20066028	Protein kinase C iota type	nPKC-iota
+20066028	Glucose transporter type 2	GLUT-2
+20066028	Glucose transporter type 12	GLUT-12
+20066028	Vitamin D-binding protein Precursor	DBP
+20066028	Alzheimer disease amyloid protein	ABPP
+20066028	Zinc transporter	ZIP12
+20066028	Protein kinase C iota type	nPKC-iota
+20066028	Protein kinase C iota type	nPKC-iota
+20066028	Glucose transporter type 2	GLUT-2
+20066028	Low-density lipoprotein receptor-related protein	LRP-DIT
+20066028	Transforming growth factor-beta receptor type II	TGFR-2
+20066028	NADH dehydrogenase 8 iron-sulfur protein 4	CI-AQDQ
+20066028	Mitogen-activated protein kinase 4	MEKKK4
+20066028	Parathyroid hormone-responsive B1 gene protein	PTHB1
+17903292	Glomerular Filtration Rate	GFR
+17903292	Thyroid stimulation hormone	TSH
+17903292	Luteinizing hormone	LH
+17903292	Follicle stimulating hormone	FSH
+17903292	Dehydroepiandrosterone sulfate	DHEAS
+17903292	Physical Location	Mb
+17903292	Physical Location	Mb
+17903292	Physical location	Mb
+17903292	Mean p-value	GEE
+17903292	Mean p-value	FBAT
+17903292	P_value	GEE
+17903294	Sample size	min-max
+17903295	558	558
+17903296	Bone mineral density	BMD
+17903296	Combined	1141
+17903296	Females	646
+17903296	Males	495
+17903296	Combined	1117
+17903296	Females	641
+17903296	Males	486
+17903296	Quantitative ultrasound	QUS
+17903296	Combined	1105
+17903296	Combined	1104
+17903296	Combined	1096
+17903296	Females	622
+17903296	Males	474
+17903296	Combined	1090
+17903296	Females	619
+17903296	Males	471
+17903296	Combined	1095
+17903296	Females	618
+17903296	Males	477
+17903296	Combined	1096
+17903296	Females	618
+17903296	Males	478
+17903296	Combined	1094
+17903296	Females	618
+17903296	Males	476
+17903296	Combined	1096
+17903296	Females	618
+17903296	Males	478
+17903296	Combined	1028
+17903296	Females	599
+17903296	Males	429
+17903296	Combined	1028
+17903296	Females	599
+17903296	Males	429
+17903296	Combined	1026
+17903296	Females	599
+17903296	Males	427
+17903296	Combined	1028
+17903296	Females	599
+17903296	Males	429
+17903296	Combined	1024
+17903296	Females	596
+17903296	Males	428
+17903297	Total Cerebral Brain Volume	ATCBV
+17903297	Cerebral Brain Volume	ATCBV
+17903297	Frontal Brain volume	AFBV
+17903297	Parietal Brain Volume	APBV
+17903297	Occipital Brain Volume	AOBV
+17903297	Temporal Brain volume	ATBV
+17903297	Hippocampal Volume	AHPV
+17903297	Lateral Ventricular Volume	ALVV
+17903297	Factor 1:Verbal Memory	F1
+17903297	Boston Naming Test	Nam
+17903297	Naming Test	Nam
+17903297	Similarities	Sim
+17903297	Wide-Range Achievement Test	WRAT
+17903298	Fasting plasma glucose	FPG
+17903298	Hemoglobin A1c	HbA1c
+17903298	28 yr time averaged FPG	tFPG
+17903298	Homeostasis model insulin resistance	HOMA-IR
+17903300	Physical Position	Mb
+17903300	Physical Location	Mb
+17903301	LV mass	LVM
+17903301	LV diastolic dimension	LVDD
+17903301	LV systolic dimension	LVDS
+17903301	LV wall thickness	LVWT
+17903301	LV fractional shortening	LVFS
+17903301	Left atrial diameter	LAD
+17903301	Aortic root diameter	AOR
+17903301	Exercise Treadmill Test	ETT
+17903301	systolic blood pressure	SBP
+17903301	diastolic blood pressure	DBP
+17903301	Brachial Artery	BA
+17903301	flow-mediated dilation	FMD
+17903305	age at study entry	allcancer1
+17903306	position	Mb
+17903308	Unadjusted Mean	SD
+17903308	Heritability	SE
+18262040	Pooled β-coefficient	SE
+18369459	Location	hg18
+18369459	Location	hg18
+18369459	Location	hg18
+18455228	Bone mineral density	SD
+18455228	Osteoporotic fracture	OR
+18455228	Osteoporosis	OR
+18483556	rs8039195	rs916977
+18840781	Stage 1	GWA
+19043545	rs1148259	rs1200826
+19081515	p	vCJD
+19081515	p	iCJD
+19081515	p	sCJD
+19096518	P-Value	one-sided
+19116933	Birth cohort directly genotyped	CS
+19116933	0	0
+19116933	Yes	NA
+19116933	Yes	NA
+19116933	Birth cohort directly genotyped	CS
+19116933	0	0
+19116933	0	0
+19116933	0	0
+19169254	Age at Onset	Mean
+19169254	Age at Exam	Mean
+19197348	Position	Mb
+19300482	p value	PBAT
+19300499	Replication	588
+19300499	Combined	1641
+19305408	Beta	SD
+19305408	Beta	SD
+19343178	Beta	SE
+19343178	Beta	SE
+19343178	Beta	SE
+19359265	β GWA	SE
+19359265	β replication	SE
+19359265	β combined	SE
+19430483	Lolipop	Europeans
+19430483	Position	NCBI35
+19430483	position	NCBI35
+19454037	Distance	Mb
+19454037	Distance	Mb
+19454037	Distance	Mb
+19557161	Effect allele frequency	EAF
+19557161	β	SE
+19578366	Adult Glioma Study	AGS
+19587794	Beta	SE
+19609347	Body mass index	BMI
+19609347	calcium/calmodulin-dependent kinase	CaMK
+19651812	Systolic blood pressure	mmHg
+19651812	Diastolic blood pressure	mmHg
+19798445	4p12	ATP10D
+19798445	4p12	ATP10D
+19798445	4p12	ATP10D
+19798445	Meta OR	95CI
+19820699	rs1800562	HFE
+19820699	rs3811647	TF
+19936222	0	0
+19936222	0	0
+19936222	0	0
+19936222	0	0
+19961619	COL29A1	COL6A5
+19961619	Position	build36
+20011104	Age	SD
+20038947	GenotypedSNPs	post-QC
+20038947	All cases	Broad
+20038947	C21orf94	187075
+20038947	C8orf71	28772
+20066028	Glucose transporter type 2	GLUT-2
+20066028	Protein kinase C iota type	nPKC-iota
+20066028	Glucose transporter type 2	GLUT-2
+20066028	Glucose transporter type 12	GLUT-12
+20066028	Gastrotropin	GT
+20066028	Vitamin D-binding protein Precursor	DBP
+20066028	D-binding protein Precursor	DBP
+20066028	Alzheimer disease amyloid protein	ABPP
+20066028	Zinc transporter	ZIP12
+20066028	Protein kinase C iota type	nPKC-iota
+20066028	Protein kinase C iota type	nPKC-iota
+20066028	Glucose transporter type 2	GLUT-2
+20066028	Low-density lipoprotein receptor-related protein	LRP-DIT
+20066028	Mitogen-activated protein kinase 4	MEKKK4
+20066028	Parathyroid hormone-responsive B1 gene protein	PTHB1
+17447842	Crohn disease	CD
+17447842	Crohn disease	CD
+17447842	linkage disequilibrium	LD
+17447842	transmission disequilibrium test	TDT
+17658951	body mass index	BMI
+17684544	Crohn disease	CD
+17684544	inflammatory bowel disease	IBD
+17684544	ulcerative colitis	UC
+17684544	Crohn disease	CD
+17684544	ulcerative colitis	UC
+17684544	nel-like 1 precursor-encoding gene	NELL1
+17903292	Glomerular filtration rate	GFR
+17903292	urinary albumin excretion	UAE
+17903292	single nucleotide polymorphism	SNP
+17903292	cystatin-C	cysC
+17903292	Thyroid stimulating hormone	TSH
+17903292	generalized estimating equations	GEE
+17903292	family-based association tests	FBAT
+17903292	Chronic kidney disease	CKD
+17903292	Urinary albumin excretion	UAE
+17903292	glomerular filtration rate	GFR
+17903292	thyroid stimulating hormone	TSH
+17903293	Genome-wide association studies	GWAS
+17903293	Generalized Estimating Equations	GEE
+17903293	Family Based Association Tests	FBAT
+17903293	monocyte chemoattractant protein-1	MCP1
+17903293	C-reactive protein	CRP
+17903293	C-reactive protein	CRP
+17903294	single nucleotide polymorphism	SNP
+17903294	Framingham Heart Study	FHS
+17903294	generalized estimating equations	GEE
+17903294	family-based association test	FBAT
+17903294	linkage disequilibrium	LD
+17903294	plasminogen activator inhibitor	PAI-1
+17903294	von Willebrand factor	vWF
+17903294	tissue plasminogen activator	tPA
+17903294	factor VII	FVII
+17903294	coronary heart disease	CHD
+17903294	hemoglobin	Hgb
+17903294	red blood cell count	RBCC
+17903294	mean corpuscular volume	MCV
+17903294	mean corpuscular hemoglobin	MCH
+17903294	adenosine 5'-diphosphate	ADP
+17903294	epinephrine	Epi
+17903294	FGB), fibrinogen-α	FGA
+17903294	fibrinogen-α	FGA
+17903294	FGA), fibrinogen-γ	FGG
+17903294	fibrinogen-γ	FGG
+17903294	single nucleotide polymorphism	SNP
+17903294	genome-wide association study	GWAS
+17903295	family-based association test	FBAT
+17903295	generalized estimating equation	GEE
+17903295	genome-wide association studies	GWAS
+17903295	Framingham Heart Study	FHS
+17903296	Framingham Heart Study	FHS
+17903296	bone mineral density	BMD
+17903296	generalized estimating equation	GEE
+17903296	family-based association tests	FBAT
+17903296	dual-energy X-ray absorptiometry	DXA
+17903296	quantitative ultrasound	QUS
+17903296	Framingham Heart Study	FHS
+17903296	bone mineral density	BMD
+17903297	magnetic resonance imaging	MRI
+17903297	Alzheimer's disease	AD
+17903297	genome-wide association	GWA
+17903297	generalized estimating equations	GEE
+17903297	family based association tests	FBAT
+17903297	white matter hyperintensity	WMH
+17903297	Alzheimer's disease	AD
+17903297	genome-wide association studies	GWAS
+17903297	single nucleotide polymorphism	SNP
+17903298	fasting plasma glucose	FPG
+17903298	generalized estimating equations	GEE
+17903298	family-based association test	FBAT
+17903298	rs757110),  KCNJ11  E23K	rs5219
+17903298	peroxisome proliferator-activated receptor-g	PPARG
+17903298	genome-wide association	GWA
+17903298	Framingham Heart Study	FHS
+17903298	genome-wide association	GWA
+17903300	Body mass index	BMI
+17903300	waist circumference	WC
+17903300	Generalized Estimating Equations	GEE
+17903300	Family Based Association Test	FBAT
+17903300	Cardiovascular disease	CVD
+17903300	body mass index	BMI
+17903300	waist circumference	WC
+17903300	single nucleotide polymorphisms	SNP
+17903300	Hardy-Weinberg equilibrium	HWE
+17903301	left ventricular	LV
+17903301	brachial artery	BA
+17903301	genome-wide association study	GWAS
+17903301	flow-mediated dilation	FMD
+17903301	Generalized estimating equations	GEE
+17903301	family-based association tests	FBAT
+17903301	Cardiovascular disease	CVD
+17903301	left ventricular	LV
+17903301	LV remodeling) and mass	LVM
+17903301	exercise treadmill stress testing	ETT
+17903301	brachial artery	BA
+17903301	flow-mediated dilation	FMD
+17903301	echocardiography	Echo
+17903301	genome-wide association studies	GWAS
+17903301	single nucleotide polymorphism	SNP
+17903301	LV internal dimension in diastole	LVDD
+17903301	LVDD) and systole	LVDS
+17903301	posterior wall	PW
+17903301	left atrium	LA
+17903301	LV wall thickness	LVWT
+17903302	blood-pressure	BP
+17903302	family based association testing	FBAT
+17903302	generalized estimating equation	GEE
+17903303	Subclinical atherosclerosis	SCA
+17903303	genome-wide association study	GWAS
+17903303	intimal medial thickness	IMT
+17903303	generalized estimating equations	GEE
+17903303	family-based association testing	FBAT
+17903303	ankle-brachial index	ABI
+17903303	intimal medial thickness	IMT
+17903303	coronary artery calcium	CAC
+17903303	calcium	CAC
+17903303	and abdominal aortic calcium	AAC
+17903303	abdominal aortic calcium	AAC
+17903303	Genome-wide association studies	GWAS
+17903304	Cardiovascular disease	CVD
+17903304	coronary heart disease	CHD
+17903304	heart failure	HF
+17903304	and atrial fibrillation	AF
+17903304	atrial fibrillation	AF
+17903304	cardiovascular disease	CVD
+17903304	Cardiovascular disease	CVD
+17903304	coronary heart disease	CHD
+17903304	heart failure	HF
+17903304	and atrial fibrillation	AF
+17903304	atrial fibrillation	AF

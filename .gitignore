@@ -13,6 +13,7 @@
 env
 sftp-config.json
 *.pkl
+!classifier.pkl
 *.sql
 *.bak
 data/phenotypes/snorkel/dicts*

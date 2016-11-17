@@ -42,7 +42,8 @@ def mark_oa(open_access):
     f.readline()
     for line in f:
       fields = line.strip().split('\t')
-      if len(fields) < 4: continue
+      if len(fields) < 5: continue
+      if not fields[3] or not fields[2]: continue
       pmid = int(fields[3][5:])
       pmc = fields[2]
       pubmed_to_pmc[pmid] = pmc

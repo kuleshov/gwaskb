@@ -6,7 +6,7 @@ GWASdb is a machine reading system for discovering associations between genetic 
 ## Results
 
 The machine-curated relations are found in `notebooks/results/associations.tsv`. 
-The five columns are: `pmid`, `rsid`, high-level phenotype, low-level phenotype, p-value. If the latter is `-1`, it means we were not able not extract the p-value.
+The five columns are: `pmid`, `rsid`, high-level phenotype, low-level phenotype, p-value. If the latter is `-1`, it means that we were not able to extract the p-value.
 
 In addition, the following files are important:
 

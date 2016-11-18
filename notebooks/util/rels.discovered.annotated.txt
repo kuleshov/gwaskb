@@ -1,0 +1,100 @@
+18483556	rs164741	Hair Color|Skin Pigmentation		2	REPEAT	The SNP is in a table that summarizes significant results from a previous study; it was not discovered in this paper per se.
+18846228	rs2511211	Serum IgE Levels		3	TRUE	All of the p-values reported for this SNP in the paper pass the 1e-5 significance threshold
+19197348	rs2849176	complex disease		0	TRUE	The phenotype is incorrect, but several other gold SNPs in the same table with the same or worse SNPs are reported in GWAS Central
+19197348	rs328	complex disease		0	REPEAT	The SNP is in a table that summarizes significant results from a previous study; it was not discovered in this paper per se.
+19247474	rs1400363	Smoking Behaviors|Cigarette Smoking		2	TRUE	The SNP is only significant in the combined SNP, but another SNP with very similar p-values (rs1402279) is reported in GWAS Catalog and is also only significant in the GWAS Central study
+19300500	rs1877252	Chronic Obstructive Pulmonary Disease COPD|Pulmonary Function		2	TRUE	This is correct according to our specification, but may not have been reported in GWAS Catalog because of a rounding error (i.e. it is significant at 1e-5 if we first round to one significant digits and then filter, but not vice versa)
+19343178	rs6817306	Stature		3	TRUE	"SNP is mentioned in the text and it says that it's ""one of the strongest"" associations"
+19412175	rs17487792	neuroblastoma		3	TRUE	It is not significant at 1e-5 in each testing method but its neighbor is reported in GWAS Central, and is also not significant everywhere.
+19448621	rs402511	age menarche|menopause		2	TRUE	Its significance is confirmed in the text.
+19503597	rs780093	Uric Acid		3	TRUE	The SNP is significant in men but not not in women. It should still be included in the database, in the same way that SNPs that are significant in only one ethnicity are included.
+19503597	rs942379	Uric Acid		3	TRUE	This SNP is significant at 1e-5 in both men and women, but is not reported for some reason.
+19557197	rs6714750	Distribution|Adiposity|Waist Circumference		3	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both.
+19798445	rs12889954	Sphingolipid		3	TRUE	Study specifies range of pvalues for various lipids, and at least one is significant; reported snps are also not significant for all p-values, hence this SNP should have been included.
+19874204	rs2036417	Bone Mineral Density|Femoral Neck Bone		2	TRUE	It’s described in the text as significant
+20169177	rs9271366	Systemic Lupus Erythematosus		3	TRUE	Text says this is the most significant snp
+20395239	rs4517412	optic disc size	Disc	3	TRUE	Other reported snps have worse pvalues
+20463881	rs9782955	Eye Color	S	2	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both.
+20686608	rs11242674	Pancreatic Cancer		3	TRUE	Not significant in one model, but there are gold snps not significant in >2 models
+20838585	rs11258628	Cardiovascular Disease	LDL	3	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both; the p-vaues can be tagged via the column name
+20838585	rs12069004	Cardiovascular Disease	glucose	3	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both; the p-vaues can be tagged via the column name
+20838585	rs6726786	Cardiovascular Disease	triglycerides	3	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both; the p-vaues can be tagged via the column name
+20838585	rs781718	Cardiovascular Disease	glucose	3	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both; the p-vaues can be tagged via the column name
+20838585	rs8131349	Cardiovascular Disease	total cholesterol	3	TRUE	"All reported p-values for this SNP are significant, table is labeled ""significant hits"""
+20861866	rs3750848	age-related macular degeneration		3	TRUE	Mentioned as significant in the text and in the meta-analysis
+20953186	rs13190932	psoriasis|psoriatic arthritis		3	TRUE	Confirmed in the paper text
+20953186	rs13210247	psoriasis|psoriatic arthritis		3	TRUE	Confirmed in the paper text
+21297633	rs6556412	ulcerative colitis		3	TRUE	This SNP is significant for Crohn’s disease at 1e-14 but is significant for Ulcerative Colitis at 1.7e-5. It should be included because the second, lower pvalue is not a confirmation cohort or meta-analysis.
+21390209	rs624225	Late-Onset Alzheimer's Disease		3	SOME_COHORTS	This SNP was not found significant in a replication study, but was significant in the main study.
+21502949	rs4752194	brain		0	SOME_COHORTS	Phenotype was parsed incorrectly. It is significant in one cohort but not in combined cohort; all reported snps are significant in both; the p-vaues can be tagged via the column name
+21738487	rs1079597	Parkinson's Disease		3	FALSE	"P-value parsing error: pvalue column is labeled just ""p"" (and the title is a GIF) and all siginificant snp pvalues are GIFs, not text entries"
+21738491	rs12143842	Sudden Cardiac Death	QT	3	FALSE	P-value parsing error.
+21750679	rs342070	Systemic Sclerosis		3	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both.
+21804549	rs335016	Asthma		3	SOME_COHORTS	It is significant in Latino’s in the main cohort but not in combined cohort and replication study; all reported snps are significant in both.
+21827660	rs3779505	increased disease risk		0	SOME_COHORTS	Phenotype parsed incorrectly. It is significant in one cohort but not in combined cohort; all reported snps are significant in all cohorts.
+21829393	rs478582	Type 1 Diabetes|Autoantibody		2	TRUE	Not significant for some subdiseases, but other snps with same profile are in gold set
+21931564	rs2014355	nuclear magnetic resonance	C3/C4	3	TRUE	"Text confirms that indicates that SNP is ""identified by this study"""
+21935397	rs2798311	body mass index		2	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both; the p-vaues can be tagged via the column name
+21935397	rs4771122	body mass index		2	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both; the p-vaues can be tagged via the column name
+22087292	rs13299777	Appendicular Lean Mass|Femoral Neck Bone Geometry		2	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both; the p-vaues can be tagged via the column name
+22087292	rs1368998	Appendicular Lean Mass|Femoral Neck Bone Geometry		2	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both.
+22087292	rs3849874	Appendicular Lean Mass|Femoral Neck Bone Geometry		2	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both.
+22238593	rs6930576	Type 2 Diabetes		3	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both.
+22291609	rs11829037	Inflammation	ESR	2	TRUE	Confirmed in the paper text
+22368281	rs1985096	LDL-c response|Lpa		3	TRUE	All the p-values associated with this SNP are <1e-5.
+22430674	rs744373	Alzheimer's disease		2	FALSE	Haplotype and snp in same line; hap is significant, snp is not
+22452962	rs10995190	breast cancer|Breast Cancer		3	REPEAT	The SNP is in a table that summarizes significant results from a previous study; it was not discovered in this paper per se.
+22479419	rs4699030	Treatment Refractory Schizophrenia		3	TRUE	Confirmed in the paper text
+22509378	rs4821536	Sexual Dysfunction	Overall FSD	3	TRUE	GWAS Central snps from gwas catalog are in the same table with similar or worse sets of p-values
+22719876	rs738407	Non-Alcoholic Fatty Liver Disease|Liver Disease		3	TRUE	Confirmed in text as significant at 1e-7, which is enough for us (paper is stricter)
+22792070	rs2536182	Bone Mineral Density,|Bone|Osteoporotic Fracture		3	TRUE	Its p-value look just like the top hit in GWAS Central
+22832964	rs1245577	smoking behaviors	AOI	2	TRUE	It’s in the same table as top hit and the pvalue is below 1e-5
+22843504	rs6653872	autism spectrum		3	FALSE	The p-value associated with this snp is from another study. It is snot significant in this study.
+22843504	rs9302952	autism spectrum		3	TRUE	The p-values for this SNP are all <1e-7. The top SNP in GWAS Central is also only found in this table and has the same p-values.
+22843504	rs11118968	autism spectrum		3	TRUE	The p-values for this SNP are all <1e-7. The top SNP in GWAS Central is also only found in this table and has the same p-values.
+23001564	rs1317082	homeostasis		3	TRUE	Confirmed in the paper text
+23028483	rs1564606	Asthma		3	REPEAT	This SNP was found to be significant in the GABRIEL study
+23028483	rs1588265	Asthma		3	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both.
+23251661	rs2266788	Childhood Obesity|Childhood	Triglycerides(mg/dL)	3	TRUE	GWAS Catalog reports many SNPs from the same table (e.g. rs3733402) and they have almost the same p-value. There is only one p-value reported per SNP.
+23259602	rs505982	dental caries		3	TRUE	Although the SNP is significant in only one cohort, GWC reports other SNPs from the same table as significant even though they have lower p-values (rs1953743)
+23300701	rs7136702	Colorectal Cancer		3	REPEAT	This SNP was found to be significant in an earlier study; this study reports a second SNP that affects colorectal cancer by interacting with the first SNP.
+23326239	rs3115663	Antibodies|Epstein-Barr Virus Nuclear Antigen		3	TRUE	This SNP is described as statistically significant with the main SNP; however, it is also in LD with the main SNP and this is probably why it has not been reported.
+23326239	rs7754768	Antibodies|Epstein-Barr Virus Nuclear Antigen		3	SOME_COHORTS	"Was significant in main and joint cohorts, but not in the replication cohort. We were unable to extract the ""replication"" tag."
+23326239	rs2858870	Antibodies|Epstein-Barr Virus Nuclear Antigen		3	TRUE	Confirmed in the paper text
+23382691	rs10276619	Human Immunoglobulin|Cancers|-Glycosylation		0	TRUE	This SNP is a valid association, but is actually associated with hippocampal atrophy, and is in the same gene as a variant associated with the main trait.
+23509613	rs17411480	Antiphospholipid Antibodies		3	TRUE	Table is described as hosting “significant” SNPs and its pvalues are <1e-5
+23667675	rs6438424	Age Menarche		3	REPEAT	This SNP was found significant in a previous study, but not in this study.
+23703922	rs6832439	uric acid levels		3	TRUE	The same SNP is significant in every cohort. Another SNP that is significant in every cohort and that is in the same table is reported (rs6449213).
+23738518	rs11666805	reading|language		2	TRUE	SNP is present in main paper table, and there is only one cohort. Other, less significant SNPs from same table are in GWC (e.g. rs4807927)
+23844046	rs11265260	C-Reactive Protein		3	TRUE	SNP is present in main table and is discussed at length in the paper text (as one of the significant variants)
+23966867	rs2958759	Body Fat Distribution	WC_pooled	3	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both.
+23979607	rs6888413	borderline personality		3	SOME_COHORTS	SNP is one of 7 to be reported in paper and is significant in main cohort, meta-analysis, but not in replication (we couldn't tag it)
+23979607	rs6894288	borderline personality		3	SOME_COHORTS	SNP is one of 7 to be reported in paper and is significant in main cohort, meta-analysis, but not in replication (we couldn't tag it)
+23984888	rs11683662	airway responsiveness		3	TRUE	The SNP is reported in the main table; its replication p-value is similar to that of the one SNP reported in GWC (rs6731443 at p<0.012); study says 0.05 is the cutoff for significance in replication cohort, and our SNP passes it.
+24025145	rs7318267	chemotherapy-induced alopecia|breast cancer		3	TRUE	SNP appears in main table. It is not significant in one statistical model. However, no SNP in the study is significant in all models, including ones in GWC, therefore it should be in the database.
+24025145	rs6725180	chemotherapy-induced alopecia|breast cancer		3	TRUE	SNP appears in main table. It is not significant in one statistical model. However, no SNP in the study is significant in all models, including ones in GWC, therefore it should be in the database.
+24086445	rs10770359	Schizophrenia|Matter Volume		2	TRUE	SNP appeaers in main table, there is no replication, and other equally significant SNPs from the same table have been reported (rs11044045) in GWC.
+24133439	rs10778511	Autistic-Like Traits		3	TRUE	SNP is in main table, there is no replication, only one p-value given per SNP and other SNPs from this table are in GWC.
+24133439	rs1420612	Autistic-Like Traits		2	TRUE	SNPs have only one p-value and the one for this SNP is significant.
+24166486	rs34706883	Schizophrenia		3	TRUE	SNP is in main table, there is no replication, only one p-value given per SNP and other SNPs from this table are in GWC (rs6558872).
+24166486	rs4721190	Schizophrenia		3	TRUE	SNPs have only one p-value and the one for this SNP is significant.
+24166486	rs2039839	Schizophrenia		3	TRUE	SNPs have only one p-value and the one for this SNP is significant.
+24376456	rs6479671	blood pressure	Alcohol drinking	3	TRUE	SNPs have only one p-value and the one for this SNP is significant.
+24483146	rs11636687	biomarkers		0	TRUE	The SNP is not significant in every methodology, but there are many such SNPs reported in GWAS Catalog (rs10495285)
+24483146	rs13171512	biomarkers		0	TRUE	The SNP is not significant in every methodology, but there are many such SNPs reported in GWAS Catalog (rs10495285)
+24513273	rs1394125	serum uric acid		3	REPEAT	This SNP was significant in a previous study with Europeans but not in this study of Asians
+24586186	rs37370	Metabolic Traits	3-Aminoisobutyrate	3	TRUE	SNPs have only one p-value and the one for this SNP is significant.
+24714607	rs4760851	Chronic Mucus Hypersecretion,		3	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both.
+24755620	rs6859	Glutamate|Alzheimer's Disease		3	TRUE	SNPs have only one p-value and the one for this SNP is significant. Also confirmed in the text
+24892410	rs17338512	Hypertension|Pulse Pressure	Nighttime PP	3	SOME_COHORTS	It is significant in one cohort but not in combined cohort; all reported snps are significant in both.
+25060954	rs6472312	kinase|hearing		3	TRUE	The study uses p<1e-8 as the significance cutoff. This SNP has p=1e-7, which is significant enough for us. It only has one p-value and is associated with the same trait as the one SNP that was found “significant”
+25064009	rs11724635	Parkinson’s disease		3	TRUE	The SNP is significant in all cohorts.
+25133637	rs794149	Body Mass Index	BMI	3	TRUE	SNPs have only one p-value and the one for this SNP is significant.
+25162662	rs4666783	Serum Ferritin		3	TRUE	SNPs have only one p-value and the one for this SNP is significant.
+25241909	rs114384494	Chronic Obstructive Pulmonary Disease|Chronic Bronchitis		3	TRUE	The SNP is not significant in some cohorts, but another SNP that also has a combined p-value of 1e-7 is reported in GWAS Catalog (rs114931935).
+25340798	rs7926920	Proteins Involved|Inflammation|Alzheimer's Disease	MMP3	3	TRUE	"All p-values for this SNP are significant, table is labeled ""significant hits"""
+25367360	rs6708111	astigmatism|refractive error		3	TRUE	SNPs have only one p-value and the one for this SNP is significant.
+25367360	rs9366427	astigmatism|refractive error		3	TRUE	SNPs have only one p-value and the one for this SNP is significant.
+25436638	rs12138950	Serum Thyroid Stimulating Hormone		3	TRUE	Confirmed in the paper text
+25436638	rs7940871	Serum Thyroid Stimulating Hormone		3	REPEAT	The SNP is in a table that summarizes significant results from a previous study; it was not discovered in this paper per se.
+25742292	rs7919841	Parity		2	TRUE	The SNP has only one p-value and it is significant.

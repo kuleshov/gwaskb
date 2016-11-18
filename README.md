@@ -6,14 +6,14 @@ GWASdb is a machine reading system for discovering associations between genetic 
 ## Results
 
 The machine-curated relations are found in `notebooks/results/associations.tsv`. 
-The five columns are: `pmid`, `rsid`, high-level phenotype, low-level phenotype, p-value. If the latter is `-1`, it means we were not able not extract it, but we believe the SNP is significant.
-Our system reports all relations that have been deemed significant in the paper at `p < 1e-5` or better in at least one cohort.
+The five columns are: `pmid`, `rsid`, high-level phenotype, low-level phenotype, p-value. If the latter is `-1`, it means we were not able not extract the p-value.
 
 In addition, the following files are important:
 
 * `notebooks/results/nb-output`: folder containing the output of each system module
 * `notebooks/util/phenotype.mapping.annotated.tsv`: manually annotated mapping between GWAS Central and GWASdb phenotypes
 * `notebooks/util/phenotype.mapping.gwascat.annotated.tsv`: manually annotated mapping between GWAS Catalog and GWASdb phenotypes
+* `notebooks/util/rels.discovered.annotated.txt`: random subset of 100 previously unreported relations with explanations for why they are correct or not.
 
 ## Requirements
 
@@ -82,7 +82,7 @@ This process can be automated by just typing `make`.
 
 ## Information extraction
 
-We demo our system in a series of Jupyter notebooks in the `notebooks` subfolder. 
+We demo our system in a series of Jupyter notebooks in the `notebooks` subfolder. Currently, notebooks 1 and 5 are up, and we are cleaning up the others (see `dev` branch).
 
 1. `phenotype-extraction.ipynb` identifies the phenotypes studied in each paper
 2. `table-pval-extraction.ipynb` extracts mutation ids and their associated p-values

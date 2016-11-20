@@ -25,7 +25,7 @@ GWASdb is implemented in Python and requires:
 * `sqlite`
 * `snorkel`
 
-Check out the Snorkel web page for a list of its requirements.
+Check out the [Snorkel repo](https://github.com/kuleshov/snorkel) for a list of its requirements.
 
 ## Installation
 

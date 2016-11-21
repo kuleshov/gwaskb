@@ -57,6 +57,12 @@ dl-non-gwas-papers:
 	  --download-folder ./non-gwas \
 	  --num-files 100
 
+dl-predicted-papers:
+	mkdir -p ./predicted-papers
+	python $(BIN)/dl_predicted_papers.py \
+	  --download-folder ./predicted-papers \
+	  --filter-type weak
+
 open-access.txt:
 	wget $(OALISTURL) -O $@.tmp
 	mv $@.tmp $@

@@ -7,6 +7,7 @@ all:
 	make phenotypes
 	make gwas-catalog
 	make dl-papers
+	make dl-non-gwas-papers
 	make gwas-central
 	# make gwas-catalog snpedia
 
@@ -49,6 +50,18 @@ dl-papers: open-access.txt
 	python $(BIN)/dl_papers.py \
 	  --mark-open-access $< \
 	  --download-oa $(PAP)
+
+dl-non-gwas-papers:
+	mkdir -p ./non-gwas
+	python $(BIN)/dl_non_gwas_papers.py \
+	  --download-folder ./non-gwas \
+	  --num-files 100
+
+dl-predicted-papers:
+	mkdir -p ./predicted-papers
+	python $(BIN)/dl_predicted_papers.py \
+	  --download-folder ./predicted-papers \
+	  --filter-type weak
 
 open-access.txt:
 	wget $(OALISTURL) -O $@.tmp

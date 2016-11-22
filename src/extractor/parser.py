@@ -90,8 +90,11 @@ class GWASXMLDocParser(XMLMultiDocParser):
       if not title_text.endswith('.'): title_text = title_text + '.'
       if not abstract_text.endswith('.'): abstract_text = abstract_text + '.'
 
+      text = title_text + abstract_text + par_text
+
       ids = doc.xpath(self.id)
-      doc_id = ids[0] if len(ids) > 0 else None      
+      doc_id = ids[0] if len(ids) > 0 else None
+      doc_id += '-doc'  
       meta = {'file_name': str(file_name)}
       if self.keep_xml_tree:
           meta['root'] = et.tostring(doc)

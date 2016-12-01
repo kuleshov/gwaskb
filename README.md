@@ -82,7 +82,7 @@ This process can be automated by just typing `make`.
 
 ## Information extraction
 
-We demo our system in a series of Jupyter notebooks in the `notebooks` subfolder. Currently, notebooks 1 and 5 are up, and we are cleaning up the others (see `dev` branch).
+We demo our system in a series of Jupyter notebooks in the `notebooks` subfolder.
 
 1. `phenotype-extraction.ipynb` identifies the phenotypes studied in each paper
 2. `table-pval-extraction.ipynb` extracts mutation ids and their associated p-values

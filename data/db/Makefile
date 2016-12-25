@@ -1,6 +1,6 @@
 BIN:=../../src/crawler
 PAP:=./papers
-OALISTURL:=ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/file_list.txt
+OALISTURL:=ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_file_list.txt
 
 all:
 	make init
@@ -45,6 +45,7 @@ snpedia-associations:
 	make -C ../associations/snpedia/
 
 dl-papers: open-access.txt
+	mkdir -p $(PAP)
 	python $(BIN)/dl_papers.py \
 	  --mark-open-access $< \
 	  --download-oa $(PAP)

@@ -18,3 +18,4 @@ sftp-config.json
 data/phenotypes/snorkel/dicts*
 *tmp
 *.db
+*.zip

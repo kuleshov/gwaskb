@@ -21,6 +21,7 @@ def main():
   parser.add_argument('--init', action='store_true', help='Init db')
   parser.add_argument('--mark-open-access', help='Path to open access list')
   parser.add_argument('--download-oa', help='Path to target folder')
+  parser.add_argument('--supplementary', help='Download supplementary material', action='store_true')
   parser.add_argument('--wait', help='Wait time in between server calls',
                                 type=int, default=1)
 
@@ -33,7 +34,7 @@ def main():
     mark_oa(args.mark_open_access)
 
   if args.download_oa:
-    download_oa(args.download_oa, args.wait)
+    download_oa(args.download_oa, args.wait, args.supplementary)
 
 def mark_oa(open_access):
   # load oa paper set
@@ -66,7 +67,7 @@ def mark_oa(open_access):
   print 'all papers:', db_session.query(Paper).count()
   print 'all associaitons:', db_session.query(Association).count()
 
-def download_oa(folder, wait=1):
+def download_oa(folder, wait=1, supplementary=False):
   open_papers = db_session.query(Paper).filter(Paper.open_access==True).all()
   n_open_papers = db_session.query(Paper).filter(Paper.open_access==True).count()
   for i, paper in enumerate(open_papers):
@@ -91,6 +92,9 @@ def download_oa(folder, wait=1):
         else: continue
         file = File(paper=paper, format='html', filename=filename)
         db_session.add(file)
+
+      if supplementary:
+        _get_supplementary(paper.pubmed_id, paper.pmc_id, folder)
 
     time.sleep(wait)
 

@@ -260,7 +260,7 @@ def slice_into_ngrams(tokens, n_max=3, n_min=1, delim='_'):
         for n in range(max(0,n_min-1), min(n_max, N - root)):
             yield delim.join(tokens[root:root+n+1])
 
-def pvalue_to_float(pstr):
+def pvalue_to_float(pstr, log=True):
   # extract groups via regex
   # rgx1 = u'([1-9]\d?[\.\xb7]?\d*)\s*[\xd7\*]\s*10\s*[-\u2212\u2013]\s*(\d+)'
   rgx1 = u'([1-9]\d?[\xb7\.]?\d*)[\s\u2009]*[\xd7\xb7\*][\s\u2009]*10[\s\u2009]*[-\u2212\u2013\u2012][\s\u2009]*(\d+)'
@@ -277,22 +277,32 @@ def pvalue_to_float(pstr):
     if len(groups) == 2:
       mult_str = groups[0].replace(u'\xb7', '.')
       multiplier = float(mult_str)
-      exponent = float(groups[1])    
-      return multiplier * 10 ** -exponent
+      exponent = float(groups[1])
+      if log:
+        return -exponent + log10(multiplier)
+      else:
+        return multiplier * 10 ** -exponent
   elif result2:
     groups = result2.groups()
     if len(groups) == 2:
       mult_str = groups[0].replace(u'\xb7', '.')
       multiplier = float(mult_str)
       exponent = float(groups[1])    
-      return multiplier * 10 ** -exponent
+      if log:
+        return -exponent + log10(multiplier)
+      else:
+        return multiplier * 10 ** -exponent
   elif result3:
     groups = result2.groups()
     if len(groups) == 1:
-      return float(groups[0])
+      if log:
+        return log10(float(groups[0]))
+      else:
+        return float(groups[0])
 
   try:
     pval = float(pstr)
+    if log: pval = log10(pval)
   except Exception:
     print pstr
     return None

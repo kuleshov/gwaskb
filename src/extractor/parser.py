@@ -1,10 +1,12 @@
+import os
+import re
 import xml
 import lxml.etree as et
 from bs4 import BeautifulSoup
 from itertools import chain
 from collections import defaultdict
 
-from snorkel.parser import XMLMultiDocParser
+from snorkel.parser import XMLMultiDocParser, OmniParser
 from snorkel.models import Corpus, Document, Sentence, Table, Cell, Phrase
 from snorkel.utils import corenlp_cleaner, sort_X_on_Y, split_html_attrs
 
@@ -30,6 +32,60 @@ class UnicodeXMLDocParser(XMLMultiDocParser):
       id = ids[0] if len(ids) > 0 else None
       attribs = {'root':doc} if self.keep_xml_tree else {}
       yield Document(name=str(id), file=str(file_name), attribs=attribs), unicode(text)
+
+class SuppXMLDocParser(XMLMultiDocParser):
+  """Changes default Snorkel XMLDocParser.
+
+  Used for parsing supplementary material converted by LibreOffice.
+  Only looks at tables.
+  """
+
+  def __init__(self, paths, map_path, doc='.//document', text='./text/text()', id='./id/text()',
+                    keep_xml_tree=False):
+    XMLMultiDocParser.__init__(self, paths[0], doc, text, id, keep_xml_tree)
+    self.n=0
+    self.paths = paths
+
+    # load map
+    self.map = {}
+    with open(map_path) as f:
+      for line in f:
+        pmid, fname = line.strip().split('\t')
+        fname = '.'.join(fname.split('.')[:-1]).lower() # remove extension
+        # print fname, pmid
+        self.map[fname] = pmid
+        # if pmid not in self.map: self.map[pmid] = []
+        # self.map[pmid].append(fname)
+
+  def _get_files(self):
+    for path in self.paths:
+      fpaths = [os.path.join(path, f) for f in os.listdir(path)]
+    if len(fpaths) > 0:
+        return fpaths
+    else:
+        raise IOError("No files found in provided directories: %s" % 
+                      ', '.join(self.paths))
+
+  def parse_file(self, f, file_name):
+    for i,doc in enumerate(et.parse(f, et.HTMLParser()).xpath(self.doc)):
+      ids = doc.xpath(self.id)
+      # name = re.sub(r'\..*$', '', os.path.basename(f))
+      name = os.path.basename(f)
+      name = '.'.join(name.split('.')[:-1]).lower() # remove extension
+      text = ' '.join([et.tostring(e) for e in filter(lambda t : t is not None, doc.xpath(self.text))])
+
+      pmid = self.map[name]
+      doc_id = '%s-%s' % (pmid, name)
+
+      meta = {'file_name': str(file_name), 'pmid': pmid}
+      if self.keep_xml_tree:
+          meta['root'] = et.tostring(doc)
+      stable_id = self.get_stable_id(doc_id)
+      self.n += 1
+      yield Document(name=doc_id, stable_id=stable_id, meta=meta), unicode(text)
+
+  def _can_read(self, fpath):
+    return fpath.endswith('.html')
 
 class GWASXMLAbstractParser(XMLMultiDocParser):
   """For parsing GWAS pubmed papers

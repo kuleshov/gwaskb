@@ -1,7 +1,5 @@
 import re
 import string
-import unidecode
-from nltk.stem import PorterStemmer
 
 from math import floor, log10
 
@@ -319,6 +317,9 @@ def get_exponent(flt):
   return None
 
 def change_name(phen_name):
+  import unidecode
+  from nltk.stem import PorterStemmer
+
   DEL_LIST = ['measurement', 'levels', 'age at', 'response to', 'infection', 'major', 'test', 'size', 'disorder', 'symptom', 'trait', 'disease']
   stemmer = PorterStemmer()
   punctuation = set(string.punctuation)

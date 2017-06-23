@@ -58,8 +58,7 @@ class SuppXMLDocParser(XMLMultiDocParser):
         # self.map[pmid].append(fname)
 
   def _get_files(self):
-    for path in self.paths:
-      fpaths = [os.path.join(path, f) for f in os.listdir(path)]
+    fpaths = [os.path.join(path, f) for path in self.paths for f in os.listdir(path)]
     if len(fpaths) > 0:
         return fpaths
     else:

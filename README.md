@@ -1,7 +1,7 @@
-GWASdb
+GwasKB
 ------
 
-GWASdb is a machine reading system for discovering associations between genetic mutations and disease from academic papers.
+GwasKB is a machine reading system for discovering associations between genetic mutations and disease from academic papers.
 
 ## Results
 
@@ -11,13 +11,13 @@ The five columns are: `pmid`, `rsid`, high-level phenotype, low-level phenotype,
 In addition, the following files are important:
 
 * `notebooks/results/nb-output`: folder containing the output of each system module
-* `notebooks/util/phenotype.mapping.annotated.tsv`: manually annotated mapping between GWAS Central and GWASdb phenotypes
-* `notebooks/util/phenotype.mapping.gwascat.annotated.tsv`: manually annotated mapping between GWAS Catalog and GWASdb phenotypes
+* `notebooks/util/phenotype.mapping.annotated.tsv`: manually annotated mapping between GWAS Central and GwasKB phenotypes
+* `notebooks/util/phenotype.mapping.gwascat.annotated.tsv`: manually annotated mapping between GWAS Catalog and GwasKB phenotypes
 * `notebooks/util/rels.discovered.annotated.txt`: random subset of 100 previously unreported relations with explanations for why they are correct or not.
 
 ## Requirements
 
-GWASdb is implemented in Python and requires:
+GwasKB is implemented in Python and requires:
 
 * `lxml`, `ElementTree`
 * `numpy`
@@ -29,11 +29,11 @@ Check out the [Snorkel repo](https://github.com/kuleshov/snorkel) for a list of 
 
 ## Installation
 
-To install GWASdb, clone this repo and set up your environement.
+To install GwasKB, clone this repo and set up your environement.
 
 ```
-git clone https://github.com/kuleshov/gwasdb.git
-cd gwasdb;
+git clone https://github.com/kuleshov/gwaskb.git
+cd gwaskb;
 git submodule init;
 git submodule update;
 

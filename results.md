@@ -25,6 +25,7 @@ A GwasKB association is a triple of `(variant, phenotype, p-value)`. For each of
 Note that these files are loaded by our last (analysis) notebook. The code for combining them into the final associations is in that notebook.
 
 * `notebooks/results/nb-output/pval-rsid.filtered.tsv`: File containing the p-values and the variants (identfied by their `rsid`) extracted by our system. Specifically, each row contains the paper `pmid`, variant `rsid`, table number, row number, column number that indicate where the `rsid` was found, and finally the `log10(p-value)`. The p-value is always found in the same row as the `rsid`.
+* `notebooks/results/nb-output/p-values.tsv`: File containing the p-values extracted by GwasKB and their location within publications (represented by a paper pubmed id, a table id, and a row, column coordinate).
 * `notebooks/results/nb-output/phen-rsid.table.rel.all.tsv`: this file contains precise phenotypes for variants. The first three columns are the Pubmed ID of the paper, the RSID of the variant, the phenotype that we identified for that variant. The last three columns also include the table, row, and column numbers that indicate where the `rsid` was found.
 * `notebooks/results/nb-output/phenotypes.extracted.tsv`: this file contains the simple phenotype identified for each paper. The colums are the Pubmed ID of the paper, and the phenotype that we identified. Each phenotype is a set of up to 3 keywords separated by `|`.
 * `notebooks/results/nb-output/acronyms.extracted.all.tsv`: Sometimes, precise phenotypes are reported as acronyms. This file contains the mapping that we extracted to resolve these acronyms. The columns are: `pmid`, `phenotype`, `acronym`.
@@ -32,11 +33,19 @@ Note that these files are loaded by our last (analysis) notebook. The code for c
 
 ### Notebooks For Reproducing Our Biological Analysis
 
-* Chris's notebooks.
+The following notebooks can be used to reproduce the biological analysis of the set of "novel" variants identified by GwasKB.
+
+* `notebooks/bio-analysis/enrichment/enrichment.ipynb`: this notebook reproduces the enrichment analysis of GwasKB variants associated with either auto-immune or neuro-degenerative diseases.
+* `notebooks/bio-analysis/effect-sizes/effect-sizes.ipynb`: this notebook reproduces the analysis of the effect sizes of variants identified by GwasKB.
 
 ### Additional Metadata
 
-* Braden p-values
+The following files contain additional meta-data that complements our main results.
+
+* `notebooks/results/metadata/pvalue_metadata.tsv`: meta-data extracted for each p-value that we report.
+* `notebooks/results/metadata/pval-rsid.metadata.tsv`: meta-data extracted for each (rsid, p-value) tuple that we report. Note that the format of this file is the same as that of the `pval-rsid` file produced by our system and that is found in `nb-output`. We obtain this file my mapping the above p-value metadata to the rsid's that were found to be associated with these p-values.
+* `notebooks/results/metadata/GWAS_pvalue_headers.ipynb`: Notebook for extracting the above metadata.
+* `./results.md`: Document describing all the files that are released together with GwasKB.
 
 ### Files Used For Evaluating GwasKB
 

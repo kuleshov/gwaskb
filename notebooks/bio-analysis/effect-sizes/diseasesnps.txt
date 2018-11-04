@@ -1,0 +1,257 @@
+SNP	Pheno	Paper	P-Value
+Alzheimer related SNPs:
+rs12657273	Hippocampal Atrophy|Quantitative Trait|Alzheimer's Disease	19668339	-5.049635
+rs346763	Glutamate|Alzheimer's Disease	24755620	-6.435334
+rs157580	Glutamate|Alzheimer's Disease	24755620	-34.017729
+rs8106922	Glutamate|Alzheimer's Disease	24755620	-24.931814
+rs650108	Proteins Involved|Inflammation|Alzheimer's Disease	25340798	-11.468521
+rs4598682	Late-Onset Alzheimer’s Disease	23565137	-5.022276
+rs3092960	Proteins Involved|Inflammation|Alzheimer's Disease	25340798	-7.079355
+rs2965101	Late-Onset Alzheimer's Disease	21390209	-5.679854
+rs3852861	Glutamate|Alzheimer's Disease	24755620	-10.274088
+rs10485435	Late-Onset Alzheimer's Disease	21390209	-6.211832
+rs10402271	Glutamate|Alzheimer's Disease	24755620	-16.703335
+rs2075650	Late-Onset Alzheimer's Disease	21379329	-72.493495
+rs4343	Proteins Involved|Inflammation|Alzheimer's Disease	25340798	-18.350665
+rs9369240	Late-Onset Alzheimer's Disease	21390209	-5.312471
+rs439401	Glutamate|Alzheimer's Disease	24755620	-28.054531
+rs7007878	Late-Onset Alzheimer's Disease	21379329	-5.185087
+rs3811448	Proteins Involved|Inflammation|Alzheimer's Disease	25340798	-11.498941
+rs377702	Glutamate|Alzheimer's Disease	24755620	-6.701147
+rs2229238	Proteins Involved|Inflammation|Alzheimer's Disease	25340798	-9.872895
+rs11767557	Alzheimer’s Disease	21460840	-9.221849
+rs10405693	Glutamate|Alzheimer's Disease	24755620	-11.548214
+rs2927438	Glutamate|Alzheimer's Disease	24755620	-6.478862
+rs17125523	Late-Onset Alzheimer’s Disease	23565137	-5.481486
+rs2502562	Late-Onset Alzheimer's Disease	21390209	-5.804100
+rs2588969	Late-Onset Alzheimer’s Disease	21460841	-6.161151
+rs714948	Glutamate|Alzheimer's Disease	24755620	-9.692504
+rs603050	Proteins Involved|Inflammation|Alzheimer's Disease	25340798	-9.627088
+rs1871047	Glutamate|Alzheimer's Disease	24755620	-6.312471
+rs9349407	Alzheimer’s Disease	21460840	-8.065502
+rs624225	Late-Onset Alzheimer's Disease	21390209	-5.290730
+rs495366	Proteins Involved|Inflammation|Alzheimer's Disease	25340798	-12.014574
+rs643629	Late-Onset Alzheimer's Disease	21390209	-5.000869
+rs429358	Hippocampal Atrophy|Quantitative Trait|Alzheimer's Disease	19668339	-15.638272
+rs913360	Late-Onset Alzheimer’s Disease	23565137	-6.737549
+rs405509	Glutamate|Alzheimer's Disease	24755620	-26.640165
+rs440277	Glutamate|Alzheimer's Disease	24755620	-6.319664
+rs12654281	Hippocampal Atrophy|Quantitative Trait|Alzheimer's Disease	19668339	-6.429457
+rs1273007	Late-Onset Alzheimer’s Disease	23565137	-5.511449
+rs4145454	Late-Onset Alzheimer's Disease	21379329	-5.987163
+rs7274581	Dementias|Alzheimer's Disease	25188341	-7.602060
+rs948399	Proteins Involved|Inflammation|Alzheimer's Disease	25340798	-10.368556
+rs2673604	Late-Onset Alzheimer's Disease	21379329	-5.585027
+rs11575821	Proteins Involved|Inflammation|Alzheimer's Disease	25340798	-8.991400
+rs1217745	Late-Onset Alzheimer's Disease	21390209	-5.489455
+rs8103315	Glutamate|Alzheimer's Disease	24755620	-7.728158
+rs10422797	Glutamate|Alzheimer's Disease	24755620	-5.991400
+rs11621843	Late-Onset Alzheimer’s Disease	23565137	-5.284833
+rs252546	Late-Onset Alzheimer's Disease	21390209	-5.108463
+rs4316	Proteins Involved|Inflammation|Alzheimer's Disease	25340798	-16.407823
+rs2927488	Late-Onset Alzheimer's Disease	21390209	-5.543634
+rs6859	Glutamate|Alzheimer's Disease	24755620	-27.104025
+rs670139	Alzheimer’s Disease	21460840	-9.958607
+
+Parkinson related SNPs:
+rs4954218	Parkinson's Disease	21738487	-1000.000000
+rs17115100	Parkinson's Disease	21738487	-1000.000000
+rs3857059	Parkinson’s Disease	19915575	-14.427128
+rs9917256	Parkinson's Disease	21738487	-1000.000000
+rs1994090	Parkinson's Disease	21738487	-1000.000000
+rs2205108	Parkinson's Disease	21738487	-1000.000000
+rs11030104	Parkinson's Disease	21738487	-1000.000000
+rs11931074	Parkinson’s Disease	19915575	-13.790485
+rs1862326	Parkinson's Disease	21738487	-1000.000000
+rs1223271	Parkinson's Disease	21738487	-1000.000000
+rs7077361	Parkinson's Disease	22438815	-7.821023
+rs11248060	Parkinson's Disease	21738487	-1000.000000
+rs4791571	Parkinson Disease|Onset	19772629	-5.229148
+rs2896905	Parkinson’s Disease	19915575	-5.298432
+rs12261736	Parkinson Disease|Onset	19772629	-5.721246
+rs10420134	Parkinson Disease|Onset	19772629	-5.148742
+rs947211	Parkinson's Disease	22438815	-9.096910
+rs1420143	Parkinson Disease|Onset	19772629	-5.136677
+rs9904572	Parkinson Disease|Onset	19772629	-6.142668
+rs12431733	Parkinson's Disease	21738487	-1000.000000
+rs676495	Parkinson Disease|Onset	19772629	-5.040959
+rs823156	Parkinson's Disease	22438815	-11.679854
+
+Schizophrenia related SNPs:
+rs2275552	Schizophrenia	23382809	-5.216096
+rs6674938	Schizophrenia	23382809	-5.206210
+rs10275045	Schizophrenia	24166486	-7.665546
+rs7799006	Schizophrenia	24166486	-7.906578
+rs7749305	Schizophrenia	24166486	-7.590067
+rs3757440	Schizophrenia	24166486	-7.703335
+rs3778994	Schizophrenia	24166486	-8.596879
+rs7787274	Schizophrenia	24166486	-7.966576
+rs2945741	Schizophrenia	23382809	-5.432974
+rs461409	Treatment Refractory Schizophrenia	22479419	-5.580044
+rs6904596	Schizophrenia	24166486	-7.514279
+
+Autism related SNPs:
+rs11211996	Autism Spectrum	22843504	-6.367847
+rs3782000	Autism Spectrum	22843504	-6.734710
+rs7923367	Autism	19812673	-5.468521
+rs263035	Autism Spectrum	22843504	-6.646276
+rs1475531	Autism Spectrum	22843504	-6.696588
+rs17088254	Autism	19812673	-5.070581
+rs17083037	Autism Spectrum	22843504	-6.863914
+rs600695	Autism Spectrum	22843504	-6.446360
+rs952834	Autism	19812673	-5.107905
+rs12726299	Autism Spectrum	22843504	-6.825068
+rs4742409	Autism	19812673	-5.102373
+rs6110458	Autism Spectrum	22843504	-6.743282
+rs1930165	Autism Spectrum	22843504	-7.006079
+rs11118968	Autism Spectrum	22843504	-6.610480
+rs14135	Autism Spectrum	22843504	-6.750068
+rs9302952	Autism Spectrum	22843504	-6.393726
+rs1718101	Autism Spectrum	22843504	-8.109020
+
+Depress related SNPs:
+rs7151193	Major Depression	20038947	-5.232844
+rs346101	Major Depression	20038947	-5.221126
+rs10007831	Major Depression	20038947	-6.015923
+rs2203374	Major Depression	20038947	-5.567031
+rs6694643	Major Depression	20038947	-5.022276
+rs329640	Major Depression	20038947	-5.187755
+rs7978310	Major Depression	20038947	-5.164944
+rs4620978	Major Depression	20038947	-5.191114
+rs12462886	Major Depression	20038947	-5.761954
+rs2384061	Major Depressive Disorder	21042317	-5.200659
+rs11634319	Major Depression	20038947	-5.246417
+rs270584	Major Depression	20038947	-6.430626
+rs270592	Major Depression	20038947	-5.725842
+rs2147256	Major Depression	20038947	-5.040959
+rs7249956	Major Depression	20038947	-5.090979
+rs7977950	Major Depression	20038947	-5.995679
+rs867722	Major Depression	20038947	-5.310691
+
+Type 2 Diabetes related SNPs:
+rs17103805	Type 2 Diabetes	22238593	-5.494850
+rs6451146	Type 2 Diabetes	22238593	-5.000000
+rs7192960	Type 2 Diabetes	20174558	-5.115771
+rs12922394	Metabolic Traits|Type 2 Diabetes|Adiponectin Levels	22479202	-17.500313
+rs1597466	Metabolic Traits|Type 2 Diabetes|Adiponectin Levels	22479202	-7.725842
+rs901130	Type 2 Diabetes	19056611	-5.698970
+rs7133378	Metabolic Traits|Type 2 Diabetes|Adiponectin Levels	22479202	-8.889410
+rs10811661	Obese|Type 2 Diabetes	22693455	-5.154902
+rs6930576	Type 2 Diabetes	22238593	-6.124939
+rs564398	Type 2 Diabetes	19056611	-5.000000
+rs3775045	Type 2 Diabetes	22238593	-5.677781
+rs9505118	Type 2 Diabetes	24509480	-8.853872
+rs7754840	Obese|Type 2 Diabetes	22693455	-7.698970
+rs12816270	Type 2 Diabetes|Body Mass Index	25760438	-5.093665
+rs7132840	Type 2 Diabetes	19056611	-7.657577
+rs4275659	Type 2 Diabetes	24509480	-8.022276
+rs4845624	Type 2 Diabetes	20174558	-5.232844
+
+Body Mass Index related SNPs:
+rs4771122	Extremely|Overweight|Body Mass Index	21935397	-9.022276
+rs13107325	Extremely|Overweight|Body Mass Index	21935397	-12.823909
+rs7359397	Extremely|Overweight|Body Mass Index	21935397	-19.721246
+rs12444979	Extremely|Overweight|Body Mass Index	21935397	-20.537602
+rs2867125	Extremely|Overweight|Body Mass Index	21935397	-48.552842
+rs10968576	Extremely|Overweight|Body Mass Index	21935397	-12.568636
+rs2115706	Extremely|Overweight|Body Mass Index	21935397	-5.221849
+rs2798311	Extremely|Overweight|Body Mass Index	21935397	-5.420216
+rs6758546	Extremely|Overweight|Body Mass Index	21935397	-5.036212
+rs7132908	Extremely|Overweight|Body Mass Index	21935397	-8.214670
+rs7720663	Extremely|Overweight|Body Mass Index	21935397	-5.197911
+rs17150703	Extremely|Overweight|Body Mass Index	21935397	-8.721246
+rs7138803	Extremely|Overweight|Body Mass Index	21935397	-16.744727
+rs8089364	Extremely|Overweight|Body Mass Index	21935397	-7.494850
+rs11640537	Extremely|Overweight|Body Mass Index	21935397	-5.004365
+rs13078807	Extremely|Overweight|Body Mass Index	21935397	-10.408935
+rs1805081	Extremely|Overweight|Body Mass Index	21935397	-6.537602
+rs4964926	Extremely|Overweight|Body Mass Index	21935397	-5.178486
+rs29941	Extremely|Overweight|Body Mass Index	21935397	-8.522879
+rs3810291	Extremely|Overweight|Body Mass Index	21935397	-11.795880
+rs2287019	Extremely|Overweight|Body Mass Index	21935397	-15.721246
+rs1558902	Extremely|Overweight|Body Mass Index	21935397	-119.318759
+rs9816226	Extremely|Overweight|Body Mass Index	21935397	-17.769551
+rs4929949	Extremely|Overweight|Body Mass Index	21935397	-8.552842
+rs574367	Body Mass Index	22344219	-19.023650
+rs10938397	Extremely|Overweight|Body Mass Index	21935397	-30.420216
+rs17104665	Extremely|Overweight|Body Mass Index	21935397	-5.346787
+rs9936385	Extremely|Overweight|Body Mass Index	21935397	-12.853872
+rs713586	Extremely|Overweight|Body Mass Index	21935397	-21.207608
+rs1424233	Extremely|Overweight|Body Mass Index	21935397	-12.420216
+rs10508503	Extremely|Overweight|Body Mass Index	21935397	-6.677781
+rs13130484	Extremely|Overweight|Body Mass Index	21935397	-5.795880
+rs2112347	Extremely|Overweight|Body Mass Index	21935397	-12.657577
+rs10987417	Extremely|Overweight|Body Mass Index	21935397	-5.292430
+rs1002158	Extremely|Overweight|Body Mass Index	21935397	-5.167491
+rs571312	Extremely|Overweight|Body Mass Index	21935397	-41.193820
+rs10767664	Extremely|Overweight|Body Mass Index	21935397	-25.327902
+rs6567160	Body Mass Index	22344219	-14.559091
+rs887912	Extremely|Overweight|Body Mass Index	21935397	-11.744727
+
+Obesity related SNPs:
+rs1477196	Obesity|Obesity-Related Traits	21552555	-8.030118
+rs4784323	Obesity|Obesity-Related Traits	21552555	-5.411168
+rs516175	Onset|Obesity-Related Traits|Body-Weight	20421936	-7.005243
+rs1861866	Obesity|Obesity-Related Traits	21552555	-10.850781
+rs10852521	Obesity|Obesity-Related Traits	21552555	-10.860121
+rs2783963	Onset|Obesity-Related Traits|Body-Weight	20421936	-5.061480
+rs863002	Childhood Obesity|Childhood	23251661	-12.444906
+rs247916	Obesity|Obesity-Related Traits	21552555	-5.038579
+rs10891096	Obesity|Obesity-Related Traits	21552555	-5.987163
+rs7206790	Obesity|Obesity-Related Traits	21552555	-9.216096
+rs7190492	Obesity|Obesity-Related Traits	21552555	-8.009217
+rs9813516	Obesity|Obesity-Related Traits	21552555	-5.362510
+rs8044769	Obesity|Obesity-Related Traits	21552555	-9.313364
+
+Asthma related SNPs:
+rs11071559	Asthma	23028483	-8.619789
+rs1342326	Asthma	23028483	-11.698970
+rs3771166	Asthma	23028483	-10.154902
+rs3894194	Asthma	23028483	-9.853872
+rs1588265	Asthma	23028483	-7.602060
+rs2073643	Asthma	23028483	-6.657577
+rs20541	Psoriasis|Atopic Dermatitis|Asthma	23886662	-7.747147
+rs1867612	Asthma	19714205	-5.809668
+rs2284033	Asthma	23028483	-7.920819
+rs2977724	Asthma	23028483	-5.251812
+rs7216389	Asthma	23028483	-8.585027
+rs2897443	Psoriasis|Atopic Dermatitis|Asthma	23886662	-12.048177
+rs4452682	Asthma|Bronchodilator Response	22792082	-5.494850
+rs6871536	Psoriasis|Atopic Dermatitis|Asthma	23886662	-14.675718
+rs744910	Asthma	23028483	-9.244125
+rs6063725	Asthma	19714205	-5.453457
+rs2453626	Asthma	21804549	-6.552842
+rs2305480	Asthma	23028483	-7.017729
+rs9050	Psoriasis|Atopic Dermatitis|Asthma	23886662	-9.407823
+rs1420101	Asthma	23028483	-14.309804
+rs3939286	Asthma	23028483	-8.443697
+rs1295686	Asthma	23028483	-8.229148
+rs26310	Asthma	23028483	-5.148742
+rs4328902	Asthma|Bronchodilator Response	22792082	-5.214670
+rs720810	Asthma	19714205	-5.289883
+
+Smok related SNPs:
+rs6834555	Tobacco Smoke|Chromosome 4|Cleft Palate	24516586	-5.642065
+rs4722613	Smoking Behaviors|Cigarette Smoking	19247474	-5.031517
+rs733175	Tobacco Smoke|Chromosome 4|Cleft Palate	24516586	-5.723538
+rs2240723	Tobacco Smoke|Chromosome 4|Cleft Palate	24516586	-5.055024
+rs717615	Tobacco Smoke|Chromosome 4|Cleft Palate	24516586	-5.563837
+
+LDL related SNPs:
+rs863626	LDL-c Response|Lpa	22368281	-6.856985
+rs646776	Ldl Cholesterol Response|Response Statins	25350695	-6.173925
+rs1985096	LDL-c Response|Lpa	22368281	-6.080399
+rs2900478	Ldl Cholesterol Response|Response Statins	25350695	-5.645892
+rs4803760	LDL-c Response|Lpa	22368281	-6.373660
+rs395908	LDL-c Response|Lpa	22368281	-6.460924
+rs721843	LDL-c Response|Lpa	22368281	-6.218245
+rs405509	Glutamate|Alzheimer's Disease	24755620	-26.640165
+rs445925	LDL-c Response|Lpa	22368281	-7.946922
+rs4420638	LDL-c Response|Lpa	22368281	-7.782516
+rs1627770	LDL-c Response|Lpa	22368281	-6.742321
+rs6857	LDL-c Response|Lpa	22368281	-5.732828
+rs11053045	LDL-c Response|Lpa	22368281	-6.872895
+rs1619785	LDL-c Response|Lpa	22368281	-6.892790
+rs10844779	LDL-c Response|Lpa	22368281	-6.841638
+rs11053068	LDL-c Response|Lpa	22368281	-6.841638
+

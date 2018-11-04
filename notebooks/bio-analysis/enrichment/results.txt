@@ -1,0 +1,29 @@
+Percentage of NS SNPs Found in Brain Genes: 0.0883392226148
+Percentage of NS SNPs Found in Blood Genes: 0.0247349823322
+Percentage of NS SNPs Found in Both: 0.0777385159011
+Percentage of NS SNPs Found in Neither: 0.809187279152
+Percentage of AU SNPs Found in Brain Genes: 0.0322580645161
+Percentage of AU SNPs Found in Blood Genes: 0.0645161290323
+Percentage of AU SNPs Found in Both: 0.129032258065
+Percentage of AU SNPs Found in Neither: 0.774193548387
+Number of NS SNPs Found in Brain Genes: 25
+Number of NS SNPs Found in Blood Genes: 7
+Number of AU SNPs Found in Brain Genes: 5
+Number of AU SNPs Found in Blood Genes: 10
+Chi Square Value for Significance of Non-Uniform Distribution in Brain and Blood Genes: 8.7118795957
+Threshold for Significance at 95% Confidence and Two Degrees of Freedom: 5.99
+
+Percentage of GWAS Catalog NS SNPs Found in Brain Genes: 0.0515235457064
+Percentage of GWAS Catalog NS SNPs Found in Blood Genes: 0.0470914127424
+Percentage of GWAS Catalog NS SNPs Found in Both: 0.0681440443213
+Percentage of GWAS Catalog NS SNPs Found in Neither: 0.83324099723
+Percentage of GWAS Catalog AU SNPs Found in Brain Genes: 0.0551420838972
+Percentage of GWAS Catalog AU SNPs Found in Blood Genes: 0.0703653585927
+Percentage of GWAS Catalog AU SNPs Found in Both: 0.0788227334235
+Percentage of GWAS Catalog AU SNPs Found in Neither: 0.795669824087
+Number of GWAS Catalog NS SNPs Found in Brain Genes: 93
+Number of GWAS Catalog NS SNPs Found in Blood Genes: 85
+Number of GWAS Catalog AU SNPs Found in Brain Genes: 163
+Number of GWAS Catalog AU SNPs Found in Blood Genes: 208
+GWAS Catalog Chi Square Value for Significance of Non-Uniform Distribution in Brain and Blood Genes: 11.0530511082
+Threshold for Significance at 95% Confidence and Two Degrees of Freedom: 5.99

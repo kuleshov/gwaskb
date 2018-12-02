@@ -121,7 +121,7 @@ We demo our system in a series of Jupyter notebooks in the `notebooks` subfolder
 4. `acronym-extraction.ipynb`: often, phenotypes are mentioned via acronyms, and we need a module to resolve those acronyms
 5. `evaluation.ipynb`: here, we merge all the results and evaluate our accuracy
 
-The result is a second SQLite database containing facts (e.g. mutation/disease relations) that we have extracted from the literature.  
+The result is a list of TSV files containing facts (e.g. mutation/disease relations) that we have extracted from the literature.  
 
 ## Feedback
 

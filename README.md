@@ -9,10 +9,10 @@ GwasKB contains associations in the form of tuples of (`mutation`, `trait`, `pva
 These are found in: 
 
 ```
-notebooks/results/associations.tsv`
+notebooks/results/associations.tsv
 ```
 
-This is a tab-separated file with 5 columns: `pmid`, `rsid`, high-level phenotype, low-level phenotype, log p-value. If the latter is `0`, it means that we were not able to extract the p-value.
+This is a tab-separated file with 5 columns: `pmid`, `rsid`, high-level phenotype, low-level phenotype, log p-value. If the latter is `-10000`, it means that we were not able to extract the p-value.
 
 Our knowledge base also contains a large set of other data, which is documented in `results.md`.
 

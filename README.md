@@ -5,7 +5,7 @@ GwasKB is a machine-compiled knowledge base of associations between genetic muta
 
 ## Main Results
 
-GwasKB contains associations in the form of tuples of (`mutation`, `trait`, `pvalue`). In our paper, we have selected and analyzed a set of associations that strike a good tradeoff between precision and recall.
+GwasKB contains associations in the form of tuples of (`genetic variant`, `trait`, `pvalue`). In our paper, we have selected and analyzed a set of associations that strike a good tradeoff between precision and recall.
 These are found in: 
 
 ```

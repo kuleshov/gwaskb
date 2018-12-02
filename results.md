@@ -6,7 +6,9 @@ This document describes the output of GwasKB.
 
 The main output of GwasKB is a set of associations, which are triples `(variant, phenotype, p-value)`.
 
-The following files contain the associations extracted by GwasKB from a set of 589 open-access GWAS papers.
+In our paper, we performed machine curation on  589 open-access GWAS papers and have selected and analyzed a set of associations that strikes a good tradeoff between precision and recall of the machine curation system.
+
+The following files contain these associations:
 
 * `notebooks/results/associations.tsv`: complete list of associations extracted by the system
 * `notebooks/results/associations.known.tsv`: subset of associations confirmed in the GWAS Catalog or GWAS Central
@@ -16,13 +18,15 @@ The following files contain the associations extracted by GwasKB from a set of 5
 
 GwasKB also generates several additional files.
 
-### Mapping Between GwasKB Output and Original Papers
+### Intermediary Outputs
 
-In order to make it easier to reproduce our results, we report a mapping between the entities extracted by GwasKB (e.g., p-values) and the locations in the original papers where they are found. 
+Our system is implemented in a series of Jupyter notebooks, each running a module of the system. 
 
-A GwasKB association is a triple of `(variant, phenotype, p-value)`. For each of these three entities, we provide a file that points to a location in a paper from which this variant was identified. The following files contain these mappings.
+Each module is responsible for extracting one type of data element (e.g. p-values). These intermediary outputs are recorded in the `nb-output` folder. The final notebook collects these outputs to form our final list of associations.
 
-Note that these files are loaded by our last (analysis) notebook. The code for combining them into the final associations is in that notebook.
+In each row of each intermediary output file (e.g. for each p-value), we provide coordinates that point to a location in a paper where that data element (e.g. the p-value) was found. 
+
+The following files are the intermediary outputs; they also contain the coordinates of the extracted data elements.
 
 * `notebooks/results/nb-output/pval-rsid.filtered.tsv`: File containing the p-values and the variants (identfied by their `rsid`) extracted by our system. Specifically, each row contains the paper `pmid`, variant `rsid`, table number, row number, column number that indicate where the `rsid` was found, and finally the `log10(p-value)`. The p-value is always found in the same row as the `rsid`.
 * `notebooks/results/nb-output/p-values.tsv`: File containing the p-values extracted by GwasKB and their location within publications (represented by a paper pubmed id, a table id, and a row, column coordinate).
@@ -30,6 +34,8 @@ Note that these files are loaded by our last (analysis) notebook. The code for c
 * `notebooks/results/nb-output/phenotypes.extracted.tsv`: this file contains the simple phenotype identified for each paper. The colums are the Pubmed ID of the paper, and the phenotype that we identified. Each phenotype is a set of up to 3 keywords separated by `|`.
 * `notebooks/results/nb-output/acronyms.extracted.all.tsv`: Sometimes, precise phenotypes are reported as acronyms. This file contains the mapping that we extracted to resolve these acronyms. The columns are: `pmid`, `phenotype`, `acronym`.
 * `notebooks/results/nb-output/rsids.singletons.all.tsv`: List of singleton `rsids` that were found in tables, but did not have an associated p-value.
+
+Note that these files are loaded by our last (analysis) notebook. The code for combining them into the final associations is in that notebook.
 
 ### Notebooks For Reproducing Our Biological Analysis
 
@@ -57,7 +63,7 @@ We used the following files in order to analyze the output of our system.
 * `notebooks/results/util/phenotype.mapping.gwascat.annotated.tsv` : Mapping of Gwas Catalog phenotypes to GwasKB phenotypes. The columns are: Gwas Catalog phenotype, simple GwasKB phenotype, detailed GwasKB phenotype, code. The code is: 0=incorrect phenotype, 1=incorrect because acronym was not resolved, 2=approximately correct, 3=fully correct.
 * `notebooks/results/util/rels.discovered.annotated.txt` : 100 random new relations and our annotations.
 
-## Input Used By GwasKB To Generate Results
+## Input Data Used By GwasKB To Generate Results
 
 The publications used to generate the above results can be downloaded from `https://stanford.app.box.com/s/w0etl89129gxt2l2amoo7u936511fhy5`.
 

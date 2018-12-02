@@ -44,6 +44,13 @@ The following notebooks can be used to reproduce the biological analysis of the 
 * `notebooks/bio-analysis/enrichment/enrichment.ipynb`: this notebook reproduces the enrichment analysis of GwasKB variants associated with either auto-immune or neuro-degenerative diseases.
 * `notebooks/bio-analysis/effect-sizes/effect-sizes.ipynb`: this notebook reproduces the analysis of the effect sizes of variants identified by GwasKB.
 
+### Linkage Desquilibrium Analysis 
+
+We used the 1000 Genomes panel to filter out novel variants that were in LD with known variants in the GWAS Catalog. We also include these files in our repository.
+
+* `notebooks/bio-analysis/ld/ld.mat`: Pairwise linkage desquilibrium between novel GWASkb variants and known GWAS Catalog variants. First column is the pmid of the variant, second column is the GWASkb variant, third column is the GWAS Catalog variant, and the fourth column is the LD (measured using the R2). For each pmid, we compute the pairwise LD from every GWASkb variant to every GWAS Catalog variant reported for that paper.
+* `notebooks/bio-analysis/ld/associations.ld-filtered.tsv`: We use the above LD data to filter associations that have R2 > 0.5 with some known GWAS Catalog variant. This uses the same format as associations.tsv, and we add one column, which is the LD to the strongest variant in GWAS Catalog.
+
 ### Additional Metadata
 
 The following files contain additional meta-data that complements our main results.

@@ -23,6 +23,8 @@ This repo is organized as follows:
 ```
 .
 ├── README.md
+├── annotations           # Manually annotated data
+  └── not_in_gwasc.xlsx   # Manually annotated set of 100 relations extracted by GwasKB that were not in GWAS Catalog
 ├── data                  # Datasets from which the knowledge base was compiled 
   ├── associations        # Human-curated associations against which we compare
   ├── db                  # Scripts to download and create the input database of publications

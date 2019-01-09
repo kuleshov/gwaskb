@@ -60,7 +60,7 @@ Check out the [Snorkel repo](https://github.com/kuleshov/snorkel) for a list of 
 
 ## Installation
 
-To install GwasKB, clone this repo and set up your environement.
+To install GwasKB, clone this repo and set up your environment.
 
 ```
 git clone https://github.com/kuleshov/gwaskb.git

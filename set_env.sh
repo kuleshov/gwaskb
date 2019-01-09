@@ -1,7 +1,7 @@
 export SNORKELHOME="`pwd`/snorkel-tables"
 echo "Snorkel home directory: $SNORKELHOME"
 export GWASKBHOME="`pwd`/src"
-echo "GwasKB home directory: $GWASKBHOME"
+echo "GWASkb home directory: $GWASKBHOME"
 # export PYTHONPATH="$PYTHONPATH:$SNORKELHOME:$SNORKELHOME/treedlib:$GWASKBHOME"
 export PYTHONPATH="$PYTHONPATH:$SNORKELHOME:$SNORKELHOME/treedlib:$SNORKELHOME/treedlib/treedlib:$GWASKBHOME"
 export PATH="$PATH:$SNORKELHOME:$SNORKELHOME/treedlib"

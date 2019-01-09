@@ -1,11 +1,11 @@
-GwasKB
+GWASkb
 ------
 
-GwasKB is a machine-compiled knowledge base of associations between genetic mutations and human traits.
+GWASkb is a machine-compiled knowledge base of associations between genetic mutations and human traits.
 
 ## Main Results
 
-GwasKB contains associations in the form of tuples of (`genetic variant`, `trait`, `pvalue`). In our paper, we have selected and analyzed a set of associations that strike a good tradeoff between precision and recall.
+GWASkb contains associations in the form of tuples of (`genetic variant`, `trait`, `pvalue`). In our paper, we have selected and analyzed a set of associations that strike a good tradeoff between precision and recall.
 These are found in: 
 
 ```
@@ -42,13 +42,13 @@ This repo is organized as follows:
 In addition, the following files are important:
 
 * `notebooks/results/nb-output`: folder containing the output of each system module
-* `notebooks/util/phenotype.mapping.annotated.tsv`: manually annotated mapping between GWAS Central and GwasKB phenotypes
-* `notebooks/util/phenotype.mapping.gwascat.annotated.tsv`: manually annotated mapping between GWAS Catalog and GwasKB phenotypes
+* `notebooks/util/phenotype.mapping.annotated.tsv`: manually annotated mapping between GWAS Central and GWASkb phenotypes
+* `notebooks/util/phenotype.mapping.gwascat.annotated.tsv`: manually annotated mapping between GWAS Catalog and GWASkb phenotypes
 * `notebooks/util/rels.discovered.annotated.txt`: random subset of 100 previously unreported relations with explanations for why they are correct or not.
 
 ## Requirements
 
-GwasKB is implemented in Python and requires:
+GWASkb is implemented in Python and requires:
 
 * `lxml`, `ElementTree`
 * `numpy`
@@ -60,7 +60,7 @@ Check out the [Snorkel repo](https://github.com/kuleshov/snorkel) for a list of 
 
 ## Installation
 
-To install GwasKB, clone this repo and set up your environment.
+To install GWASkb, clone this repo and set up your environment.
 
 ```
 git clone https://github.com/kuleshov/gwaskb.git

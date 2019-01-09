@@ -15,7 +15,7 @@ else:
 
 # create folder to store papers
 if os.environ.get('DATABASE_FILE_DIR') is None:
-  db_dir = '/tmp/gwasdb/'
+  db_dir = '/tmp/gwaskb/'
 else:
   db_dir = os.environ.get('DATABASE_FILE_DIR') + '/'
 if os.path.exists(db_dir):

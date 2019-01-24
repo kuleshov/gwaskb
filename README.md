@@ -75,8 +75,6 @@ git clone https://github.com/kuleshov/gwaskb.git
 cd gwaskb;
 git submodule init;
 git submodule update;
-
-
 ```
 
 ### Step 2: Setup environment
@@ -95,6 +93,7 @@ If not, you may need to create a virtual environment where Python 2.7 is used.
 cd ./snorkel-tables
 pip install --requirement python-package-requirement.txt
 ./run.sh            # Install treedlib and the Stanford CoreNLP tools
+# This will also open a jupyter notebook which we will use for the demo in Step 4.
 
 cd ..               # Return to root directory
 source set_env.sh   # Add environment variables to your path
@@ -135,10 +134,9 @@ make dl-papers # downloads ~600 papers + their supplementary material!
 make gwas-central # this will only download the parts of GWAS central relevant to our papers
 ```
 
-## Information extraction
+## Step 4: Information Extraction Demo
 
 We demo our system in a series of Jupyter notebooks in the `notebooks` subfolder.
-To launch Jupyter, type `jupyter notebook` and then click on the `notebooks` folder.
 
 1. `phenotype-extraction.ipynb` identifies the phenotypes studied in each paper
 2. `table-pval-extraction.ipynb` extracts mutation ids and their associated p-values

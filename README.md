@@ -51,7 +51,10 @@ In addition, the following files are important:
 
 ## Requirements
 
-GWASkb is implemented in Python and requires:
+GWASkb is intended to run on macOS and Unix (no GPU required).
+It has been tested on macOS 10.14 (Mojave) and Ubuntu 16.04.
+
+It requires python 2.7 and the following primary libraries:
 
 * `lxml`, `ElementTree`
 * `numpy`
@@ -59,11 +62,13 @@ GWASkb is implemented in Python and requires:
 * `sqlite`
 * `snorkel`
 
-Check out the [Snorkel repo](https://github.com/kuleshov/snorkel) for a list of its requirements.
+These (and their dependencies) will be downloaded during Installation.
 
 ## Installation
 
-To install GWASkb, clone this repo and set up your environment.
+### Step 1: Download source code
+If you already have the source code, skip to Step 2.
+If you are retrieving the source code from this repository, run the following commands:
 
 ```
 git clone https://github.com/kuleshov/gwaskb.git
@@ -71,25 +76,43 @@ cd gwaskb;
 git submodule init;
 git submodule update;
 
-# now you must cd into ./snorkel-tables and follow snorkel's installation instructions!
-cd ./snorkel-tables
-./run.sh # this will install treedlib and the Stanford CoreNLP tools
-cd ..
 
-# finally, we setup the enviornment variables
-source set_env.sh
 ```
 
-Make sure all the required packages are installed. 
-If a library is missing, `pip install --user <lib>` is the easiest way to install it.
+### Step 2: Setup environment
+We recommend using Anaconda to set up a virtual environment and working within that, 
+but this is not strictly necessary, so long as python 2.7 is on your path.
 
-## Datasets
+[1] Check Python version
+```
+python --version
+```
+You should see Python 2.7.X. 
+If not, you may need to create a virtual environment where Python 2.7 is used.
 
+[2] Install dependencies
+```
+cd ./snorkel-tables
+pip install --requirement python-package-requirement.txt
+./run.sh            # Install treedlib and the Stanford CoreNLP tools
+
+cd ..               # Return to root directory
+source set_env.sh   # Add environment variables to your path
+```
+
+### Step 3: Download data
 We extract mutation/phenotype relations from the open-access subset of PubMed.
 
 In addition, we use hand-curated databases such as GWAS Catalog and GWAS Central for evaluation, and we use various ontologies (EFO, SNOMED, etc.) for phenotype extraction.
 
-The first step is to download this data onto your machine. The `data` subfolder contains code for doing this.
+The first step is to download this data onto your machine. 
+This can be done in one step:
+```
+cd data/db
+make
+cd ../..
+```
+Or step-by-step using the instructions below.
 
 ```
 cd data/db
@@ -99,7 +122,7 @@ make init # this will initialize an empty database
 
 # next, we load a database of known phenotypes that might occur in the literature
 # this will load phenotypes from the EFO ontology as well as 
-# various ontologies collected by the Hazyresearch group
+# various ontologies collected by the Hazy Research group
 make phenotypes
 
 # next, we download the contents of the hand-curated GWAS catalog database 
@@ -112,11 +135,10 @@ make dl-papers # downloads ~600 papers + their supplementary material!
 make gwas-central # this will only download the parts of GWAS central relevant to our papers
 ```
 
-This process can be automated by just typing `make`.
-
 ## Information extraction
 
 We demo our system in a series of Jupyter notebooks in the `notebooks` subfolder.
+To launch Jupyter, type `jupyter notebook` and then click on the `notebooks` folder.
 
 1. `phenotype-extraction.ipynb` identifies the phenotypes studied in each paper
 2. `table-pval-extraction.ipynb` extracts mutation ids and their associated p-values

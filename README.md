@@ -109,7 +109,7 @@ The first step is to download this data onto your machine and the easiest way to
 https://drive.google.com/file/d/1DX17UCztwXtB3PxKLQd2waUBJdSdNJDc/view?usp=sharing
 ```
 
-#### Downloading data manually
+#### Generating the data manually
 
 Alternatively, you may use our code to manually recreate this dataset.
 

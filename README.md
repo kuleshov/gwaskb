@@ -104,7 +104,15 @@ We extract mutation/phenotype relations from the open-access subset of PubMed.
 
 In addition, we use hand-curated databases such as GWAS Catalog and GWAS Central for evaluation, and we use various ontologies (EFO, SNOMED, etc.) for phenotype extraction.
 
-The first step is to download this data onto your machine. 
+The first step is to download this data onto your machine and the easiest way to do that is to download a zipfile with the data that we used in the  notebooks:
+```
+https://drive.google.com/file/d/1DX17UCztwXtB3PxKLQd2waUBJdSdNJDc/view?usp=sharing
+```
+
+#### Downloading data manually
+
+Alternatively, you may use our code to manually recreate this dataset.
+
 This can be done in one step:
 ```
 cd data/db

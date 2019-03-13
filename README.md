@@ -1,7 +1,10 @@
 GWASkb
 ------
 
-GWASkb is a machine-compiled knowledge base of associations between genetic mutations and human traits.
+GWASkb is a machine-compiled knowledge base of associations between genetic mutations and human traits. 
+* In our forthcoming paper, we describe our methodology for creating the database and analyze the results.
+* In this repository, we walk through the code used to create the database.
+* In our online portal at http://gwaskb.stanford.edu/, you can search the resulting database.
 
 ## Main Results
 
